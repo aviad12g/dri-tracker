@@ -151,6 +151,8 @@ class RumbleScraper:
     def _extract_followers(self, html: str) -> int:
         """Extract follower count from channel header."""
         patterns = [
+            # Pattern: "2.5M Followers" or "2.5M followers"
+            r'(\d[\d,\.]*[KMB]?)\s*(?:followers?|rumbles?|subscribers?)',
             # Pattern in channel header
             r'<span[^>]*class="[^"]*channel-header--followers[^"]*"[^>]*>([0-9,\.]+[KMB]?)\s*(?:followers?|rumbles?)?</span>',
             # Alternative patterns
