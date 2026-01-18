@@ -13,8 +13,11 @@ from typing import Any, Dict, List, Optional
 
 from .cache import ScraperCache
 from .socialblade import SocialBladeScraper
+from .youtube_direct import YouTubeDirectScraper
 from .tgstat import TGStatScraper
+from .telegram_direct import TelegramDirectScraper
 from .tokcounter import TokCounterScraper
+from .tiktok_direct import TikTokDirectScraper
 from .rumble import RumbleScraper
 
 logger = logging.getLogger(__name__)
@@ -103,18 +106,14 @@ class AggregatorService:
         """Get or create a scraper for the given platform."""
         if platform not in self._scrapers:
             if platform == "youtube":
-                self._scrapers[platform] = SocialBladeScraper(
-                    use_playwright=self.use_playwright
-                )
+                # Use direct YouTube scraper (SocialBlade has heavy Cloudflare)
+                self._scrapers[platform] = YouTubeDirectScraper()
             elif platform == "telegram":
-                self._scrapers[platform] = TGStatScraper(
-                    use_playwright=self.use_playwright
-                )
+                # Use direct t.me scraper (more reliable than TGStat)
+                self._scrapers[platform] = TelegramDirectScraper()
             elif platform == "tiktok":
-                # TikTok counter sites need Playwright
-                self._scrapers[platform] = TokCounterScraper(
-                    use_playwright=True
-                )
+                # Use direct TikTok scraper with Playwright
+                self._scrapers[platform] = TikTokDirectScraper()
             elif platform == "rumble":
                 self._scrapers[platform] = RumbleScraper(
                     use_playwright=self.use_playwright
@@ -168,11 +167,7 @@ class AggregatorService:
             try:
                 # Platform-specific scraping
                 if profile.platform == "youtube":
-                    is_channel_id = profile.handle.startswith("UC")
-                    data = await scraper.get_channel_stats(
-                        profile.handle,
-                        is_channel_id=is_channel_id,
-                    )
+                    data = await scraper.get_channel_stats(profile.handle)
                 elif profile.platform == "telegram":
                     data = await scraper.get_channel_stats(profile.handle)
                 elif profile.platform == "tiktok":

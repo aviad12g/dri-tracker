@@ -23,7 +23,7 @@ ACTORS: List[Dict[str, Any]] = [
         "name": "Candace Owens",
         "tier": "mega",
         "faction": "big5",
-        "youtube": "RealCandaceOwens",
+        "youtube": "CandaceOwensShow",
         "telegram": "CandaceOwens",
         "tiktok": "realcandaceowens",
         "rumble": "RealCandaceO",
