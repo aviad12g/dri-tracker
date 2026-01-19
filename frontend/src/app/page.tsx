@@ -66,6 +66,8 @@ export default function OverviewPage() {
             r_score: real.r_score,
             s_score: real.s_score,
             p_score: real.p_score,
+            is_spike: false,
+            data_quality: real.data_quality,
           }
         }
         
