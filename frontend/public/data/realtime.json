@@ -1,0 +1,204 @@
+{
+  "dri": 59.3,
+  "v_score": 56.7,
+  "r_score": 88.6,
+  "s_score": 50.0,
+  "p_score": 0.0,
+  "computed_at": "2026-01-18T23:57:55.916982",
+  "data_quality": "good",
+  "top_actors": [
+    {
+      "actor_id": "tucker_carlson",
+      "name": "Tucker Carlson",
+      "tier": "mega",
+      "faction": "big5",
+      "total_reach": 9500882,
+      "virality_contribution": 74.57473682741228,
+      "radicalization_contribution": 61.03314916676371,
+      "weighted_score": 67.803942997088,
+      "platforms": {
+        "rumble": 1260000,
+        "youtube": 5140000,
+        "tiktok": 3100000,
+        "telegram": 882
+      }
+    },
+    {
+      "actor_id": "candace_owens",
+      "name": "Candace Owens",
+      "tier": "mega",
+      "faction": "big5",
+      "total_reach": 527933,
+      "virality_contribution": 38.250059862033496,
+      "radicalization_contribution": 49.578131050591566,
+      "weighted_score": 43.91409545631253,
+      "platforms": {
+        "rumble": 495000,
+        "youtube": 32200,
+        "telegram": 733
+      }
+    },
+    {
+      "actor_id": "nick_fuentes",
+      "name": "Nick Fuentes",
+      "tier": "mega",
+      "faction": "big5",
+      "total_reach": 754301,
+      "virality_contribution": 21.529944802389945,
+      "radicalization_contribution": 56.515193748081856,
+      "weighted_score": 39.0225692752359,
+      "platforms": {
+        "rumble": 638000,
+        "telegram": 116301
+      }
+    },
+    {
+      "actor_id": "stew_peters",
+      "name": "Stew Peters",
+      "tier": "core",
+      "faction": "conspiracy",
+      "total_reach": 738744,
+      "virality_contribution": 12.98269738143734,
+      "radicalization_contribution": 34.29929034018254,
+      "weighted_score": 23.64099386080994,
+      "platforms": {
+        "rumble": 578000,
+        "telegram": 160744
+      }
+    },
+    {
+      "actor_id": "andrew_tate",
+      "name": "Andrew Tate",
+      "tier": "mega",
+      "faction": "manosphere",
+      "total_reach": 2593330,
+      "virality_contribution": 11.794693237068696,
+      "radicalization_contribution": 30.995572863425654,
+      "weighted_score": 21.395133050247175,
+      "platforms": {
+        "rumble": 2220000,
+        "telegram": 373330
+      }
+    },
+    {
+      "actor_id": "baked_alaska",
+      "name": "Baked Alaska",
+      "tier": "core",
+      "faction": "groyper",
+      "total_reach": 4078,
+      "virality_contribution": 8.412039311011519,
+      "radicalization_contribution": 23.94502752571701,
+      "weighted_score": 16.178533418364264,
+      "platforms": {
+        "telegram": 3639,
+        "rumble": 439
+      }
+    },
+    {
+      "actor_id": "keith_woods",
+      "name": "Keith Woods",
+      "tier": "core",
+      "faction": "intellectual",
+      "total_reach": 40098,
+      "virality_contribution": 8.497886806769667,
+      "radicalization_contribution": 23.34950290716055,
+      "weighted_score": 15.923694856965108,
+      "platforms": {
+        "telegram": 29798,
+        "rumble": 10300
+      }
+    },
+    {
+      "actor_id": "jaden_mcneil",
+      "name": "Jaden McNeil",
+      "tier": "core",
+      "faction": "groyper",
+      "total_reach": 4095,
+      "virality_contribution": 7.467732146889844,
+      "radicalization_contribution": 22.262977856731283,
+      "weighted_score": 14.865355001810563,
+      "platforms": {
+        "rumble": 118,
+        "telegram": 3977
+      }
+    },
+    {
+      "actor_id": "pearl_davis",
+      "name": "Pearl Davis",
+      "tier": "prop",
+      "faction": "manosphere",
+      "total_reach": 2062137,
+      "virality_contribution": 16.716398992784114,
+      "radicalization_contribution": 11.128087174972979,
+      "weighted_score": 13.922243083878547,
+      "platforms": {
+        "youtube": 2000000,
+        "tiktok": 437,
+        "rumble": 61700
+      }
+    },
+    {
+      "actor_id": "haz_infrared",
+      "name": "Haz (Infrared)",
+      "tier": "core",
+      "faction": "intellectual",
+      "total_reach": 60090,
+      "virality_contribution": 15.33598582386422,
+      "radicalization_contribution": 11.57631874264335,
+      "weighted_score": 13.456152283253786,
+      "platforms": {
+        "rumble": 2290,
+        "youtube": 57800
+      }
+    }
+  ],
+  "platform_breakdown": {
+    "youtube": {
+      "total_followers": 7230020,
+      "actor_count": 5,
+      "top_actor": "Tucker Carlson"
+    },
+    "rumble": {
+      "total_followers": 6156977,
+      "actor_count": 18,
+      "top_actor": "Tucker Carlson"
+    },
+    "telegram": {
+      "total_followers": 773219,
+      "actor_count": 12,
+      "top_actor": "Tucker Carlson"
+    },
+    "tiktok": {
+      "total_followers": 3115512,
+      "actor_count": 6,
+      "top_actor": "Tucker Carlson"
+    }
+  },
+  "faction_breakdown": {
+    "big5": {
+      "actor_count": 4,
+      "total_reach": 10783118,
+      "avg_score": 37.94479030341929
+    },
+    "groyper": {
+      "actor_count": 4,
+      "total_reach": 23421,
+      "avg_score": 11.375918525880275
+    },
+    "conspiracy": {
+      "actor_count": 5,
+      "total_reach": 822645,
+      "avg_score": 12.358541379879552
+    },
+    "intellectual": {
+      "actor_count": 5,
+      "total_reach": 156508,
+      "avg_score": 9.45313428162195
+    },
+    "manosphere": {
+      "actor_count": 5,
+      "total_reach": 5490036,
+      "avg_score": 11.39529075210472
+    }
+  }
+}

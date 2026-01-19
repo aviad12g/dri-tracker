@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useMemo } from 'react'
-import { format, parseISO } from 'date-fns'
+import { format, parseISO, subDays } from 'date-fns'
 import {
   AreaChart,
   Area,
@@ -13,8 +13,31 @@ import {
 } from 'recharts'
 import { generateMockDRI, generateMockTopMovers, generateMockEvents, generateMockAlerts } from '@/lib/mockData'
 
+// Real data type from backend
+interface RealTimeData {
+  dri: number
+  v_score: number
+  r_score: number
+  s_score: number
+  p_score: number
+  computed_at: string
+  data_quality: string
+  top_actors: Array<{
+    actor_id: string
+    name: string
+    tier: string
+    faction: string
+    total_reach: number
+    weighted_score: number
+    platforms: Record<string, number>
+  }>
+  platform_breakdown: Record<string, { total_followers: number; actor_count: number }>
+  faction_breakdown: Record<string, { actor_count: number; total_reach: number }>
+}
+
 export default function OverviewPage() {
   const [data, setData] = useState<any>(null)
+  const [realData, setRealData] = useState<RealTimeData | null>(null)
   const [movers, setMovers] = useState<any[]>([])
   const [events, setEvents] = useState<any[]>([])
   const [alerts, setAlerts] = useState<any>(null)
@@ -23,9 +46,49 @@ export default function OverviewPage() {
   
   useEffect(() => {
     setMounted(true)
-    const days = timeRange === '7d' ? 7 : timeRange === '30d' ? 30 : 90
-    setData(generateMockDRI(days))
-    setMovers(generateMockTopMovers().movers)
+    
+    // Fetch real data from static JSON
+    fetch('/data/realtime.json')
+      .then(res => res.json())
+      .then((real: RealTimeData) => {
+        setRealData(real)
+        
+        // Generate chart data using real current DRI but mock history
+        const days = timeRange === '7d' ? 7 : timeRange === '30d' ? 30 : 90
+        const mockData = generateMockDRI(days)
+        
+        // Replace the last data point with real data
+        if (mockData.data.length > 0) {
+          mockData.data[mockData.data.length - 1] = {
+            date: new Date().toISOString().split('T')[0],
+            dri: real.dri,
+            v_score: real.v_score,
+            r_score: real.r_score,
+            s_score: real.s_score,
+            p_score: real.p_score,
+          }
+        }
+        
+        setData(mockData)
+        
+        // Convert top_actors to movers format
+        const realMovers = real.top_actors.slice(0, 5).map((actor, i) => ({
+          actor_id: actor.actor_id,
+          name: actor.name,
+          tier: actor.tier,
+          platform: Object.keys(actor.platforms)[0] || 'rumble',
+          followers: actor.total_reach,
+          change_pct: 0, // No historical data yet
+        }))
+        setMovers(realMovers)
+      })
+      .catch(() => {
+        // Fall back to mock data if real data fails
+        const days = timeRange === '7d' ? 7 : timeRange === '30d' ? 30 : 90
+        setData(generateMockDRI(days))
+        setMovers(generateMockTopMovers().movers)
+      })
+    
     setEvents(generateMockEvents(10))
     setAlerts(generateMockAlerts())
   }, [timeRange])
@@ -91,17 +154,33 @@ export default function OverviewPage() {
             {/* Header */}
             <div className="flex items-start justify-between mb-6">
               <div>
-                <div className="text-[11px] text-text-tertiary uppercase tracking-wider mb-1">
-                  Dissident Resonance Index
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="text-[11px] text-text-tertiary uppercase tracking-wider">
+                    Dissident Resonance Index
+                  </span>
+                  {realData && (
+                    <span className={`text-[9px] px-2 py-0.5 rounded-full font-medium ${
+                      realData.data_quality === 'good' ? 'bg-success/20 text-success' :
+                      realData.data_quality === 'partial' ? 'bg-warning/20 text-warning' :
+                      'bg-text-tertiary/20 text-text-tertiary'
+                    }`}>
+                      {realData.data_quality === 'good' ? 'LIVE' : realData.data_quality.toUpperCase()}
+                    </span>
+                  )}
                 </div>
                 <div className="flex items-baseline gap-3">
                   <span className="text-5xl font-display font-bold text-text-primary num">
-                    {latest?.dri.toFixed(1)}
+                    {realData?.dri.toFixed(1) || latest?.dri.toFixed(1)}
                   </span>
                   <span className={`text-sm font-medium ${change >= 0 ? 'text-success' : 'text-danger'}`}>
                     {change >= 0 ? '+' : ''}{change.toFixed(2)}%
                   </span>
                 </div>
+                {realData && (
+                  <div className="text-[10px] text-text-quaternary mt-1">
+                    Updated {new Date(realData.computed_at).toLocaleString()}
+                  </div>
+                )}
               </div>
 
               {/* Time Range Selector */}
@@ -185,42 +264,45 @@ export default function OverviewPage() {
             { key: 'r_score', label: 'Radicalization', color: '#8b5cf6', desc: 'Funnel conversion depth' },
             { key: 's_score', label: 'Search', color: '#06b6d4', desc: 'Public interest delta' },
             { key: 'p_score', label: 'Political', color: '#10b981', desc: 'Mainstream crossover' },
-          ].map(({ key, label, color, desc }, i) => (
-            <div 
-              key={key} 
-              className="card p-4 animate-slide-up"
-              style={{ animationDelay: `${i * 50}ms` }}
-            >
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="text-[11px] text-text-tertiary uppercase tracking-wider mb-0.5">
-                    {label}
+          ].map(({ key, label, color, desc }, i) => {
+            const value = realData?.[key as keyof RealTimeData] as number ?? latest?.[key] ?? 0
+            return (
+              <div 
+                key={key} 
+                className="card p-4 animate-slide-up"
+                style={{ animationDelay: `${i * 50}ms` }}
+              >
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="text-[11px] text-text-tertiary uppercase tracking-wider mb-0.5">
+                      {label}
+                    </div>
+                    <div className="text-[10px] text-text-quaternary">
+                      {desc}
+                    </div>
                   </div>
-                  <div className="text-[10px] text-text-quaternary">
-                    {desc}
+                  <div className="text-right">
+                    <div 
+                      className="text-2xl font-display font-bold num" 
+                      style={{ color }}
+                    >
+                      {value.toFixed(1)}
+                    </div>
                   </div>
                 </div>
-                <div className="text-right">
+                {/* Mini sparkline bar */}
+                <div className="mt-3 h-1 bg-bg-tertiary rounded-full overflow-hidden">
                   <div 
-                    className="text-2xl font-display font-bold num" 
-                    style={{ color }}
-                  >
-                    {latest?.[key].toFixed(1)}
-                  </div>
+                    className="h-full rounded-full transition-all duration-500"
+                    style={{ 
+                      width: `${value}%`, 
+                      backgroundColor: color 
+                    }}
+                  />
                 </div>
               </div>
-              {/* Mini sparkline bar */}
-              <div className="mt-3 h-1 bg-bg-tertiary rounded-full overflow-hidden">
-                <div 
-                  className="h-full rounded-full transition-all duration-500"
-                  style={{ 
-                    width: `${latest?.[key]}%`, 
-                    backgroundColor: color 
-                  }}
-                />
-              </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
       </div>
 
@@ -231,17 +313,19 @@ export default function OverviewPage() {
           <div className="card overflow-hidden">
             <div className="px-5 py-4 border-b border-border flex items-center justify-between">
               <div>
-                <div className="text-[13px] font-medium text-text-primary">Top Movers</div>
-                <div className="text-[11px] text-text-tertiary">7-day engagement change</div>
+                <div className="text-[13px] font-medium text-text-primary">
+                  Top Actors {realData && <span className="text-success text-[10px] ml-2">LIVE DATA</span>}
+                </div>
+                <div className="text-[11px] text-text-tertiary">Ranked by weighted influence score</div>
               </div>
               <button className="text-[11px] text-text-tertiary hover:text-text-secondary transition-colors">
                 View all
               </button>
             </div>
             <div className="divide-y divide-border">
-              {movers.slice(0, 5).map((mover, i) => (
+              {(realData?.top_actors || movers).slice(0, 5).map((actor: any, i: number) => (
                 <div 
-                  key={mover.actor_id} 
+                  key={actor.actor_id} 
                   className="px-5 py-3 flex items-center justify-between hover:bg-bg-tertiary transition-colors"
                 >
                   <div className="flex items-center gap-3">
@@ -249,17 +333,28 @@ export default function OverviewPage() {
                       <span className="text-[10px] font-mono text-text-quaternary">{i + 1}</span>
                     </div>
                     <div>
-                      <div className="text-[13px] text-text-primary">{mover.name}</div>
-                      <div className="text-[11px] text-text-tertiary capitalize">{mover.tier}</div>
+                      <div className="text-[13px] text-text-primary">{actor.name}</div>
+                      <div className="flex items-center gap-2">
+                        <span className={`text-[10px] px-1.5 py-0.5 rounded ${
+                          actor.tier === 'mega' ? 'bg-accent/20 text-accent' :
+                          actor.tier === 'core' ? 'bg-purple-500/20 text-purple-400' :
+                          'bg-cyan-500/20 text-cyan-400'
+                        }`}>
+                          {actor.tier?.toUpperCase()}
+                        </span>
+                        <span className="text-[10px] text-text-quaternary capitalize">
+                          {actor.faction}
+                        </span>
+                      </div>
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className={`text-[13px] font-mono font-medium ${
-                      mover.change_7d >= 0 ? 'text-success' : 'text-danger'
-                    }`}>
-                      {mover.change_7d >= 0 ? '+' : ''}{mover.change_7d.toFixed(1)}%
+                    <div className="text-[13px] font-mono font-medium text-text-primary">
+                      {(actor.total_reach || actor.followers || 0).toLocaleString()}
                     </div>
-                    <div className="text-[10px] text-text-quaternary capitalize">{mover.platform}</div>
+                    <div className="text-[10px] text-text-quaternary">
+                      {actor.platforms ? Object.keys(actor.platforms).join(', ') : actor.platform}
+                    </div>
                   </div>
                 </div>
               ))}
