@@ -1,0 +1,81 @@
+name: Daily DRI Data Update
+
+on:
+  schedule:
+    # Runs at 6 AM UTC every day
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Allows manual trigger from GitHub UI
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install Python dependencies
+        run: |
+          cd backend
+          pip install cloudscraper playwright beautifulsoup4 lxml
+          pip install pydantic pydantic-settings
+      
+      - name: Install Playwright browsers
+        run: |
+          pip install playwright
+          playwright install chromium
+      
+      - name: Run scrapers
+        run: |
+          cd backend
+          python -c "
+          import asyncio
+          import sys
+          sys.path.insert(0, '.')
+          
+          from dri.scrapers import AggregatorService
+          from dri.actors_config import ACTORS, get_all_profiles_for_scraping
+          
+          async def scrape():
+              service = AggregatorService()
+              profiles = get_all_profiles_for_scraping()
+              print(f'Scraping {len(profiles)} profiles...')
+              
+              results = await service.scrape_from_dicts(profiles, skip_cache=True)
+              
+              success = sum(1 for r in results if r.success)
+              print(f'Success: {success}/{len(results)}')
+              
+              await service.close()
+          
+          asyncio.run(scrape())
+          "
+      
+      - name: Generate dashboard data
+        run: |
+          cd backend
+          python -m dri.generate_history
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add the updated data files
+          git add frontend/public/data/
+          git add backend/.scraper_cache/
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily data update: $(date +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
