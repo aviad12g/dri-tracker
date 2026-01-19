@@ -11,17 +11,38 @@ import {
   ResponsiveContainer,
   CartesianGrid,
 } from 'recharts'
-import { generateMockDRI, generateMockTopMovers, generateMockEvents, generateMockAlerts } from '@/lib/mockData'
 
-// Real data type from backend
-interface RealTimeData {
-  dri: number
-  v_score: number
-  r_score: number
-  s_score: number
-  p_score: number
-  computed_at: string
-  data_quality: string
+// Dashboard data type from backend
+interface DashboardData {
+  timeseries: Array<{
+    date: string
+    dri: number
+    v_score: number
+    r_score: number
+    s_score: number
+    p_score: number
+    is_spike: boolean
+    data_quality: string
+  }>
+  stats: {
+    latest: number
+    avg_7d: number
+    avg_30d: number
+    min_90d: number
+    max_90d: number
+    change_1d: number
+    change_7d: number
+    change_30d: number
+  }
+  current: {
+    dri: number
+    v_score: number
+    r_score: number
+    s_score: number
+    p_score: number
+    computed_at: string
+    data_quality: string
+  }
   top_actors: Array<{
     actor_id: string
     name: string
@@ -33,79 +54,51 @@ interface RealTimeData {
   }>
   platform_breakdown: Record<string, { total_followers: number; actor_count: number }>
   faction_breakdown: Record<string, { actor_count: number; total_reach: number }>
+  alerts: {
+    spikes: Array<{ date: string; dri: number }>
+    spike_count_30d: number
+  }
 }
 
 export default function OverviewPage() {
-  const [data, setData] = useState<any>(null)
-  const [realData, setRealData] = useState<RealTimeData | null>(null)
-  const [movers, setMovers] = useState<any[]>([])
-  const [events, setEvents] = useState<any[]>([])
-  const [alerts, setAlerts] = useState<any>(null)
+  const [dashboard, setDashboard] = useState<DashboardData | null>(null)
   const [timeRange, setTimeRange] = useState<'7d' | '30d' | '90d'>('30d')
   const [mounted, setMounted] = useState(false)
   
   useEffect(() => {
     setMounted(true)
     
-    // Fetch real data from static JSON
-    fetch('/data/realtime.json')
+    // Fetch complete dashboard data
+    fetch('/data/dashboard.json')
       .then(res => res.json())
-      .then((real: RealTimeData) => {
-        setRealData(real)
-        
-        // Generate chart data using real current DRI but mock history
-        const days = timeRange === '7d' ? 7 : timeRange === '30d' ? 30 : 90
-        const mockData = generateMockDRI(days)
-        
-        // Replace the last data point with real data
-        if (mockData.data.length > 0) {
-          mockData.data[mockData.data.length - 1] = {
-            date: new Date().toISOString().split('T')[0],
-            dri: real.dri,
-            v_score: real.v_score,
-            r_score: real.r_score,
-            s_score: real.s_score,
-            p_score: real.p_score,
-            is_spike: false,
-            data_quality: real.data_quality,
-          }
-        }
-        
-        setData(mockData)
-        
-        // Convert top_actors to movers format
-        const realMovers = real.top_actors.slice(0, 5).map((actor, i) => ({
-          actor_id: actor.actor_id,
-          name: actor.name,
-          tier: actor.tier,
-          platform: Object.keys(actor.platforms)[0] || 'rumble',
-          followers: actor.total_reach,
-          change_pct: 0, // No historical data yet
-        }))
-        setMovers(realMovers)
+      .then((data: DashboardData) => {
+        setDashboard(data)
       })
-      .catch(() => {
-        // Fall back to mock data if real data fails
-        const days = timeRange === '7d' ? 7 : timeRange === '30d' ? 30 : 90
-        setData(generateMockDRI(days))
-        setMovers(generateMockTopMovers().movers)
+      .catch((err) => {
+        console.error('Failed to load dashboard data:', err)
       })
-    
-    setEvents(generateMockEvents(10))
-    setAlerts(generateMockAlerts())
-  }, [timeRange])
+  }, [])
+  
+  // Filter timeseries based on selected range
+  const chartData = useMemo(() => {
+    if (!dashboard?.timeseries) return []
+    const days = timeRange === '7d' ? 7 : timeRange === '30d' ? 30 : 90
+    return dashboard.timeseries.slice(-days)
+  }, [dashboard, timeRange])
 
   const latest = useMemo(() => {
-    if (!data?.data.length) return null
-    return data.data[data.data.length - 1]
-  }, [data])
+    if (!chartData.length) return null
+    return chartData[chartData.length - 1]
+  }, [chartData])
 
   const previous = useMemo(() => {
-    if (!data?.data.length || data.data.length < 2) return null
-    return data.data[data.data.length - 2]
-  }, [data])
+    if (!chartData.length || chartData.length < 2) return null
+    return chartData[chartData.length - 2]
+  }, [chartData])
 
-  const change = latest && previous ? ((latest.dri - previous.dri) / previous.dri * 100) : 0
+  const change = dashboard?.stats?.change_1d 
+    ? (dashboard.stats.change_1d / (dashboard.current.dri - dashboard.stats.change_1d) * 100)
+    : (latest && previous ? ((latest.dri - previous.dri) / previous.dri * 100) : 0)
 
   // Custom tooltip
   const CustomTooltip = ({ active, payload }: any) => {
@@ -138,7 +131,7 @@ export default function OverviewPage() {
     )
   }
 
-  if (!mounted || !data) {
+  if (!mounted || !dashboard) {
     return (
       <div className="h-[400px] flex items-center justify-center">
         <div className="w-6 h-6 border-2 border-accent border-t-transparent rounded-full animate-spin" />
@@ -160,29 +153,33 @@ export default function OverviewPage() {
                   <span className="text-[11px] text-text-tertiary uppercase tracking-wider">
                     Dissident Resonance Index
                   </span>
-                  {realData && (
-                    <span className={`text-[9px] px-2 py-0.5 rounded-full font-medium ${
-                      realData.data_quality === 'good' ? 'bg-success/20 text-success' :
-                      realData.data_quality === 'partial' ? 'bg-warning/20 text-warning' :
-                      'bg-text-tertiary/20 text-text-tertiary'
-                    }`}>
-                      {realData.data_quality === 'good' ? 'LIVE' : realData.data_quality.toUpperCase()}
-                    </span>
-                  )}
+                  <span className={`text-[9px] px-2 py-0.5 rounded-full font-medium ${
+                    dashboard.current.data_quality === 'good' ? 'bg-success/20 text-success' :
+                    dashboard.current.data_quality === 'partial' ? 'bg-warning/20 text-warning' :
+                    'bg-text-tertiary/20 text-text-tertiary'
+                  }`}>
+                    {dashboard.current.data_quality === 'good' ? 'LIVE DATA' : dashboard.current.data_quality.toUpperCase()}
+                  </span>
                 </div>
                 <div className="flex items-baseline gap-3">
                   <span className="text-5xl font-display font-bold text-text-primary num">
-                    {realData?.dri.toFixed(1) || latest?.dri.toFixed(1)}
+                    {dashboard.current.dri.toFixed(1)}
                   </span>
                   <span className={`text-sm font-medium ${change >= 0 ? 'text-success' : 'text-danger'}`}>
                     {change >= 0 ? '+' : ''}{change.toFixed(2)}%
                   </span>
                 </div>
-                {realData && (
-                  <div className="text-[10px] text-text-quaternary mt-1">
-                    Updated {new Date(realData.computed_at).toLocaleString()}
+                <div className="flex items-center gap-4 mt-2">
+                  <div className="text-[10px] text-text-quaternary">
+                    7d avg: <span className="text-text-secondary font-mono">{dashboard.stats.avg_7d.toFixed(1)}</span>
                   </div>
-                )}
+                  <div className="text-[10px] text-text-quaternary">
+                    30d avg: <span className="text-text-secondary font-mono">{dashboard.stats.avg_30d.toFixed(1)}</span>
+                  </div>
+                  <div className="text-[10px] text-text-quaternary">
+                    Range: <span className="text-text-secondary font-mono">{dashboard.stats.min_90d.toFixed(0)}-{dashboard.stats.max_90d.toFixed(0)}</span>
+                  </div>
+                </div>
               </div>
 
               {/* Time Range Selector */}
@@ -207,7 +204,7 @@ export default function OverviewPage() {
             <div className="h-[280px]">
               <ResponsiveContainer width="100%" height="100%">
                 <AreaChart
-                  data={data.data}
+                  data={chartData}
                   margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
                 >
                   <defs>
@@ -267,7 +264,7 @@ export default function OverviewPage() {
             { key: 's_score', label: 'Search', color: '#06b6d4', desc: 'Public interest delta' },
             { key: 'p_score', label: 'Political', color: '#10b981', desc: 'Mainstream crossover' },
           ].map(({ key, label, color, desc }, i) => {
-            const value = realData?.[key as keyof RealTimeData] as number ?? latest?.[key] ?? 0
+            const value = dashboard.current[key as keyof typeof dashboard.current] as number ?? 0
             return (
               <div 
                 key={key} 
@@ -316,16 +313,16 @@ export default function OverviewPage() {
             <div className="px-5 py-4 border-b border-border flex items-center justify-between">
               <div>
                 <div className="text-[13px] font-medium text-text-primary">
-                  Top Actors {realData && <span className="text-success text-[10px] ml-2">LIVE DATA</span>}
+                  Top Actors <span className="text-success text-[10px] ml-2">LIVE DATA</span>
                 </div>
                 <div className="text-[11px] text-text-tertiary">Ranked by weighted influence score</div>
               </div>
-              <button className="text-[11px] text-text-tertiary hover:text-text-secondary transition-colors">
-                View all
-              </button>
+              <div className="text-[10px] text-text-quaternary">
+                {dashboard.top_actors.length} tracked
+              </div>
             </div>
             <div className="divide-y divide-border">
-              {(realData?.top_actors || movers).slice(0, 5).map((actor: any, i: number) => (
+              {dashboard.top_actors.slice(0, 5).map((actor: any, i: number) => (
                 <div 
                   key={actor.actor_id} 
                   className="px-5 py-3 flex items-center justify-between hover:bg-bg-tertiary transition-colors"
@@ -364,49 +361,79 @@ export default function OverviewPage() {
           </div>
         </div>
 
-        {/* Recent Events + Alerts */}
+        {/* Stats + Platform Breakdown */}
         <div className="col-span-12 lg:col-span-5 space-y-4">
-          {/* Alerts */}
-          {alerts?.spikes?.length > 0 && (
-            <div className="card border-danger/30 bg-danger/5 p-4">
-              <div className="flex items-start gap-3">
-                <div className="w-8 h-8 rounded-lg bg-danger/20 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-4 h-4 text-danger" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
-                  </svg>
+          {/* Status Card */}
+          <div className="card p-4">
+            <div className="text-[11px] text-text-tertiary uppercase tracking-wider mb-3">
+              Data Status
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <div className="text-[10px] text-text-quaternary">Actors Tracked</div>
+                <div className="text-xl font-display font-bold text-text-primary">
+                  {dashboard.top_actors.length}
                 </div>
-                <div>
-                  <div className="text-[13px] font-medium text-danger mb-1">Spike Detected</div>
-                  <div className="text-[12px] text-text-secondary">
-                    DRI reached {alerts.spikes[0].dri.toFixed(1)} on {format(parseISO(alerts.spikes[0].date), 'MMM d')}
-                  </div>
-                  <div className="text-[11px] text-text-tertiary mt-1">
-                    +{alerts.spikes[0].magnitude.toFixed(1)} standard deviations
-                  </div>
+              </div>
+              <div>
+                <div className="text-[10px] text-text-quaternary">Spikes (30d)</div>
+                <div className="text-xl font-display font-bold text-text-primary">
+                  {dashboard.alerts.spike_count_30d}
                 </div>
               </div>
             </div>
-          )}
+          </div>
 
-          {/* Recent Events */}
+          {/* Platform Breakdown */}
           <div className="card overflow-hidden">
             <div className="px-5 py-4 border-b border-border">
-              <div className="text-[13px] font-medium text-text-primary">Recent Events</div>
-              <div className="text-[11px] text-text-tertiary">Political crossover signals</div>
+              <div className="text-[13px] font-medium text-text-primary">Platform Reach</div>
+              <div className="text-[11px] text-text-tertiary">Total followers by platform</div>
             </div>
             <div className="divide-y divide-border">
-              {events.slice(0, 4).map((event) => (
-                <div key={event.id} className="px-5 py-3 hover:bg-bg-tertiary transition-colors">
-                  <div className="flex items-center justify-between mb-1">
-                    <span className="text-[10px] text-text-quaternary">
-                      {format(parseISO(event.date), 'MMM d')}
-                    </span>
-                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-accent/10 text-accent">
-                      +{event.score_delta}
-                    </span>
+              {Object.entries(dashboard.platform_breakdown)
+                .sort((a, b) => (b[1].total_followers || 0) - (a[1].total_followers || 0))
+                .map(([platform, data]) => (
+                <div key={platform} className="px-5 py-3 flex items-center justify-between hover:bg-bg-tertiary transition-colors">
+                  <div className="flex items-center gap-3">
+                    <div className={`w-2 h-2 rounded-full ${
+                      platform === 'rumble' ? 'bg-green-500' :
+                      platform === 'telegram' ? 'bg-blue-500' :
+                      platform === 'youtube' ? 'bg-red-500' :
+                      'bg-pink-500'
+                    }`} />
+                    <span className="text-[13px] text-text-primary capitalize">{platform}</span>
                   </div>
-                  <div className="text-[12px] text-text-secondary line-clamp-2">
-                    {event.description}
+                  <div className="text-right">
+                    <div className="text-[13px] font-mono text-text-primary">
+                      {(data.total_followers || 0).toLocaleString()}
+                    </div>
+                    <div className="text-[10px] text-text-quaternary">
+                      {data.actor_count} actors
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          {/* Faction Breakdown */}
+          <div className="card overflow-hidden">
+            <div className="px-5 py-4 border-b border-border">
+              <div className="text-[13px] font-medium text-text-primary">Faction Analysis</div>
+              <div className="text-[11px] text-text-tertiary">Movement composition</div>
+            </div>
+            <div className="divide-y divide-border">
+              {Object.entries(dashboard.faction_breakdown)
+                .sort((a, b) => (b[1].total_reach || 0) - (a[1].total_reach || 0))
+                .map(([faction, data]) => (
+                <div key={faction} className="px-5 py-3 flex items-center justify-between hover:bg-bg-tertiary transition-colors">
+                  <div>
+                    <span className="text-[13px] text-text-primary capitalize">{faction}</span>
+                    <span className="text-[10px] text-text-quaternary ml-2">({data.actor_count} actors)</span>
+                  </div>
+                  <div className="text-[13px] font-mono text-text-primary">
+                    {(data.total_reach || 0).toLocaleString()}
                   </div>
                 </div>
               ))}
