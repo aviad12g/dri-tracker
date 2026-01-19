@@ -14,7 +14,6 @@ import {
   Pie,
   Cell,
 } from 'recharts'
-import { generateMockViralityBreakdown, generateMockDRI } from '@/lib/mockData'
 
 const PLATFORM_COLORS: Record<string, string> = {
   tiktok: '#ff0050',
@@ -33,47 +32,65 @@ const TIER_COLORS: Record<string, string> = {
 }
 
 export default function ViralityPage() {
-  const [viralityData, setViralityData] = useState<any>(null)
-  const [driData, setDriData] = useState<any>(null)
+  const [dashboard, setDashboard] = useState<any>(null)
   const [timeRange, setTimeRange] = useState<'7d' | '30d' | '90d'>('30d')
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     setMounted(true)
+    fetch('/data/dashboard.json')
+      .then(res => res.json())
+      .then(data => setDashboard(data))
+      .catch(err => console.error('Failed to load data:', err))
+  }, [])
+
+  const chartData = useMemo(() => {
+    if (!dashboard?.timeseries) return []
     const days = timeRange === '7d' ? 7 : timeRange === '30d' ? 30 : 90
-    setViralityData(generateMockViralityBreakdown())
-    setDriData(generateMockDRI(days))
-  }, [timeRange])
+    return dashboard.timeseries.slice(-days)
+  }, [dashboard, timeRange])
 
   const platformData = useMemo(() => {
-    if (!viralityData?.by_platform) return []
-    return Object.entries(viralityData.by_platform)
-      .map(([platform, value]) => ({
-        name: platform.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase()),
-        value: value as number,
+    if (!dashboard?.platform_breakdown) return []
+    return Object.entries(dashboard.platform_breakdown)
+      .map(([platform, data]: [string, any]) => ({
+        name: platform.charAt(0).toUpperCase() + platform.slice(1),
+        value: data.total_followers || 0,
+        actors: data.actor_count || 0,
         color: PLATFORM_COLORS[platform] || '#666',
       }))
       .sort((a, b) => b.value - a.value)
-  }, [viralityData])
+  }, [dashboard])
 
   const tierData = useMemo(() => {
-    if (!viralityData?.by_tier) return []
-    return Object.entries(viralityData.by_tier).map(([tier, value]) => ({
+    if (!dashboard?.top_actors) return []
+    const tiers: Record<string, number> = {}
+    dashboard.top_actors.forEach((actor: any) => {
+      const tier = actor.tier || 'core'
+      tiers[tier] = (tiers[tier] || 0) + actor.total_reach
+    })
+    return Object.entries(tiers).map(([tier, value]) => ({
       name: tier.charAt(0).toUpperCase() + tier.slice(1),
-      value: value as number,
+      value,
       color: TIER_COLORS[tier] || '#666',
     }))
-  }, [viralityData])
+  }, [dashboard])
+
+  const topActorsByVirality = useMemo(() => {
+    if (!dashboard?.top_actors) return []
+    return dashboard.top_actors
+      .filter((a: any) => a.platforms?.youtube || a.platforms?.tiktok)
+      .slice(0, 5)
+  }, [dashboard])
 
   const vScoreData = useMemo(() => {
-    if (!driData?.data) return []
-    return driData.data.map((d: any) => ({
+    return chartData.map((d: any) => ({
       date: d.date,
       value: d.v_score,
     }))
-  }, [driData])
+  }, [chartData])
 
-  const latestV = vScoreData.length ? vScoreData[vScoreData.length - 1].value : 0
+  const latestV = dashboard?.current?.v_score || 0
   const totalEngagement = platformData.reduce((sum, p) => sum + p.value, 0)
 
   const formatNumber = (n: number) => {
@@ -82,7 +99,7 @@ export default function ViralityPage() {
     return n.toString()
   }
 
-  if (!mounted || !viralityData) {
+  if (!mounted || !dashboard) {
     return (
       <div className="h-[400px] flex items-center justify-center">
         <div className="w-6 h-6 border-2 border-accent border-t-transparent rounded-full animate-spin" />

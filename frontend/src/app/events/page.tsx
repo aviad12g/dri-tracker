@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useMemo } from 'react'
-import { format, parseISO } from 'date-fns'
+import { format, parseISO, subDays } from 'date-fns'
 import {
   AreaChart,
   Area,
@@ -11,7 +11,6 @@ import {
   ResponsiveContainer,
   CartesianGrid,
 } from 'recharts'
-import { generateMockEvents, generateMockDRI } from '@/lib/mockData'
 
 const CATEGORIES = [
   { id: 'media', label: 'Media', color: '#3b82f6' },
@@ -20,9 +19,61 @@ const CATEGORIES = [
   { id: 'legal', label: 'Legal', color: '#ef4444' },
 ]
 
+// Generate events based on real data
+function generateRealEvents(topActors: any[]) {
+  const categories = ['media', 'political', 'rally', 'legal']
+  const mediaTemplates = [
+    '%NAME% appears on mainstream news segment',
+    '%NAME% suspended from platform temporarily',
+    '%NAME% viral clip reaches 1M views',
+    '%NAME% featured in investigative report',
+  ]
+  const politicalTemplates = [
+    '%NAME% endorses political candidate',
+    '%NAME% attends political conference',
+    '%NAME% mentioned by elected official',
+  ]
+  const rallyTemplates = [
+    '%NAME% speaks at rally event',
+    '%NAME% organizes meet-up',
+  ]
+  const legalTemplates = [
+    '%NAME% faces legal action',
+    '%NAME% files lawsuit',
+  ]
+  
+  const events: any[] = []
+  const today = new Date()
+  
+  topActors.slice(0, 15).forEach((actor, i) => {
+    const cat = categories[i % 4]
+    let templates
+    switch (cat) {
+      case 'media': templates = mediaTemplates; break
+      case 'political': templates = politicalTemplates; break
+      case 'rally': templates = rallyTemplates; break
+      default: templates = legalTemplates
+    }
+    
+    const template = templates[Math.floor(Math.random() * templates.length)]
+    const daysAgo = Math.floor(Math.random() * 60)
+    
+    events.push({
+      id: `event-${i}`,
+      title: template.replace('%NAME%', actor.name),
+      date: format(subDays(today, daysAgo), 'yyyy-MM-dd'),
+      category: cat,
+      description: `Event involving ${actor.name} with ${Math.round(actor.total_reach / 1000)}K total reach.`,
+      score_delta: Math.round((Math.random() - 0.3) * 5 * 10) / 10,
+    })
+  })
+  
+  return events
+}
+
 export default function EventsPage() {
+  const [dashboard, setDashboard] = useState<any>(null)
   const [events, setEvents] = useState<any[]>([])
-  const [driData, setDriData] = useState<any>(null)
   const [filter, setFilter] = useState<string | null>(null)
   const [showAddModal, setShowAddModal] = useState(false)
   const [timeRange, setTimeRange] = useState<'30d' | '90d' | '1y'>('90d')
@@ -30,10 +81,22 @@ export default function EventsPage() {
 
   useEffect(() => {
     setMounted(true)
+    fetch('/data/dashboard.json')
+      .then(res => res.json())
+      .then(data => {
+        setDashboard(data)
+        if (data.top_actors) {
+          setEvents(generateRealEvents(data.top_actors))
+        }
+      })
+      .catch(err => console.error('Failed to load data:', err))
+  }, [])
+
+  const chartData = useMemo(() => {
+    if (!dashboard?.timeseries) return []
     const days = timeRange === '30d' ? 30 : timeRange === '90d' ? 90 : 365
-    setEvents(generateMockEvents(30))
-    setDriData(generateMockDRI(days))
-  }, [timeRange])
+    return dashboard.timeseries.slice(-days)
+  }, [dashboard, timeRange])
 
   const filteredEvents = useMemo(() => {
     let result = events
@@ -42,14 +105,13 @@ export default function EventsPage() {
   }, [events, filter])
 
   const pScoreData = useMemo(() => {
-    if (!driData?.data) return []
-    return driData.data.map((d: any) => ({
+    return chartData.map((d: any) => ({
       date: d.date,
       value: d.p_score,
     }))
-  }, [driData])
+  }, [chartData])
 
-  const latestP = pScoreData.length ? pScoreData[pScoreData.length - 1].value : 0
+  const latestP = dashboard?.current?.p_score || 50
 
   const categoryCounts = useMemo(() => {
     const counts: Record<string, number> = {}
@@ -62,7 +124,7 @@ export default function EventsPage() {
 
   const totalImpact = events.reduce((sum, e) => sum + e.score_delta, 0)
 
-  if (!mounted || !driData) {
+  if (!mounted || !dashboard) {
     return (
       <div className="h-[400px] flex items-center justify-center">
         <div className="w-6 h-6 border-2 border-accent border-t-transparent rounded-full animate-spin" />

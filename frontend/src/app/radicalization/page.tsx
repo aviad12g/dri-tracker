@@ -12,38 +12,49 @@ import {
   CartesianGrid,
   ReferenceLine,
 } from 'recharts'
-import { generateMockFunnelData, generateMockDRI } from '@/lib/mockData'
 
 export default function RadicalizationPage() {
-  const [funnelData, setFunnelData] = useState<any>(null)
-  const [driData, setDriData] = useState<any>(null)
+  const [dashboard, setDashboard] = useState<any>(null)
   const [timeRange, setTimeRange] = useState<'7d' | '30d' | '90d'>('30d')
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     setMounted(true)
+    fetch('/data/dashboard.json')
+      .then(res => res.json())
+      .then(data => setDashboard(data))
+      .catch(err => console.error('Failed to load data:', err))
+  }, [])
+
+  const chartData = useMemo(() => {
+    if (!dashboard?.timeseries) return []
     const days = timeRange === '7d' ? 7 : timeRange === '30d' ? 30 : 90
-    setFunnelData(generateMockFunnelData(days))
-    setDriData(generateMockDRI(days))
-  }, [timeRange])
+    return dashboard.timeseries.slice(-days)
+  }, [dashboard, timeRange])
 
   const rScoreData = useMemo(() => {
-    if (!driData?.data) return []
-    return driData.data.map((d: any) => ({
+    return chartData.map((d: any) => ({
       date: d.date,
       value: d.r_score,
     }))
-  }, [driData])
+  }, [chartData])
 
-  const latestR = rScoreData.length ? rScoreData[rScoreData.length - 1].value : 0
+  const latestR = dashboard?.current?.r_score || 0
   const avgR = rScoreData.length ? rScoreData.reduce((s: number, d: any) => s + d.value, 0) / rScoreData.length : 0
 
-  const latestFunnel = funnelData?.daily?.length 
-    ? funnelData.daily[funnelData.daily.length - 1] 
-    : { discovery: 0, indoctrination: 0, mobilization: 0 }
+  // Calculate funnel from platform breakdown (mainstream vs alt-tech)
+  const platformBreakdown = dashboard?.platform_breakdown || {}
+  const mainstreamReach = (platformBreakdown.youtube?.total_followers || 0) + (platformBreakdown.tiktok?.total_followers || 0)
+  const altTechReach = (platformBreakdown.rumble?.total_followers || 0) + (platformBreakdown.telegram?.total_followers || 0)
+  
+  const latestFunnel = {
+    discovery: mainstreamReach,
+    indoctrination: Math.round((mainstreamReach + altTechReach) / 2),
+    mobilization: altTechReach,
+  }
 
   const conversionRate = latestFunnel.discovery > 0 
-    ? (latestFunnel.mobilization / latestFunnel.discovery * 100).toFixed(3)
+    ? (latestFunnel.mobilization / latestFunnel.discovery * 100).toFixed(1)
     : '0'
 
   const formatNumber = (n: number) => {
@@ -52,7 +63,7 @@ export default function RadicalizationPage() {
     return n.toString()
   }
 
-  if (!mounted || !funnelData) {
+  if (!mounted || !dashboard) {
     return (
       <div className="h-[400px] flex items-center justify-center">
         <div className="w-6 h-6 border-2 border-accent border-t-transparent rounded-full animate-spin" />

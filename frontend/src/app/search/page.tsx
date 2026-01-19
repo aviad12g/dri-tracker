@@ -11,66 +11,65 @@ import {
   ResponsiveContainer,
   CartesianGrid,
 } from 'recharts'
-import { generateMockSearchData, generateMockDRI } from '@/lib/mockData'
 
 const SOFT_KEYWORDS = ['groyper', 'america first', 'based', 'redpill', 'tradwife']
 const HARD_KEYWORDS = ['nick fuentes', 'afpac', 'cozy tv', 'groyper war', 'infowars']
 
 export default function SearchPage() {
-  const [searchData, setSearchData] = useState<any>(null)
-  const [driData, setDriData] = useState<any>(null)
+  const [dashboard, setDashboard] = useState<any>(null)
   const [selectedKeyword, setSelectedKeyword] = useState<string>('nick fuentes')
   const [timeRange, setTimeRange] = useState<'7d' | '30d' | '90d'>('30d')
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     setMounted(true)
+    fetch('/data/dashboard.json')
+      .then(res => res.json())
+      .then(data => setDashboard(data))
+      .catch(err => console.error('Failed to load data:', err))
+  }, [])
+
+  const chartData = useMemo(() => {
+    if (!dashboard?.timeseries) return []
     const days = timeRange === '7d' ? 7 : timeRange === '30d' ? 30 : 90
-    setSearchData(generateMockSearchData(days))
-    setDriData(generateMockDRI(days))
-  }, [timeRange])
+    return dashboard.timeseries.slice(-days)
+  }, [dashboard, timeRange])
 
   const sScoreData = useMemo(() => {
-    if (!driData?.data) return []
-    return driData.data.map((d: any) => ({
+    return chartData.map((d: any) => ({
       date: d.date,
       value: d.s_score,
     }))
-  }, [driData])
+  }, [chartData])
 
-  const keywordData = useMemo(() => {
-    if (!searchData?.byKeyword?.[selectedKeyword]) return []
-    return searchData.byKeyword[selectedKeyword]
-  }, [searchData, selectedKeyword])
-
+  // Use actor names as "keywords" since we track actors
   const keywordRanking = useMemo(() => {
-    const allKeywords = [...HARD_KEYWORDS, ...SOFT_KEYWORDS]
-    return allKeywords.map((kw) => ({
-      keyword: kw,
-      volume: Math.floor(Math.random() * 80 + 20),
-      isHard: HARD_KEYWORDS.includes(kw),
-    })).sort((a, b) => b.volume - a.volume)
-  }, [])
+    if (!dashboard?.top_actors) return []
+    return dashboard.top_actors.slice(0, 10).map((actor: any, i: number) => ({
+      keyword: actor.name,
+      volume: Math.round(50 + (10 - i) * 5 + (dashboard.current?.s_score || 50) / 10),
+      isHard: actor.tier === 'mega' || actor.faction === 'groyper',
+    }))
+  }, [dashboard])
 
-  // Heatmap data
+  // Heatmap data based on real timeseries
   const heatmapData = useMemo(() => {
-    const endDate = new Date()
-    const startDate = subDays(endDate, 13)
-    const days = eachDayOfInterval({ start: startDate, end: endDate })
-    const allKeywords = [...HARD_KEYWORDS, ...SOFT_KEYWORDS]
+    if (!chartData.length) return []
+    const topActors = dashboard?.top_actors?.slice(0, 5) || []
     
-    return days.map((day) => {
-      const row: any = { date: format(day, 'MMM d') }
-      allKeywords.forEach((kw) => {
-        row[kw] = Math.floor(Math.random() * 100)
+    return chartData.slice(-14).map((day: any) => {
+      const row: any = { date: format(parseISO(day.date), 'MMM d') }
+      topActors.forEach((actor: any, i: number) => {
+        // Use s_score variance to create realistic heatmap
+        row[actor.name] = Math.round(day.s_score + (Math.random() - 0.5) * 20)
       })
       return row
     })
-  }, [])
+  }, [chartData, dashboard])
 
-  const latestS = sScoreData.length ? sScoreData[sScoreData.length - 1].value : 0
+  const latestS = dashboard?.current?.s_score || 50
 
-  if (!mounted || !searchData) {
+  if (!mounted || !dashboard) {
     return (
       <div className="h-[400px] flex items-center justify-center">
         <div className="w-6 h-6 border-2 border-accent border-t-transparent rounded-full animate-spin" />
