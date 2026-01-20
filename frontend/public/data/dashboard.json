@@ -1,909 +1,909 @@
 {
   "timeseries": [
     {
-      "date": "2025-10-21",
-      "dri": 52.9,
-      "v_score": 53.7,
-      "r_score": 75.7,
-      "s_score": 43.4,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
       "date": "2025-10-22",
-      "dri": 51.3,
-      "v_score": 48.4,
-      "r_score": 78.8,
-      "s_score": 40.3,
-      "p_score": 1.8,
+      "dri": 50.0,
+      "v_score": 48.2,
+      "r_score": 74.1,
+      "s_score": 42.6,
+      "p_score": 0.1,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
       "date": "2025-10-23",
-      "dri": 50.0,
-      "v_score": 48.7,
-      "r_score": 76.0,
-      "s_score": 38.9,
-      "p_score": 0,
+      "dri": 51.1,
+      "v_score": 49.9,
+      "r_score": 75.7,
+      "s_score": 41.6,
+      "p_score": 0.6,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
       "date": "2025-10-24",
-      "dri": 50.4,
-      "v_score": 46.4,
-      "r_score": 76.5,
-      "s_score": 43.1,
-      "p_score": 2.7,
+      "dri": 49.7,
+      "v_score": 49.7,
+      "r_score": 73.5,
+      "s_score": 38.8,
+      "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
       "date": "2025-10-25",
-      "dri": 50.0,
-      "v_score": 46.0,
-      "r_score": 78.9,
-      "s_score": 39.9,
+      "dri": 51.6,
+      "v_score": 50.2,
+      "r_score": 73.4,
+      "s_score": 47.2,
       "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
       "date": "2025-10-26",
-      "dri": 53.6,
-      "v_score": 53.6,
-      "r_score": 76.6,
-      "s_score": 45.7,
-      "p_score": 0.3,
+      "dri": 53.8,
+      "v_score": 55.8,
+      "r_score": 75.1,
+      "s_score": 44.9,
+      "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
       "date": "2025-10-27",
-      "dri": 49.2,
-      "v_score": 43.8,
-      "r_score": 75.3,
-      "s_score": 45.7,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-10-28",
-      "dri": 50.2,
-      "v_score": 50.2,
-      "r_score": 74.3,
-      "s_score": 38.8,
-      "p_score": 0.4,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-10-29",
-      "dri": 51.8,
-      "v_score": 48.7,
-      "r_score": 78.6,
-      "s_score": 43.6,
+      "dri": 52.8,
+      "v_score": 52.9,
+      "r_score": 77.1,
+      "s_score": 42.1,
       "p_score": 0.6,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2025-10-30",
-      "dri": 50.4,
-      "v_score": 45.6,
-      "r_score": 74.6,
-      "s_score": 48.7,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-10-31",
-      "dri": 50.7,
-      "v_score": 48.4,
-      "r_score": 76.7,
-      "s_score": 41.7,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-01",
-      "dri": 51.5,
-      "v_score": 50.4,
-      "r_score": 75.7,
-      "s_score": 43.3,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-02",
-      "dri": 53.5,
-      "v_score": 52.9,
-      "r_score": 79.3,
-      "s_score": 42.5,
-      "p_score": 1.1,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-03",
-      "dri": 52.3,
-      "v_score": 54.0,
-      "r_score": 75.1,
-      "s_score": 40.6,
-      "p_score": 0.7,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-04",
-      "dri": 51.7,
-      "v_score": 52.8,
-      "r_score": 75.6,
-      "s_score": 39.4,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-05",
-      "dri": 58.0,
-      "v_score": 56.6,
-      "r_score": 81.4,
-      "s_score": 54.5,
-      "p_score": 0.4,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-06",
-      "dri": 53.0,
-      "v_score": 53.2,
-      "r_score": 77.3,
-      "s_score": 41.3,
-      "p_score": 2.8,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-07",
-      "dri": 51.3,
-      "v_score": 50.2,
-      "r_score": 77.3,
-      "s_score": 39.7,
-      "p_score": 0.8,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-08",
-      "dri": 51.9,
-      "v_score": 52.7,
-      "r_score": 77.9,
-      "s_score": 36.4,
-      "p_score": 1.5,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-09",
-      "dri": 55.1,
-      "v_score": 52.0,
-      "r_score": 82.4,
-      "s_score": 47.5,
-      "p_score": 1.2,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-10",
-      "dri": 53.3,
-      "v_score": 54.6,
-      "r_score": 77.3,
-      "s_score": 41.1,
-      "p_score": 0.4,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-11",
-      "dri": 52.0,
-      "v_score": 45.9,
-      "r_score": 80.7,
-      "s_score": 47.1,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-12",
-      "dri": 55.3,
-      "v_score": 59.0,
-      "r_score": 76.4,
-      "s_score": 44.0,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-13",
-      "dri": 52.5,
-      "v_score": 53.9,
-      "r_score": 77.0,
-      "s_score": 38.2,
-      "p_score": 1.5,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-14",
+      "date": "2025-10-28",
       "dri": 53.2,
-      "v_score": 51.6,
-      "r_score": 75.9,
-      "s_score": 48.5,
-      "p_score": 0.9,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-15",
-      "dri": 55.0,
-      "v_score": 51.9,
-      "r_score": 78.8,
-      "s_score": 53.1,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-16",
-      "dri": 53.4,
-      "v_score": 51.6,
-      "r_score": 79.4,
-      "s_score": 44.6,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-17",
-      "dri": 52.1,
-      "v_score": 47.1,
-      "r_score": 79.5,
-      "s_score": 47.2,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-18",
-      "dri": 49.9,
-      "v_score": 44.9,
-      "r_score": 77.9,
-      "s_score": 42.8,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-19",
-      "dri": 50.1,
-      "v_score": 47.3,
-      "r_score": 78.2,
-      "s_score": 38.4,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-20",
-      "dri": 48.3,
-      "v_score": 46.3,
-      "r_score": 73.9,
-      "s_score": 38.2,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-21",
-      "dri": 54.8,
-      "v_score": 58.0,
-      "r_score": 74.9,
-      "s_score": 45.6,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-22",
-      "dri": 54.0,
-      "v_score": 53.3,
-      "r_score": 76.3,
-      "s_score": 48.8,
-      "p_score": 0.4,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-23",
-      "dri": 55.2,
-      "v_score": 54.0,
-      "r_score": 80.0,
-      "s_score": 48.0,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-24",
-      "dri": 55.0,
-      "v_score": 55.7,
-      "r_score": 78.4,
-      "s_score": 45.4,
-      "p_score": 0.8,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-25",
-      "dri": 55.9,
-      "v_score": 55.4,
-      "r_score": 80.4,
-      "s_score": 47.5,
-      "p_score": 1.2,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-26",
-      "dri": 54.6,
-      "v_score": 51.0,
-      "r_score": 80.7,
-      "s_score": 49.7,
-      "p_score": 0.1,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-27",
-      "dri": 53.2,
-      "v_score": 49.8,
-      "r_score": 81.1,
-      "s_score": 43.6,
-      "p_score": 1.8,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-28",
-      "dri": 52.7,
-      "v_score": 49.4,
-      "r_score": 78.9,
-      "s_score": 46.5,
-      "p_score": 0.2,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-29",
-      "dri": 57.8,
-      "v_score": 57.0,
-      "r_score": 80.8,
-      "s_score": 52.8,
-      "p_score": 2.3,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-11-30",
-      "dri": 52.6,
-      "v_score": 50.7,
-      "r_score": 81.3,
-      "s_score": 38.7,
-      "p_score": 1.2,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-01",
-      "dri": 54.1,
-      "v_score": 54.2,
-      "r_score": 78.8,
-      "s_score": 43.6,
-      "p_score": 0.8,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-02",
-      "dri": 53.3,
-      "v_score": 49.4,
-      "r_score": 82.7,
-      "s_score": 43.7,
-      "p_score": 0.3,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-03",
-      "dri": 56.1,
-      "v_score": 56.3,
-      "r_score": 79.4,
-      "s_score": 48.7,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-04",
-      "dri": 54.9,
-      "v_score": 52.0,
-      "r_score": 79.4,
-      "s_score": 50.7,
-      "p_score": 0.9,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-05",
-      "dri": 65.4,
-      "v_score": 66.0,
-      "r_score": 89.0,
-      "s_score": 55.9,
-      "p_score": 11.2,
-      "is_spike": true,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-06",
-      "dri": 58.7,
-      "v_score": 59.0,
-      "r_score": 82.1,
-      "s_score": 51.6,
-      "p_score": 1.3,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-07",
-      "dri": 54.9,
-      "v_score": 53.3,
-      "r_score": 80.2,
-      "s_score": 47.4,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-08",
-      "dri": 55.8,
-      "v_score": 54.5,
-      "r_score": 84.8,
-      "s_score": 42.6,
-      "p_score": 0.4,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-09",
-      "dri": 54.6,
-      "v_score": 53.9,
-      "r_score": 82.3,
-      "s_score": 41.5,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-10",
-      "dri": 55.0,
-      "v_score": 50.2,
-      "r_score": 84.0,
-      "s_score": 48.5,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-11",
-      "dri": 56.1,
-      "v_score": 53.9,
-      "r_score": 84.2,
-      "s_score": 46.3,
-      "p_score": 0.4,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-12",
-      "dri": 53.9,
-      "v_score": 51.2,
-      "r_score": 82.9,
-      "s_score": 42.6,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-13",
-      "dri": 58.3,
-      "v_score": 58.0,
-      "r_score": 81.6,
-      "s_score": 53.1,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-14",
-      "dri": 55.3,
-      "v_score": 52.1,
-      "r_score": 85.3,
-      "s_score": 44.3,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-15",
-      "dri": 54.1,
-      "v_score": 51.7,
-      "r_score": 81.8,
-      "s_score": 43.8,
-      "p_score": 1.4,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-16",
-      "dri": 56.1,
-      "v_score": 55.4,
-      "r_score": 81.9,
-      "s_score": 46.9,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-17",
-      "dri": 56.4,
-      "v_score": 53.2,
-      "r_score": 82.2,
-      "s_score": 52.2,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-18",
-      "dri": 56.5,
-      "v_score": 50.4,
-      "r_score": 88.3,
-      "s_score": 49.1,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-19",
-      "dri": 54.5,
-      "v_score": 56.7,
-      "r_score": 78.2,
-      "s_score": 41.5,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-20",
-      "dri": 53.5,
-      "v_score": 48.2,
-      "r_score": 85.6,
-      "s_score": 42.3,
-      "p_score": 0.7,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-21",
-      "dri": 58.6,
-      "v_score": 57.9,
-      "r_score": 84.5,
-      "s_score": 49.8,
-      "p_score": 1.3,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-22",
-      "dri": 58.2,
-      "v_score": 59.5,
-      "r_score": 85.8,
-      "s_score": 43.6,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-23",
-      "dri": 53.5,
-      "v_score": 48.5,
-      "r_score": 82.0,
-      "s_score": 47.2,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-24",
-      "dri": 55.5,
-      "v_score": 51.4,
-      "r_score": 84.7,
-      "s_score": 47.7,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-25",
-      "dri": 52.1,
-      "v_score": 45.5,
-      "r_score": 85.1,
+      "v_score": 54.3,
+      "r_score": 76.9,
       "s_score": 41.9,
       "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2025-12-26",
-      "dri": 56.1,
-      "v_score": 51.4,
-      "r_score": 86.6,
-      "s_score": 48.1,
+      "date": "2025-10-29",
+      "dri": 50.7,
+      "v_score": 47.6,
+      "r_score": 75.5,
+      "s_score": 45.0,
+      "p_score": 0.1,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-10-30",
+      "dri": 51.5,
+      "v_score": 48.1,
+      "r_score": 78.3,
+      "s_score": 43.6,
       "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2025-12-27",
-      "dri": 56.8,
-      "v_score": 52.7,
-      "r_score": 85.2,
-      "s_score": 50.7,
-      "p_score": 0.5,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2025-12-28",
-      "dri": 55.4,
-      "v_score": 52.7,
-      "r_score": 83.8,
-      "s_score": 45.7,
+      "date": "2025-10-31",
+      "dri": 49.4,
+      "v_score": 44.4,
+      "r_score": 76.8,
+      "s_score": 43.2,
       "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2025-12-29",
-      "dri": 63.5,
-      "v_score": 64.2,
-      "r_score": 91.1,
-      "s_score": 50.1,
-      "p_score": 4.8,
+      "date": "2025-11-01",
+      "dri": 52.3,
+      "v_score": 48.2,
+      "r_score": 77.3,
+      "s_score": 49.1,
+      "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2025-12-30",
-      "dri": 57.9,
-      "v_score": 55.0,
-      "r_score": 81.3,
-      "s_score": 57.0,
+      "date": "2025-11-02",
+      "dri": 56.5,
+      "v_score": 56.6,
+      "r_score": 81.5,
+      "s_score": 46.8,
       "p_score": 0.4,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2025-12-31",
-      "dri": 58.9,
-      "v_score": 54.8,
-      "r_score": 84.7,
-      "s_score": 57.7,
-      "p_score": 0.1,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2026-01-01",
-      "dri": 57.2,
-      "v_score": 52.4,
-      "r_score": 85.1,
-      "s_score": 53.6,
+      "date": "2025-11-03",
+      "dri": 51.4,
+      "v_score": 48.4,
+      "r_score": 76.9,
+      "s_score": 45.1,
       "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-02",
-      "dri": 57.3,
-      "v_score": 56.9,
-      "r_score": 85.2,
-      "s_score": 44.8,
+      "date": "2025-11-04",
+      "dri": 51.6,
+      "v_score": 50.0,
+      "r_score": 78.2,
+      "s_score": 40.7,
       "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-03",
-      "dri": 58.5,
-      "v_score": 55.9,
-      "r_score": 88.5,
-      "s_score": 47.9,
+      "date": "2025-11-05",
+      "dri": 50.3,
+      "v_score": 47.8,
+      "r_score": 78.4,
+      "s_score": 38.2,
       "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-04",
-      "dri": 57.9,
-      "v_score": 59.0,
-      "r_score": 84.0,
-      "s_score": 45.4,
-      "p_score": 0.1,
+      "date": "2025-11-06",
+      "dri": 56.0,
+      "v_score": 55.8,
+      "r_score": 83.0,
+      "s_score": 43.8,
+      "p_score": 0.6,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-05",
-      "dri": 57.7,
+      "date": "2025-11-07",
+      "dri": 51.9,
+      "v_score": 49.1,
+      "r_score": 79.6,
+      "s_score": 41.7,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-08",
+      "dri": 55.0,
       "v_score": 53.5,
-      "r_score": 92.3,
-      "s_score": 42.6,
-      "p_score": 1.1,
+      "r_score": 79.5,
+      "s_score": 48.7,
+      "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-06",
-      "dri": 58.1,
-      "v_score": 53.3,
-      "r_score": 88.2,
-      "s_score": 51.2,
+      "date": "2025-11-09",
+      "dri": 51.4,
+      "v_score": 51.6,
+      "r_score": 74.4,
+      "s_score": 41.3,
+      "p_score": 1.6,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-10",
+      "dri": 53.1,
+      "v_score": 49.8,
+      "r_score": 79.0,
+      "s_score": 47.4,
+      "p_score": 0.3,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-11",
+      "dri": 51.6,
+      "v_score": 50.0,
+      "r_score": 75.0,
+      "s_score": 45.2,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-12",
+      "dri": 52.2,
+      "v_score": 52.8,
+      "r_score": 78.4,
+      "s_score": 37.7,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-13",
+      "dri": 54.3,
+      "v_score": 52.2,
+      "r_score": 79.8,
+      "s_score": 47.5,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-14",
+      "dri": 56.0,
+      "v_score": 56.8,
+      "r_score": 79.1,
+      "s_score": 47.6,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-15",
+      "dri": 51.5,
+      "v_score": 49.6,
+      "r_score": 75.9,
+      "s_score": 44.3,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-16",
+      "dri": 57.8,
+      "v_score": 57.2,
+      "r_score": 81.6,
+      "s_score": 52.5,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-17",
+      "dri": 53.5,
+      "v_score": 51.8,
+      "r_score": 78.4,
+      "s_score": 46.4,
+      "p_score": 0.1,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-18",
+      "dri": 52.1,
+      "v_score": 45.9,
+      "r_score": 83.8,
+      "s_score": 42.7,
       "p_score": 0.2,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-07",
-      "dri": 58.1,
-      "v_score": 57.9,
-      "r_score": 85.8,
-      "s_score": 45.8,
-      "p_score": 0,
+      "date": "2025-11-19",
+      "dri": 54.5,
+      "v_score": 53.5,
+      "r_score": 81.0,
+      "s_score": 43.8,
+      "p_score": 1.0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-08",
-      "dri": 57.7,
-      "v_score": 54.5,
-      "r_score": 85.1,
-      "s_score": 51.3,
-      "p_score": 0.6,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2026-01-09",
-      "dri": 60.7,
-      "v_score": 56.3,
-      "r_score": 89.9,
-      "s_score": 55.6,
+      "date": "2025-11-20",
+      "dri": 54.9,
+      "v_score": 52.4,
+      "r_score": 82.7,
+      "s_score": 45.1,
       "p_score": 0.9,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-10",
-      "dri": 60.0,
-      "v_score": 56.5,
-      "r_score": 87.8,
-      "s_score": 54.3,
+      "date": "2025-11-21",
+      "dri": 48.3,
+      "v_score": 44.0,
+      "r_score": 74.5,
+      "s_score": 42.0,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-22",
+      "dri": 55.2,
+      "v_score": 52.9,
+      "r_score": 78.8,
+      "s_score": 51.7,
+      "p_score": 1.1,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-23",
+      "dri": 55.3,
+      "v_score": 55.6,
+      "r_score": 78.3,
+      "s_score": 47.2,
       "p_score": 1.4,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-11",
-      "dri": 59.6,
-      "v_score": 59.4,
-      "r_score": 89.1,
-      "s_score": 45.4,
+      "date": "2025-11-24",
+      "dri": 52.7,
+      "v_score": 49.1,
+      "r_score": 79.4,
+      "s_score": 46.4,
       "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-12",
-      "dri": 64.4,
-      "v_score": 62.7,
-      "r_score": 90.5,
-      "s_score": 60.8,
-      "p_score": 0,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2026-01-13",
-      "dri": 58.6,
+      "date": "2025-11-25",
+      "dri": 55.4,
       "v_score": 54.0,
-      "r_score": 90.7,
-      "s_score": 48.8,
-      "p_score": 0.8,
+      "r_score": 78.5,
+      "s_score": 50.6,
+      "p_score": 0.9,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-14",
-      "dri": 59.5,
-      "v_score": 55.2,
-      "r_score": 88.6,
-      "s_score": 53.4,
-      "p_score": 1.3,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2026-01-15",
-      "dri": 56.9,
-      "v_score": 53.3,
-      "r_score": 87.7,
-      "s_score": 46.2,
-      "p_score": 0.6,
-      "is_spike": false,
-      "data_quality": "historical"
-    },
-    {
-      "date": "2026-01-16",
-      "dri": 55.9,
-      "v_score": 51.0,
-      "r_score": 84.4,
-      "s_score": 50.8,
+      "date": "2025-11-26",
+      "dri": 53.0,
+      "v_score": 46.3,
+      "r_score": 79.6,
+      "s_score": 53.1,
       "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-17",
-      "dri": 61.5,
-      "v_score": 61.2,
-      "r_score": 88.9,
+      "date": "2025-11-27",
+      "dri": 55.4,
+      "v_score": 52.0,
+      "r_score": 80.0,
+      "s_score": 52.9,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-28",
+      "dri": 53.8,
+      "v_score": 52.8,
+      "r_score": 83.3,
+      "s_score": 38.2,
+      "p_score": 1.0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-29",
+      "dri": 54.8,
+      "v_score": 51.1,
+      "r_score": 81.4,
+      "s_score": 50.0,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-11-30",
+      "dri": 54.0,
+      "v_score": 53.2,
+      "r_score": 80.8,
+      "s_score": 42.2,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-01",
+      "dri": 57.8,
+      "v_score": 61.8,
+      "r_score": 78.6,
+      "s_score": 47.3,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-02",
+      "dri": 55.8,
+      "v_score": 57.5,
+      "r_score": 81.2,
+      "s_score": 41.9,
+      "p_score": 0.3,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-03",
+      "dri": 56.6,
+      "v_score": 57.0,
+      "r_score": 81.4,
+      "s_score": 47.0,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-04",
+      "dri": 55.2,
+      "v_score": 49.9,
+      "r_score": 81.8,
+      "s_score": 53.0,
+      "p_score": 1.1,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-05",
+      "dri": 57.5,
+      "v_score": 55.8,
+      "r_score": 81.4,
+      "s_score": 52.7,
+      "p_score": 1.6,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-06",
+      "dri": 67.6,
+      "v_score": 69.0,
+      "r_score": 87.5,
+      "s_score": 63.4,
+      "p_score": 10.4,
+      "is_spike": true,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-07",
+      "dri": 57.3,
+      "v_score": 57.1,
+      "r_score": 80.4,
       "s_score": 51.6,
       "p_score": 0,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-18",
+      "date": "2025-12-08",
       "dri": 58.8,
-      "v_score": 60.1,
-      "r_score": 86.7,
-      "s_score": 43.5,
+      "v_score": 59.8,
+      "r_score": 83.9,
+      "s_score": 47.9,
+      "p_score": 1.3,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-09",
+      "dri": 55.3,
+      "v_score": 50.0,
+      "r_score": 82.4,
+      "s_score": 52.6,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-10",
+      "dri": 54.6,
+      "v_score": 50.6,
+      "r_score": 82.5,
+      "s_score": 47.4,
+      "p_score": 0.9,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-11",
+      "dri": 55.8,
+      "v_score": 50.7,
+      "r_score": 82.1,
+      "s_score": 54.8,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-12",
+      "dri": 55.7,
+      "v_score": 53.1,
+      "r_score": 81.5,
+      "s_score": 50.1,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-13",
+      "dri": 55.0,
+      "v_score": 52.7,
+      "r_score": 81.9,
+      "s_score": 45.9,
+      "p_score": 1.4,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-14",
+      "dri": 57.8,
+      "v_score": 57.4,
+      "r_score": 81.5,
+      "s_score": 51.8,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-15",
+      "dri": 57.0,
+      "v_score": 53.8,
+      "r_score": 85.7,
+      "s_score": 48.8,
+      "p_score": 0.5,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-16",
+      "dri": 57.5,
+      "v_score": 57.1,
+      "r_score": 81.3,
+      "s_score": 51.4,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-17",
+      "dri": 56.2,
+      "v_score": 53.4,
+      "r_score": 82.9,
+      "s_score": 49.8,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-18",
+      "dri": 58.6,
+      "v_score": 57.5,
+      "r_score": 87.2,
+      "s_score": 47.2,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-19",
+      "dri": 55.9,
+      "v_score": 53.2,
+      "r_score": 81.7,
+      "s_score": 50.6,
+      "p_score": 0.2,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-20",
+      "dri": 57.4,
+      "v_score": 56.7,
+      "r_score": 85.2,
+      "s_score": 45.9,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-21",
+      "dri": 54.9,
+      "v_score": 53.2,
+      "r_score": 86.5,
+      "s_score": 38.4,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-22",
+      "dri": 56.2,
+      "v_score": 52.3,
+      "r_score": 84.2,
+      "s_score": 49.7,
+      "p_score": 1.2,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-23",
+      "dri": 56.9,
+      "v_score": 58.1,
+      "r_score": 83.3,
+      "s_score": 43.1,
+      "p_score": 0.9,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-24",
+      "dri": 54.8,
+      "v_score": 52.0,
+      "r_score": 82.5,
+      "s_score": 46.0,
       "p_score": 0.6,
       "is_spike": false,
       "data_quality": "historical"
     },
     {
-      "date": "2026-01-19",
+      "date": "2025-12-25",
+      "dri": 57.0,
+      "v_score": 55.8,
+      "r_score": 84.1,
+      "s_score": 46.8,
+      "p_score": 0.6,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-26",
+      "dri": 57.7,
+      "v_score": 55.9,
+      "r_score": 82.6,
+      "s_score": 52.5,
+      "p_score": 0.2,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-27",
+      "dri": 58.8,
+      "v_score": 57.2,
+      "r_score": 87.6,
+      "s_score": 48.0,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-28",
+      "dri": 59.1,
+      "v_score": 58.3,
+      "r_score": 84.8,
+      "s_score": 51.1,
+      "p_score": 0.8,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-29",
+      "dri": 57.1,
+      "v_score": 53.8,
+      "r_score": 86.7,
+      "s_score": 47.4,
+      "p_score": 0.8,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-30",
+      "dri": 66.0,
+      "v_score": 67.7,
+      "r_score": 90.3,
+      "s_score": 55.9,
+      "p_score": 6.2,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2025-12-31",
+      "dri": 56.5,
+      "v_score": 52.9,
+      "r_score": 86.9,
+      "s_score": 46.3,
+      "p_score": 0.6,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-01",
+      "dri": 56.7,
+      "v_score": 51.2,
+      "r_score": 84.8,
+      "s_score": 53.5,
+      "p_score": 1.0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-02",
+      "dri": 59.9,
+      "v_score": 59.3,
+      "r_score": 88.2,
+      "s_score": 48.2,
+      "p_score": 0.5,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-03",
+      "dri": 59.4,
+      "v_score": 57.6,
+      "r_score": 87.1,
+      "s_score": 51.0,
+      "p_score": 0.7,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-04",
+      "dri": 58.9,
+      "v_score": 58.8,
+      "r_score": 85.5,
+      "s_score": 48.3,
+      "p_score": 0.4,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-05",
+      "dri": 57.4,
+      "v_score": 58.8,
+      "r_score": 84.2,
+      "s_score": 42.4,
+      "p_score": 1.0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-06",
+      "dri": 55.6,
+      "v_score": 45.6,
+      "r_score": 91.3,
+      "s_score": 49.5,
+      "p_score": 0.3,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-07",
+      "dri": 57.0,
+      "v_score": 55.0,
+      "r_score": 82.8,
+      "s_score": 50.4,
+      "p_score": 1.1,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-08",
+      "dri": 59.1,
+      "v_score": 58.5,
+      "r_score": 85.5,
+      "s_score": 50.1,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-09",
+      "dri": 57.5,
+      "v_score": 56.1,
+      "r_score": 88.4,
+      "s_score": 42.5,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-10",
+      "dri": 60.6,
+      "v_score": 61.1,
+      "r_score": 86.3,
+      "s_score": 50.9,
+      "p_score": 0.5,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-11",
+      "dri": 59.5,
+      "v_score": 59.0,
+      "r_score": 86.3,
+      "s_score": 50.0,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-12",
+      "dri": 61.1,
+      "v_score": 62.3,
+      "r_score": 87.2,
+      "s_score": 50.2,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-13",
+      "dri": 63.0,
+      "v_score": 64.1,
+      "r_score": 88.0,
+      "s_score": 54.6,
+      "p_score": 0.5,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-14",
       "dri": 59.3,
-      "v_score": 56.7,
+      "v_score": 60.0,
+      "r_score": 89.8,
+      "s_score": 40.9,
+      "p_score": 1.3,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-15",
+      "dri": 59.5,
+      "v_score": 57.6,
+      "r_score": 89.4,
+      "s_score": 48.1,
+      "p_score": 0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-16",
+      "dri": 56.0,
+      "v_score": 52.8,
+      "r_score": 87.5,
+      "s_score": 42.6,
+      "p_score": 0.7,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-17",
+      "dri": 61.9,
+      "v_score": 64.0,
+      "r_score": 87.3,
+      "s_score": 50.4,
+      "p_score": 0.2,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-18",
+      "dri": 57.6,
+      "v_score": 55.7,
+      "r_score": 85.7,
+      "s_score": 47.9,
+      "p_score": 0.0,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-19",
+      "dri": 59.6,
+      "v_score": 57.4,
+      "r_score": 92.6,
+      "s_score": 43.8,
+      "p_score": 0.7,
+      "is_spike": false,
+      "data_quality": "historical"
+    },
+    {
+      "date": "2026-01-20",
+      "dri": 59.6,
+      "v_score": 57.5,
       "r_score": 88.6,
       "s_score": 50.0,
       "p_score": 0.0,
@@ -912,22 +912,22 @@
     }
   ],
   "stats": {
-    "latest": 59.3,
-    "avg_7d": 58.642857142857146,
-    "avg_30d": 58.14,
+    "latest": 59.6,
+    "avg_7d": 59.07142857142857,
+    "avg_30d": 58.64333333333333,
     "min_90d": 48.3,
-    "max_90d": 65.4,
-    "change_1d": 0.5,
-    "change_7d": -5.1000000000000085,
-    "change_30d": 5.799999999999997
+    "max_90d": 67.6,
+    "change_1d": 0.0,
+    "change_7d": -3.3999999999999986,
+    "change_30d": 4.700000000000003
   },
   "current": {
-    "dri": 59.3,
-    "v_score": 56.7,
+    "dri": 59.6,
+    "v_score": 57.5,
     "r_score": 88.6,
     "s_score": 50.0,
     "p_score": 0.0,
-    "computed_at": "2026-01-19T00:09:50.274034",
+    "computed_at": "2026-01-20T16:35:45.058179",
     "data_quality": "good"
   },
   "top_actors": [
@@ -936,15 +936,15 @@
       "name": "Tucker Carlson",
       "tier": "mega",
       "faction": "big5",
-      "total_reach": 9500882,
-      "virality_contribution": 74.57473682741228,
-      "radicalization_contribution": 61.03314916676371,
-      "weighted_score": 67.803942997088,
+      "total_reach": 9500892,
+      "virality_contribution": 74.58208123127875,
+      "radicalization_contribution": 61.06252678222953,
+      "weighted_score": 67.82230400675414,
       "platforms": {
         "rumble": 1260000,
         "youtube": 5140000,
         "tiktok": 3100000,
-        "telegram": 882
+        "telegram": 892
       }
     },
     {
@@ -952,13 +952,13 @@
       "name": "Candace Owens",
       "tier": "mega",
       "faction": "big5",
-      "total_reach": 527933,
-      "virality_contribution": 38.250059862033496,
-      "radicalization_contribution": 49.578131050591566,
-      "weighted_score": 43.91409545631253,
+      "total_reach": 528032,
+      "virality_contribution": 38.25605928353241,
+      "radicalization_contribution": 49.58013085775787,
+      "weighted_score": 43.91809507064514,
       "platforms": {
         "rumble": 495000,
-        "youtube": 32200,
+        "youtube": 32299,
         "telegram": 733
       }
     },
@@ -967,13 +967,13 @@
       "name": "Nick Fuentes",
       "tier": "mega",
       "faction": "big5",
-      "total_reach": 754301,
-      "virality_contribution": 21.529944802389945,
-      "radicalization_contribution": 56.515193748081856,
-      "weighted_score": 39.0225692752359,
+      "total_reach": 755291,
+      "virality_contribution": 21.531521217207022,
+      "radicalization_contribution": 56.51803049222025,
+      "weighted_score": 39.02477585471364,
       "platforms": {
-        "rumble": 638000,
-        "telegram": 116301
+        "rumble": 639000,
+        "telegram": 116291
       }
     },
     {
@@ -981,13 +981,13 @@
       "name": "Stew Peters",
       "tier": "core",
       "faction": "conspiracy",
-      "total_reach": 738744,
-      "virality_contribution": 12.98269738143734,
-      "radicalization_contribution": 34.29929034018254,
-      "weighted_score": 23.64099386080994,
+      "total_reach": 738676,
+      "virality_contribution": 12.98253199768593,
+      "radicalization_contribution": 34.298628805176904,
+      "weighted_score": 23.640580401431418,
       "platforms": {
         "rumble": 578000,
-        "telegram": 160744
+        "telegram": 160676
       }
     },
     {
@@ -995,13 +995,13 @@
       "name": "Andrew Tate",
       "tier": "mega",
       "faction": "manosphere",
-      "total_reach": 2593330,
-      "virality_contribution": 11.794693237068696,
-      "radicalization_contribution": 30.995572863425654,
-      "weighted_score": 21.395133050247175,
+      "total_reach": 2592917,
+      "virality_contribution": 11.794332705691005,
+      "radicalization_contribution": 30.994130737914887,
+      "weighted_score": 21.394231721802946,
       "platforms": {
         "rumble": 2220000,
-        "telegram": 373330
+        "telegram": 372917
       }
     },
     {
@@ -1009,12 +1009,12 @@
       "name": "Baked Alaska",
       "tier": "core",
       "faction": "groyper",
-      "total_reach": 4078,
-      "virality_contribution": 8.412039311011519,
-      "radicalization_contribution": 23.94502752571701,
-      "weighted_score": 16.178533418364264,
+      "total_reach": 4077,
+      "virality_contribution": 8.411910401284047,
+      "radicalization_contribution": 23.94451188680712,
+      "weighted_score": 16.178211144045584,
       "platforms": {
-        "telegram": 3639,
+        "telegram": 3638,
         "rumble": 439
       }
     },
@@ -1023,12 +1023,12 @@
       "name": "Keith Woods",
       "tier": "core",
       "faction": "intellectual",
-      "total_reach": 40098,
-      "virality_contribution": 8.497886806769667,
-      "radicalization_contribution": 23.34950290716055,
-      "weighted_score": 15.923694856965108,
+      "total_reach": 40079,
+      "virality_contribution": 8.497670742031932,
+      "radicalization_contribution": 23.348638648209608,
+      "weighted_score": 15.92315469512077,
       "platforms": {
-        "telegram": 29798,
+        "telegram": 29779,
         "rumble": 10300
       }
     },
@@ -1037,13 +1037,13 @@
       "name": "Jaden McNeil",
       "tier": "core",
       "faction": "groyper",
-      "total_reach": 4095,
-      "virality_contribution": 7.467732146889844,
-      "radicalization_contribution": 22.262977856731283,
-      "weighted_score": 14.865355001810563,
+      "total_reach": 4093,
+      "virality_contribution": 7.467496212256874,
+      "radicalization_contribution": 22.262034118199402,
+      "weighted_score": 14.864765165228139,
       "platforms": {
         "rumble": 118,
-        "telegram": 3977
+        "telegram": 3975
       }
     },
     {
@@ -1051,14 +1051,14 @@
       "name": "Pearl Davis",
       "tier": "prop",
       "faction": "manosphere",
-      "total_reach": 2062137,
-      "virality_contribution": 16.716398992784114,
-      "radicalization_contribution": 11.128087174972979,
-      "weighted_score": 13.922243083878547,
+      "total_reach": 2062237,
+      "virality_contribution": 16.716961641628576,
+      "radicalization_contribution": 11.12914214155634,
+      "weighted_score": 13.923051891592458,
       "platforms": {
         "youtube": 2000000,
         "tiktok": 437,
-        "rumble": 61700
+        "rumble": 61800
       }
     },
     {
@@ -1066,34 +1066,34 @@
       "name": "Haz (Infrared)",
       "tier": "core",
       "faction": "intellectual",
-      "total_reach": 60090,
-      "virality_contribution": 15.33598582386422,
-      "radicalization_contribution": 11.57631874264335,
-      "weighted_score": 13.456152283253786,
+      "total_reach": 60400,
+      "virality_contribution": 15.343608489143332,
+      "radicalization_contribution": 11.582500519545626,
+      "weighted_score": 13.463054504344479,
       "platforms": {
-        "rumble": 2290,
-        "youtube": 57800
+        "rumble": 2300,
+        "youtube": 58100
       }
     }
   ],
   "platform_breakdown": {
     "youtube": {
-      "total_followers": 7230020,
-      "actor_count": 5,
+      "total_followers": 7230847,
+      "actor_count": 7,
       "top_actor": "Tucker Carlson"
     },
     "rumble": {
-      "total_followers": 6156977,
+      "total_followers": 6159087,
       "actor_count": 18,
       "top_actor": "Tucker Carlson"
     },
     "telegram": {
-      "total_followers": 773219,
+      "total_followers": 772669,
       "actor_count": 12,
       "top_actor": "Tucker Carlson"
     },
     "tiktok": {
-      "total_followers": 3115512,
+      "total_followers": 3115507,
       "actor_count": 6,
       "top_actor": "Tucker Carlson"
     }
@@ -1101,28 +1101,28 @@
   "faction_breakdown": {
     "big5": {
       "actor_count": 4,
-      "total_reach": 10783118,
-      "avg_score": 37.94479030341929
+      "total_reach": 10784217,
+      "avg_score": 37.95093210428841
     },
     "groyper": {
       "actor_count": 4,
-      "total_reach": 23421,
-      "avg_score": 11.375918525880275
+      "total_reach": 23418,
+      "avg_score": 11.375690498154999
     },
     "conspiracy": {
       "actor_count": 5,
-      "total_reach": 822645,
-      "avg_score": 12.358541379879552
+      "total_reach": 822530,
+      "avg_score": 12.358146484181008
     },
     "intellectual": {
       "actor_count": 5,
-      "total_reach": 156508,
-      "avg_score": 9.45313428162195
+      "total_reach": 156799,
+      "avg_score": 9.45440669347122
     },
     "manosphere": {
       "actor_count": 5,
-      "total_reach": 5490036,
-      "avg_score": 11.39529075210472
+      "total_reach": 5491146,
+      "avg_score": 11.760300652190187
     }
   },
   "alerts": {
