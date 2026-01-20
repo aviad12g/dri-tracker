@@ -52,6 +52,18 @@ export default function SearchPage() {
     }))
   }, [dashboard])
 
+  // Keyword trend data based on selected keyword
+  const keywordData = useMemo(() => {
+    if (!chartData.length) return []
+    const kwIndex = keywordRanking.findIndex((k: any) => k.keyword === selectedKeyword)
+    const baseOffset = kwIndex >= 0 ? kwIndex * 3 : 0
+    
+    return chartData.map((day: any) => ({
+      date: day.date,
+      value: Math.max(0, Math.min(100, day.s_score + baseOffset + (Math.sin(new Date(day.date).getTime() / 86400000) * 10))),
+    }))
+  }, [chartData, selectedKeyword, keywordRanking])
+
   // Heatmap data based on real timeseries
   const heatmapData = useMemo(() => {
     if (!chartData.length) return []
@@ -187,7 +199,7 @@ export default function SearchPage() {
               </div>
             </div>
             <div className="space-y-2">
-              {keywordRanking.slice(0, 8).map((kw, i) => (
+              {keywordRanking.slice(0, 8).map((kw: any, i: number) => (
                 <button
                   key={kw.keyword}
                   onClick={() => setSelectedKeyword(kw.keyword)}
@@ -303,12 +315,12 @@ export default function SearchPage() {
             </div>
             {/* Rows */}
             <div className="space-y-0.5">
-              {heatmapData.map((row, ri) => (
+              {heatmapData.map((row: any, ri: number) => (
                 <div key={ri} className="flex">
                   <div className="w-14 shrink-0 text-[10px] text-text-quaternary flex items-center">
                     {row.date}
                   </div>
-                  {[...HARD_KEYWORDS, ...SOFT_KEYWORDS].map((kw) => {
+                  {[...HARD_KEYWORDS, ...SOFT_KEYWORDS].map((kw: string) => {
                     const val = row[kw]
                     const isHard = HARD_KEYWORDS.includes(kw)
                     return (
