@@ -1,13 +1,11 @@
 """
 Generate historical DRI data based on current real scraped data.
 
-Since scrapers only provide current snapshots (not historical),
-we generate realistic historical trends that converge to today's real values.
-
-This uses:
-1. Real current data as the endpoint
-2. Known events and patterns to simulate backwards
-3. Realistic volatility based on platform characteristics
+This script:
+1. Loads existing historical data if available
+2. Adds today's real scraped data
+3. Fills gaps with simulated data for older dates
+4. Preserves all real historical data points
 """
 
 import json
@@ -15,18 +13,97 @@ import math
 import random
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 
 from dri.realtime_scoring import RealtimeScorer
 from dri.actors_config import ACTORS
+
+# Path to the persistent history file
+HISTORY_FILE = Path(__file__).parent.parent.parent / "frontend/public/data/history.json"
+
+
+def load_existing_history() -> Dict[str, Dict[str, Any]]:
+    """Load existing historical data, keyed by date."""
+    if HISTORY_FILE.exists():
+        try:
+            with open(HISTORY_FILE, "r") as f:
+                data = json.load(f)
+                # Convert list to dict keyed by date for easy lookup
+                return {entry["date"]: entry for entry in data}
+        except (json.JSONDecodeError, KeyError):
+            pass
+    return {}
+
+
+def save_history(history: List[Dict[str, Any]]):
+    """Save history to persistent file."""
+    HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(HISTORY_FILE, "w") as f:
+        json.dump(history, f, indent=2)
+
+
+def generate_simulated_day(
+    date_str: str,
+    current_dri: float,
+    current_v: float,
+    current_r: float,
+    current_s: float,
+    current_p: float,
+    days_ago: int,
+    total_days: int
+) -> Dict[str, Any]:
+    """Generate simulated data for a single day."""
+    date = datetime.strptime(date_str, "%Y-%m-%d")
+    
+    # Base trend: scores were lower in the past (movement growing)
+    trend_factor = 1 - (days_ago / total_days) * 0.15  # 15% lower at start
+    
+    # Add weekly seasonality (weekends slightly higher)
+    day_of_week = date.weekday()
+    weekend_boost = 1.03 if day_of_week >= 5 else 1.0
+    
+    # Add random daily variation (seeded by date for consistency)
+    random.seed(hash(date_str))
+    daily_noise_v = random.gauss(0, 3)
+    daily_noise_r = random.gauss(0, 2)
+    daily_noise_s = random.gauss(0, 4)
+    daily_noise_p = random.gauss(0, 1)
+    
+    # Calculate historical values
+    v = current_v * trend_factor * weekend_boost + daily_noise_v
+    r = current_r * trend_factor + daily_noise_r
+    s = current_s * trend_factor + daily_noise_s
+    p = max(0, current_p * trend_factor + daily_noise_p)
+    
+    # Clamp to valid range
+    v = max(0, min(100, v))
+    r = max(0, min(100, r))
+    s = max(0, min(100, s))
+    p = max(0, min(100, p))
+    
+    # Calculate DRI
+    dri = 0.4 * v + 0.3 * r + 0.2 * s + 0.1 * p
+    dri = max(0, min(100, dri))
+    
+    return {
+        "date": date_str,
+        "dri": round(dri, 1),
+        "v_score": round(v, 1),
+        "r_score": round(r, 1),
+        "s_score": round(s, 1),
+        "p_score": round(p, 1),
+        "is_spike": False,
+        "data_quality": "simulated",
+    }
 
 
 def generate_historical_dri(days: int = 90) -> List[Dict[str, Any]]:
     """
     Generate historical DRI data for the past N days.
     
-    Uses today's real scraped data as the endpoint and works backwards
-    with realistic variation patterns.
+    - Preserves existing real data points
+    - Adds today's real data
+    - Fills gaps with simulated data
     """
     # Get today's real data
     scorer = RealtimeScorer(cache_dir='.scraper_cache')
@@ -42,32 +119,23 @@ def generate_historical_dri(days: int = 90) -> List[Dict[str, Any]]:
     print(f"Today's real DRI: {current_dri}")
     print(f"  V: {current_v}, R: {current_r}, S: {current_s}, P: {current_p}")
     
-    # Generate history working backwards
+    # Load existing history
+    existing = load_existing_history()
+    real_days = [d for d, v in existing.items() if v.get("data_quality") == "verified"]
+    print(f"Existing real data points: {len(real_days)}")
+    
+    # Build history
     history = []
-    
-    # Historical patterns (known events that would affect scores)
-    # These create realistic bumps and dips
-    events = [
-        # (days_ago, v_impact, r_impact, s_impact, p_impact, description)
-        (7, 5, 3, 8, 0, "Weekly content cycle"),
-        (14, -3, 2, -5, 0, "Mid-month lull"),
-        (21, 8, 5, 12, 5, "Major news cycle"),
-        (30, -5, -2, -8, 0, "Holiday period"),
-        (45, 10, 8, 15, 10, "Political event"),
-        (60, -8, -5, -10, -5, "Platform crackdown"),
-        (75, 5, 3, 5, 0, "Recovery period"),
-    ]
-    
-    # Create event lookup
-    event_effects = {e[0]: e[1:5] for e in events}
+    today = datetime.now()
+    today_str = today.strftime("%Y-%m-%d")
     
     for days_ago in range(days, -1, -1):
-        date = datetime.now() - timedelta(days=days_ago)
+        date = today - timedelta(days=days_ago)
         date_str = date.strftime("%Y-%m-%d")
         
-        if days_ago == 0:
-            # Today: use real data
-            history.append({
+        if date_str == today_str:
+            # Today: always use fresh real data
+            entry = {
                 "date": date_str,
                 "dri": round(current_dri, 1),
                 "v_score": round(current_v, 1),
@@ -76,55 +144,21 @@ def generate_historical_dri(days: int = 90) -> List[Dict[str, Any]]:
                 "p_score": round(current_p, 1),
                 "is_spike": False,
                 "data_quality": "verified",
-            })
+            }
+        elif date_str in existing and existing[date_str].get("data_quality") == "verified":
+            # Use existing real data
+            entry = existing[date_str]
         else:
-            # Historical: work backwards from current with decay
-            
-            # Base trend: scores were lower in the past (movement growing)
-            trend_factor = 1 - (days_ago / days) * 0.15  # 15% lower 90 days ago
-            
-            # Add weekly seasonality (weekends slightly higher)
-            day_of_week = date.weekday()
-            weekend_boost = 1.03 if day_of_week >= 5 else 1.0
-            
-            # Add random daily variation
-            daily_noise_v = random.gauss(0, 3)
-            daily_noise_r = random.gauss(0, 2)
-            daily_noise_s = random.gauss(0, 4)
-            daily_noise_p = random.gauss(0, 1)
-            
-            # Check for event effects
-            event_boost = event_effects.get(days_ago, (0, 0, 0, 0))
-            
-            # Calculate historical values
-            v = current_v * trend_factor * weekend_boost + daily_noise_v + event_boost[0]
-            r = current_r * trend_factor + daily_noise_r + event_boost[1]
-            s = current_s * trend_factor + daily_noise_s + event_boost[2]
-            p = max(0, current_p * trend_factor + daily_noise_p + event_boost[3])
-            
-            # Clamp to valid range
-            v = max(0, min(100, v))
-            r = max(0, min(100, r))
-            s = max(0, min(100, s))
-            p = max(0, min(100, p))
-            
-            # Calculate DRI
-            dri = 0.4 * v + 0.3 * r + 0.2 * s + 0.1 * p
-            dri = max(0, min(100, dri))
-            
-            # Detect spikes (>2 std dev from rolling average)
-            is_spike = abs(dri - current_dri * trend_factor) > 10
-            
-            history.append({
-                "date": date_str,
-                "dri": round(dri, 1),
-                "v_score": round(v, 1),
-                "r_score": round(r, 1),
-                "s_score": round(s, 1),
-                "p_score": round(p, 1),
-                "is_spike": is_spike,
-                "data_quality": "historical",
-            })
+            # Generate simulated data for this day
+            entry = generate_simulated_day(
+                date_str, current_dri, current_v, current_r, current_s, current_p,
+                days_ago, days
+            )
+        
+        history.append(entry)
+    
+    # Save updated history (preserves real data for future runs)
+    save_history(history)
     
     return history
 
