@@ -308,12 +308,21 @@ class RealtimeScorer:
         else:
             data_quality = "limited"
         
+        # Calculate total reach for tracking
+        total_reach = sum(
+            sum(pdata.get("total_followers", 0) for pdata in platform_breakdown.values())
+            for _ in [1]
+        )
+        
+        # Add total_reach to platform_breakdown for easy access
+        platform_breakdown["total_reach"] = total_reach
+        
         return DRIScore(
-            dri=round(dri, 1),
-            v_score=round(v_score, 1),
-            r_score=round(r_score, 1),
-            s_score=round(s_score, 1),
-            p_score=round(p_score, 1),
+            dri=round(dri, 2),
+            v_score=round(v_score, 2),
+            r_score=round(r_score, 2),
+            s_score=round(s_score, 2),
+            p_score=round(p_score, 2),
             computed_at=datetime.utcnow().isoformat(),
             data_quality=data_quality,
             top_actors=[a.to_dict() for a in actor_scores[:10]],

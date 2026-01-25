@@ -134,14 +134,15 @@ def generate_historical_dri(days: int = 90) -> List[Dict[str, Any]]:
         date_str = date.strftime("%Y-%m-%d")
         
         if date_str == today_str:
-            # Today: always use fresh real data
+            # Today: always use fresh real data (2 decimal places for precision)
             entry = {
                 "date": date_str,
-                "dri": round(current_dri, 1),
-                "v_score": round(current_v, 1),
-                "r_score": round(current_r, 1),
-                "s_score": round(current_s, 1),
-                "p_score": round(current_p, 1),
+                "dri": round(current_dri, 2),
+                "v_score": round(current_v, 2),
+                "r_score": round(current_r, 2),
+                "s_score": round(current_s, 2),
+                "p_score": round(current_p, 2),
+                "total_reach": today_score.platform_breakdown.get("total_reach", 0) if hasattr(today_score, "platform_breakdown") else 0,
                 "is_spike": False,
                 "data_quality": "verified",
             }
