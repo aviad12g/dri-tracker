@@ -1,0 +1,14 @@
+{
+ "code": 200,
+ "message": "OK",
+ "user": {
+  "screen_name": "NickJFuentes",
+  "id": "2442888666",
+  "followers": 1319306,
+  "following": 520,
+  "tweets": 8077,
+  "name": "Nicholas J. Fuentes",
+  "protected": false,
+  "joined": "Mon Apr 14 00:27:45 +0000 2014"
+ }
+}

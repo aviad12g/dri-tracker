@@ -1,0 +1,119 @@
+{
+ "date": "2026-11-17",
+ "started_at": "2026-11-17T08:53:44+00:00",
+ "finished_at": "2026-11-17T08:53:56+00:00",
+ "requests": 145,
+ "reports": [
+  {
+   "source": "adl_heat",
+   "ok": 69976,
+   "failed": [],
+   "skipped": null,
+   "note": "ADL H.E.A.T. Map public data; monthly counts by type, read in full"
+  },
+  {
+   "source": "apple_podcasts",
+   "ok": 2,
+   "failed": [],
+   "skipped": null,
+   "note": "Apple Podcasts US charts: overall top 100 and News top 200"
+  },
+  {
+   "source": "bitchute",
+   "ok": 6,
+   "failed": [],
+   "skipped": null,
+   "note": "BitChute public channel API; exact subscriber and lifetime view counts"
+  },
+  {
+   "source": "gdelt",
+   "ok": 26,
+   "failed": [
+    {
+     "entity": "nick_fuentes",
+     "account": "nick_fuentes",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "entity": "jake_shields",
+     "account": "jake_shields",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "entity": "enrique_tarrio",
+     "account": "enrique_tarrio",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "entity": "tucker_carlson",
+     "account": "tucker_carlson",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "entity": "alex_jones",
+     "account": "alex_jones",
+     "reason": "network error"
+    },
+    {
+     "entity": "mike_cernovich",
+     "account": "mike_cernovich",
+     "reason": "rate limited (HTTP 429)"
+    }
+   ],
+   "skipped": null,
+   "note": "GDELT DOC 2.0 API, US-sourced articles"
+  },
+  {
+   "source": "rumble",
+   "ok": 0,
+   "failed": [
+    {
+     "entity": "nick_fuentes",
+     "account": "nickjfuentes",
+     "reason": "blocked (HTTP 403)"
+    },
+    {
+     "entity": "stew_peters",
+     "account": "StewPeters",
+     "reason": "blocked (HTTP 403)"
+    }
+   ],
+   "skipped": "Rumble refused this client (HTTP 403); remaining channels not requested",
+   "note": "public channel pages; Rumble refuses many automated clients"
+  },
+  {
+   "source": "telegram",
+   "ok": 7,
+   "failed": [],
+   "skipped": null,
+   "note": "t.me public channel pages"
+  },
+  {
+   "source": "wikipedia",
+   "ok": 50,
+   "failed": [],
+   "skipped": null,
+   "note": "Wikimedia pageviews API, human traffic only"
+  },
+  {
+   "source": "x",
+   "ok": 25,
+   "failed": [
+    {
+     "entity": "jackson_hinkle",
+     "account": "jacksonhinklle",
+     "reason": "mirror did not return the profile (not found (HTTP 404), 4 tries)"
+    }
+   ],
+   "skipped": null,
+   "note": "FxTwitter public profile API (free third-party mirror of X profiles)"
+  },
+  {
+   "source": "youtube",
+   "ok": 17,
+   "failed": [],
+   "skipped": null,
+   "note": "subscribers from public channel pages (no YOUTUBE_API_KEY set)"
+  }
+ ]
+}

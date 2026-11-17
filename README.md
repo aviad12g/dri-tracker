@@ -1,189 +1,102 @@
-# DRI Tracker (Dissident Resonance Index)
+# DRI Tracker
 
-A research-grade OSINT monitoring dashboard that quantifies and visualizes online extremist movement activity through aggregate metrics and trend analysis.
+The Dissident Resonance Index (DRI) is a 0–100 index of how large the US far-right extremist media ecosystem is beside mainstream media, which way it is moving, and where its audience lives.
 
-## Overview
+It is deterministic: every figure in the index is a recorded public observation or computed from one. Nothing in it is simulated, interpolated or estimated, and rebuilding from the same commit produces the same bytes. Beside the index the dashboard shows two things that are not part of it: Rumble weekly views scaled for the views young uploads have yet to collect (a labelled estimate, shown with the recorded count), and counts of incidents the ADL recorded offline.
 
-The DRI (Dissident Resonance Index) is a composite 0-100 index that measures:
-- **V_score (Virality)**: How widely ideas are spreading across platforms
-- **R_score (Radicalization)**: How deep audiences are moving into fringe platforms
-- **S_score (Search Interest)**: Changes in search volume for tracked keywords
-- **P_score (Political Signal)**: Political mainstreaming indicators
-
-## Architecture
+## How it works
 
 ```
-/backend      - Python FastAPI backend (ingest, compute, API)
-/frontend     - Next.js dashboard with Tailwind CSS
-/db           - PostgreSQL migrations
+backend/dri/collectors   one module per public source; each returns observations and a list of what it could not read
+data/observations        append-only JSON-lines store, one file per source and month, committed to git
+backend/dri/model.py     seven pillars and their weighted composite, pure functions of the store
+frontend                 static Next.js dashboard built from frontend/public/data/index.json
 ```
 
-## Quick Start
+A daily GitHub Action runs the collectors, commits the new observations, rebuilds the dataset and publishes the site.
 
-### Prerequisites
-- Python 3.11+
-- Node.js 18+
-- PostgreSQL 14+
+## The index
 
-### Setup
+| Group | Pillar | What it measures | Weight |
+|---|---|---|---|
+| Scale | Reach | Share of the combined audience held by the extremism basket | 20% |
+| Scale | Engagement | Share of combined weekly views | 20% |
+| Scale | Mainstreaming | Share of Apple podcast-chart points | 10% |
+| Dynamics | Momentum | Annualised audience growth | 15% |
+| Dynamics | Breadth | Share of accounts that are growing | 8% |
+| Dynamics | Heat | Wikipedia and news attention against its trailing-year median | 12% |
+| Structure | Depth | How far the audience sits on low-moderation platforms | 15% |
 
-1. Clone and configure environment:
-```bash
-cp .env.sample .env
-# Edit .env with your API keys and database credentials
-```
+"Share" always means the extremism basket against itself plus a reference basket of twelve mainstream US news and commentary outlets. A pillar whose inputs were not recorded is withheld and the remaining weights are rescaled; if less than half the weight is available, no reading is published. Formulas and parameters are in [METHODOLOGY.md](METHODOLOGY.md).
 
-2. Setup database:
-```bash
-cd db
-psql -U postgres -c "CREATE DATABASE dri_tracker;"
-psql -U postgres -d dri_tracker -f migrations/001_initial_schema.sql
-```
+## Who is tracked
 
-3. Install backend dependencies:
+`backend/dri/registry/constituents.json` lists every constituent. An entry is accepted into the extremism basket only with a link to a profile published by a monitoring organisation (SPLC or ADL); the loader rejects entries without one. Those characterisations are the organisations' own. YouTube channels are pinned by channel ID and every collector checks identity, so a renamed or squatted handle cannot substitute another account.
+
+## Sources
+
+| Source | What is read | Access |
+|---|---|---|
+| YouTube | Subscribers, views on recent uploads, lifetime views | Public pages and feeds; free `YOUTUBE_API_KEY` recommended |
+| Telegram | Subscribers, views on the last week of posts | Public `t.me` pages |
+| BitChute | Subscribers, lifetime views | Public channel API |
+| Apple Podcasts | US chart positions, overall and News | Public Apple feeds |
+| Wikipedia | Daily page views per article | Wikimedia REST API |
+| GDELT | Daily count of US news articles per constituent | GDELT DOC 2.0 API |
+| X | Followers | Free: FxTwitter's public profile API, a third-party mirror. Official API used instead when `X_BEARER_TOKEN` is set |
+| Rumble | Followers, weekly views, views per upload week | Browser capture; Rumble refuses automated clients |
+| ADL H.E.A.T. Map | Incidents recorded offline, by month and type (not in the index) | Public JSON behind the ADL's map; read monthly |
+
+**Rumble.** The collector was refused (HTTP 403) from a cloud workspace and from GitHub Actions, so Rumble is read with a browser capture instead: open any rumble.com page, paste `backend/dri/tools/rumble_capture.js` into the DevTools console, save the JSON it prints under `data/captures/rumble/<date>.json`, and run `python -m dri import-capture <file>`. It records exact follower counts, the channel ID, views on the last week of uploads, and total views per upload week for up to a year. A follower reading counts for 10 days, so repeat the capture weekly. One capture shows views to date, which keep accumulating; from the second capture on, the build reports the views each channel actually gained in between.
+
+**X.** X sells API access and has no free tier for reading. Without a token the collector asks FxTwitter's public profile API (`api.fxtwitter.com`), an open-source mirror, which returns the numeric user ID, display name and follower count X shows. It is a third party: it can lag, vanish, or answer "not found" for an account that exists, so each handle gets four tries and an unread account is reported, not guessed. Mirror readings are tagged `origin: fxtwitter mirror`, every account is pinned by numeric ID, and `DRI_X_MIRROR=off` disables the route. Spot-check a few counts against the profile pages now and then; if the mirror goes away, the choices are the paid API or hand readings with `dri record`.
+
+**Take Rumble captures a week apart, on the same weekday.** The build compares the two to measure how fast young uploads are still gaining views, and uses that to judge each new week against the channel's own average.
+
+X's public embed endpoint, Gab and Truth Social were also tested and refuse automated readers, and Odysee's follower count needs a login, so they have no collector. For any registered account on a platform that cannot be read automatically, a figure read by hand can be stored with `python -m dri record x:tucker_carlson=17300000 --note "profile page"`; it is saved with `origin: manual` so it stays distinguishable from collected data.
+
+The collectors identify themselves with an honest User-Agent, pace their requests, and treat a refusal as final. A source that refuses is reported as blocked on the dashboard's data-quality page. Wikipedia and GDELT are asked for 400 days on every run, so a gap left by a rate-limited run refills on the next one.
+
+## Running it
+
+Requires Python 3.11+ and Node 20+. The backend has no runtime dependencies.
+
 ```bash
 cd backend
-python -m venv venv
-source venv/bin/activate  # or `venv\Scripts\activate` on Windows
-pip install -r requirements.txt
-```
+python -m dri registry                 # validate and list the registry
+python -m dri collect                  # read every source, record observations
+python -m dri collect --sources gdelt --entities nick_fuentes   # retry part of a source
+python -m dri record x:tucker_carlson=17300000   # store a follower count read by hand
+python -m dri import-capture ../data/captures/rumble/2026-11-17.json   # import a Rumble browser capture
+python -m dri collect --sources adl_heat   # monthly: re-read the ADL incident records (about 140 slow pages)
+python -m dri build                    # compute the index, write frontend/public/data/index.json
 
-4. Install frontend dependencies:
-```bash
-cd frontend
+pip install pytest && python -m pytest # tests
+
+cd ../frontend
 npm install
+npm run dev                            # http://localhost:3000
+npm run build                          # static site in frontend/out
 ```
 
-5. Seed demo data:
-```bash
-cd backend
-python -m dri.seed
-```
+Environment variables, all optional:
 
-6. Run the application:
-```bash
-# Terminal 1: Backend
-cd backend
-uvicorn dri.api:app --reload --port 8000
+| Variable | Effect |
+|---|---|
+| `YOUTUBE_API_KEY` | Records each channel's lifetime view counter, which is what makes the Engagement pillar publishable |
+| `X_BEARER_TOKEN` | Reads X through the official paid API instead of the free mirror |
+| `DRI_X_MIRROR` | Set to `off` to stop using the free X mirror |
+| `DRI_USER_AGENT` | Overrides the User-Agent; include a contact address |
+| `DRI_DATA` | Overrides the data directory |
 
-# Terminal 2: Frontend
-cd frontend
-npm run dev
-```
+## How it runs
 
-Visit http://localhost:3000 to view the dashboard.
+`.github/workflows/daily.yml` runs at 06:17 UTC on `main`: it tests, collects, rebuilds the dataset and commits the new observations. The site is hosted on Vercel (https://dri-tracker.vercel.app), which redeploys on every push to `main`, so each day's commit publishes itself. Add `YOUTUBE_API_KEY` as a repository secret under Settings → Secrets and variables → Actions.
 
-## CLI Commands
+## Limits
 
-```bash
-# Ingest data for a specific date
-python -m dri.ingest --date 2025-01-15
+Audience is not agreement, and followers are neither all in the US nor all human. The index does not read content. Offline incidents are shown beside it, not inside it. The depth and view-equivalence coefficients are stated judgements; the dashboard shows how far the reading moves when they change.
 
-# Compute DRI for a specific date
-python -m dri.compute --date 2025-01-15
+## Licence
 
-# Run both ingest and compute for yesterday
-python -m dri.daily_job
-```
-
-## API Keys Required
-
-| Platform | Key Type | Required | Notes |
-|----------|----------|----------|-------|
-| YouTube | Data API v3 | Yes | Free tier usually sufficient |
-| Telegram | API ID + Hash | Yes | Via my.telegram.org |
-| Google Trends | - | No | Uses pytrends library |
-| X/Twitter | - | No | Manual CSV upload supported |
-| TikTok | - | No | Manual CSV upload supported |
-| Rumble | - | No | Manual CSV upload supported |
-
-## Manual Data Upload Format
-
-For platforms without API access (X, TikTok, Rumble), upload CSV files with this format:
-
-```csv
-date,actor_id,platform,followers,views_total,shares_total,likes_total,comments_total
-2025-01-15,fuentes_nick,x,500000,1500000,25000,75000,12000
-```
-
-## Data Quality Model
-
-Each day's computation includes a quality assessment:
-- **Verified**: Data from official APIs with full coverage
-- **Partial**: Some platforms/actors missing
-- **Estimated**: Significant data gaps or manual entries
-
-The dashboard displays quality badges and the `dri_daily.data_quality_summary` field stores detailed JSON.
-
-## Formulas
-
-### Virality Velocity (V_vir)
-```
-V_vir(d) = SUM[ W_A(actor) * W_P(platform) * ((Views + 10*Shares) / 1) * ln(Followers) ]
-```
-
-### Radicalization Coefficient (R_rad)
-```
-R_rad(d) = (TelegramViews + RumblePeakConcurrents) / XFeederImpressions * 100
-```
-
-### Search Interest Delta (delta_S)
-```
-delta_S(d) = (Vol_hard(d) - mean_baseline) / std_baseline
-```
-
-### Political Signal (Pol)
-```
-Pol(d) = clip(SUM[score_delta for events on day], 0, 5)
-P_score(d) = 20 * Pol
-```
-
-### Master Index
-```
-DRI(d) = 0.4*V_score + 0.3*R_score + 0.2*S_score + 0.1*P_score
-```
-
-## Configuration
-
-Actor tier weights:
-- mega: 1.0
-- core: 1.5
-- prop: 1.2
-- control: 0.0 (excluded from DRI)
-
-Platform weights:
-- tiktok, youtube_short, reels: 1.0
-- x: 1.2
-- rumble, telegram, cozy: 1.5
-
-## Assumptions & Design Decisions
-
-1. **Daily granularity**: All metrics computed per-day, not real-time
-2. **Rolling normalization**: 90-day rolling window for Z-score calculations
-3. **Missing data handling**: Missing values flagged but computation continues
-4. **Control actors**: Included in data but excluded from DRI calculation
-5. **Keyword regions**: US and GLOBAL supported, US is default
-6. **Date handling**: All dates in UTC
-
-## Scheduling (Production)
-
-Use cron or systemd to run the daily job:
-
-```bash
-# Run at 6 AM UTC daily
-0 6 * * * cd /path/to/backend && /path/to/venv/bin/python -m dri.daily_job >> /var/log/dri/daily.log 2>&1
-```
-
-## Security Notes
-
-- This system is for OSINT research only
-- Only public data is collected
-- No personal identification or doxxing capabilities
-- Aggregate metrics only, no individual user tracking
-- Platform ToS respected
-
-## License
-
-MIT License - For research and analysis purposes only.
-
-
+MIT. For research and analysis.

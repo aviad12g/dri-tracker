@@ -1,0 +1,1222 @@
+{
+  "version": "2026.11.17.4",
+  "rules": {
+    "inclusion": "A constituent enters the extremism basket only if a monitoring organisation (SPLC, ADL) has published a profile or report documenting it, recorded under `basis`. The labels are those organisations' characterisations, not findings of this project.",
+    "core": "Profiled chiefly for white-nationalist, neo-Nazi, antisemitic or militia/accelerationist activity. Weight 1.0.",
+    "adjacent": "Profiled as a conspiracy propagandist, a male-supremacist influencer, or a large-audience commentator documented as platforming core figures. Weight 0.5.",
+    "exclusions": "Sitting officials and current candidates; figures whose audience is mostly non-political (entertainers, athletes); policy-advocacy organisations.",
+    "accounts": "An account is listed only after the live page was checked against the constituent (name, and platform ID where one exists). YouTube, BitChute and Rumble accounts are pinned by channel ID; the Rumble channels all carry Rumble's verified badge. BitChute has no verification badge, so those channels are matched on name and profile only. X accounts are pinned by X's numeric user ID after the profile's display name was checked against the constituent; a handle still marked `unverified` has not been read yet."
+  },
+  "constituents": [
+    {
+      "id": "nick_fuentes",
+      "name": "Nick Fuentes",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "white_nationalist",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/nick-fuentes/"
+        },
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/article/nicholas-j-fuentes-five-things-know"
+        }
+      ],
+      "accounts": {
+        "telegram": {
+          "handle": "nickjfuentes"
+        },
+        "x": {
+          "handle": "NickJFuentes",
+          "id": "2442888666"
+        },
+        "rumble": {
+          "handle": "nickjfuentes",
+          "id": "_c661227"
+        },
+        "bitchute": {
+          "handle": "americafirst",
+          "id": "I62Ccwuz8bZJ"
+        }
+      },
+      "wikipedia": [
+        "Nick_Fuentes"
+      ],
+      "news_query": "\"nick fuentes\""
+    },
+    {
+      "id": "stew_peters",
+      "name": "Stew Peters",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "antisemitic_conspiracy",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/stew-peters/"
+        },
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/article/stew-peters-five-things-know"
+        }
+      ],
+      "accounts": {
+        "telegram": {
+          "handle": "StewPeters"
+        },
+        "x": {
+          "handle": "realstewpeters",
+          "id": "1288319695658135552"
+        },
+        "rumble": {
+          "handle": "StewPeters",
+          "id": "_c399865"
+        },
+        "bitchute": {
+          "handle": "stewpeters",
+          "id": "IIbsI26vrHpd"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "6829087369",
+          "name": "The Stew Peters Show"
+        }
+      ],
+      "wikipedia": [
+        "Stew_Peters"
+      ],
+      "news_query": "\"stew peters\""
+    },
+    {
+      "id": "candace_owens",
+      "name": "Candace Owens",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "antisemitic_conspiracy",
+      "basis": [
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/backgrounder/candace-owens"
+        }
+      ],
+      "accounts": {
+        "youtube": {
+          "handle": "RealCandaceO",
+          "id": "UCL0u5uz7KZ9q-pe-VC8TY-w"
+        },
+        "x": {
+          "handle": "RealCandaceO",
+          "id": "878247600096509952"
+        },
+        "rumble": {
+          "handle": "RealCandaceO",
+          "id": "_c6401769"
+        }
+      },
+      "podcasts": [
+        {
+          "name": "Candace",
+          "match": "candace owens"
+        }
+      ],
+      "wikipedia": [
+        "Candace_Owens"
+      ],
+      "news_query": "\"candace owens\""
+    },
+    {
+      "id": "jackson_hinkle",
+      "name": "Jackson Hinkle",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "antisemitic_conspiracy",
+      "basis": [
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/article/far-right-influencers-x-promote-anti-zionism-hate-and-conspiracy-theories"
+        }
+      ],
+      "accounts": {
+        "telegram": {
+          "handle": "jacksonhinkle"
+        },
+        "x": {
+          "handle": "jacksonhinklle",
+          "unverified": true
+        }
+      },
+      "wikipedia": [
+        "Jackson_Hinkle"
+      ],
+      "news_query": "\"jackson hinkle\""
+    },
+    {
+      "id": "jake_shields",
+      "name": "Jake Shields",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "antisemitic_conspiracy",
+      "basis": [
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/article/far-right-influencers-x-promote-anti-zionism-hate-and-conspiracy-theories"
+        }
+      ],
+      "accounts": {
+        "x": {
+          "handle": "jakeshieldsajj",
+          "id": "80233893"
+        }
+      },
+      "wikipedia": [
+        "Jake_Shields"
+      ],
+      "news_query": "\"jake shields\""
+    },
+    {
+      "id": "lucas_gage",
+      "name": "Lucas Gage",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "antisemitic_conspiracy",
+      "basis": [
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/article/far-right-influencers-x-promote-anti-zionism-hate-and-conspiracy-theories"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Lucas_Gage"
+      ],
+      "news_query": "\"lucas gage\""
+    },
+    {
+      "id": "richard_spencer",
+      "name": "Richard Spencer",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "white_nationalist",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/richard-bertrand-spencer/"
+        }
+      ],
+      "accounts": {
+        "x": {
+          "handle": "RichardBSpencer",
+          "id": "402181258"
+        }
+      },
+      "wikipedia": [
+        "Richard_B._Spencer"
+      ]
+    },
+    {
+      "id": "jared_taylor",
+      "name": "Jared Taylor / American Renaissance",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "white_nationalist",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/jared-taylor/"
+        },
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/american-renaissance/"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Jared_Taylor",
+        "American_Renaissance_(magazine)"
+      ],
+      "news_query": "\"jared taylor\""
+    },
+    {
+      "id": "david_duke",
+      "name": "David Duke",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "white_nationalist",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/david-duke/"
+        }
+      ],
+      "accounts": {
+        "bitchute": {
+          "handle": "davidduke",
+          "id": "8kGlzKUqx41N"
+        }
+      },
+      "wikipedia": [
+        "David_Duke"
+      ],
+      "news_query": "\"david duke\""
+    },
+    {
+      "id": "peter_brimelow",
+      "name": "Peter Brimelow / VDARE",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "white_nationalist",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/peter-brimelow/"
+        },
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/vdare/"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Peter_Brimelow",
+        "VDARE"
+      ],
+      "news_query": "\"peter brimelow\""
+    },
+    {
+      "id": "stefan_molyneux",
+      "name": "Stefan Molyneux",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "white_nationalist",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/stefan-molyneux/"
+        }
+      ],
+      "accounts": {
+        "x": {
+          "handle": "StefanMolyneux",
+          "id": "313038011"
+        },
+        "bitchute": {
+          "handle": "freedomainradio",
+          "id": "JqEoP64bHDmk"
+        }
+      },
+      "wikipedia": [
+        "Stefan_Molyneux"
+      ],
+      "news_query": "\"stefan molyneux\""
+    },
+    {
+      "id": "andrew_anglin",
+      "name": "Andrew Anglin",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "neo_nazi",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/andrew-anglin/"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Andrew_Anglin"
+      ],
+      "news_query": "\"andrew anglin\""
+    },
+    {
+      "id": "mike_enoch",
+      "name": "Mike Enoch (Michael Peinovich)",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "white_nationalist",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/michael-enoch-peinovich/"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Mike_Enoch"
+      ]
+    },
+    {
+      "id": "e_michael_jones",
+      "name": "E. Michael Jones",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "antisemitic_conspiracy",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/e-michael-jones/"
+        }
+      ],
+      "accounts": {
+        "bitchute": {
+          "handle": "emichaeljones",
+          "id": "t3MyR9LjGVxd"
+        }
+      },
+      "wikipedia": [
+        "E._Michael_Jones"
+      ],
+      "news_query": "\"e. michael jones\""
+    },
+    {
+      "id": "stewart_rhodes",
+      "name": "Stewart Rhodes",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "militia",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/elmer-stewart-rhodes/"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Stewart_Rhodes"
+      ],
+      "news_query": "\"stewart rhodes\""
+    },
+    {
+      "id": "enrique_tarrio",
+      "name": "Enrique Tarrio",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "militia",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/proud-boys/"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Enrique_Tarrio"
+      ],
+      "news_query": "\"enrique tarrio\""
+    },
+    {
+      "id": "tucker_carlson",
+      "name": "Tucker Carlson",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "adjacent",
+      "cohort": "mainstream_amplifier",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/tucker-carlson/"
+        },
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/backgrounder/tucker-carlson"
+        }
+      ],
+      "accounts": {
+        "youtube": {
+          "handle": "TuckerCarlson",
+          "id": "UCGttrUON87gWfU6dMWm1fcA"
+        },
+        "x": {
+          "handle": "TuckerCarlson",
+          "id": "22703645"
+        },
+        "rumble": {
+          "handle": "TuckerCarlson",
+          "id": "_c3015526"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "1719657632",
+          "name": "The Tucker Carlson Show"
+        }
+      ],
+      "wikipedia": [
+        "Tucker_Carlson"
+      ],
+      "news_query": "\"tucker carlson\""
+    },
+    {
+      "id": "alex_jones",
+      "name": "Alex Jones / Infowars",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "adjacent",
+      "cohort": "conspiracy",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/alex-jones/"
+        },
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/backgrounder/alex-jones-five-things-know"
+        }
+      ],
+      "accounts": {
+        "x": {
+          "handle": "RealAlexJones",
+          "id": "109065990"
+        },
+        "bitchute": {
+          "handle": "banned-dot-video",
+          "id": "9c7qJvwx7YQT"
+        }
+      },
+      "wikipedia": [
+        "Alex_Jones",
+        "Infowars"
+      ],
+      "news_query": "\"alex jones\""
+    },
+    {
+      "id": "jack_posobiec",
+      "name": "Jack Posobiec",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "adjacent",
+      "cohort": "conspiracy",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/jack-posobiec/"
+        }
+      ],
+      "accounts": {
+        "youtube": {
+          "handle": "JackPosobiec",
+          "id": "UCCn76FWHperqtmfMe8EZJCg"
+        },
+        "x": {
+          "handle": "JackPosobiec",
+          "id": "592730371"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "1585243541",
+          "name": "Human Events Daily with Jack Posobiec"
+        }
+      ],
+      "wikipedia": [
+        "Jack_Posobiec"
+      ],
+      "news_query": "\"jack posobiec\""
+    },
+    {
+      "id": "mike_cernovich",
+      "name": "Mike Cernovich",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "adjacent",
+      "cohort": "conspiracy",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/mike-cernovich/"
+        }
+      ],
+      "accounts": {
+        "telegram": {
+          "handle": "Cernovich"
+        },
+        "x": {
+          "handle": "Cernovich",
+          "id": "358545917"
+        }
+      },
+      "wikipedia": [
+        "Mike_Cernovich"
+      ],
+      "news_query": "\"mike cernovich\""
+    },
+    {
+      "id": "andrew_tate",
+      "name": "Andrew Tate",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "adjacent",
+      "cohort": "male_supremacy",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/andrew-tate/"
+        }
+      ],
+      "accounts": {
+        "telegram": {
+          "handle": "TateSpeech"
+        },
+        "x": {
+          "handle": "Cobratate",
+          "id": "333357345"
+        },
+        "rumble": {
+          "handle": "TateSpeech",
+          "id": "_c1826927"
+        }
+      },
+      "wikipedia": [
+        "Andrew_Tate"
+      ],
+      "news_query": "\"andrew tate\""
+    },
+    {
+      "id": "michael_flynn",
+      "name": "Michael Flynn",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "adjacent",
+      "cohort": "conspiracy",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/michael-flynn/"
+        }
+      ],
+      "accounts": {
+        "telegram": {
+          "handle": "RealGenFlynn"
+        },
+        "x": {
+          "handle": "GenFlynn",
+          "id": "240454812"
+        }
+      },
+      "wikipedia": [
+        "Michael_Flynn"
+      ],
+      "news_query": "\"michael flynn\""
+    },
+    {
+      "id": "steve_bannon",
+      "name": "Steve Bannon / War Room",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "adjacent",
+      "cohort": "mainstream_amplifier",
+      "basis": [
+        {
+          "org": "ADL (as reported by The Forward)",
+          "url": "https://forward.com/fast-forward/698485/steve-bannon-nazi-salute-elon-musk-cpac"
+        }
+      ],
+      "accounts": {
+        "telegram": {
+          "handle": "bannonwarroom"
+        },
+        "rumble": {
+          "handle": "BannonsWarRoom",
+          "id": "_c307427"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "1485351658",
+          "name": "Bannon's War Room"
+        }
+      ],
+      "wikipedia": [
+        "Steve_Bannon"
+      ],
+      "news_query": "\"steve bannon\""
+    },
+    {
+      "id": "darryl_cooper",
+      "name": "Darryl Cooper (Martyr Made)",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "adjacent",
+      "cohort": "antisemitic_conspiracy",
+      "basis": [
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/backgrounder/tucker-carlson"
+        }
+      ],
+      "accounts": {
+        "youtube": {
+          "handle": "MartyrMade",
+          "id": "UCeDF9E2rwf_iQhcVGoFiqKQ"
+        },
+        "x": {
+          "handle": "martyrmade",
+          "id": "991741610718257152"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "978322714",
+          "name": "The Martyr Made Podcast"
+        }
+      ],
+      "wikipedia": [
+        "Darryl_Cooper"
+      ],
+      "news_query": "\"darryl cooper\""
+    },
+    {
+      "id": "ian_carroll",
+      "name": "Ian Carroll",
+      "kind": "person",
+      "basket": "extremism",
+      "tier": "adjacent",
+      "cohort": "antisemitic_conspiracy",
+      "basis": [
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/backgrounder/tucker-carlson"
+        }
+      ],
+      "accounts": {
+        "youtube": {
+          "handle": "IanCarrollShow",
+          "id": "UCCgpGpylCfrJIV-RwA_L7tg"
+        },
+        "x": {
+          "handle": "IanCarrollShow",
+          "id": "1663308107240570880"
+        }
+      },
+      "wikipedia": [],
+      "news_query": "\"ian carroll\""
+    },
+    {
+      "id": "groypers",
+      "name": "Groypers / America First",
+      "kind": "movement",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "white_nationalist",
+      "basis": [
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/backgrounders/groyper-army"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Groypers"
+      ],
+      "news_query": "(groyper OR groypers)"
+    },
+    {
+      "id": "proud_boys",
+      "name": "Proud Boys",
+      "kind": "movement",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "militia",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/proud-boys/"
+        },
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/backgrounder/proud-boys-0"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Proud_Boys"
+      ],
+      "news_query": "\"proud boys\""
+    },
+    {
+      "id": "patriot_front",
+      "name": "Patriot Front",
+      "kind": "movement",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "white_nationalist",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/patriot-front/"
+        },
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/backgrounder/patriot-front"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Patriot_Front"
+      ],
+      "news_query": "\"patriot front\""
+    },
+    {
+      "id": "oath_keepers",
+      "name": "Oath Keepers",
+      "kind": "movement",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "militia",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/oath-keepers/"
+        },
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/backgrounder/oath-keepers"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Oath_Keepers"
+      ],
+      "news_query": "\"oath keepers\""
+    },
+    {
+      "id": "three_percenters",
+      "name": "Three Percenters",
+      "kind": "movement",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "militia",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/three-percenters/"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Three_Percenters"
+      ],
+      "news_query": "(\"three percenters\" OR \"three percenter\")"
+    },
+    {
+      "id": "goyim_defense_league",
+      "name": "Goyim Defense League",
+      "kind": "movement",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "neo_nazi",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/goyim-defense-league/"
+        },
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/backgrounder/goyim-defense-league"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Goyim_Defense_League"
+      ],
+      "news_query": "\"goyim defense league\""
+    },
+    {
+      "id": "active_clubs",
+      "name": "Active Clubs",
+      "kind": "movement",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "neo_nazi",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/active-clubs/"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Active_Club_Network"
+      ],
+      "news_query": "(\"active club\" OR \"active clubs\") (\"white supremacist\" OR \"white nationalist\" OR \"neo-nazi\")"
+    },
+    {
+      "id": "great_replacement",
+      "name": "Great Replacement narrative",
+      "kind": "movement",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "white_nationalist",
+      "basis": [
+        {
+          "org": "ADL",
+          "url": "https://www.adl.org/resources/backgrounder/great-replacement-explainer"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "Great_Replacement_conspiracy_theory",
+        "White_genocide_conspiracy_theory"
+      ],
+      "news_query": "(\"great replacement\" OR \"white genocide\")"
+    },
+    {
+      "id": "white_nationalism",
+      "name": "White nationalism / alt-right",
+      "kind": "movement",
+      "basket": "extremism",
+      "tier": "core",
+      "cohort": "white_nationalist",
+      "basis": [
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/white-nationalist/"
+        },
+        {
+          "org": "SPLC",
+          "url": "https://www.splcenter.org/resources/extremist-files/alt-right/"
+        }
+      ],
+      "accounts": {},
+      "wikipedia": [
+        "White_nationalism",
+        "Alt-right"
+      ],
+      "news_query": "(\"white nationalist\" OR \"white nationalism\" OR \"white supremacist\")"
+    },
+    {
+      "id": "ref_fox_news",
+      "name": "Fox News",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "FoxNews",
+          "id": "UCXIJgqnII2ZOINSWNOGFThA"
+        },
+        "x": {
+          "handle": "FoxNews",
+          "id": "1367531"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "209991975",
+          "name": "Fox News Hourly Update"
+        }
+      ],
+      "wikipedia": [
+        "Fox_News"
+      ]
+    },
+    {
+      "id": "ref_cnn",
+      "name": "CNN",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "CNN",
+          "id": "UCupvZG-5ko_eiXAupbDfxWw"
+        },
+        "x": {
+          "handle": "CNN",
+          "id": "759251"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "377785090",
+          "name": "Fareed Zakaria GPS"
+        }
+      ],
+      "wikipedia": [
+        "CNN"
+      ]
+    },
+    {
+      "id": "ref_ms_now",
+      "name": "MS NOW",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "MSNOW",
+          "id": "UCaXkIU1QidjPwiAYu6GcHjg"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "294055449",
+          "name": "The Rachel Maddow Show"
+        },
+        {
+          "apple_id": "974299441",
+          "name": "Morning Joe"
+        }
+      ],
+      "wikipedia": [
+        "MS_NOW"
+      ]
+    },
+    {
+      "id": "ref_abc_news",
+      "name": "ABC News",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "ABCNews",
+          "id": "UCBi2mrWuNuyYy4gbM6fU18Q"
+        },
+        "x": {
+          "handle": "ABC",
+          "id": "28785486"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "1355180130",
+          "name": "Start Here"
+        }
+      ],
+      "wikipedia": [
+        "ABC_News_(United_States)"
+      ]
+    },
+    {
+      "id": "ref_nbc_news",
+      "name": "NBC News",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "NBCNews",
+          "id": "UCeY0bbntWzzVIaj2z3QigXg"
+        },
+        "x": {
+          "handle": "NBCNews",
+          "id": "14173315"
+        }
+      },
+      "wikipedia": [
+        "NBC_News"
+      ]
+    },
+    {
+      "id": "ref_cbs_news",
+      "name": "CBS News",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "CBSNews",
+          "id": "UC8p1vwvWtl6T73JiExfWs1g"
+        },
+        "x": {
+          "handle": "CBSNews",
+          "id": "15012486"
+        }
+      },
+      "wikipedia": [
+        "CBS_News"
+      ]
+    },
+    {
+      "id": "ref_npr",
+      "name": "NPR",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "NPR",
+          "id": "UCJnS2EsPfv46u1JR8cnD0NA"
+        },
+        "x": {
+          "handle": "NPR",
+          "id": "5392522"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "1222114325",
+          "name": "Up First from NPR"
+        }
+      ],
+      "wikipedia": [
+        "NPR"
+      ]
+    },
+    {
+      "id": "ref_nyt",
+      "name": "The New York Times",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "nytimes",
+          "id": "UCqnbDFdCpuN8CMEg0VuEBqA"
+        },
+        "x": {
+          "handle": "nytimes",
+          "id": "807095"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "1200361736",
+          "name": "The Daily"
+        }
+      ],
+      "wikipedia": [
+        "The_New_York_Times"
+      ]
+    },
+    {
+      "id": "ref_ben_shapiro",
+      "name": "Ben Shapiro / The Daily Wire",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "BenShapiro",
+          "id": "UCnQC_G5Xsjhp9fEJKuIcrSw"
+        },
+        "x": {
+          "handle": "benshapiro",
+          "id": "17995040"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "1047335260",
+          "name": "The Ben Shapiro Show"
+        },
+        {
+          "apple_id": "1576594336",
+          "name": "Morning Wire"
+        }
+      ],
+      "wikipedia": [
+        "Ben_Shapiro"
+      ]
+    },
+    {
+      "id": "ref_megyn_kelly",
+      "name": "Megyn Kelly",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "MegynKelly",
+          "id": "UCzJXNzqz6VMHSNInQt_7q6w"
+        },
+        "x": {
+          "handle": "megynkelly",
+          "id": "110445334"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "1532976305",
+          "name": "The Megyn Kelly Show"
+        }
+      ],
+      "wikipedia": [
+        "Megyn_Kelly"
+      ]
+    },
+    {
+      "id": "ref_meidastouch",
+      "name": "MeidasTouch",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "MeidasTouch",
+          "id": "UC9r9HYFxEQOBXSopFS61ZWg"
+        },
+        "x": {
+          "handle": "MeidasTouch",
+          "id": "1243560408025198593"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "1510240831",
+          "name": "The MeidasTouch Podcast"
+        }
+      ],
+      "wikipedia": [
+        "MeidasTouch"
+      ]
+    },
+    {
+      "id": "ref_pod_save_america",
+      "name": "Pod Save America",
+      "kind": "outlet",
+      "basket": "reference",
+      "tier": "reference",
+      "cohort": "reference",
+      "accounts": {
+        "youtube": {
+          "handle": "PodSaveAmerica",
+          "id": "UCKRoXz3hHAu2XL_k3Ef4vJQ"
+        },
+        "x": {
+          "handle": "PodSaveAmerica",
+          "id": "816869611480186880"
+        }
+      },
+      "podcasts": [
+        {
+          "apple_id": "1192761536",
+          "name": "Pod Save America"
+        }
+      ],
+      "wikipedia": [
+        "Pod_Save_America"
+      ]
+    }
+  ]
+}

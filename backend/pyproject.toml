@@ -1,0 +1,21 @@
+[project]
+name = "dri-tracker"
+version = "2.2.0"
+description = "Dissident Resonance Index: a deterministic index of the online reach of US far-right extremist media"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+dri = "dri.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dri*"]
+
+[tool.setuptools.package-data]
+dri = ["registry/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
