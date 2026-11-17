@@ -2,6 +2,8 @@
 
 from datetime import date, datetime, timezone
 
+import pytest
+
 from dri.collectors import gdelt, rumble, telegram, youtube
 from dri.http import Response
 from tests.conftest import fixture, make_registry, person
@@ -87,3 +89,82 @@ def test_gdelt_collect_records_articles_and_totals(tmp_path):
     assert report.ok == 1
     assert {r["metric"] for r in rows} == {"news_articles", "news_total"}
     assert all(r["date"] < TODAY.isoformat() for r in rows)
+
+
+class FlakyHttp:
+    """Answers "not found" a set number of times per URL before serving the body, as the X mirror does."""
+
+    def __init__(self, bodies, misses):
+        self.bodies, self.misses, self.calls = bodies, dict(misses), []
+
+    def get(self, url, **_):
+        self.calls.append(url)
+        if self.misses.get(url, 0) > 0:
+            self.misses[url] -= 1
+            return Response(404, "", url)
+        return Response(200, self.bodies[url], url) if url in self.bodies else Response(404, "", url)
+
+
+def test_x_mirror_retries_pins_identity_and_never_guesses(tmp_path, monkeypatch):
+    from dri.collectors import x
+    monkeypatch.delenv("X_BEARER_TOKEN", raising=False)
+    monkeypatch.delenv("DRI_X_MIRROR", raising=False)
+    pinned = person("fuentes", x="NickJFuentes")
+    pinned["accounts"]["x"]["id"] = "2442888666"
+    recycled = person("other", x="nickjfuentes")
+    recycled["accounts"]["x"]["id"] = "999"
+    gone = person("gone", x="Vanished")
+    reg = make_registry(tmp_path, [pinned, recycled, gone])
+    body = fixture("x_mirror_user.json")
+    http = FlakyHttp({x.MIRROR + "NickJFuentes": body, x.MIRROR + "nickjfuentes": body},
+                     {x.MIRROR + "NickJFuentes": 2})
+    rows, report = x.collect(reg, http, TODAY)
+    assert [(r["entity"], r["value"]) for r in rows] == [("fuentes", 1_319_306)]
+    assert rows[0]["meta"] == {"user_id": "2442888666", "name": "Nicholas J. Fuentes", "origin": "fxtwitter mirror"}
+    reasons = {f["entity"]: f["reason"] for f in report.failed}
+    assert "identity mismatch" in reasons["other"] and "did not return the profile" in reasons["gone"]
+    assert http.calls.count(x.MIRROR + "NickJFuentes") == 3 and http.calls.count(x.MIRROR + "Vanished") == x.MIRROR_TRIES
+
+
+def adl_record(rid, when, kind, ideology=""):
+    return {"id": str(rid), "attack_date": when, "type_of_attack": kind, "ideology": ideology,
+            "city": "Somewhere", "body": "text that must not be stored"}
+
+
+def test_adl_tally_counts_each_record_once_per_series():
+    from dri.collectors import adl_heat
+    records = [
+        adl_record(1, "03/2024", "Antisemitic Incident:Vandalism"),
+        adl_record(2, "3/9/2024", "Antisemitic Incident: Vandalism"),                       # same type, other spelling and date form
+        adl_record(3, "03/2024", "Antisemitic Incident:Harassment|White Supremacist Propaganda"),
+        adl_record(3, "03/2024", "Antisemitic Incident:Harassment|White Supremacist Propaganda"),  # repeated id
+        adl_record(4, "05/2024", "Extremist Murder|Terrorist Plot/Attack", "Right Wing (White Supremacist)"),
+        adl_record(5, "05/2024", "Terrorist Plot/Attack", "Islamist"),
+    ]
+    counts = adl_heat.tally(records)
+    assert counts[("2024-03-01", "antisemitic_incident_vandalism")] == 2
+    assert counts[("2024-03-01", "antisemitic_incident")] == 3                              # any subtype, once per record
+    assert counts[("2024-03-01", "white_supremacist_propaganda")] == 1
+    assert counts[("2024-05-01", "extremist_violence")] == 2
+    assert counts[("2024-05-01", "extremist_violence_right_wing")] == 1
+    assert counts[("2024-05-01", "terrorist_plot_attack")] == 2
+    rows = adl_heat.rows_from(counts)
+    april = {r["account"]: r["value"] for r in rows if r["date"] == "2024-04-01"}
+    assert april and set(april.values()) == {0}                                             # the empty month is written as zeros
+    assert all(set(r) == {"date", "source", "entity", "account", "metric", "value"} for r in rows)
+    with pytest.raises(adl_heat.ParseError):
+        adl_heat.month_of("spring 2024")
+
+
+def test_adl_collect_reads_every_page_or_records_nothing(tmp_path):
+    import json
+    from dri.collectors import adl_heat
+    pages = {f"{adl_heat.API}?page=0": (200, json.dumps([adl_record(1, "01/2025", "White Supremacist Event")])),
+             f"{adl_heat.API}?page=1": (200, json.dumps([adl_record(2, "02/2025", "White Supremacist Event")])),
+             f"{adl_heat.API}?page=2": (200, "[]")}
+    rows, report = adl_heat.collect(None, FakeHttp(pages), TODAY)
+    assert report.ok == 2 and not report.failed
+    assert {(r["date"], r["value"]) for r in rows if r["account"] == "white_supremacist_event"} == {("2025-01-01", 1), ("2025-02-01", 1)}
+    broken = {**pages, f"{adl_heat.API}?page=1": (503, "")}
+    rows, report = adl_heat.collect(None, FakeHttp(broken), TODAY)
+    assert rows == [] and report.failed[0]["account"] == "page 1"

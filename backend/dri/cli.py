@@ -11,7 +11,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from dri import registry as registry_mod
-from dri.collectors import COLLECTORS, INTERVALS
+from dri.collectors import COLLECTORS, INTERVALS, ON_REQUEST
 from dri.captures import CaptureError, rumble_rows
 from dri.export import build, write
 from dri.http import Http
@@ -29,7 +29,7 @@ def cmd_collect(args) -> int:
     reg = registry_mod.load()
     store = Store(data_root())
     today = date.fromisoformat(args.date) if args.date else datetime.now(timezone.utc).date()
-    names = args.sources.split(",") if args.sources else list(COLLECTORS)
+    names = args.sources.split(",") if args.sources else [n for n in COLLECTORS if n not in ON_REQUEST]
     unknown = [n for n in names if n not in COLLECTORS]
     if unknown:
         print(f"unknown source(s): {', '.join(unknown)}; choose from {', '.join(COLLECTORS)}", file=sys.stderr)
@@ -153,7 +153,8 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="dri", description="Dissident Resonance Index")
     sub = parser.add_subparsers(dest="command", required=True)
     c = sub.add_parser("collect", help="read public sources and record observations")
-    c.add_argument("--sources", help="comma-separated subset: " + ", ".join(COLLECTORS))
+    c.add_argument("--sources", help="comma-separated subset: " + ", ".join(COLLECTORS)
+                   + f" (default: all except {', '.join(ON_REQUEST)})")
     c.add_argument("--date", help="observation date (default: today, UTC)")
     c.add_argument("--entities", help="comma-separated constituent ids, to retry a subset")
     c.add_argument("--days", type=int, help="days of history to request from Wikipedia and GDELT (default 400, so gaps left by a failed run refill)")

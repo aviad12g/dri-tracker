@@ -4,12 +4,12 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 1319309,
      "growth_days": null,
      "handle": "NickJFuentes",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     },
     {
@@ -43,7 +43,7 @@
      "views_7d": 165800
     }
    ],
-   "audience": 737416.019626,
+   "audience": 1511409.482398,
    "basis": [
     {
      "org": "SPLC",
@@ -55,7 +55,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.057442,
+   "basket_share": 0.041704,
    "charts": [],
    "cohort": "white_nationalist",
    "id": "nick_fuentes",
@@ -73,12 +73,12 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 940386,
      "growth_days": null,
      "handle": "realstewpeters",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     },
     {
@@ -112,7 +112,7 @@
      "views_7d": 60667
     }
    ],
-   "audience": 598508.750497,
+   "audience": 1114692.133918,
    "basis": [
     {
      "org": "SPLC",
@@ -124,7 +124,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.046622,
+   "basket_share": 0.030757,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "stew_peters",
@@ -152,12 +152,12 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 7755633,
      "growth_days": null,
      "handle": "RealCandaceO",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     },
     {
@@ -171,7 +171,7 @@
      "views_7d": 168063
     }
    ],
-   "audience": 6092925.056687,
+   "audience": 9862736.890797,
    "basis": [
     {
      "org": "ADL",
@@ -179,7 +179,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.474618,
+   "basket_share": 0.272137,
    "charts": [
     {
      "chart": "news",
@@ -230,7 +230,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.002578,
+   "basket_share": 0.000913,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "jackson_hinkle",
@@ -248,16 +248,16 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 912893,
      "growth_days": null,
      "handle": "jakeshieldsajj",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 0.0,
+   "audience": 912893.0,
    "basis": [
     {
      "org": "ADL",
@@ -265,7 +265,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.0,
+   "basket_share": 0.025189,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "jake_shields",
@@ -307,16 +307,16 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 113849,
      "growth_days": null,
      "handle": "RichardBSpencer",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 0.0,
+   "audience": 113849.0,
    "basis": [
     {
      "org": "SPLC",
@@ -324,7 +324,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.0,
+   "basket_share": 0.003141,
    "charts": [],
    "cohort": "white_nationalist",
    "id": "richard_spencer",
@@ -388,7 +388,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.000316,
+   "basket_share": 0.000112,
    "charts": [],
    "cohort": "white_nationalist",
    "id": "david_duke",
@@ -435,12 +435,12 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 431365,
      "growth_days": null,
      "handle": "StefanMolyneux",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     },
     {
@@ -454,7 +454,7 @@
      "views_7d": null
     }
    ],
-   "audience": 81566.0,
+   "audience": 439008.855925,
    "basis": [
     {
      "org": "SPLC",
@@ -462,7 +462,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.006354,
+   "basket_share": 0.012113,
    "charts": [],
    "cohort": "white_nationalist",
    "id": "stefan_molyneux",
@@ -545,7 +545,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.001617,
+   "basket_share": 0.000573,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "e_michael_jones",
@@ -621,12 +621,12 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 17978587,
      "growth_days": null,
      "handle": "TuckerCarlson",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     },
     {
@@ -640,7 +640,7 @@
      "views_7d": 268219
     }
    ],
-   "audience": 5944253.70818,
+   "audience": 18935779.431114,
    "basis": [
     {
      "org": "SPLC",
@@ -652,7 +652,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.231519,
+   "basket_share": 0.261243,
    "charts": [
     {
      "chart": "news",
@@ -681,12 +681,12 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 4444637,
      "growth_days": null,
      "handle": "RealAlexJones",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     },
     {
@@ -700,7 +700,7 @@
      "views_7d": null
     }
    ],
-   "audience": 162438.0,
+   "audience": 4447604.317564,
    "basis": [
     {
      "org": "SPLC",
@@ -712,7 +712,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.006327,
+   "basket_share": 0.06136,
    "charts": [],
    "cohort": "conspiracy",
    "id": "alex_jones",
@@ -741,16 +741,16 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 3271026,
      "growth_days": null,
      "handle": "JackPosobiec",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 5900.0,
+   "audience": 3271031.320956,
    "basis": [
     {
      "org": "SPLC",
@@ -758,7 +758,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.00023,
+   "basket_share": 0.045128,
    "charts": [],
    "cohort": "conspiracy",
    "id": "jack_posobiec",
@@ -776,12 +776,12 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 1453205,
      "growth_days": null,
      "handle": "Cernovich",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     },
     {
@@ -795,7 +795,7 @@
      "views_7d": 0
     }
    ],
-   "audience": 2547.0,
+   "audience": 1453207.232033,
    "basis": [
     {
      "org": "SPLC",
@@ -803,7 +803,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 9.9e-05,
+   "basket_share": 0.020049,
    "charts": [],
    "cohort": "conspiracy",
    "id": "mike_cernovich",
@@ -821,12 +821,12 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 10685955,
      "growth_days": null,
      "handle": "Cobratate",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     },
     {
@@ -850,7 +850,7 @@
      "views_7d": 285490
     }
    ],
-   "audience": 2254257.253588,
+   "audience": 10921140.50946,
    "basis": [
     {
      "org": "SPLC",
@@ -858,7 +858,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.087799,
+   "basket_share": 0.150671,
    "charts": [],
    "cohort": "male_supremacy",
    "id": "andrew_tate",
@@ -876,12 +876,12 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 2281869,
      "growth_days": null,
      "handle": "GenFlynn",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     },
     {
@@ -895,7 +895,7 @@
      "views_7d": 555200
     }
    ],
-   "audience": 144570.0,
+   "audience": 2286444.099046,
    "basis": [
     {
      "org": "SPLC",
@@ -903,7 +903,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.005631,
+   "basket_share": 0.031544,
    "charts": [],
    "cohort": "conspiracy",
    "id": "michael_flynn",
@@ -948,7 +948,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.045217,
+   "basket_share": 0.016017,
    "charts": [
     {
      "chart": "news",
@@ -982,16 +982,16 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 360966,
      "growth_days": null,
      "handle": "martyrmade",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 53500.0,
+   "audience": 364909.171104,
    "basis": [
     {
      "org": "ADL",
@@ -999,7 +999,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.002084,
+   "basket_share": 0.005034,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "darryl_cooper",
@@ -1027,16 +1027,16 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 1399985,
      "growth_days": null,
      "handle": "IanCarrollShow",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 810000.0,
+   "audience": 1617423.259455,
    "basis": [
     {
      "org": "ADL",
@@ -1044,7 +1044,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.031548,
+   "basket_share": 0.022314,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "ian_carroll",
@@ -1308,19 +1308,19 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 29464703,
      "growth_days": null,
      "handle": "FoxNews",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 15600000.0,
+   "audience": 33339596.921352,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.141431,
+   "basket_share": 0.13343,
    "charts": [
     {
      "chart": "news",
@@ -1354,19 +1354,19 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 61730178,
      "growth_days": null,
      "handle": "CNN",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 20100000.0,
+   "audience": 64920142.297377,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.182229,
+   "basket_share": 0.259821,
    "charts": [
     {
      "chart": "news",
@@ -1402,7 +1402,7 @@
    "audience": 10100000.0,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.091568,
+   "basket_share": 0.040422,
    "charts": [
     {
      "chart": "news",
@@ -1441,19 +1441,19 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 18598921,
      "growth_days": null,
      "handle": "ABC",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 19900000.0,
+   "audience": 27238389.496522,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.180415,
+   "basket_share": 0.109012,
    "charts": [
     {
      "chart": "news",
@@ -1487,19 +1487,19 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 9282943,
      "growth_days": null,
      "handle": "NBCNews",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 12200000.0,
+   "audience": 15330134.726781,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.110606,
+   "basket_share": 0.061354,
    "charts": [],
    "cohort": "reference",
    "id": "ref_nbc_news",
@@ -1527,19 +1527,19 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 9863108,
      "growth_days": null,
      "handle": "CBSNews",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 7130000.0,
+   "audience": 12170365.623911,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.064641,
+   "basket_share": 0.048708,
    "charts": [],
    "cohort": "reference",
    "id": "ref_cbs_news",
@@ -1567,19 +1567,19 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 7703683,
      "growth_days": null,
      "handle": "NPR",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 931000.0,
+   "audience": 7759735.354024,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.008441,
+   "basket_share": 0.031056,
    "charts": [
     {
      "chart": "news",
@@ -1618,19 +1618,19 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 53860965,
      "growth_days": null,
      "handle": "nytimes",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 5350000.0,
+   "audience": 54126020.089521,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.048504,
+   "basket_share": 0.216621,
    "charts": [
     {
      "chart": "news",
@@ -1669,19 +1669,19 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 8853240,
      "growth_days": null,
      "handle": "benshapiro",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 6960000.0,
+   "audience": 11261503.385321,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.0631,
+   "basket_share": 0.04507,
    "charts": [
     {
      "chart": "news",
@@ -1730,19 +1730,19 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 3610390,
      "growth_days": null,
      "handle": "megynkelly",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 4190000.0,
+   "audience": 5530914.56742,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.037987,
+   "basket_share": 0.022136,
    "charts": [
     {
      "chart": "news",
@@ -1781,19 +1781,19 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 1355860,
      "growth_days": null,
      "handle": "MeidasTouch",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 6510000.0,
+   "audience": 6649695.958433,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.05902,
+   "basket_share": 0.026613,
    "charts": [
     {
      "chart": "news",
@@ -1832,19 +1832,19 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 548537,
      "growth_days": null,
      "handle": "PodSaveAmerica",
      "platform": "x",
-     "unverified": true,
+     "unverified": false,
      "views_7d": null
     }
    ],
-   "audience": 1330000.0,
+   "audience": 1438677.462244,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.012058,
+   "basket_share": 0.005758,
    "charts": [
     {
      "chart": "news",
@@ -1872,16 +1872,16 @@
  ],
  "headline": {
   "band": {
-   "high": 41.16,
-   "low": 29.52
+   "high": 43.21,
+   "low": 32.1
   },
   "change": {
    "d1": null,
    "d28": null,
    "d7": null
   },
-  "confidence": 0.5147,
-  "grade": "C",
+  "confidence": 0.6174,
+  "grade": "B",
   "pillars_used": [
    "reach",
    "mainstreaming",
@@ -1890,7 +1890,7 @@
    "heat",
    "depth"
   ],
-  "score": 33.48,
+  "score": 35.57,
   "weight_coverage": 0.8
  },
  "heat_series": {
@@ -6033,20 +6033,279 @@
   },
   "days_scored": 1,
   "first_scored": "2026-11-17",
-  "input_digest": "e2b033dd6d07790d41631d91a0f1b044c885fb073c915e9dfeca836f86b251a8",
+  "input_digest": "aa03d7f68ebeed472bd1b093c5a6b964a52649908738c90d1f756fb97c644630",
   "last_run": "2026-11-17",
-  "model_version": "2.2.0",
-  "registry_version": "2026.11.17.3",
+  "model_version": "2.3.0",
+  "registry_version": "2026.11.17.4",
   "rules": {
-   "accounts": "An account is listed only after the live page was checked against the constituent (name, and platform ID where one exists). YouTube, BitChute and Rumble accounts are pinned by channel ID; the Rumble channels all carry Rumble's verified badge. BitChute has no verification badge, so those channels are matched on name and profile only. X handles marked `unverified` are pinned on their first successful collection.",
+   "accounts": "An account is listed only after the live page was checked against the constituent (name, and platform ID where one exists). YouTube, BitChute and Rumble accounts are pinned by channel ID; the Rumble channels all carry Rumble's verified badge. BitChute has no verification badge, so those channels are matched on name and profile only. X accounts are pinned by X's numeric user ID after the profile's display name was checked against the constituent; a handle still marked `unverified` has not been read yet.",
    "adjacent": "Profiled as a conspiracy propagandist, a male-supremacist influencer, or a large-audience commentator documented as platforming core figures. Weight 0.5.",
    "core": "Profiled chiefly for white-nationalist, neo-Nazi, antisemitic or militia/accelerationist activity. Weight 1.0.",
    "exclusions": "Sitting officials and current candidates; figures whose audience is mostly non-political (entertainers, athletes); policy-advocacy organisations.",
    "inclusion": "A constituent enters the extremism basket only if a monitoring organisation (SPLC, ADL) has published a profile or report documenting it, recorded under `basis`. The labels are those organisations' characterisations, not findings of this project."
   }
  },
+ "offline": {
+  "first_year": 2016,
+  "last": "2026-07-01",
+  "series": [
+   {
+    "id": "antisemitic_incident",
+    "label": "Antisemitic incidents",
+    "last": "2026-07-01",
+    "note": "Assault, harassment and vandalism, whoever committed them",
+    "partial": {
+     "count": 1461,
+     "through": "2026-07-01",
+     "year": 2026
+    },
+    "total": 40183,
+    "years": [
+     {
+      "count": 1267,
+      "year": 2016
+     },
+     {
+      "count": 1986,
+      "year": 2017
+     },
+     {
+      "count": 1878,
+      "year": 2018
+     },
+     {
+      "count": 2107,
+      "year": 2019
+     },
+     {
+      "count": 2026,
+      "year": 2020
+     },
+     {
+      "count": 2717,
+      "year": 2021
+     },
+     {
+      "count": 3702,
+      "year": 2022
+     },
+     {
+      "count": 8872,
+      "year": 2023
+     },
+     {
+      "count": 9354,
+      "year": 2024
+     },
+     {
+      "count": 6274,
+      "year": 2025
+     }
+    ]
+   },
+   {
+    "id": "white_supremacist_propaganda",
+    "label": "White supremacist propaganda",
+    "last": "2023-12-01",
+    "note": "Flyers, banners, stickers and similar distributions",
+    "partial": null,
+    "total": 28712,
+    "years": [
+     {
+      "count": 428,
+      "year": 2017
+     },
+     {
+      "count": 1214,
+      "year": 2018
+     },
+     {
+      "count": 2724,
+      "year": 2019
+     },
+     {
+      "count": 5127,
+      "year": 2020
+     },
+     {
+      "count": 4876,
+      "year": 2021
+     },
+     {
+      "count": 6764,
+      "year": 2022
+     },
+     {
+      "count": 7579,
+      "year": 2023
+     }
+    ]
+   },
+   {
+    "id": "white_supremacist_event",
+    "label": "White supremacist events",
+    "last": "2026-06-01",
+    "note": "Rallies, marches and other organised gatherings",
+    "partial": {
+     "count": 50,
+     "through": "2026-06-01",
+     "year": 2026
+    },
+    "total": 1363,
+    "years": [
+     {
+      "count": 77,
+      "year": 2017
+     },
+     {
+      "count": 95,
+      "year": 2018
+     },
+     {
+      "count": 76,
+      "year": 2019
+     },
+     {
+      "count": 53,
+      "year": 2020
+     },
+     {
+      "count": 109,
+      "year": 2021
+     },
+     {
+      "count": 173,
+      "year": 2022
+     },
+     {
+      "count": 290,
+      "year": 2023
+     },
+     {
+      "count": 231,
+      "year": 2024
+     },
+     {
+      "count": 259,
+      "year": 2025
+     }
+    ]
+   },
+   {
+    "id": "extremist_violence_right_wing",
+    "label": "Right-wing extremist violence",
+    "last": "2026-05-01",
+    "note": "Murders, terrorist plots and attacks, and shootouts with police, by perpetrators the ADL classed as right-wing",
+    "partial": {
+     "count": 9,
+     "through": "2026-05-01",
+     "year": 2026
+    },
+    "total": 341,
+    "years": [
+     {
+      "count": 36,
+      "year": 2016
+     },
+     {
+      "count": 38,
+      "year": 2017
+     },
+     {
+      "count": 29,
+      "year": 2018
+     },
+     {
+      "count": 37,
+      "year": 2019
+     },
+     {
+      "count": 52,
+      "year": 2020
+     },
+     {
+      "count": 39,
+      "year": 2021
+     },
+     {
+      "count": 30,
+      "year": 2022
+     },
+     {
+      "count": 24,
+      "year": 2023
+     },
+     {
+      "count": 37,
+      "year": 2024
+     },
+     {
+      "count": 19,
+      "year": 2025
+     }
+    ]
+   },
+   {
+    "id": "extremist_violence",
+    "label": "Extremist violence, all ideologies",
+    "last": "2026-05-01",
+    "note": "The same three kinds of violence, whatever the ideology",
+    "partial": {
+     "count": 27,
+     "through": "2026-05-01",
+     "year": 2026
+    },
+    "total": 475,
+    "years": [
+     {
+      "count": 59,
+      "year": 2016
+     },
+     {
+      "count": 53,
+      "year": 2017
+     },
+     {
+      "count": 35,
+      "year": 2018
+     },
+     {
+      "count": 50,
+      "year": 2019
+     },
+     {
+      "count": 70,
+      "year": 2020
+     },
+     {
+      "count": 45,
+      "year": 2021
+     },
+     {
+      "count": 40,
+      "year": 2022
+     },
+     {
+      "count": 31,
+      "year": 2023
+     },
+     {
+      "count": 50,
+      "year": 2024
+     },
+     {
+      "count": 42,
+      "year": 2025
+     }
+    ]
+   }
+  ],
+  "source": "ADL H.E.A.T. Map",
+  "url": "https://www.adl.org/resources/tools-to-track-hate/heat-map"
+ },
  "params": {
   "baseline_days": 365,
+  "breadth_min_accounts": 5,
   "depth": {
    "bitchute": 0.9,
    "rumble": 0.8,
@@ -6054,6 +6313,7 @@
    "x": 0.5,
    "youtube": 0.15
   },
+  "growth_cap": 2.079442,
   "growth_lag": 28,
   "min_weight_coverage": 0.5,
   "overlap_q": 2.0,
@@ -6088,13 +6348,13 @@
  "pillars": [
   {
    "available": true,
-   "contribution": 2.61,
-   "coverage": 0.5806,
+   "contribution": 3.17,
+   "coverage": 0.9839,
    "detail": {
-    "accounts_observed": 36,
+    "accounts_observed": 61,
     "accounts_registered": 62,
-    "extremism_audience": 12837533.067598,
-    "reference_audience": 110301000.0
+    "extremism_audience": 36241743.293308,
+    "reference_audience": 249865175.882905
    },
    "explain": "Followers of the extremism basket as a share of its own plus the mainstream reference basket's.",
    "group": "scale",
@@ -6102,14 +6362,14 @@
    "history": [
     {
      "date": "2026-11-17",
-     "score": 10.43
+     "score": 12.67
     }
    ],
    "id": "reach",
    "label": "Reach",
-   "raw": 0.104253,
+   "raw": 0.126672,
    "reason": null,
-   "score": 10.43,
+   "score": 12.67,
    "weight": 0.2
   },
   {
@@ -6316,7 +6576,7 @@
   {
    "available": true,
    "contribution": 9.49,
-   "coverage": 0.375,
+   "coverage": 0.2368,
    "detail": {
     "accounts": 9,
     "annual_change": 0.017053,
@@ -6342,7 +6602,7 @@
   {
    "available": true,
    "contribution": 5.45,
-   "coverage": 0.375,
+   "coverage": 0.2368,
    "detail": {
     "accounts": 9,
     "growing": 5
@@ -6411,13 +6671,14 @@
   },
   {
    "available": true,
-   "contribution": 7.16,
-   "coverage": 0.6154,
+   "contribution": 8.7,
+   "coverage": 0.9744,
    "detail": {
     "audience_by_platform": {
      "bitchute": 209160.0,
      "rumble": 4188791.0,
      "telegram": 522100.5,
+     "x": 32411550.0,
      "youtube": 9404700.0
     }
    },
@@ -6431,14 +6692,14 @@
     },
     {
      "date": "2026-11-17",
-     "score": 38.2
+     "score": 46.38
     }
    ],
    "id": "depth",
    "label": "Depth",
-   "raw": 0.382002,
+   "raw": 0.463833,
    "reason": null,
-   "score": 38.2,
+   "score": 46.38,
    "weight": 0.15
   }
  ],
@@ -6454,10 +6715,10 @@
   },
   {
    "depth": 0.5,
-   "extremism_followers": 0.0,
-   "observed": 0,
+   "extremism_followers": 53349665.0,
+   "observed": 25,
    "platform": "x",
-   "reference_followers": 0.0,
+   "reference_followers": 204872528.0,
    "registered": 26,
    "view_equiv": 0.05
   },
@@ -6489,1211 +6750,4104 @@
    "view_equiv": 0.25
   }
  ],
+ "rumble_maturity": {
+  "baseline_min_weeks": 4,
+  "baseline_range": [
+   0.1,
+   0.9
+  ],
+  "baseline_weeks": 12,
+  "captures": 1,
+  "factors": [
+   {
+    "age": 0,
+    "high": 0.8939,
+    "low": 0.4895,
+    "m": 0.8227,
+    "n": 3
+   },
+   {
+    "age": 1,
+    "high": 1.0,
+    "low": 0.6742,
+    "m": 1.0,
+    "n": 3
+   },
+   {
+    "age": 2,
+    "high": 1.0,
+    "low": 0.9861,
+    "m": 1.0,
+    "n": 3
+   }
+  ],
+  "horizon": 12,
+  "method": "cross-section",
+  "reference_ages": [
+   3,
+   8
+  ],
+  "settled_age": 3
+ },
  "rumble_upload_weeks": [
   {
    "captured": "2026-11-17",
    "id": "nick_fuentes",
+   "latest": {
+    "adjusted": 516622.136305,
+    "adjusted_high": 868399.086226,
+    "adjusted_low": 475487.593371,
+    "age": 0,
+    "baseline": 3848816.333333,
+    "baseline_high": 5000312.9,
+    "baseline_low": 2149107.7,
+    "baseline_weeks": 12,
+    "date": "2026-11-09",
+    "maturity": 0.8227,
+    "status": "below",
+    "videos": 1,
+    "views": 425039,
+    "vs_baseline": -0.8658,
+    "vs_baseline_high": -0.7744,
+    "vs_baseline_low": -0.8765
+   },
    "name": "Nick Fuentes",
    "tier": "core",
    "total": 272260436,
    "weeks": [
     {
+     "adjusted": 8641419.0,
+     "adjusted_high": 8641419.0,
+     "adjusted_low": 8641419.0,
+     "age": 51,
      "date": "2025-11-17",
+     "maturity": 1.0,
      "videos": 11,
      "views": 8641419
     },
     {
+     "adjusted": 5008659.0,
+     "adjusted_high": 5008659.0,
+     "adjusted_low": 5008659.0,
+     "age": 50,
      "date": "2025-11-24",
+     "maturity": 1.0,
      "videos": 7,
      "views": 5008659
     },
     {
+     "adjusted": 8740490.0,
+     "adjusted_high": 8740490.0,
+     "adjusted_low": 8740490.0,
+     "age": 49,
      "date": "2025-12-01",
+     "maturity": 1.0,
      "videos": 14,
      "views": 8740490
     },
     {
+     "adjusted": 11255639.0,
+     "adjusted_high": 11255639.0,
+     "adjusted_low": 11255639.0,
+     "age": 48,
      "date": "2025-12-08",
+     "maturity": 1.0,
      "videos": 12,
      "views": 11255639
     },
     {
+     "adjusted": 8530102.0,
+     "adjusted_high": 8530102.0,
+     "adjusted_low": 8530102.0,
+     "age": 47,
+     "baseline": 8411551.75,
+     "baseline_high": 10501094.3,
+     "baseline_low": 6098487.0,
+     "baseline_weeks": 4,
      "date": "2025-12-15",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 8,
-     "views": 8530102
+     "views": 8530102,
+     "vs_baseline": 0.0141,
+     "vs_baseline_high": 0.0141,
+     "vs_baseline_low": 0.0141
     },
     {
+     "adjusted": 5528245.0,
+     "adjusted_high": 5528245.0,
+     "adjusted_low": 5528245.0,
+     "age": 46,
+     "baseline": 8435261.8,
+     "baseline_high": 10249579.4,
+     "baseline_low": 6417236.2,
+     "baseline_weeks": 5,
      "date": "2025-12-22",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 4,
-     "views": 5528245
+     "views": 5528245,
+     "vs_baseline": -0.3446,
+     "vs_baseline_high": -0.3446,
+     "vs_baseline_low": -0.3446
     },
     {
+     "adjusted": 2804639.0,
+     "adjusted_high": 2804639.0,
+     "adjusted_low": 2804639.0,
+     "age": 45,
+     "baseline": 7950759.0,
+     "baseline_high": 9998064.5,
+     "baseline_low": 5268452.0,
+     "baseline_weeks": 6,
      "date": "2025-12-29",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 2,
-     "views": 2804639
+     "views": 2804639,
+     "vs_baseline": -0.6472,
+     "vs_baseline_high": -0.6472,
+     "vs_baseline_low": -0.6472
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 44,
+     "baseline": 7215599.0,
+     "baseline_high": 9746549.6,
+     "baseline_low": 4127051.0,
+     "baseline_weeks": 7,
      "date": "2026-01-05",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 9304112.0,
+     "adjusted_high": 9304112.0,
+     "adjusted_low": 9304112.0,
+     "age": 43,
+     "baseline": 6313649.125,
+     "baseline_high": 9495034.7,
+     "baseline_low": 1963247.3,
+     "baseline_weeks": 8,
      "date": "2026-01-12",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 12,
-     "views": 9304112
+     "views": 9304112,
+     "vs_baseline": 0.4737,
+     "vs_baseline_high": 0.4737,
+     "vs_baseline_low": 0.4737
     },
     {
+     "adjusted": 7491541.0,
+     "adjusted_high": 7491541.0,
+     "adjusted_low": 7491541.0,
+     "age": 42,
+     "baseline": 6645922.777778,
+     "baseline_high": 9694417.4,
+     "baseline_low": 2243711.2,
+     "baseline_weeks": 9,
      "date": "2026-01-19",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 12,
-     "views": 7491541
+     "views": 7491541,
+     "vs_baseline": 0.1272,
+     "vs_baseline_high": 0.1272,
+     "vs_baseline_low": 0.1272
     },
     {
+     "adjusted": 7512029.0,
+     "adjusted_high": 7512029.0,
+     "adjusted_low": 7512029.0,
+     "age": 41,
+     "baseline": 6730484.6,
+     "baseline_high": 9499264.7,
+     "baseline_low": 2524175.1,
+     "baseline_weeks": 10,
      "date": "2026-01-26",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 11,
-     "views": 7512029
+     "views": 7512029,
+     "vs_baseline": 0.1161,
+     "vs_baseline_high": 0.1161,
+     "vs_baseline_low": 0.1161
     },
     {
+     "adjusted": 6707494.0,
+     "adjusted_high": 6707494.0,
+     "adjusted_low": 6707494.0,
+     "age": 40,
+     "baseline": 6801534.090909,
+     "baseline_high": 9304112.0,
+     "baseline_low": 2804639.0,
+     "baseline_weeks": 11,
      "date": "2026-02-02",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 6707494
+     "views": 6707494,
+     "vs_baseline": -0.0138,
+     "vs_baseline_high": -0.0138,
+     "vs_baseline_low": -0.0138
     },
     {
+     "adjusted": 5226019.0,
+     "adjusted_high": 5226019.0,
+     "adjusted_low": 5226019.0,
+     "age": 39,
+     "baseline": 6793697.416667,
+     "baseline_high": 9247749.8,
+     "baseline_low": 3025041.0,
+     "baseline_weeks": 12,
      "date": "2026-02-09",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 5226019
+     "views": 5226019,
+     "vs_baseline": -0.2308,
+     "vs_baseline_high": -0.2308,
+     "vs_baseline_low": -0.2308
     },
     {
+     "adjusted": 5324415.0,
+     "adjusted_high": 5324415.0,
+     "adjusted_low": 5324415.0,
+     "age": 38,
+     "baseline": 6509080.75,
+     "baseline_high": 9247749.8,
+     "baseline_low": 3025041.0,
+     "baseline_weeks": 12,
      "date": "2026-02-16",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 10,
-     "views": 5324415
+     "views": 5324415,
+     "vs_baseline": -0.182,
+     "vs_baseline_high": -0.182,
+     "vs_baseline_low": -0.182
     },
     {
+     "adjusted": 7361407.0,
+     "adjusted_high": 7361407.0,
+     "adjusted_low": 7361407.0,
+     "age": 37,
+     "baseline": 6535393.75,
+     "baseline_high": 9247749.8,
+     "baseline_low": 3046777.0,
+     "baseline_weeks": 12,
      "date": "2026-02-23",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 11,
-     "views": 7361407
+     "views": 7361407,
+     "vs_baseline": 0.1264,
+     "vs_baseline_high": 0.1264,
+     "vs_baseline_low": 0.1264
     },
     {
+     "adjusted": 6658557.0,
+     "adjusted_high": 6658557.0,
+     "adjusted_low": 6658557.0,
+     "age": 36,
+     "baseline": 6420470.166667,
+     "baseline_high": 9226711.0,
+     "baseline_low": 3046777.0,
+     "baseline_weeks": 12,
      "date": "2026-03-02",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 11,
-     "views": 6658557
+     "views": 6658557,
+     "vs_baseline": 0.0371,
+     "vs_baseline_high": 0.0371,
+     "vs_baseline_low": 0.0371
     },
     {
+     "adjusted": 6130798.0,
+     "adjusted_high": 6130798.0,
+     "adjusted_low": 6130798.0,
+     "age": 35,
+     "baseline": 6037380.0,
+     "baseline_high": 8428294.7,
+     "baseline_low": 3046777.0,
+     "baseline_weeks": 12,
      "date": "2026-03-09",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 11,
-     "views": 6130798
+     "views": 6130798,
+     "vs_baseline": 0.0155,
+     "vs_baseline_high": 0.0155,
+     "vs_baseline_low": 0.0155
     },
     {
+     "adjusted": 5809236.0,
+     "adjusted_high": 5809236.0,
+     "adjusted_low": 5809236.0,
+     "age": 34,
+     "baseline": 5837438.0,
+     "baseline_high": 7509980.2,
+     "baseline_low": 3046777.0,
+     "baseline_weeks": 12,
      "date": "2026-03-16",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 10,
-     "views": 5809236
+     "views": 5809236,
+     "vs_baseline": -0.0048,
+     "vs_baseline_high": -0.0048,
+     "vs_baseline_low": -0.0048
     },
     {
+     "adjusted": 5021221.0,
+     "adjusted_high": 5021221.0,
+     "adjusted_low": 5021221.0,
+     "age": 33,
+     "baseline": 5860853.916667,
+     "baseline_high": 7509980.2,
+     "baseline_low": 3046777.0,
+     "baseline_weeks": 12,
      "date": "2026-03-23",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 7,
-     "views": 5021221
+     "views": 5021221,
+     "vs_baseline": -0.1433,
+     "vs_baseline_high": -0.1433,
+     "vs_baseline_low": -0.1433
     },
     {
+     "adjusted": 4910385.0,
+     "adjusted_high": 4910385.0,
+     "adjusted_low": 4910385.0,
+     "age": 32,
+     "baseline": 6045569.083333,
+     "baseline_high": 7509980.2,
+     "baseline_low": 5041700.8,
+     "baseline_weeks": 12,
      "date": "2026-03-30",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 7,
-     "views": 4910385
+     "views": 4910385,
+     "vs_baseline": -0.1878,
+     "vs_baseline_high": -0.1878,
+     "vs_baseline_low": -0.1878
     },
     {
+     "adjusted": 9607212.0,
+     "adjusted_high": 9607212.0,
+     "adjusted_low": 9607212.0,
+     "age": 31,
+     "baseline": 6454767.833333,
+     "baseline_high": 7509980.2,
+     "baseline_low": 5041700.8,
+     "baseline_weeks": 12,
      "date": "2026-04-06",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 9,
-     "views": 9607212
+     "views": 9607212,
+     "vs_baseline": 0.4884,
+     "vs_baseline_high": 0.4884,
+     "vs_baseline_low": 0.4884
     },
     {
+     "adjusted": 1406546.0,
+     "adjusted_high": 1406546.0,
+     "adjusted_low": 1406546.0,
+     "age": 30,
+     "baseline": 6480026.166667,
+     "baseline_high": 7509980.2,
+     "baseline_low": 5041700.8,
+     "baseline_weeks": 12,
      "date": "2026-04-13",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 1,
-     "views": 1406546
+     "views": 1406546,
+     "vs_baseline": -0.7829,
+     "vs_baseline_high": -0.7829,
+     "vs_baseline_low": -0.7829
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 29,
+     "baseline": 5972943.25,
+     "baseline_high": 7496966.8,
+     "baseline_low": 4921468.6,
+     "baseline_weeks": 12,
      "date": "2026-04-20",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 7957436.0,
+     "adjusted_high": 7957436.0,
+     "adjusted_low": 7957436.0,
+     "age": 28,
+     "baseline": 5346940.833333,
+     "baseline_high": 7296015.7,
+     "baseline_low": 1756929.9,
+     "baseline_weeks": 12,
      "date": "2026-04-27",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 10,
-     "views": 7957436
+     "views": 7957436,
+     "vs_baseline": 0.4882,
+     "vs_baseline_high": 0.4882,
+     "vs_baseline_low": 0.4882
     },
     {
+     "adjusted": 6030424.0,
+     "adjusted_high": 6030424.0,
+     "adjusted_low": 6030424.0,
+     "age": 27,
+     "baseline": 5451102.666667,
+     "baseline_high": 7897833.1,
+     "baseline_low": 1756929.9,
+     "baseline_weeks": 12,
      "date": "2026-05-04",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 6030424
+     "views": 6030424,
+     "vs_baseline": 0.1063,
+     "vs_baseline_high": 0.1063,
+     "vs_baseline_low": 0.1063
     },
     {
+     "adjusted": 7028495.0,
+     "adjusted_high": 7028495.0,
+     "adjusted_low": 7028495.0,
+     "age": 26,
+     "baseline": 5518136.416667,
+     "baseline_high": 7897833.1,
+     "baseline_low": 1756929.9,
+     "baseline_weeks": 12,
      "date": "2026-05-11",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 10,
-     "views": 7028495
+     "views": 7028495,
+     "vs_baseline": 0.2737,
+     "vs_baseline_high": 0.2737,
+     "vs_baseline_low": 0.2737
     },
     {
+     "adjusted": 7004342.0,
+     "adjusted_high": 7004342.0,
+     "adjusted_low": 7004342.0,
+     "age": 25,
+     "baseline": 5660143.083333,
+     "baseline_high": 7897833.1,
+     "baseline_low": 1756929.9,
+     "baseline_weeks": 12,
      "date": "2026-05-18",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 11,
-     "views": 7004342
+     "views": 7004342,
+     "vs_baseline": 0.2375,
+     "vs_baseline_high": 0.2375,
+     "vs_baseline_low": 0.2375
     },
     {
+     "adjusted": 4766491.0,
+     "adjusted_high": 4766491.0,
+     "adjusted_low": 4766491.0,
+     "age": 24,
+     "baseline": 5630387.666667,
+     "baseline_high": 7864541.9,
+     "baseline_low": 1756929.9,
+     "baseline_weeks": 12,
      "date": "2026-05-25",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 7,
-     "views": 4766491
+     "views": 4766491,
+     "vs_baseline": -0.1534,
+     "vs_baseline_high": -0.1534,
+     "vs_baseline_low": -0.1534
     },
     {
+     "adjusted": 5535608.0,
+     "adjusted_high": 5535608.0,
+     "adjusted_low": 5535608.0,
+     "age": 23,
+     "baseline": 5472715.5,
+     "baseline_high": 7864541.9,
+     "baseline_low": 1742540.5,
+     "baseline_weeks": 12,
      "date": "2026-06-01",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 5535608
+     "views": 5535608,
+     "vs_baseline": 0.0115,
+     "vs_baseline_high": 0.0115,
+     "vs_baseline_low": 0.0115
     },
     {
+     "adjusted": 5326810.0,
+     "adjusted_high": 5326810.0,
+     "adjusted_low": 5326810.0,
+     "age": 22,
+     "baseline": 5423116.333333,
+     "baseline_high": 7864541.9,
+     "baseline_low": 1742540.5,
+     "baseline_weeks": 12,
      "date": "2026-06-08",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 5326810
+     "views": 5326810,
+     "vs_baseline": -0.0178,
+     "vs_baseline_high": -0.0178,
+     "vs_baseline_low": -0.0178
     },
     {
+     "adjusted": 5071133.0,
+     "adjusted_high": 5071133.0,
+     "adjusted_low": 5071133.0,
+     "age": 21,
+     "baseline": 5382914.166667,
+     "baseline_high": 7864541.9,
+     "baseline_low": 1742540.5,
+     "baseline_weeks": 12,
      "date": "2026-06-15",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 5071133
+     "views": 5071133,
+     "vs_baseline": -0.0579,
+     "vs_baseline_high": -0.0579,
+     "vs_baseline_low": -0.0579
     },
     {
+     "adjusted": 4527591.0,
+     "adjusted_high": 4527591.0,
+     "adjusted_low": 4527591.0,
+     "age": 20,
+     "baseline": 5387073.5,
+     "baseline_high": 7864541.9,
+     "baseline_low": 1742540.5,
+     "baseline_weeks": 12,
      "date": "2026-06-22",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 4527591
+     "views": 4527591,
+     "vs_baseline": -0.1595,
+     "vs_baseline_high": -0.1595,
+     "vs_baseline_low": -0.1595
     },
     {
+     "adjusted": 4118957.0,
+     "adjusted_high": 4118957.0,
+     "adjusted_low": 4118957.0,
+     "age": 19,
+     "baseline": 5355174.0,
+     "baseline_high": 7864541.9,
+     "baseline_low": 1718650.5,
+     "baseline_weeks": 12,
      "date": "2026-06-29",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 4118957
+     "views": 4118957,
+     "vs_baseline": -0.2308,
+     "vs_baseline_high": -0.2308,
+     "vs_baseline_low": -0.2308
     },
     {
+     "adjusted": 5380901.0,
+     "adjusted_high": 5380901.0,
+     "adjusted_low": 5380901.0,
+     "age": 18,
+     "baseline": 4897819.416667,
+     "baseline_high": 7026079.7,
+     "baseline_low": 1677787.1,
+     "baseline_weeks": 12,
      "date": "2026-07-06",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 12,
-     "views": 5380901
+     "views": 5380901,
+     "vs_baseline": 0.0986,
+     "vs_baseline_high": 0.0986,
+     "vs_baseline_low": 0.0986
     },
     {
+     "adjusted": 4521473.0,
+     "adjusted_high": 4521473.0,
+     "adjusted_low": 4521473.0,
+     "age": 17,
+     "baseline": 5229015.666667,
+     "baseline_high": 7026079.7,
+     "baseline_low": 4159820.4,
+     "baseline_weeks": 12,
      "date": "2026-07-13",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 4521473
+     "views": 4521473,
+     "vs_baseline": -0.1353,
+     "vs_baseline_high": -0.1353,
+     "vs_baseline_low": -0.1353
     },
     {
+     "adjusted": 5386655.0,
+     "adjusted_high": 5386655.0,
+     "adjusted_low": 5386655.0,
+     "age": 16,
+     "baseline": 5605805.083333,
+     "baseline_high": 7026079.7,
+     "baseline_low": 4522084.8,
+     "baseline_weeks": 12,
      "date": "2026-07-20",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 10,
-     "views": 5386655
+     "views": 5386655,
+     "vs_baseline": -0.0391,
+     "vs_baseline_high": -0.0391,
+     "vs_baseline_low": -0.0391
     },
     {
+     "adjusted": 5051576.0,
+     "adjusted_high": 5051576.0,
+     "adjusted_low": 5051576.0,
+     "age": 15,
+     "baseline": 5391573.333333,
+     "baseline_high": 6906950.2,
+     "baseline_low": 4522084.8,
+     "baseline_weeks": 12,
      "date": "2026-07-27",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 5051576
+     "views": 5051576,
+     "vs_baseline": -0.0631,
+     "vs_baseline_high": -0.0631,
+     "vs_baseline_low": -0.0631
     },
     {
+     "adjusted": 5703162.0,
+     "adjusted_high": 5703162.0,
+     "adjusted_low": 5703162.0,
+     "age": 14,
+     "baseline": 5310002.666667,
+     "baseline_high": 6857468.6,
+     "baseline_low": 4522084.8,
+     "baseline_weeks": 12,
      "date": "2026-08-03",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 11,
-     "views": 5703162
+     "views": 5703162,
+     "vs_baseline": 0.074,
+     "vs_baseline_high": 0.074,
+     "vs_baseline_low": 0.074
     },
     {
+     "adjusted": 3258382.0,
+     "adjusted_high": 3258382.0,
+     "adjusted_low": 3258382.0,
+     "age": 13,
+     "baseline": 5199558.25,
+     "baseline_high": 5686406.6,
+     "baseline_low": 4522084.8,
+     "baseline_weeks": 12,
      "date": "2026-08-10",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 5,
-     "views": 3258382
+     "views": 3258382,
+     "vs_baseline": -0.3733,
+     "vs_baseline_high": -0.3733,
+     "vs_baseline_low": -0.3733
     },
     {
+     "adjusted": 4912184.0,
+     "adjusted_high": 4912184.0,
+     "adjusted_low": 4912184.0,
+     "age": 12,
+     "baseline": 4887394.916667,
+     "baseline_high": 5520712.7,
+     "baseline_low": 4159208.6,
+     "baseline_weeks": 12,
      "date": "2026-08-17",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 4912184
+     "views": 4912184,
+     "vs_baseline": 0.0051,
+     "vs_baseline_high": 0.0051,
+     "vs_baseline_low": 0.0051
     },
     {
+     "adjusted": 3844304.0,
+     "adjusted_high": 3844304.0,
+     "adjusted_low": 3844304.0,
+     "age": 11,
+     "baseline": 4899536.0,
+     "baseline_high": 5520712.7,
+     "baseline_low": 4159208.6,
+     "baseline_weeks": 12,
      "date": "2026-08-24",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 7,
-     "views": 3844304
+     "views": 3844304,
+     "vs_baseline": -0.2154,
+     "vs_baseline_high": -0.2154,
+     "vs_baseline_low": -0.2154
     },
     {
+     "adjusted": 4026330.0,
+     "adjusted_high": 4026330.0,
+     "adjusted_low": 4026330.0,
+     "age": 10,
+     "baseline": 4758594.0,
+     "baseline_high": 5386079.6,
+     "baseline_low": 3871769.3,
+     "baseline_weeks": 12,
      "date": "2026-08-31",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 7,
-     "views": 4026330
+     "views": 4026330,
+     "vs_baseline": -0.1539,
+     "vs_baseline_high": -0.1539,
+     "vs_baseline_low": -0.1539
     },
     {
+     "adjusted": 3390304.0,
+     "adjusted_high": 3390304.0,
+     "adjusted_low": 3390304.0,
+     "age": 9,
+     "baseline": 4650220.666667,
+     "baseline_high": 5386079.6,
+     "baseline_low": 3862506.6,
+     "baseline_weeks": 12,
      "date": "2026-09-07",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 6,
-     "views": 3390304
+     "views": 3390304,
+     "vs_baseline": -0.2709,
+     "vs_baseline_high": -0.2709,
+     "vs_baseline_low": -0.2709
     },
     {
+     "adjusted": 4247551.0,
+     "adjusted_high": 4247551.0,
+     "adjusted_low": 4247551.0,
+     "age": 8,
+     "baseline": 4510151.583333,
+     "baseline_high": 5386079.6,
+     "baseline_low": 3435704.0,
+     "baseline_weeks": 12,
      "date": "2026-09-14",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 4247551
+     "views": 4247551,
+     "vs_baseline": -0.0582,
+     "vs_baseline_high": -0.0582,
+     "vs_baseline_low": -0.0582
     },
     {
+     "adjusted": 5010105.0,
+     "adjusted_high": 5010105.0,
+     "adjusted_low": 5010105.0,
+     "age": 7,
+     "baseline": 4486814.916667,
+     "baseline_high": 5386079.6,
+     "baseline_low": 3435704.0,
+     "baseline_weeks": 12,
      "date": "2026-09-21",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 11,
-     "views": 5010105
+     "views": 5010105,
+     "vs_baseline": 0.1166,
+     "vs_baseline_high": 0.1166,
+     "vs_baseline_low": 0.1166
     },
     {
+     "adjusted": 4677295.0,
+     "adjusted_high": 4677295.0,
+     "adjusted_low": 4677295.0,
+     "age": 6,
+     "baseline": 4561077.25,
+     "baseline_high": 5386079.6,
+     "baseline_low": 3435704.0,
+     "baseline_weeks": 12,
      "date": "2026-09-28",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 4677295
+     "views": 4677295,
+     "vs_baseline": 0.0255,
+     "vs_baseline_high": 0.0255,
+     "vs_baseline_low": 0.0255
     },
     {
+     "adjusted": 5271835.0,
+     "adjusted_high": 5271835.0,
+     "adjusted_low": 5271835.0,
+     "age": 5,
+     "baseline": 4502443.416667,
+     "baseline_high": 5353147.1,
+     "baseline_low": 3435704.0,
+     "baseline_weeks": 12,
      "date": "2026-10-05",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 10,
-     "views": 5271835
+     "views": 5271835,
+     "vs_baseline": 0.1709,
+     "vs_baseline_high": 0.1709,
+     "vs_baseline_low": 0.1709
     },
     {
+     "adjusted": 4156422.0,
+     "adjusted_high": 4156422.0,
+     "adjusted_low": 4156422.0,
+     "age": 4,
+     "baseline": 4564973.583333,
+     "baseline_high": 5375173.0,
+     "baseline_low": 3435704.0,
+     "baseline_weeks": 12,
      "date": "2026-10-12",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 8,
-     "views": 4156422
+     "views": 4156422,
+     "vs_baseline": -0.0895,
+     "vs_baseline_high": -0.0895,
+     "vs_baseline_low": -0.0895
     },
     {
+     "adjusted": 4638269.0,
+     "adjusted_high": 4638269.0,
+     "adjusted_low": 4638269.0,
+     "age": 3,
+     "baseline": 4462454.166667,
+     "baseline_high": 5249809.1,
+     "baseline_low": 3435704.0,
+     "baseline_weeks": 12,
      "date": "2026-10-19",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 9,
-     "views": 4638269
+     "views": 4638269,
+     "vs_baseline": 0.0394,
+     "vs_baseline_high": 0.0394,
+     "vs_baseline_low": 0.0394
     },
     {
+     "adjusted": 2011197.0,
+     "adjusted_high": 2039531.028594,
+     "adjusted_low": 2011197.0,
+     "age": 2,
+     "baseline": 4428011.916667,
+     "baseline_high": 5245662.0,
+     "baseline_low": 3435704.0,
+     "baseline_weeks": 12,
      "date": "2026-10-26",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 4,
-     "views": 2011197
+     "views": 2011197,
+     "vs_baseline": -0.5458,
+     "vs_baseline_high": -0.5394,
+     "vs_baseline_low": -0.5458
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 1,
+     "baseline": 4120348.166667,
+     "baseline_high": 5000312.9,
+     "baseline_low": 3271574.2,
+     "baseline_weeks": 12,
      "date": "2026-11-02",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 516622.136305,
+     "adjusted_high": 868399.086226,
+     "adjusted_low": 475487.593371,
+     "age": 0,
+     "baseline": 3848816.333333,
+     "baseline_high": 5000312.9,
+     "baseline_low": 2149107.7,
+     "baseline_weeks": 12,
      "date": "2026-11-09",
+     "maturity": 0.8227,
+     "status": "below",
      "videos": 1,
-     "views": 425039
+     "views": 425039,
+     "vs_baseline": -0.8658,
+     "vs_baseline_high": -0.7744,
+     "vs_baseline_low": -0.8765
     }
    ]
   },
   {
    "captured": "2026-11-17",
    "id": "candace_owens",
+   "latest": {
+    "adjusted": 309407.602064,
+    "adjusted_high": 520088.590909,
+    "adjusted_low": 284771.916914,
+    "age": 0,
+    "baseline": 532790.833333,
+    "baseline_high": 875144.6,
+    "baseline_low": 35065.0,
+    "baseline_weeks": 12,
+    "date": "2026-11-09",
+    "maturity": 0.8227,
+    "status": "usual",
+    "videos": 3,
+    "views": 254558,
+    "vs_baseline": -0.4193,
+    "vs_baseline_high": -0.0238,
+    "vs_baseline_low": -0.4655
+   },
    "name": "Candace Owens",
    "tier": "core",
    "total": 38201306,
    "weeks": [
     {
+     "adjusted": 883224.0,
+     "adjusted_high": 883224.0,
+     "adjusted_low": 883224.0,
+     "age": 52,
      "date": "2025-11-10",
+     "maturity": 1.0,
      "videos": 4,
      "views": 883224
     },
     {
+     "adjusted": 1111999.0,
+     "adjusted_high": 1111999.0,
+     "adjusted_low": 1111999.0,
+     "age": 51,
      "date": "2025-11-17",
+     "maturity": 1.0,
      "videos": 5,
      "views": 1111999
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 50,
      "date": "2025-11-24",
+     "maturity": 1.0,
      "videos": 0,
      "views": 0
     },
     {
+     "adjusted": 1001799.0,
+     "adjusted_high": 1001799.0,
+     "adjusted_low": 1001799.0,
+     "age": 49,
      "date": "2025-12-01",
+     "maturity": 1.0,
      "videos": 5,
      "views": 1001799
     },
     {
+     "adjusted": 924976.0,
+     "adjusted_high": 924976.0,
+     "adjusted_low": 924976.0,
+     "age": 48,
+     "baseline": 749255.5,
+     "baseline_high": 1078939.0,
+     "baseline_low": 264967.2,
+     "baseline_weeks": 4,
      "date": "2025-12-08",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 924976
+     "views": 924976,
+     "vs_baseline": 0.2345,
+     "vs_baseline_high": 0.2345,
+     "vs_baseline_low": 0.2345
     },
     {
+     "adjusted": 1652003.0,
+     "adjusted_high": 1652003.0,
+     "adjusted_low": 1652003.0,
+     "age": 47,
+     "baseline": 784399.6,
+     "baseline_high": 1067919.0,
+     "baseline_low": 353289.6,
+     "baseline_weeks": 5,
      "date": "2025-12-15",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 4,
-     "views": 1652003
+     "views": 1652003,
+     "vs_baseline": 1.1061,
+     "vs_baseline_high": 1.1061,
+     "vs_baseline_low": 1.1061
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 46,
+     "baseline": 929000.166667,
+     "baseline_high": 1382001.0,
+     "baseline_low": 441612.0,
+     "baseline_weeks": 6,
      "date": "2025-12-22",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 45,
+     "baseline": 796285.857143,
+     "baseline_high": 1328000.6,
+     "baseline_low": 0.0,
+     "baseline_weeks": 7,
      "date": "2025-12-29",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 1030391.0,
+     "adjusted_high": 1030391.0,
+     "adjusted_low": 1030391.0,
+     "age": 44,
+     "baseline": 696750.125,
+     "baseline_high": 1274000.2,
+     "baseline_low": 0.0,
+     "baseline_weeks": 8,
      "date": "2026-01-05",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 1030391
+     "views": 1030391,
+     "vs_baseline": 0.4789,
+     "vs_baseline_high": 0.4789,
+     "vs_baseline_low": 0.4789
     },
     {
+     "adjusted": 976444.0,
+     "adjusted_high": 976444.0,
+     "adjusted_low": 976444.0,
+     "age": 43,
+     "baseline": 733821.333333,
+     "baseline_high": 1219999.8,
+     "baseline_low": 0.0,
+     "baseline_weeks": 9,
      "date": "2026-01-12",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 5,
-     "views": 976444
+     "views": 976444,
+     "vs_baseline": 0.3306,
+     "vs_baseline_high": 0.3306,
+     "vs_baseline_low": 0.3306
     },
     {
+     "adjusted": 864619.0,
+     "adjusted_high": 864619.0,
+     "adjusted_low": 864619.0,
+     "age": 42,
+     "baseline": 758083.6,
+     "baseline_high": 1165999.4,
+     "baseline_low": 0.0,
+     "baseline_weeks": 10,
      "date": "2026-01-19",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 864619
+     "views": 864619,
+     "vs_baseline": 0.1405,
+     "vs_baseline_high": 0.1405,
+     "vs_baseline_low": 0.1405
     },
     {
+     "adjusted": 850915.0,
+     "adjusted_high": 850915.0,
+     "adjusted_low": 850915.0,
+     "age": 41,
+     "baseline": 767768.636364,
+     "baseline_high": 1111999.0,
+     "baseline_low": 0.0,
+     "baseline_weeks": 11,
      "date": "2026-01-26",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 850915
+     "views": 850915,
+     "vs_baseline": 0.1083,
+     "vs_baseline_high": 0.1083,
+     "vs_baseline_low": 0.1083
     },
     {
+     "adjusted": 1056765.0,
+     "adjusted_high": 1056765.0,
+     "adjusted_low": 1056765.0,
+     "age": 40,
+     "baseline": 774697.5,
+     "baseline_high": 1103838.2,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-02-02",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 1056765
+     "views": 1056765,
+     "vs_baseline": 0.3641,
+     "vs_baseline_high": 0.3641,
+     "vs_baseline_low": 0.3641
     },
     {
+     "adjusted": 1087849.0,
+     "adjusted_high": 1087849.0,
+     "adjusted_low": 1087849.0,
+     "age": 39,
+     "baseline": 789159.25,
+     "baseline_high": 1106475.6,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-02-09",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 1087849
+     "views": 1087849,
+     "vs_baseline": 0.3785,
+     "vs_baseline_high": 0.3785,
+     "vs_baseline_low": 0.3785
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 38,
+     "baseline": 787146.75,
+     "baseline_high": 1084740.6,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-02-16",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 911767.0,
+     "adjusted_high": 911767.0,
+     "adjusted_low": 911767.0,
+     "age": 37,
+     "baseline": 787146.75,
+     "baseline_high": 1084740.6,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-02-23",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 911767
+     "views": 911767,
+     "vs_baseline": 0.1583,
+     "vs_baseline_high": 0.1583,
+     "vs_baseline_low": 0.1583
     },
     {
+     "adjusted": 923372.0,
+     "adjusted_high": 923372.0,
+     "adjusted_low": 923372.0,
+     "age": 36,
+     "baseline": 779644.083333,
+     "baseline_high": 1084740.6,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-03-02",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 923372
+     "views": 923372,
+     "vs_baseline": 0.1844,
+     "vs_baseline_high": 0.1844,
+     "vs_baseline_low": 0.1844
     },
     {
+     "adjusted": 929729.0,
+     "adjusted_high": 929729.0,
+     "adjusted_low": 929729.0,
+     "age": 35,
+     "baseline": 779510.416667,
+     "baseline_high": 1084740.6,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-03-09",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 929729
+     "views": 929729,
+     "vs_baseline": 0.1927,
+     "vs_baseline_high": 0.1927,
+     "vs_baseline_low": 0.1927
     },
     {
+     "adjusted": 697916.0,
+     "adjusted_high": 697916.0,
+     "adjusted_low": 697916.0,
+     "age": 34,
+     "baseline": 719320.916667,
+     "baseline_high": 1054127.6,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-03-16",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 697916
+     "views": 697916,
+     "vs_baseline": -0.0298,
+     "vs_baseline_high": -0.0298,
+     "vs_baseline_low": -0.0298
     },
     {
+     "adjusted": 713208.0,
+     "adjusted_high": 713208.0,
+     "adjusted_low": 713208.0,
+     "age": 33,
+     "baseline": 777480.583333,
+     "baseline_high": 1054127.6,
+     "baseline_low": 69791.6,
+     "baseline_weeks": 12,
      "date": "2026-03-23",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 713208
+     "views": 713208,
+     "vs_baseline": -0.0827,
+     "vs_baseline_high": -0.0827,
+     "vs_baseline_low": -0.0827
     },
     {
+     "adjusted": 1098838.0,
+     "adjusted_high": 1098838.0,
+     "adjusted_low": 1098838.0,
+     "age": 32,
+     "baseline": 836914.583333,
+     "baseline_high": 1054127.6,
+     "baseline_low": 699445.2,
+     "baseline_weeks": 12,
      "date": "2026-03-30",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 4,
-     "views": 1098838
+     "views": 1098838,
+     "vs_baseline": 0.313,
+     "vs_baseline_high": 0.313,
+     "vs_baseline_low": 0.313
     },
     {
+     "adjusted": 486492.0,
+     "adjusted_high": 486492.0,
+     "adjusted_low": 486492.0,
+     "age": 31,
+     "baseline": 842618.5,
+     "baseline_high": 1084740.6,
+     "baseline_low": 699445.2,
+     "baseline_weeks": 12,
      "date": "2026-04-06",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 1,
-     "views": 486492
+     "views": 486492,
+     "vs_baseline": -0.4226,
+     "vs_baseline_high": -0.4226,
+     "vs_baseline_low": -0.4226
     },
     {
+     "adjusted": 2807415.0,
+     "adjusted_high": 2807415.0,
+     "adjusted_low": 2807415.0,
+     "age": 30,
+     "baseline": 801789.166667,
+     "baseline_high": 1084740.6,
+     "baseline_low": 507634.4,
+     "baseline_weeks": 12,
      "date": "2026-04-13",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 4,
-     "views": 2807415
+     "views": 2807415,
+     "vs_baseline": 2.5014,
+     "vs_baseline_high": 2.5014,
+     "vs_baseline_low": 2.5014
     },
     {
+     "adjusted": 988367.0,
+     "adjusted_high": 988367.0,
+     "adjusted_low": 988367.0,
+     "age": 29,
+     "baseline": 963688.833333,
+     "baseline_high": 1097739.1,
+     "baseline_low": 507634.4,
+     "baseline_weeks": 12,
      "date": "2026-04-20",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 988367
+     "views": 988367,
+     "vs_baseline": 0.0256,
+     "vs_baseline_high": 0.0256,
+     "vs_baseline_low": 0.0256
     },
     {
+     "adjusted": 520333.0,
+     "adjusted_high": 520333.0,
+     "adjusted_low": 520333.0,
+     "age": 28,
+     "baseline": 975143.166667,
+     "baseline_high": 1097739.1,
+     "baseline_low": 507634.4,
+     "baseline_weeks": 12,
      "date": "2026-04-27",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 2,
-     "views": 520333
+     "views": 520333,
+     "vs_baseline": -0.4664,
+     "vs_baseline_high": -0.4664,
+     "vs_baseline_low": -0.4664
     },
     {
+     "adjusted": 913227.0,
+     "adjusted_high": 913227.0,
+     "adjusted_low": 913227.0,
+     "age": 27,
+     "baseline": 930440.5,
+     "baseline_high": 1097739.1,
+     "baseline_low": 489876.1,
+     "baseline_weeks": 12,
      "date": "2026-05-04",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 913227
+     "views": 913227,
+     "vs_baseline": -0.0185,
+     "vs_baseline_high": -0.0185,
+     "vs_baseline_low": -0.0185
     },
     {
+     "adjusted": 835824.0,
+     "adjusted_high": 835824.0,
+     "adjusted_low": 835824.0,
+     "age": 26,
+     "baseline": 915888.666667,
+     "baseline_high": 1087790.9,
+     "baseline_low": 489876.1,
+     "baseline_weeks": 12,
      "date": "2026-05-11",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 835824
+     "views": 835824,
+     "vs_baseline": -0.0874,
+     "vs_baseline_high": -0.0874,
+     "vs_baseline_low": -0.0874
     },
     {
+     "adjusted": 876704.0,
+     "adjusted_high": 876704.0,
+     "adjusted_low": 876704.0,
+     "age": 25,
+     "baseline": 985540.666667,
+     "baseline_high": 1087790.9,
+     "baseline_low": 538091.3,
+     "baseline_weeks": 12,
      "date": "2026-05-18",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 876704
+     "views": 876704,
+     "vs_baseline": -0.1104,
+     "vs_baseline_high": -0.1104,
+     "vs_baseline_low": -0.1104
     },
     {
+     "adjusted": 654259.0,
+     "adjusted_high": 654259.0,
+     "adjusted_low": 654259.0,
+     "age": 24,
+     "baseline": 982618.75,
+     "baseline_high": 1087790.9,
+     "baseline_low": 538091.3,
+     "baseline_weeks": 12,
      "date": "2026-05-25",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 654259
+     "views": 654259,
+     "vs_baseline": -0.3342,
+     "vs_baseline_high": -0.3342,
+     "vs_baseline_low": -0.3342
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 23,
+     "baseline": 960192.666667,
+     "baseline_high": 1087790.9,
+     "baseline_low": 533725.6,
+     "baseline_weeks": 12,
      "date": "2026-06-01",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 805835.0,
+     "adjusted_high": 805835.0,
+     "adjusted_low": 805835.0,
+     "age": 22,
+     "baseline": 882715.25,
+     "baseline_high": 1087790.9,
+     "baseline_low": 489876.1,
+     "baseline_weeks": 12,
      "date": "2026-06-08",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 805835
+     "views": 805835,
+     "vs_baseline": -0.0871,
+     "vs_baseline_high": -0.0871,
+     "vs_baseline_low": -0.0871
     },
     {
+     "adjusted": 805537.0,
+     "adjusted_high": 805537.0,
+     "adjusted_low": 805537.0,
+     "age": 21,
+     "baseline": 891708.5,
+     "baseline_high": 1087790.9,
+     "baseline_low": 489876.1,
+     "baseline_weeks": 12,
      "date": "2026-06-15",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 805537
+     "views": 805537,
+     "vs_baseline": -0.0966,
+     "vs_baseline_high": -0.0966,
+     "vs_baseline_low": -0.0966
     },
     {
+     "adjusted": 945266.0,
+     "adjusted_high": 945266.0,
+     "adjusted_low": 945266.0,
+     "age": 20,
+     "baseline": 899402.583333,
+     "baseline_high": 1087790.9,
+     "baseline_low": 489876.1,
+     "baseline_weeks": 12,
      "date": "2026-06-22",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 5,
-     "views": 945266
+     "views": 945266,
+     "vs_baseline": 0.051,
+     "vs_baseline_high": 0.051,
+     "vs_baseline_low": 0.051
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 19,
+     "baseline": 886604.916667,
+     "baseline_high": 984056.9,
+     "baseline_low": 489876.1,
+     "baseline_weeks": 12,
      "date": "2026-06-29",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 18,
+     "baseline": 846063.916667,
+     "baseline_high": 984056.9,
+     "baseline_low": 52033.3,
+     "baseline_weeks": 12,
      "date": "2026-07-06",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 759945.0,
+     "adjusted_high": 759945.0,
+     "adjusted_low": 759945.0,
+     "age": 17,
+     "baseline": 612112.666667,
+     "baseline_high": 942062.1,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-07-13",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 759945
+     "views": 759945,
+     "vs_baseline": 0.2415,
+     "vs_baseline_high": 0.2415,
+     "vs_baseline_low": 0.2415
     },
     {
+     "adjusted": 785631.0,
+     "adjusted_high": 785631.0,
+     "adjusted_low": 785631.0,
+     "age": 16,
+     "baseline": 593077.5,
+     "baseline_high": 909574.7,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-07-20",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 785631
+     "views": 785631,
+     "vs_baseline": 0.3247,
+     "vs_baseline_high": 0.3247,
+     "vs_baseline_low": 0.3247
     },
     {
+     "adjusted": 846220.0,
+     "adjusted_high": 846220.0,
+     "adjusted_low": 846220.0,
+     "age": 15,
+     "baseline": 615185.666667,
+     "baseline_high": 909574.7,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-07-27",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 846220
+     "views": 846220,
+     "vs_baseline": 0.3756,
+     "vs_baseline_high": 0.3756,
+     "vs_baseline_low": 0.3756
     },
     {
+     "adjusted": 850479.0,
+     "adjusted_high": 850479.0,
+     "adjusted_low": 850479.0,
+     "age": 14,
+     "baseline": 609601.75,
+     "baseline_high": 873655.6,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-08-03",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 850479
+     "views": 850479,
+     "vs_baseline": 0.3951,
+     "vs_baseline_high": 0.3951,
+     "vs_baseline_low": 0.3951
     },
     {
+     "adjusted": 955910.0,
+     "adjusted_high": 955910.0,
+     "adjusted_low": 955910.0,
+     "age": 13,
+     "baseline": 610823.0,
+     "baseline_high": 874081.5,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-08-10",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 3,
-     "views": 955910
+     "views": 955910,
+     "vs_baseline": 0.565,
+     "vs_baseline_high": 0.565,
+     "vs_baseline_low": 0.565
     },
     {
+     "adjusted": 881699.0,
+     "adjusted_high": 881699.0,
+     "adjusted_low": 881699.0,
+     "age": 12,
+     "baseline": 617423.5,
+     "baseline_high": 935787.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-08-17",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 881699
+     "views": 881699,
+     "vs_baseline": 0.428,
+     "vs_baseline_high": 0.428,
+     "vs_baseline_low": 0.428
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 11,
+     "baseline": 636376.833333,
+     "baseline_high": 938909.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-08-24",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 816155.0,
+     "adjusted_high": 816155.0,
+     "adjusted_low": 816155.0,
+     "age": 10,
+     "baseline": 636376.833333,
+     "baseline_high": 938909.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-08-31",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 816155
+     "views": 816155,
+     "vs_baseline": 0.2825,
+     "vs_baseline_high": 0.2825,
+     "vs_baseline_low": 0.2825
     },
     {
+     "adjusted": 531003.0,
+     "adjusted_high": 531003.0,
+     "adjusted_low": 531003.0,
+     "age": 9,
+     "baseline": 637236.833333,
+     "baseline_high": 938909.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-09-07",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 531003
+     "views": 531003,
+     "vs_baseline": -0.1667,
+     "vs_baseline_high": -0.1667,
+     "vs_baseline_low": -0.1667
     },
     {
+     "adjusted": 719693.0,
+     "adjusted_high": 719693.0,
+     "adjusted_low": 719693.0,
+     "age": 8,
+     "baseline": 614359.0,
+     "baseline_high": 938909.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-09-14",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 719693
+     "views": 719693,
+     "vs_baseline": 0.1715,
+     "vs_baseline_high": 0.1715,
+     "vs_baseline_low": 0.1715
     },
     {
+     "adjusted": 935572.0,
+     "adjusted_high": 935572.0,
+     "adjusted_low": 935572.0,
+     "age": 7,
+     "baseline": 595561.25,
+     "baseline_high": 878577.0,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-09-21",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 5,
-     "views": 935572
+     "views": 935572,
+     "vs_baseline": 0.5709,
+     "vs_baseline_high": 0.5709,
+     "vs_baseline_low": 0.5709
     },
     {
+     "adjusted": 365428.0,
+     "adjusted_high": 365428.0,
+     "adjusted_low": 365428.0,
+     "age": 6,
+     "baseline": 673525.583333,
+     "baseline_high": 930184.7,
+     "baseline_low": 53100.3,
+     "baseline_weeks": 12,
      "date": "2026-09-28",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 2,
-     "views": 365428
+     "views": 365428,
+     "vs_baseline": -0.4574,
+     "vs_baseline_high": -0.4574,
+     "vs_baseline_low": -0.4574
     },
     {
+     "adjusted": 691551.0,
+     "adjusted_high": 691551.0,
+     "adjusted_low": 691551.0,
+     "age": 5,
+     "baseline": 703977.916667,
+     "baseline_high": 930184.7,
+     "baseline_low": 381985.5,
+     "baseline_weeks": 12,
      "date": "2026-10-05",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 691551
+     "views": 691551,
+     "vs_baseline": -0.0177,
+     "vs_baseline_high": -0.0177,
+     "vs_baseline_low": -0.0177
     },
     {
+     "adjusted": 457193.0,
+     "adjusted_high": 457193.0,
+     "adjusted_low": 457193.0,
+     "age": 4,
+     "baseline": 698278.416667,
+     "baseline_high": 930184.7,
+     "baseline_low": 381985.5,
+     "baseline_weeks": 12,
      "date": "2026-10-12",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 457193
+     "views": 457193,
+     "vs_baseline": -0.3453,
+     "vs_baseline_high": -0.3453,
+     "vs_baseline_low": -0.3453
     },
     {
+     "adjusted": 644546.0,
+     "adjusted_high": 644546.0,
+     "adjusted_low": 644546.0,
+     "age": 3,
+     "baseline": 670908.583333,
+     "baseline_high": 930184.7,
+     "baseline_low": 374604.5,
+     "baseline_weeks": 12,
      "date": "2026-10-19",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 644546
+     "views": 644546,
+     "vs_baseline": -0.0393,
+     "vs_baseline_high": -0.0393,
+     "vs_baseline_low": -0.0393
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 2,
+     "baseline": 654102.416667,
+     "baseline_high": 930184.7,
+     "baseline_low": 374604.5,
+     "baseline_weeks": 12,
      "date": "2026-10-26",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 350650.0,
+     "adjusted_high": 520088.590909,
+     "adjusted_low": 350650.0,
+     "age": 1,
+     "baseline": 583229.166667,
+     "baseline_high": 930184.7,
+     "baseline_low": 36542.8,
+     "baseline_weeks": 12,
      "date": "2026-11-02",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 350650
+     "views": 350650,
+     "vs_baseline": -0.3988,
+     "vs_baseline_high": -0.1083,
+     "vs_baseline_low": -0.3988
     },
     {
+     "adjusted": 309407.602064,
+     "adjusted_high": 520088.590909,
+     "adjusted_low": 284771.916914,
+     "age": 0,
+     "baseline": 532790.833333,
+     "baseline_high": 875144.6,
+     "baseline_low": 35065.0,
+     "baseline_weeks": 12,
      "date": "2026-11-09",
+     "maturity": 0.8227,
+     "status": "usual",
      "videos": 3,
-     "views": 254558
+     "views": 254558,
+     "vs_baseline": -0.4193,
+     "vs_baseline_high": -0.0238,
+     "vs_baseline_low": -0.4655
     }
    ]
   },
   {
    "captured": "2026-11-17",
    "id": "tucker_carlson",
+   "latest": {
+    "adjusted": 395231.935935,
+    "adjusted_high": 664352.198433,
+    "adjusted_low": 363762.736505,
+    "age": 0,
+    "baseline": 264060.416667,
+    "baseline_high": 487526.2,
+    "baseline_low": 0.0,
+    "baseline_weeks": 12,
+    "date": "2026-11-09",
+    "maturity": 0.8227,
+    "status": "usual",
+    "videos": 3,
+    "views": 325168,
+    "vs_baseline": 0.4967,
+    "vs_baseline_high": 1.5159,
+    "vs_baseline_low": 0.3776
+   },
    "name": "Tucker Carlson",
    "tier": "adjacent",
    "total": 33942562,
    "weeks": [
     {
+     "adjusted": 1093099.0,
+     "adjusted_high": 1093099.0,
+     "adjusted_low": 1093099.0,
+     "age": 51,
      "date": "2025-11-17",
+     "maturity": 1.0,
      "videos": 3,
      "views": 1093099
     },
     {
+     "adjusted": 630782.0,
+     "adjusted_high": 630782.0,
+     "adjusted_low": 630782.0,
+     "age": 50,
      "date": "2025-11-24",
+     "maturity": 1.0,
      "videos": 3,
      "views": 630782
     },
     {
+     "adjusted": 893254.0,
+     "adjusted_high": 893254.0,
+     "adjusted_low": 893254.0,
+     "age": 49,
      "date": "2025-12-01",
+     "maturity": 1.0,
      "videos": 4,
      "views": 893254
     },
     {
+     "adjusted": 846766.0,
+     "adjusted_high": 846766.0,
+     "adjusted_low": 846766.0,
+     "age": 48,
      "date": "2025-12-08",
+     "maturity": 1.0,
      "videos": 3,
      "views": 846766
     },
     {
+     "adjusted": 1250819.0,
+     "adjusted_high": 1250819.0,
+     "adjusted_low": 1250819.0,
+     "age": 47,
+     "baseline": 865975.25,
+     "baseline_high": 1033145.5,
+     "baseline_low": 695577.2,
+     "baseline_weeks": 4,
      "date": "2025-12-15",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 3,
-     "views": 1250819
+     "views": 1250819,
+     "vs_baseline": 0.4444,
+     "vs_baseline_high": 0.4444,
+     "vs_baseline_low": 0.4444
     },
     {
+     "adjusted": 597786.0,
+     "adjusted_high": 597786.0,
+     "adjusted_low": 597786.0,
+     "age": 46,
+     "baseline": 942944.0,
+     "baseline_high": 1187731.0,
+     "baseline_low": 717175.6,
+     "baseline_weeks": 5,
      "date": "2025-12-22",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 2,
-     "views": 597786
+     "views": 597786,
+     "vs_baseline": -0.366,
+     "vs_baseline_high": -0.366,
+     "vs_baseline_low": -0.366
     },
     {
+     "adjusted": 559858.0,
+     "adjusted_high": 559858.0,
+     "adjusted_low": 559858.0,
+     "age": 45,
+     "baseline": 885417.666667,
+     "baseline_high": 1171959.0,
+     "baseline_low": 614284.0,
+     "baseline_weeks": 6,
      "date": "2025-12-29",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 2,
-     "views": 559858
+     "views": 559858,
+     "vs_baseline": -0.3677,
+     "vs_baseline_high": -0.3677,
+     "vs_baseline_low": -0.3677
     },
     {
+     "adjusted": 750071.0,
+     "adjusted_high": 750071.0,
+     "adjusted_low": 750071.0,
+     "age": 44,
+     "baseline": 838909.142857,
+     "baseline_high": 1156187.0,
+     "baseline_low": 582614.8,
+     "baseline_weeks": 7,
      "date": "2026-01-05",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 750071
+     "views": 750071,
+     "vs_baseline": -0.1059,
+     "vs_baseline_high": -0.1059,
+     "vs_baseline_low": -0.1059
     },
     {
+     "adjusted": 696738.0,
+     "adjusted_high": 696738.0,
+     "adjusted_low": 696738.0,
+     "age": 43,
+     "baseline": 827804.375,
+     "baseline_high": 1140415.0,
+     "baseline_low": 586407.6,
+     "baseline_weeks": 8,
      "date": "2026-01-12",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 696738
+     "views": 696738,
+     "vs_baseline": -0.1583,
+     "vs_baseline_high": -0.1583,
+     "vs_baseline_low": -0.1583
     },
     {
+     "adjusted": 678107.0,
+     "adjusted_high": 678107.0,
+     "adjusted_low": 678107.0,
+     "age": 42,
+     "baseline": 813241.444444,
+     "baseline_high": 1124643.0,
+     "baseline_low": 590200.4,
+     "baseline_weeks": 9,
      "date": "2026-01-19",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 678107
+     "views": 678107,
+     "vs_baseline": -0.1662,
+     "vs_baseline_high": -0.1662,
+     "vs_baseline_low": -0.1662
     },
     {
+     "adjusted": 779341.0,
+     "adjusted_high": 779341.0,
+     "adjusted_low": 779341.0,
+     "age": 41,
+     "baseline": 799728.0,
+     "baseline_high": 1108871.0,
+     "baseline_low": 593993.2,
+     "baseline_weeks": 10,
      "date": "2026-01-26",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 779341
+     "views": 779341,
+     "vs_baseline": -0.0255,
+     "vs_baseline_high": -0.0255,
+     "vs_baseline_low": -0.0255
     },
     {
+     "adjusted": 781624.0,
+     "adjusted_high": 781624.0,
+     "adjusted_low": 781624.0,
+     "age": 40,
+     "baseline": 797874.636364,
+     "baseline_high": 1093099.0,
+     "baseline_low": 597786.0,
+     "baseline_weeks": 11,
      "date": "2026-02-02",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 781624
+     "views": 781624,
+     "vs_baseline": -0.0204,
+     "vs_baseline_high": -0.0204,
+     "vs_baseline_low": -0.0204
     },
     {
+     "adjusted": 767882.0,
+     "adjusted_high": 767882.0,
+     "adjusted_low": 767882.0,
+     "age": 39,
+     "baseline": 796520.416667,
+     "baseline_high": 1073114.5,
+     "baseline_low": 601085.6,
+     "baseline_weeks": 12,
      "date": "2026-02-09",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 767882
+     "views": 767882,
+     "vs_baseline": -0.036,
+     "vs_baseline_high": -0.036,
+     "vs_baseline_low": -0.036
     },
     {
+     "adjusted": 1228254.0,
+     "adjusted_high": 1228254.0,
+     "adjusted_low": 1228254.0,
+     "age": 38,
+     "baseline": 769419.0,
+     "baseline_high": 888605.2,
+     "baseline_low": 601085.6,
+     "baseline_weeks": 12,
      "date": "2026-02-16",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 3,
-     "views": 1228254
+     "views": 1228254,
+     "vs_baseline": 0.5963,
+     "vs_baseline_high": 0.5963,
+     "vs_baseline_low": 0.5963
     },
     {
+     "adjusted": 917988.0,
+     "adjusted_high": 917988.0,
+     "adjusted_low": 917988.0,
+     "age": 37,
+     "baseline": 819208.333333,
+     "baseline_high": 1194754.0,
+     "baseline_low": 605818.1,
+     "baseline_weeks": 12,
      "date": "2026-02-23",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 5,
-     "views": 917988
+     "views": 917988,
+     "vs_baseline": 0.1206,
+     "vs_baseline_high": 0.1206,
+     "vs_baseline_low": 0.1206
     },
     {
+     "adjusted": 710385.0,
+     "adjusted_high": 710385.0,
+     "adjusted_low": 710385.0,
+     "age": 36,
+     "baseline": 821269.5,
+     "baseline_high": 1197227.4,
+     "baseline_low": 605818.1,
+     "baseline_weeks": 12,
      "date": "2026-03-02",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 710385
+     "views": 710385,
+     "vs_baseline": -0.135,
+     "vs_baseline_high": -0.135,
+     "vs_baseline_low": -0.135
     },
     {
+     "adjusted": 761024.0,
+     "adjusted_high": 761024.0,
+     "adjusted_low": 761024.0,
+     "age": 35,
+     "baseline": 809904.416667,
+     "baseline_high": 1197227.4,
+     "baseline_low": 605818.1,
+     "baseline_weeks": 12,
      "date": "2026-03-09",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 761024
+     "views": 761024,
+     "vs_baseline": -0.0604,
+     "vs_baseline_high": -0.0604,
+     "vs_baseline_low": -0.0604
     },
     {
+     "adjusted": 730345.0,
+     "adjusted_high": 730345.0,
+     "adjusted_low": 730345.0,
+     "age": 34,
+     "baseline": 769088.166667,
+     "baseline_high": 904351.6,
+     "baseline_low": 605818.1,
+     "baseline_weeks": 12,
      "date": "2026-03-16",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 730345
+     "views": 730345,
+     "vs_baseline": -0.0504,
+     "vs_baseline_high": -0.0504,
+     "vs_baseline_low": -0.0504
     },
     {
+     "adjusted": 811670.0,
+     "adjusted_high": 811670.0,
+     "adjusted_low": 811670.0,
+     "age": 33,
+     "baseline": 780134.75,
+     "baseline_high": 904351.6,
+     "baseline_low": 679970.1,
+     "baseline_weeks": 12,
      "date": "2026-03-23",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 811670
+     "views": 811670,
+     "vs_baseline": 0.0404,
+     "vs_baseline_high": 0.0404,
+     "vs_baseline_low": 0.0404
     },
     {
+     "adjusted": 970943.0,
+     "adjusted_high": 970943.0,
+     "adjusted_low": 970943.0,
+     "age": 32,
+     "baseline": 801119.083333,
+     "baseline_high": 907356.2,
+     "baseline_low": 698102.7,
+     "baseline_weeks": 12,
      "date": "2026-03-30",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 4,
-     "views": 970943
+     "views": 970943,
+     "vs_baseline": 0.212,
+     "vs_baseline_high": 0.212,
+     "vs_baseline_low": 0.212
     },
     {
+     "adjusted": 1857769.0,
+     "adjusted_high": 1857769.0,
+     "adjusted_low": 1857769.0,
+     "age": 31,
+     "baseline": 819525.083333,
+     "baseline_high": 965647.5,
+     "baseline_low": 698102.7,
+     "baseline_weeks": 12,
      "date": "2026-04-06",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 3,
-     "views": 1857769
+     "views": 1857769,
+     "vs_baseline": 1.2669,
+     "vs_baseline_high": 1.2669,
+     "vs_baseline_low": 1.2669
     },
     {
+     "adjusted": 995360.0,
+     "adjusted_high": 995360.0,
+     "adjusted_low": 995360.0,
+     "age": 30,
+     "baseline": 916277.666667,
+     "baseline_high": 1202522.9,
+     "baseline_low": 712381.0,
+     "baseline_weeks": 12,
      "date": "2026-04-13",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 995360
+     "views": 995360,
+     "vs_baseline": 0.0863,
+     "vs_baseline_high": 0.0863,
+     "vs_baseline_low": 0.0863
     },
     {
+     "adjusted": 674687.0,
+     "adjusted_high": 674687.0,
+     "adjusted_low": 674687.0,
+     "age": 29,
+     "baseline": 942715.416667,
+     "baseline_high": 1204964.6,
+     "baseline_low": 733412.9,
+     "baseline_weeks": 12,
      "date": "2026-04-20",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 3,
-     "views": 674687
+     "views": 674687,
+     "vs_baseline": -0.2843,
+     "vs_baseline_high": -0.2843,
+     "vs_baseline_low": -0.2843
     },
     {
+     "adjusted": 718346.0,
+     "adjusted_high": 718346.0,
+     "adjusted_low": 718346.0,
+     "age": 28,
+     "baseline": 933994.25,
+     "baseline_high": 1204964.6,
+     "baseline_low": 712381.0,
+     "baseline_weeks": 12,
      "date": "2026-04-27",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 718346
+     "views": 718346,
+     "vs_baseline": -0.2309,
+     "vs_baseline_high": -0.2309,
+     "vs_baseline_low": -0.2309
     },
     {
+     "adjusted": 721966.0,
+     "adjusted_high": 721966.0,
+     "adjusted_low": 721966.0,
+     "age": 27,
+     "baseline": 928721.083333,
+     "baseline_high": 1204964.6,
+     "baseline_low": 711181.1,
+     "baseline_weeks": 12,
      "date": "2026-05-04",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 721966
+     "views": 721966,
+     "vs_baseline": -0.2226,
+     "vs_baseline_high": -0.2226,
+     "vs_baseline_low": -0.2226
     },
     {
+     "adjusted": 747406.0,
+     "adjusted_high": 747406.0,
+     "adjusted_low": 747406.0,
+     "age": 26,
+     "baseline": 924894.75,
+     "baseline_high": 1204964.6,
+     "baseline_low": 711181.1,
+     "baseline_weeks": 12,
      "date": "2026-05-11",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 747406
+     "views": 747406,
+     "vs_baseline": -0.1919,
+     "vs_baseline_high": -0.1919,
+     "vs_baseline_low": -0.1919
     },
     {
+     "adjusted": 786713.0,
+     "adjusted_high": 786713.0,
+     "adjusted_low": 786713.0,
+     "age": 25,
+     "baseline": 884824.083333,
+     "baseline_high": 992918.3,
+     "baseline_low": 711181.1,
+     "baseline_weeks": 12,
      "date": "2026-05-18",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 786713
+     "views": 786713,
+     "vs_baseline": -0.1109,
+     "vs_baseline_high": -0.1109,
+     "vs_baseline_low": -0.1109
     },
     {
+     "adjusted": 824097.0,
+     "adjusted_high": 824097.0,
+     "adjusted_low": 824097.0,
+     "age": 24,
+     "baseline": 873884.5,
+     "baseline_high": 992918.3,
+     "baseline_low": 711181.1,
+     "baseline_weeks": 12,
      "date": "2026-05-25",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 824097
+     "views": 824097,
+     "vs_baseline": -0.057,
+     "vs_baseline_high": -0.057,
+     "vs_baseline_low": -0.057
     },
     {
+     "adjusted": 786999.0,
+     "adjusted_high": 786999.0,
+     "adjusted_low": 786999.0,
+     "age": 23,
+     "baseline": 883360.5,
+     "baseline_high": 992918.3,
+     "baseline_low": 718708.0,
+     "baseline_weeks": 12,
      "date": "2026-06-01",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 786999
+     "views": 786999,
+     "vs_baseline": -0.1091,
+     "vs_baseline_high": -0.1091,
+     "vs_baseline_low": -0.1091
     },
     {
+     "adjusted": 559826.0,
+     "adjusted_high": 559826.0,
+     "adjusted_low": 559826.0,
+     "age": 22,
+     "baseline": 885525.083333,
+     "baseline_high": 992918.3,
+     "baseline_low": 718708.0,
+     "baseline_weeks": 12,
      "date": "2026-06-08",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 3,
-     "views": 559826
+     "views": 559826,
+     "vs_baseline": -0.3678,
+     "vs_baseline_high": -0.3678,
+     "vs_baseline_low": -0.3678
     },
     {
+     "adjusted": 535365.0,
+     "adjusted_high": 535365.0,
+     "adjusted_low": 535365.0,
+     "age": 21,
+     "baseline": 871315.166667,
+     "baseline_high": 992918.3,
+     "baseline_low": 679052.9,
+     "baseline_weeks": 12,
      "date": "2026-06-15",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 3,
-     "views": 535365
+     "views": 535365,
+     "vs_baseline": -0.3856,
+     "vs_baseline_high": -0.3856,
+     "vs_baseline_low": -0.3856
     },
     {
+     "adjusted": 598334.0,
+     "adjusted_high": 598334.0,
+     "adjusted_low": 598334.0,
+     "age": 20,
+     "baseline": 848289.75,
+     "baseline_high": 992918.3,
+     "baseline_low": 571312.1,
+     "baseline_weeks": 12,
      "date": "2026-06-22",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 598334
+     "views": 598334,
+     "vs_baseline": -0.2947,
+     "vs_baseline_high": -0.2947,
+     "vs_baseline_low": -0.2947
     },
     {
+     "adjusted": 588195.0,
+     "adjusted_high": 588195.0,
+     "adjusted_low": 588195.0,
+     "age": 19,
+     "baseline": 817239.0,
+     "baseline_high": 978233.7,
+     "baseline_low": 563676.8,
+     "baseline_weeks": 12,
      "date": "2026-06-29",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 588195
+     "views": 588195,
+     "vs_baseline": -0.2803,
+     "vs_baseline_high": -0.2803,
+     "vs_baseline_low": -0.2803
     },
     {
+     "adjusted": 538266.0,
+     "adjusted_high": 538266.0,
+     "adjusted_low": 538266.0,
+     "age": 18,
+     "baseline": 711441.166667,
+     "baseline_high": 820387.2,
+     "baseline_low": 562662.9,
+     "baseline_weeks": 12,
      "date": "2026-07-06",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 3,
-     "views": 538266
+     "views": 538266,
+     "vs_baseline": -0.2434,
+     "vs_baseline_high": -0.2434,
+     "vs_baseline_low": -0.2434
     },
     {
+     "adjusted": 549655.0,
+     "adjusted_high": 549655.0,
+     "adjusted_low": 549655.0,
+     "age": 17,
+     "baseline": 673350.0,
+     "baseline_high": 786970.4,
+     "baseline_low": 540422.0,
+     "baseline_weeks": 12,
      "date": "2026-07-13",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 549655
+     "views": 549655,
+     "vs_baseline": -0.1837,
+     "vs_baseline_high": -0.1837,
+     "vs_baseline_low": -0.1837
     },
     {
+     "adjusted": 595686.0,
+     "adjusted_high": 595686.0,
+     "adjusted_low": 595686.0,
+     "age": 16,
+     "baseline": 662930.666667,
+     "baseline_high": 786970.4,
+     "baseline_low": 539404.9,
+     "baseline_weeks": 12,
      "date": "2026-07-20",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 595686
+     "views": 595686,
+     "vs_baseline": -0.1014,
+     "vs_baseline_high": -0.1014,
+     "vs_baseline_low": -0.1014
     },
     {
+     "adjusted": 643160.0,
+     "adjusted_high": 643160.0,
+     "adjusted_low": 643160.0,
+     "age": 15,
+     "baseline": 652709.0,
+     "baseline_high": 786970.4,
+     "baseline_low": 539404.9,
+     "baseline_weeks": 12,
      "date": "2026-07-27",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 643160
+     "views": 643160,
+     "vs_baseline": -0.0146,
+     "vs_baseline_high": -0.0146,
+     "vs_baseline_low": -0.0146
     },
     {
+     "adjusted": 736642.0,
+     "adjusted_high": 736642.0,
+     "adjusted_low": 736642.0,
+     "age": 14,
+     "baseline": 646141.833333,
+     "baseline_high": 786970.4,
+     "baseline_low": 539404.9,
+     "baseline_weeks": 12,
      "date": "2026-08-03",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 736642
+     "views": 736642,
+     "vs_baseline": 0.1401,
+     "vs_baseline_high": 0.1401,
+     "vs_baseline_low": 0.1401
     },
     {
+     "adjusted": 533461.0,
+     "adjusted_high": 533461.0,
+     "adjusted_low": 533461.0,
+     "age": 13,
+     "baseline": 645244.833333,
+     "baseline_high": 786970.4,
+     "baseline_low": 539404.9,
+     "baseline_weeks": 12,
      "date": "2026-08-10",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 3,
-     "views": 533461
+     "views": 533461,
+     "vs_baseline": -0.1732,
+     "vs_baseline_high": -0.1732,
+     "vs_baseline_low": -0.1732
     },
     {
+     "adjusted": 472852.0,
+     "adjusted_high": 472852.0,
+     "adjusted_low": 472852.0,
+     "age": 12,
+     "baseline": 624140.5,
+     "baseline_high": 781963.3,
+     "baseline_low": 535655.1,
+     "baseline_weeks": 12,
      "date": "2026-08-17",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 3,
-     "views": 472852
+     "views": 472852,
+     "vs_baseline": -0.2424,
+     "vs_baseline_high": -0.2424,
+     "vs_baseline_low": -0.2424
     },
     {
+     "adjusted": 487954.0,
+     "adjusted_high": 487954.0,
+     "adjusted_low": 487954.0,
+     "age": 11,
+     "baseline": 594870.083333,
+     "baseline_high": 727293.8,
+     "baseline_low": 533651.4,
+     "baseline_weeks": 12,
      "date": "2026-08-24",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 3,
-     "views": 487954
+     "views": 487954,
+     "vs_baseline": -0.1797,
+     "vs_baseline_high": -0.1797,
+     "vs_baseline_low": -0.1797
     },
     {
+     "adjusted": 739196.0,
+     "adjusted_high": 739196.0,
+     "adjusted_low": 739196.0,
+     "age": 10,
+     "baseline": 569949.666667,
+     "baseline_high": 638677.4,
+     "baseline_low": 492504.7,
+     "baseline_weeks": 12,
      "date": "2026-08-31",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 4,
-     "views": 739196
+     "views": 739196,
+     "vs_baseline": 0.2969,
+     "vs_baseline_high": 0.2969,
+     "vs_baseline_low": 0.2969
     },
     {
+     "adjusted": 335667.0,
+     "adjusted_high": 335667.0,
+     "adjusted_low": 335667.0,
+     "age": 9,
+     "baseline": 584897.166667,
+     "baseline_high": 727293.8,
+     "baseline_low": 492504.7,
+     "baseline_weeks": 12,
      "date": "2026-09-07",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 2,
-     "views": 335667
+     "views": 335667,
+     "vs_baseline": -0.4261,
+     "vs_baseline_high": -0.4261,
+     "vs_baseline_low": -0.4261
     },
     {
+     "adjusted": 479225.0,
+     "adjusted_high": 479225.0,
+     "adjusted_low": 479225.0,
+     "age": 8,
+     "baseline": 568255.666667,
+     "baseline_high": 727293.8,
+     "baseline_low": 474362.2,
+     "baseline_weeks": 12,
      "date": "2026-09-14",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 479225
+     "views": 479225,
+     "vs_baseline": -0.1567,
+     "vs_baseline_high": -0.1567,
+     "vs_baseline_low": -0.1567
     },
     {
+     "adjusted": 483676.0,
+     "adjusted_high": 483676.0,
+     "adjusted_low": 483676.0,
+     "age": 7,
+     "baseline": 558329.916667,
+     "baseline_high": 727293.8,
+     "baseline_low": 473489.3,
+     "baseline_weeks": 12,
      "date": "2026-09-21",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 483676
+     "views": 483676,
+     "vs_baseline": -0.1337,
+     "vs_baseline_high": -0.1337,
+     "vs_baseline_low": -0.1337
     },
     {
+     "adjusted": 170155.0,
+     "adjusted_high": 170155.0,
+     "adjusted_low": 170155.0,
+     "age": 6,
+     "baseline": 549620.0,
+     "baseline_high": 727293.8,
+     "baseline_low": 473489.3,
+     "baseline_weeks": 12,
      "date": "2026-09-28",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 1,
-     "views": 170155
+     "views": 170155,
+     "vs_baseline": -0.6904,
+     "vs_baseline_high": -0.6904,
+     "vs_baseline_low": -0.6904
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 5,
+     "baseline": 518944.083333,
+     "baseline_high": 727293.8,
+     "baseline_low": 349385.5,
+     "baseline_weeks": 12,
      "date": "2026-10-05",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 4,
+     "baseline": 473139.5,
+     "baseline_high": 727293.8,
+     "baseline_low": 186706.2,
+     "baseline_weeks": 12,
      "date": "2026-10-12",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 3,
+     "baseline": 423499.0,
+     "baseline_high": 727293.8,
+     "baseline_low": 17015.5,
+     "baseline_weeks": 12,
      "date": "2026-10-19",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 2,
+     "baseline": 369902.333333,
+     "baseline_high": 716323.9,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-10-26",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 1,
+     "baseline": 308515.5,
+     "baseline_high": 528910.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-11-02",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 395231.935935,
+     "adjusted_high": 664352.198433,
+     "adjusted_low": 363762.736505,
+     "age": 0,
+     "baseline": 264060.416667,
+     "baseline_high": 487526.2,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-11-09",
+     "maturity": 0.8227,
+     "status": "usual",
      "videos": 3,
-     "views": 325168
+     "views": 325168,
+     "vs_baseline": 0.4967,
+     "vs_baseline_high": 1.5159,
+     "vs_baseline_low": 0.3776
     }
    ]
   },
   {
    "captured": "2026-11-17",
    "id": "andrew_tate",
+   "latest": {
+    "adjusted": 63183.774928,
+    "adjusted_high": 106206.700325,
+    "adjusted_low": 58152.94965,
+    "age": 0,
+    "baseline": 8119.75,
+    "baseline_high": 42295.5,
+    "baseline_low": 0.0,
+    "baseline_weeks": 12,
+    "date": "2026-11-09",
+    "maturity": 0.8227,
+    "status": "above",
+    "videos": 2,
+    "views": 51983,
+    "vs_baseline": 6.7815,
+    "vs_baseline_high": 12.08,
+    "vs_baseline_low": 6.1619
+   },
    "name": "Andrew Tate",
    "tier": "adjacent",
    "total": 17038277,
    "weeks": [
     {
+     "adjusted": 320124.0,
+     "adjusted_high": 320124.0,
+     "adjusted_low": 320124.0,
+     "age": 54,
      "date": "2025-10-27",
+     "maturity": 1.0,
      "videos": 2,
      "views": 320124
     },
     {
+     "adjusted": 127926.0,
+     "adjusted_high": 127926.0,
+     "adjusted_low": 127926.0,
+     "age": 53,
      "date": "2025-11-03",
+     "maturity": 1.0,
      "videos": 1,
      "views": 127926
     },
     {
+     "adjusted": 286482.0,
+     "adjusted_high": 286482.0,
+     "adjusted_low": 286482.0,
+     "age": 52,
      "date": "2025-11-10",
+     "maturity": 1.0,
      "videos": 2,
      "views": 286482
     },
     {
+     "adjusted": 136386.0,
+     "adjusted_high": 136386.0,
+     "adjusted_low": 136386.0,
+     "age": 51,
      "date": "2025-11-17",
+     "maturity": 1.0,
      "videos": 1,
      "views": 136386
     },
     {
+     "adjusted": 255792.0,
+     "adjusted_high": 255792.0,
+     "adjusted_low": 255792.0,
+     "age": 50,
+     "baseline": 217729.5,
+     "baseline_high": 310031.4,
+     "baseline_low": 130464.0,
+     "baseline_weeks": 4,
      "date": "2025-11-24",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 2,
-     "views": 255792
+     "views": 255792,
+     "vs_baseline": 0.1748,
+     "vs_baseline_high": 0.1748,
+     "vs_baseline_low": 0.1748
     },
     {
+     "adjusted": 226140.0,
+     "adjusted_high": 226140.0,
+     "adjusted_low": 226140.0,
+     "age": 49,
+     "baseline": 225342.0,
+     "baseline_high": 306667.2,
+     "baseline_low": 131310.0,
+     "baseline_weeks": 5,
      "date": "2025-12-01",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 2,
-     "views": 226140
+     "views": 226140,
+     "vs_baseline": 0.0035,
+     "vs_baseline_high": 0.0035,
+     "vs_baseline_low": 0.0035
     },
     {
+     "adjusted": 117938.0,
+     "adjusted_high": 117938.0,
+     "adjusted_low": 117938.0,
+     "age": 48,
+     "baseline": 225475.0,
+     "baseline_high": 303303.0,
+     "baseline_low": 132156.0,
+     "baseline_weeks": 6,
      "date": "2025-12-08",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 1,
-     "views": 117938
+     "views": 117938,
+     "vs_baseline": -0.4769,
+     "vs_baseline_high": -0.4769,
+     "vs_baseline_low": -0.4769
     },
     {
+     "adjusted": 1168022.0,
+     "adjusted_high": 1168022.0,
+     "adjusted_low": 1168022.0,
+     "age": 47,
+     "baseline": 210112.571429,
+     "baseline_high": 299938.8,
+     "baseline_low": 123930.8,
+     "baseline_weeks": 7,
      "date": "2025-12-15",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 7,
-     "views": 1168022
+     "views": 1168022,
+     "vs_baseline": 4.559,
+     "vs_baseline_high": 4.559,
+     "vs_baseline_low": 4.559
     },
     {
+     "adjusted": 546688.0,
+     "adjusted_high": 546688.0,
+     "adjusted_low": 546688.0,
+     "age": 46,
+     "baseline": 329851.25,
+     "baseline_high": 574493.4,
+     "baseline_low": 124929.6,
+     "baseline_weeks": 8,
      "date": "2025-12-22",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 546688
+     "views": 546688,
+     "vs_baseline": 0.6574,
+     "vs_baseline_high": 0.6574,
+     "vs_baseline_low": 0.6574
     },
     {
+     "adjusted": 696765.0,
+     "adjusted_high": 696765.0,
+     "adjusted_low": 696765.0,
+     "age": 45,
+     "baseline": 353944.222222,
+     "baseline_high": 670954.8,
+     "baseline_low": 125928.4,
+     "baseline_weeks": 9,
      "date": "2025-12-29",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 5,
-     "views": 696765
+     "views": 696765,
+     "vs_baseline": 0.9686,
+     "vs_baseline_high": 0.9686,
+     "vs_baseline_low": 0.9686
     },
     {
+     "adjusted": 1013802.0,
+     "adjusted_high": 1013802.0,
+     "adjusted_low": 1013802.0,
+     "age": 44,
+     "baseline": 388226.3,
+     "baseline_high": 743890.7,
+     "baseline_low": 126927.2,
+     "baseline_weeks": 10,
      "date": "2026-01-05",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 4,
-     "views": 1013802
+     "views": 1013802,
+     "vs_baseline": 1.6114,
+     "vs_baseline_high": 1.6114,
+     "vs_baseline_low": 1.6114
     },
     {
+     "adjusted": 239593.0,
+     "adjusted_high": 239593.0,
+     "adjusted_low": 239593.0,
+     "age": 43,
+     "baseline": 445096.818182,
+     "baseline_high": 1013802.0,
+     "baseline_low": 127926.0,
+     "baseline_weeks": 11,
      "date": "2026-01-12",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 2,
-     "views": 239593
+     "views": 239593,
+     "vs_baseline": -0.4617,
+     "vs_baseline_high": -0.4617,
+     "vs_baseline_low": -0.4617
     },
     {
+     "adjusted": 143024.0,
+     "adjusted_high": 143024.0,
+     "adjusted_low": 143024.0,
+     "age": 42,
+     "baseline": 427971.5,
+     "baseline_high": 982098.3,
+     "baseline_low": 128772.0,
+     "baseline_weeks": 12,
      "date": "2026-01-19",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 1,
-     "views": 143024
+     "views": 143024,
+     "vs_baseline": -0.6658,
+     "vs_baseline_high": -0.6658,
+     "vs_baseline_low": -0.6658
     },
     {
+     "adjusted": 206398.0,
+     "adjusted_high": 206398.0,
+     "adjusted_low": 206398.0,
+     "age": 41,
+     "baseline": 413213.166667,
+     "baseline_high": 982098.3,
+     "baseline_low": 128772.0,
+     "baseline_weeks": 12,
      "date": "2026-01-26",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 2,
-     "views": 206398
+     "views": 206398,
+     "vs_baseline": -0.5005,
+     "vs_baseline_high": -0.5005,
+     "vs_baseline_low": -0.5005
     },
     {
+     "adjusted": 275147.0,
+     "adjusted_high": 275147.0,
+     "adjusted_low": 275147.0,
+     "age": 40,
+     "baseline": 419752.5,
+     "baseline_high": 982098.3,
+     "baseline_low": 137049.8,
+     "baseline_weeks": 12,
      "date": "2026-02-02",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 275147
+     "views": 275147,
+     "vs_baseline": -0.3445,
+     "vs_baseline_high": -0.3445,
+     "vs_baseline_low": -0.3445
     },
     {
+     "adjusted": 283098.0,
+     "adjusted_high": 283098.0,
+     "adjusted_low": 283098.0,
+     "age": 39,
+     "baseline": 418807.916667,
+     "baseline_high": 982098.3,
+     "baseline_low": 137049.8,
+     "baseline_weeks": 12,
      "date": "2026-02-09",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 283098
+     "views": 283098,
+     "vs_baseline": -0.324,
+     "vs_baseline_high": -0.324,
+     "vs_baseline_low": -0.324
     },
     {
+     "adjusted": 370709.0,
+     "adjusted_high": 370709.0,
+     "adjusted_low": 370709.0,
+     "age": 38,
+     "baseline": 431033.916667,
+     "baseline_high": 982098.3,
+     "baseline_low": 149361.4,
+     "baseline_weeks": 12,
      "date": "2026-02-16",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 2,
-     "views": 370709
+     "views": 370709,
+     "vs_baseline": -0.14,
+     "vs_baseline_high": -0.14,
+     "vs_baseline_low": -0.14
     },
     {
+     "adjusted": 740269.0,
+     "adjusted_high": 740269.0,
+     "adjusted_low": 740269.0,
+     "age": 37,
+     "baseline": 440610.333333,
+     "baseline_high": 982098.3,
+     "baseline_low": 149361.4,
+     "baseline_weeks": 12,
      "date": "2026-02-23",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 740269
+     "views": 740269,
+     "vs_baseline": 0.6801,
+     "vs_baseline_high": 0.6801,
+     "vs_baseline_low": 0.6801
     },
     {
+     "adjusted": 841046.0,
+     "adjusted_high": 841046.0,
+     "adjusted_low": 841046.0,
+     "age": 36,
+     "baseline": 483454.416667,
+     "baseline_high": 986448.7,
+     "baseline_low": 149361.4,
+     "baseline_weeks": 12,
      "date": "2026-03-02",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 841046
+     "views": 841046,
+     "vs_baseline": 0.7397,
+     "vs_baseline_high": 0.7397,
+     "vs_baseline_low": 0.7397
     },
     {
+     "adjusted": 227080.0,
+     "adjusted_high": 227080.0,
+     "adjusted_low": 227080.0,
+     "age": 35,
+     "baseline": 543713.416667,
+     "baseline_high": 996526.4,
+     "baseline_low": 209717.5,
+     "baseline_weeks": 12,
      "date": "2026-03-09",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 2,
-     "views": 227080
+     "views": 227080,
+     "vs_baseline": -0.5824,
+     "vs_baseline_high": -0.5824,
+     "vs_baseline_low": -0.5824
     },
     {
+     "adjusted": 130770.0,
+     "adjusted_high": 130770.0,
+     "adjusted_low": 130770.0,
+     "age": 34,
+     "baseline": 465301.583333,
+     "baseline_high": 830968.3,
+     "baseline_low": 208466.2,
+     "baseline_weeks": 12,
      "date": "2026-03-16",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 1,
-     "views": 130770
+     "views": 130770,
+     "vs_baseline": -0.719,
+     "vs_baseline_high": -0.719,
+     "vs_baseline_low": -0.719
     },
     {
+     "adjusted": 719952.0,
+     "adjusted_high": 719952.0,
+     "adjusted_low": 719952.0,
+     "age": 33,
+     "baseline": 430641.75,
+     "baseline_high": 830968.3,
+     "baseline_low": 149361.4,
+     "baseline_weeks": 12,
      "date": "2026-03-23",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 5,
-     "views": 719952
+     "views": 719952,
+     "vs_baseline": 0.6718,
+     "vs_baseline_high": 0.6718,
+     "vs_baseline_low": 0.6718
     },
     {
+     "adjusted": 1358325.0,
+     "adjusted_high": 1358325.0,
+     "adjusted_low": 1358325.0,
+     "age": 32,
+     "baseline": 432574.0,
+     "baseline_high": 830968.3,
+     "baseline_low": 149361.4,
+     "baseline_weeks": 12,
      "date": "2026-03-30",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 5,
-     "views": 1358325
+     "views": 1358325,
+     "vs_baseline": 2.1401,
+     "vs_baseline_high": 2.1401,
+     "vs_baseline_low": 2.1401
     },
     {
+     "adjusted": 583929.0,
+     "adjusted_high": 583929.0,
+     "adjusted_low": 583929.0,
+     "age": 31,
+     "baseline": 461284.25,
+     "baseline_high": 830968.3,
+     "baseline_low": 149361.4,
+     "baseline_weeks": 12,
      "date": "2026-04-06",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 583929
+     "views": 583929,
+     "vs_baseline": 0.2659,
+     "vs_baseline_high": 0.2659,
+     "vs_baseline_low": 0.2659
     },
     {
+     "adjusted": 394767.0,
+     "adjusted_high": 394767.0,
+     "adjusted_low": 394767.0,
+     "age": 30,
+     "baseline": 489978.916667,
+     "baseline_high": 830968.3,
+     "baseline_low": 149361.4,
+     "baseline_weeks": 12,
      "date": "2026-04-13",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 2,
-     "views": 394767
+     "views": 394767,
+     "vs_baseline": -0.1943,
+     "vs_baseline_high": -0.1943,
+     "vs_baseline_low": -0.1943
     },
     {
+     "adjusted": 629776.0,
+     "adjusted_high": 629776.0,
+     "adjusted_low": 629776.0,
+     "age": 29,
+     "baseline": 510957.5,
+     "baseline_high": 830968.3,
+     "baseline_low": 208466.2,
+     "baseline_weeks": 12,
      "date": "2026-04-20",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 629776
+     "views": 629776,
+     "vs_baseline": 0.2325,
+     "vs_baseline_high": 0.2325,
+     "vs_baseline_low": 0.2325
     },
     {
+     "adjusted": 215979.0,
+     "adjusted_high": 215979.0,
+     "adjusted_low": 215979.0,
+     "age": 28,
+     "baseline": 546239.0,
+     "baseline_high": 830968.3,
+     "baseline_low": 231886.7,
+     "baseline_weeks": 12,
      "date": "2026-04-27",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 1,
-     "views": 215979
+     "views": 215979,
+     "vs_baseline": -0.6046,
+     "vs_baseline_high": -0.6046,
+     "vs_baseline_low": -0.6046
     },
     {
+     "adjusted": 615288.0,
+     "adjusted_high": 615288.0,
+     "adjusted_low": 615288.0,
+     "age": 27,
+     "baseline": 541308.333333,
+     "baseline_high": 830968.3,
+     "baseline_low": 217089.1,
+     "baseline_weeks": 12,
      "date": "2026-05-04",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 3,
-     "views": 615288
+     "views": 615288,
+     "vs_baseline": 0.1367,
+     "vs_baseline_high": 0.1367,
+     "vs_baseline_low": 0.1367
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 26,
+     "baseline": 568990.833333,
+     "baseline_high": 830968.3,
+     "baseline_low": 217089.1,
+     "baseline_weeks": 12,
      "date": "2026-05-11",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 1275296.0,
+     "adjusted_high": 1275296.0,
+     "adjusted_low": 1275296.0,
+     "age": 25,
+     "baseline": 538098.416667,
+     "baseline_high": 830968.3,
+     "baseline_low": 139290.9,
+     "baseline_weeks": 12,
      "date": "2026-05-18",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 6,
-     "views": 1275296
+     "views": 1275296,
+     "vs_baseline": 1.37,
+     "vs_baseline_high": 1.37,
+     "vs_baseline_low": 1.37
     },
     {
+     "adjusted": 1030894.0,
+     "adjusted_high": 1030894.0,
+     "adjusted_low": 1030894.0,
+     "age": 24,
+     "baseline": 582684.0,
+     "baseline_high": 1231871.0,
+     "baseline_low": 139290.9,
+     "baseline_weeks": 12,
      "date": "2026-05-25",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 4,
-     "views": 1030894
+     "views": 1030894,
+     "vs_baseline": 0.7692,
+     "vs_baseline_high": 0.7692,
+     "vs_baseline_low": 0.7692
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 23,
+     "baseline": 598504.666667,
+     "baseline_high": 1250855.8,
+     "baseline_low": 139290.9,
+     "baseline_weeks": 12,
      "date": "2026-06-01",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 379014.0,
+     "adjusted_high": 379014.0,
+     "adjusted_low": 379014.0,
+     "age": 22,
+     "baseline": 579581.333333,
+     "baseline_high": 1250855.8,
+     "baseline_low": 13077.0,
+     "baseline_weeks": 12,
      "date": "2026-06-08",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 2,
-     "views": 379014
+     "views": 379014,
+     "vs_baseline": -0.3461,
+     "vs_baseline_high": -0.3461,
+     "vs_baseline_low": -0.3461
     },
     {
+     "adjusted": 1145201.0,
+     "adjusted_high": 1145201.0,
+     "adjusted_low": 1145201.0,
+     "age": 21,
+     "baseline": 600268.333333,
+     "baseline_high": 1250855.8,
+     "baseline_low": 21597.9,
+     "baseline_weeks": 12,
      "date": "2026-06-15",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 5,
-     "views": 1145201
+     "views": 1145201,
+     "vs_baseline": 0.9078,
+     "vs_baseline_high": 0.9078,
+     "vs_baseline_low": 0.9078
     },
     {
+     "adjusted": 187237.0,
+     "adjusted_high": 187237.0,
+     "adjusted_low": 187237.0,
+     "age": 20,
+     "baseline": 635705.75,
+     "baseline_high": 1262286.5,
+     "baseline_low": 21597.9,
+     "baseline_weeks": 12,
      "date": "2026-06-22",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 1,
-     "views": 187237
+     "views": 187237,
+     "vs_baseline": -0.7055,
+     "vs_baseline_high": -0.7055,
+     "vs_baseline_low": -0.7055
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 19,
+     "baseline": 538115.083333,
+     "baseline_high": 1133770.3,
+     "baseline_low": 18723.7,
+     "baseline_weeks": 12,
      "date": "2026-06-29",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 18,
+     "baseline": 489454.333333,
+     "baseline_high": 1133770.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-07-06",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 17,
+     "baseline": 456557.083333,
+     "baseline_high": 1133770.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-07-13",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 16,
+     "baseline": 404075.75,
+     "baseline_high": 1133770.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-07-20",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 15,
+     "baseline": 386077.5,
+     "baseline_high": 1133770.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-07-27",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 14,
+     "baseline": 334803.5,
+     "baseline_high": 1133770.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-08-03",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 13,
+     "baseline": 334803.5,
+     "baseline_high": 1133770.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-08-10",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 12,
+     "baseline": 228528.833333,
+     "baseline_high": 965706.0,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-08-17",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 11,
+     "baseline": 142621.0,
+     "baseline_high": 359836.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-08-24",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 10,
+     "baseline": 142621.0,
+     "baseline_high": 359836.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-08-31",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 9,
+     "baseline": 111036.5,
+     "baseline_high": 168513.3,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-09-07",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 8,
+     "baseline": 15603.083333,
+     "baseline_high": 0.0,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-09-14",
+     "maturity": 1.0,
+     "status": "no uploads",
      "videos": 0,
-     "views": 0
+     "views": 0,
+     "vs_baseline": -1.0,
+     "vs_baseline_high": -1.0,
+     "vs_baseline_low": -1.0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 7,
      "date": "2026-09-21",
+     "maturity": 1.0,
      "videos": 0,
      "views": 0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 6,
      "date": "2026-09-28",
+     "maturity": 1.0,
      "videos": 0,
      "views": 0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 5,
      "date": "2026-10-05",
+     "maturity": 1.0,
      "videos": 0,
      "views": 0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 4,
      "date": "2026-10-12",
+     "maturity": 1.0,
      "videos": 0,
      "views": 0
     },
     {
+     "adjusted": 0.0,
+     "adjusted_high": 0.0,
+     "adjusted_low": 0.0,
+     "age": 3,
      "date": "2026-10-19",
+     "maturity": 1.0,
      "videos": 0,
      "views": 0
     },
     {
+     "adjusted": 50442.0,
+     "adjusted_high": 51152.63405,
+     "adjusted_low": 50442.0,
+     "age": 2,
      "date": "2026-10-26",
+     "maturity": 1.0,
      "videos": 1,
      "views": 50442
     },
     {
+     "adjusted": 46995.0,
+     "adjusted_high": 69703.588563,
+     "adjusted_low": 46995.0,
+     "age": 1,
+     "baseline": 4203.5,
+     "baseline_high": 0.0,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-11-02",
+     "maturity": 1.0,
+     "status": "above",
      "videos": 1,
-     "views": 46995
+     "views": 46995,
+     "vs_baseline": 10.18,
+     "vs_baseline_high": 15.5823,
+     "vs_baseline_low": 10.18
     },
     {
+     "adjusted": 63183.774928,
+     "adjusted_high": 106206.700325,
+     "adjusted_low": 58152.94965,
+     "age": 0,
+     "baseline": 8119.75,
+     "baseline_high": 42295.5,
+     "baseline_low": 0.0,
+     "baseline_weeks": 12,
      "date": "2026-11-09",
+     "maturity": 0.8227,
+     "status": "above",
      "videos": 2,
-     "views": 51983
+     "views": 51983,
+     "vs_baseline": 6.7815,
+     "vs_baseline_high": 12.08,
+     "vs_baseline_low": 6.1619
     }
    ]
   },
   {
    "captured": "2026-11-17",
    "id": "stew_peters",
+   "latest": {
+    "adjusted": 268400.076555,
+    "adjusted_high": 451158.331872,
+    "adjusted_low": 247029.496983,
+    "age": 0,
+    "baseline": 584485.25,
+    "baseline_high": 635949.7,
+    "baseline_low": 501172.4,
+    "baseline_weeks": 12,
+    "date": "2026-11-09",
+    "maturity": 0.8227,
+    "status": "below",
+    "videos": 16,
+    "views": 220820,
+    "vs_baseline": -0.5408,
+    "vs_baseline_high": -0.2281,
+    "vs_baseline_low": -0.5774
+   },
    "name": "Stew Peters",
    "tier": "core",
    "total": 8467056,
    "weeks": [
     {
+     "adjusted": 570521.0,
+     "adjusted_high": 570521.0,
+     "adjusted_low": 570521.0,
+     "age": 14,
      "date": "2026-08-03",
+     "maturity": 1.0,
      "videos": 21,
      "views": 570521
     },
     {
+     "adjusted": 661892.0,
+     "adjusted_high": 661892.0,
+     "adjusted_low": 661892.0,
+     "age": 13,
      "date": "2026-08-10",
+     "maturity": 1.0,
      "videos": 35,
      "views": 661892
     },
     {
+     "adjusted": 623527.0,
+     "adjusted_high": 623527.0,
+     "adjusted_low": 623527.0,
+     "age": 12,
      "date": "2026-08-17",
+     "maturity": 1.0,
      "videos": 37,
      "views": 623527
     },
     {
+     "adjusted": 645098.0,
+     "adjusted_high": 645098.0,
+     "adjusted_low": 645098.0,
+     "age": 11,
      "date": "2026-08-24",
+     "maturity": 1.0,
      "videos": 36,
      "views": 645098
     },
     {
+     "adjusted": 590894.0,
+     "adjusted_high": 590894.0,
+     "adjusted_low": 590894.0,
+     "age": 10,
+     "baseline": 625259.5,
+     "baseline_high": 656853.8,
+     "baseline_low": 586422.8,
+     "baseline_weeks": 4,
      "date": "2026-08-31",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 38,
-     "views": 590894
+     "views": 590894,
+     "vs_baseline": -0.055,
+     "vs_baseline_high": -0.055,
+     "vs_baseline_low": -0.055
     },
     {
+     "adjusted": 537176.0,
+     "adjusted_high": 537176.0,
+     "adjusted_low": 537176.0,
+     "age": 9,
+     "baseline": 618386.4,
+     "baseline_high": 655174.4,
+     "baseline_low": 578670.2,
+     "baseline_weeks": 5,
      "date": "2026-09-07",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 33,
-     "views": 537176
+     "views": 537176,
+     "vs_baseline": -0.1313,
+     "vs_baseline_high": -0.1313,
+     "vs_baseline_low": -0.1313
     },
     {
+     "adjusted": 497172.0,
+     "adjusted_high": 497172.0,
+     "adjusted_low": 497172.0,
+     "age": 8,
+     "baseline": 604851.333333,
+     "baseline_high": 653495.0,
+     "baseline_low": 553848.5,
+     "baseline_weeks": 6,
      "date": "2026-09-14",
+     "maturity": 1.0,
+     "status": "below",
      "videos": 36,
-     "views": 497172
+     "views": 497172,
+     "vs_baseline": -0.178,
+     "vs_baseline_high": -0.178,
+     "vs_baseline_low": -0.178
     },
     {
+     "adjusted": 597876.0,
+     "adjusted_high": 597876.0,
+     "adjusted_low": 597876.0,
+     "age": 7,
+     "baseline": 589468.571429,
+     "baseline_high": 651815.6,
+     "baseline_low": 521174.4,
+     "baseline_weeks": 7,
      "date": "2026-09-21",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 31,
-     "views": 597876
+     "views": 597876,
+     "vs_baseline": 0.0143,
+     "vs_baseline_high": 0.0143,
+     "vs_baseline_low": 0.0143
     },
     {
+     "adjusted": 636260.0,
+     "adjusted_high": 636260.0,
+     "adjusted_low": 636260.0,
+     "age": 6,
+     "baseline": 590519.5,
+     "baseline_high": 650136.2,
+     "baseline_low": 525174.8,
+     "baseline_weeks": 8,
      "date": "2026-09-28",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 41,
-     "views": 636260
+     "views": 636260,
+     "vs_baseline": 0.0775,
+     "vs_baseline_high": 0.0775,
+     "vs_baseline_low": 0.0775
     },
     {
+     "adjusted": 590235.0,
+     "adjusted_high": 590235.0,
+     "adjusted_low": 590235.0,
+     "age": 5,
+     "baseline": 595601.777778,
+     "baseline_high": 648456.8,
+     "baseline_low": 529175.2,
+     "baseline_weeks": 9,
      "date": "2026-10-05",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 34,
-     "views": 590235
+     "views": 590235,
+     "vs_baseline": -0.009,
+     "vs_baseline_high": -0.009,
+     "vs_baseline_low": -0.009
     },
     {
+     "adjusted": 551276.0,
+     "adjusted_high": 551276.0,
+     "adjusted_low": 551276.0,
+     "age": 4,
+     "baseline": 595065.1,
+     "baseline_high": 646777.4,
+     "baseline_low": 533175.6,
+     "baseline_weeks": 10,
      "date": "2026-10-12",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 31,
-     "views": 551276
+     "views": 551276,
+     "vs_baseline": -0.0736,
+     "vs_baseline_high": -0.0736,
+     "vs_baseline_low": -0.0736
     },
     {
+     "adjusted": 633157.0,
+     "adjusted_high": 633157.0,
+     "adjusted_low": 633157.0,
+     "age": 3,
+     "baseline": 591084.272727,
+     "baseline_high": 645098.0,
+     "baseline_low": 537176.0,
+     "baseline_weeks": 11,
      "date": "2026-10-19",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 36,
-     "views": 633157
+     "views": 633157,
+     "vs_baseline": 0.0712,
+     "vs_baseline_high": 0.0712,
+     "vs_baseline_low": 0.0712
     },
     {
+     "adjusted": 624199.0,
+     "adjusted_high": 632992.804045,
+     "adjusted_low": 624199.0,
+     "age": 2,
+     "baseline": 594590.333333,
+     "baseline_high": 644214.2,
+     "baseline_low": 538586.0,
+     "baseline_weeks": 12,
      "date": "2026-10-26",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 36,
-     "views": 624199
+     "views": 624199,
+     "vs_baseline": 0.0498,
+     "vs_baseline_high": 0.0646,
+     "vs_baseline_low": 0.0498
     },
     {
+     "adjusted": 486953.0,
+     "adjusted_high": 722254.953968,
+     "adjusted_low": 486953.0,
+     "age": 1,
+     "baseline": 599063.5,
+     "baseline_high": 644214.2,
+     "baseline_low": 538586.0,
+     "baseline_weeks": 12,
      "date": "2026-11-02",
+     "maturity": 1.0,
+     "status": "usual",
      "videos": 27,
-     "views": 486953
+     "views": 486953,
+     "vs_baseline": -0.1871,
+     "vs_baseline_high": 0.2056,
+     "vs_baseline_low": -0.1871
     },
     {
+     "adjusted": 268400.076555,
+     "adjusted_high": 451158.331872,
+     "adjusted_low": 247029.496983,
+     "age": 0,
+     "baseline": 584485.25,
+     "baseline_high": 635949.7,
+     "baseline_low": 501172.4,
+     "baseline_weeks": 12,
      "date": "2026-11-09",
+     "maturity": 0.8227,
+     "status": "below",
      "videos": 16,
-     "views": 220820
+     "views": 220820,
+     "vs_baseline": -0.5408,
+     "vs_baseline_high": -0.2281,
+     "vs_baseline_low": -0.5774
     }
    ]
   },
   {
    "captured": "2026-11-17",
    "id": "steve_bannon",
+   "latest": null,
    "name": "Steve Bannon / War Room",
    "tier": "adjacent",
    "total": 6570053,
    "weeks": [
     {
+     "adjusted": 1497141.0,
+     "adjusted_high": 1497141.0,
+     "adjusted_low": 1497141.0,
+     "age": 3,
      "date": "2026-10-19",
+     "maturity": 1.0,
      "videos": 110,
      "views": 1497141
     },
     {
+     "adjusted": 1610555.0,
+     "adjusted_high": 1633244.727273,
+     "adjusted_low": 1610555.0,
+     "age": 2,
      "date": "2026-10-26",
+     "maturity": 1.0,
      "videos": 120,
      "views": 1610555
     },
     {
+     "adjusted": 2026730.0,
+     "adjusted_high": 3006072.008707,
+     "adjusted_low": 2026730.0,
+     "age": 1,
      "date": "2026-11-02",
+     "maturity": 1.0,
      "videos": 134,
      "views": 2026730
     },
     {
+     "adjusted": 1744961.492186,
+     "adjusted_high": 2933135.959196,
+     "adjusted_low": 1606023.981818,
+     "age": 0,
      "date": "2026-11-09",
+     "maturity": 0.8227,
      "videos": 118,
      "views": 1435627
     }
@@ -7705,84 +10859,84 @@
   {
    "group": "baseline",
    "scenario": "Published model",
-   "score": 33.48
+   "score": 35.57
   },
   {
    "group": "weights",
    "scenario": "Equal pillar weights",
-   "score": 35.51
+   "score": 37.25
   },
   {
    "group": "weights",
    "scenario": "Without reach",
-   "score": 41.16
+   "score": 43.21
   },
   {
    "group": "weights",
    "scenario": "Without mainstreaming",
-   "score": 37.54
+   "score": 39.93
   },
   {
    "group": "weights",
    "scenario": "Without momentum",
-   "score": 29.52
+   "score": 32.1
   },
   {
    "group": "weights",
    "scenario": "Without breadth",
-   "score": 31.14
+   "score": 33.46
   },
   {
    "group": "weights",
    "scenario": "Without heat",
-   "score": 29.82
+   "score": 32.28
   },
   {
    "group": "weights",
    "scenario": "Without depth",
-   "score": 32.39
+   "score": 33.08
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 0.25",
-   "score": 32.85
+   "score": 34.7
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 0.75",
-   "score": 33.98
+   "score": 36.3
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 1",
-   "score": 34.54
+   "score": 37.08
   },
   {
    "group": "overlap",
    "scenario": "Audiences do not overlap (q=1)",
-   "score": 33.74
+   "score": 35.63
   },
   {
    "group": "overlap",
    "scenario": "Audiences fully overlap (q=inf)",
-   "score": 33.45
+   "score": 35.6
   },
   {
    "group": "views",
    "scenario": "Telegram view worth 0.1 YouTube views",
-   "score": 33.48
+   "score": 35.57
   },
   {
    "group": "views",
    "scenario": "Telegram view worth 0.5 YouTube views",
-   "score": 33.48
+   "score": 35.57
   }
  ],
  "series": [
   {
-   "confidence": 0.5147,
+   "confidence": 0.6174,
    "date": "2026-11-17",
-   "score": 33.48
+   "score": 35.57
   }
  ],
  "sources": [
@@ -7838,13 +10992,19 @@
    "source": "rumble"
   },
   {
-   "failed": [],
-   "first": null,
-   "last": null,
-   "note": "official X API v2 (pay-per-use)",
-   "ok": 0,
-   "rows": 0,
-   "skipped": "X_BEARER_TOKEN not set; X has no free read access",
+   "failed": [
+    {
+     "account": "jacksonhinklle",
+     "entity": "jackson_hinkle",
+     "reason": "mirror did not return the profile (not found (HTTP 404), 4 tries)"
+    }
+   ],
+   "first": "2026-11-17",
+   "last": "2026-11-17",
+   "note": "FxTwitter public profile API (free third-party mirror of X profiles)",
+   "ok": 25,
+   "rows": 25,
+   "skipped": null,
    "source": "x"
   },
   {
@@ -7907,6 +11067,16 @@
    "rows": 12231,
    "skipped": null,
    "source": "gdelt"
+  },
+  {
+   "failed": [],
+   "first": "2002-01-01",
+   "last": "2026-07-01",
+   "note": "ADL H.E.A.T. Map public data; monthly counts by type, read in full",
+   "ok": 69976,
+   "rows": 4130,
+   "skipped": null,
+   "source": "adl_heat"
   }
  ]
 }

@@ -1,9 +1,16 @@
 {
  "date": "2026-11-17",
- "started_at": "2026-11-17T06:15:53+00:00",
- "finished_at": "2026-11-17T06:16:05+00:00",
- "requests": 6,
+ "started_at": "2026-11-17T08:53:44+00:00",
+ "finished_at": "2026-11-17T08:53:56+00:00",
+ "requests": 145,
  "reports": [
+  {
+   "source": "adl_heat",
+   "ok": 69976,
+   "failed": [],
+   "skipped": null,
+   "note": "ADL H.E.A.T. Map public data; monthly counts by type, read in full"
+  },
   {
    "source": "apple_podcasts",
    "ok": 2,
@@ -90,10 +97,16 @@
   },
   {
    "source": "x",
-   "ok": 0,
-   "failed": [],
-   "skipped": "X_BEARER_TOKEN not set; X has no free read access",
-   "note": "official X API v2 (pay-per-use)"
+   "ok": 25,
+   "failed": [
+    {
+     "entity": "jackson_hinkle",
+     "account": "jacksonhinklle",
+     "reason": "mirror did not return the profile (not found (HTTP 404), 4 tries)"
+    }
+   ],
+   "skipped": null,
+   "note": "FxTwitter public profile API (free third-party mirror of X profiles)"
   },
   {
    "source": "youtube",

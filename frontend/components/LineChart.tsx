@@ -40,9 +40,15 @@ export function LineChart({ points, unit, label, baselineLabel, fixedMax, maxTic
     const x = (i: number) => M.left + (n === 1 ? 0.5 : i / (n - 1)) * (W - M.left - M.right)
     const y = (v: number) => H - M.bottom - (v / max) * (H - M.top - M.bottom)
     const line = points.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.value).toFixed(1)}`).join('')
-    const base = points.some((p) => p.baseline !== undefined)
-      ? points.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.baseline ?? 0).toFixed(1)}`).join('')
-      : null
+    // The reference line is drawn only where a reference exists; a gap starts a new stroke.
+    let base: string | null = null
+    if (points.some((p) => p.baseline !== undefined)) {
+      base = ''
+      points.forEach((p, i) => {
+        if (p.baseline === undefined) return
+        base += `${i > 0 && points[i - 1].baseline !== undefined ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.baseline).toFixed(1)}`
+      })
+    }
     const months: { i: number; text: string }[] = []
     points.forEach((p, i) => {
       // Label the first point of each month (daily series hit the 1st; weekly series do not).

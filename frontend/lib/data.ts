@@ -60,6 +60,37 @@ export type Source = {
   note: string | null
 }
 
+/** One upload week of a Rumble channel. Views are to date; `adjusted` scales a young week to maturity. */
+export type RumbleWeek = {
+  date: string
+  views: number
+  videos: number
+  age: number
+  maturity?: number
+  adjusted?: number
+  adjusted_low?: number
+  adjusted_high?: number
+  baseline?: number
+  baseline_low?: number
+  baseline_high?: number
+  baseline_weeks?: number
+  vs_baseline?: number
+  vs_baseline_low?: number
+  vs_baseline_high?: number
+  status?: 'above' | 'below' | 'usual' | 'no uploads'
+}
+
+export type OfflineSeries = {
+  id: string
+  label: string
+  note: string
+  total: number
+  last: string
+  years: { year: number; count: number }[]
+  partial: { year: number; count: number; through: string } | null
+}
+export type Offline = { source: string; url: string; first_year: number; last: string; series: OfflineSeries[] }
+
 export type Dataset = {
   meta: {
     model_version: string
@@ -85,7 +116,19 @@ export type Dataset = {
   series: { date: string; score: number; confidence: number }[]
   heat_series: { wikipedia: HeatPoint[]; news: HeatPoint[] }
   rumble_view_gains: { id: string; name: string; from: string; to: string; days: number; gained: number; per_week: number }[]
-  rumble_upload_weeks: { id: string; name: string; tier: string; captured: string; total: number; weeks: { date: string; views: number; videos: number | null }[] }[]
+  rumble_upload_weeks: { id: string; name: string; tier: string; captured: string; total: number; weeks: RumbleWeek[]; latest: RumbleWeek | null }[]
+  rumble_maturity: {
+    method: 'cross-section' | 'longitudinal'
+    settled_age: number
+    factors: { age: number; m: number; low: number; high: number; n: number }[]
+    reference_ages: [number, number]
+    horizon: number
+    baseline_weeks: number
+    baseline_min_weeks: number
+    baseline_range: [number, number]
+    captures: number
+  }
+  offline: Offline | null
   constituents: Constituent[]
   platforms: {
     platform: string

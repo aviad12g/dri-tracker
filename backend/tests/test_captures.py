@@ -30,6 +30,16 @@ def test_capture_becomes_tagged_observations():
     assert weeks["nickjfuentes@2026-11-09"] == 425_039 and len(weeks) == 3
 
 
+def test_capture_days_are_optional_and_stored_separately_from_weeks():
+    cap = small_capture()
+    assert not [r for r in rumble_rows(cap, registry_mod.load()) if r["metric"].startswith("upload_day")]
+    cap["channels"]["nickjfuentes"]["days"] = [["2026-11-13", 1, 425039], ["2026-11-16", 2, 300000]]
+    rows = rumble_rows(cap, registry_mod.load())
+    days = {r["account"]: r["value"] for r in rows if r["metric"] == "upload_day_views"}
+    assert days == {"nickjfuentes@2026-11-13": 425_039, "nickjfuentes@2026-11-16": 300_000}
+    assert len([r for r in rows if r["metric"] == "upload_week_views"]) == 3
+
+
 def test_capture_with_a_short_listing_is_marked_partial():
     cap = small_capture()
     cap["channels"]["nickjfuentes"]["oldest"] = "2026-11-14"
@@ -69,8 +79,11 @@ def test_export_lists_completed_upload_weeks_only(tmp_path):
     # 16 November is the week the capture was taken in, so it is left out;
     # 2 November had no uploads, so it appears as a zero instead of vanishing.
     assert [w["date"] for w in nick["weeks"]] == ["2026-10-26", "2026-11-02", "2026-11-09"]
-    assert nick["weeks"][1] == {"date": "2026-11-02", "views": 0, "videos": 0}
-    assert nick["weeks"][2] == {"date": "2026-11-09", "views": 425_039, "videos": 1}
+    assert nick["weeks"][1] == {"date": "2026-11-02", "views": 0, "videos": 0, "age": 1}
+    # One channel cannot support a maturity factor, so the young weeks stay as recorded and are not judged.
+    assert nick["weeks"][2] == {"date": "2026-11-09", "views": 425_039, "videos": 1, "age": 0}
+    assert data["rumble_maturity"]["method"] == "cross-section" and data["rumble_maturity"]["factors"] == []
+    assert nick["latest"] is None
 
 
 def test_views_gained_come_from_the_difference_between_two_captures(tmp_path):
@@ -112,3 +125,26 @@ def test_legacy_cache_imports_trusted_platforms_only(tmp_path):
     rows = read_cache(tmp_path, registry_mod.load())
     assert [(r["source"], r["entity"], r["value"]) for r in rows] == [("rumble", "nick_fuentes", 644000), ("telegram", "nick_fuentes", 116860)]
     assert rows[0]["meta"]["precision"].startswith("rounded")
+
+
+def test_offline_incidents_draw_complete_years_only():
+    from dri.collectors.base import obs
+    from dri.export import offline_incidents
+    from dri.features import ObsIndex
+
+    def month(day, name, n):
+        return obs(day, "adl_heat", "_us", name, "incidents", n)
+
+    rows = [month("2015-06-01", "antisemitic_incident", 9),            # before the first year shown
+            month("2024-03-01", "antisemitic_incident", 5), month("2024-12-01", "antisemitic_incident", 2),
+            month("2025-05-01", "antisemitic_incident", 4),            # no December, but 2026 has records: complete
+            month("2026-02-01", "antisemitic_incident", 1),            # the year still being filled in
+            month("2023-12-01", "white_supremacist_propaganda", 7)]    # a series that stopped: its last year is complete
+    out = offline_incidents(ObsIndex(rows))
+    by = {s["id"]: s for s in out["series"]}
+    assert by["antisemitic_incident"]["years"] == [{"year": 2024, "count": 7}, {"year": 2025, "count": 4}]
+    assert by["antisemitic_incident"]["partial"] == {"year": 2026, "count": 1, "through": date(2026, 2, 1)}
+    assert by["antisemitic_incident"]["total"] == 11
+    assert by["white_supremacist_propaganda"]["years"] == [{"year": 2023, "count": 7}]
+    assert by["white_supremacist_propaganda"]["partial"] is None
+    assert out["last"] == date(2026, 2, 1) and offline_incidents(ObsIndex([])) is None

@@ -48,6 +48,7 @@ export const PLATFORM_NAME: Record<string, string> = {
   apple_podcasts: 'Apple Podcasts',
   wikipedia: 'Wikipedia',
   gdelt: 'GDELT news',
+  adl_heat: 'ADL H.E.A.T. Map',
 }
 
 export const COHORT_NAME: Record<string, string> = {

@@ -14,6 +14,7 @@ from collections import defaultdict
 from datetime import date, timedelta
 from pathlib import Path
 
+from dri import maturity
 from dri.features import ObsIndex, panel_anomaly
 from dri.model import compute, heat_inputs, sensitivity
 from dri.params import DEFAULT, MODEL_VERSION, PILLARS, PLATFORMS, Params
@@ -159,35 +160,8 @@ def build(store: Store, registry, p: Params = DEFAULT) -> dict:
                           "extremism_followers": by_basket.get("extremism", 0.0),
                           "reference_followers": by_basket.get("reference", 0.0)})
 
-    # Rumble: views per upload week, from the latest browser capture of each channel.
-    upload_weeks = []
-    for c in registry.constituents:
-        account = c.accounts.get("rumble")
-        if not account:
-            continue
-        weeks = {}
-        captured = None
-        for key in idx.keys_for("rumble", "upload_week_views"):
-            if key[1] != c.id or "@" not in key[2]:
-                continue
-            series = {d: v for d, v in idx.series(key).items() if d <= as_of}
-            if not series:
-                continue
-            day = max(series)
-            captured = day if captured is None or day > captured else captured
-            week = date.fromisoformat(key[2].rsplit("@", 1)[1])
-            videos = idx.series((key[0], key[1], key[2], "upload_week_videos")).get(day)
-            weeks[week] = {"date": week, "views": series[day], "videos": videos}
-        if weeks:
-            # The week the capture was taken in is still in progress, so it is left out.
-            # A week with no uploads has no upload views, so gaps are filled with zeros.
-            done, week = [], min(weeks)
-            while week + timedelta(days=7) <= captured:
-                done.append(weeks.get(week, {"date": week, "views": 0, "videos": 0}))
-                week += timedelta(days=7)
-            upload_weeks.append({"id": c.id, "name": c.name, "tier": c.tier, "captured": captured, "weeks": done,
-                                 "total": sum(w["views"] for w in done)})
-    upload_weeks.sort(key=lambda r: (-r["total"], r["id"]))
+    # Rumble: views per upload week from browser captures, with each channel's own normal.
+    upload_weeks, maturity_model = rumble_weeks(idx, registry, as_of, p)
     view_gains = rumble_view_gains(idx, registry, as_of)
 
     by_source = defaultdict(lambda: {"rows": 0, "first": None, "last": None})
@@ -199,8 +173,8 @@ def build(store: Store, registry, p: Params = DEFAULT) -> dict:
     run = latest_run(store.root)
     reports = {rep["source"]: rep for rep in (run or {}).get("reports", [])}
     sources = []
-    for name in ("youtube", "telegram", "bitchute", "rumble", "x", "apple_podcasts", "wikipedia", "gdelt"):
-        rep = reports.get(name, {})
+    for name in ("youtube", "telegram", "bitchute", "rumble", "x", "apple_podcasts", "wikipedia", "gdelt", "adl_heat"):
+        rep = reports.get(name) or latest_report(store.root, name) or {}
         sources.append({"source": name, **by_source.get(name, {"rows": 0, "first": None, "last": None}),
                         "ok": rep.get("ok"), "failed": rep.get("failed", []), "skipped": rep.get("skipped"),
                         "note": rep.get("note")})
@@ -229,6 +203,8 @@ def build(store: Store, registry, p: Params = DEFAULT) -> dict:
                     "confidence": results[d]["composite"]["confidence"]} for d in scored],
         "heat_series": heat_series,
         "rumble_upload_weeks": upload_weeks,
+        "rumble_maturity": maturity_model,
+        "offline": offline_incidents(idx),
         "rumble_view_gains": view_gains,
         "constituents": constituents,
         "platforms": platforms,
@@ -236,9 +212,77 @@ def build(store: Store, registry, p: Params = DEFAULT) -> dict:
         "sources": sources,
         "params": {"tier_weight": p.tier_weight, "depth": p.depth, "view_equiv": p.view_equiv, "overlap_q": p.overlap_q,
                    "weights": p.weights, "stale": p.stale, "growth_lag": p.growth_lag, "baseline_days": p.baseline_days,
+                   "growth_cap": p.growth_cap, "breadth_min_accounts": p.breadth_min_accounts,
                    "min_weight_coverage": p.min_weight_coverage},
     }
     return _clean(data)
+
+
+def rumble_captures(idx: ObsIndex, registry, as_of: date) -> dict[str, dict[date, dict[date, tuple[float, int]]]]:
+    """Every Rumble capture on record: constituent -> capture day -> upload week -> (views, videos)."""
+    out: dict[str, dict[date, dict[date, tuple[float, int]]]] = {}
+    ids = {c.id for c in registry.constituents if "rumble" in c.accounts}
+    for key in idx.keys_for("rumble", "upload_week_views"):
+        if key[1] not in ids or "@" not in key[2]:
+            continue
+        week = date.fromisoformat(key[2].rsplit("@", 1)[1])
+        videos = idx.series((key[0], key[1], key[2], "upload_week_videos"))
+        for day, views in idx.series(key).items():
+            if day <= as_of:
+                out.setdefault(key[1], {}).setdefault(day, {})[week] = (views, int(videos.get(day, 0)))
+    return out
+
+
+def rumble_weeks(idx: ObsIndex, registry, as_of: date, p: Params) -> tuple[list[dict], dict]:
+    """Views per upload week for each Rumble channel, scaled to maturity and set against the channel's own normal.
+
+    Recorded counts are views to date. `adjusted` is the estimate of what the week
+    will have once its uploads have settled (see dri/maturity.py); `baseline` is the
+    mean adjusted views of the channel's preceding weeks, and `status` says whether
+    the week sits above, below or inside the range most of those weeks fell in.
+    """
+    history = rumble_captures(idx, registry, as_of)
+    latest = {cid: (max(caps), caps[max(caps)]) for cid, caps in history.items()}
+    model = maturity.factors(latest, history, p)
+    out = []
+    for c in registry.constituents:
+        if c.id not in history:
+            continue
+        captured, weeks = latest[c.id]
+        # The week the capture was taken in is still in progress, so it is left out.
+        # A week with no uploads has no upload views, so gaps are filled with zeros.
+        done, adjusted_so_far, week = [], [], min(weeks)
+        while week + timedelta(days=7) <= captured:
+            views, videos = weeks.get(week, (0, 0))
+            age = maturity.week_age(week, captured)
+            row = {"date": week, "views": views, "videos": videos, "age": age}
+            adj = maturity.adjust(views, age, model)
+            if adj is not None:
+                row.update({"maturity": _r(adj["m"], 4), "adjusted": adj["adjusted"],
+                            "adjusted_low": adj["low"], "adjusted_high": adj["high"]})
+                base = maturity.baseline(adjusted_so_far, p)
+                if base is not None and base["mean"] > 0:
+                    row.update({"baseline": base["mean"], "baseline_low": base["low"], "baseline_high": base["high"],
+                                "baseline_weeks": base["weeks"], "vs_baseline": _r(adj["adjusted"] / base["mean"] - 1.0, 4),
+                                "vs_baseline_low": _r(adj["low"] / base["mean"] - 1.0, 4),
+                                "vs_baseline_high": _r(adj["high"] / base["mean"] - 1.0, 4),
+                                "status": maturity.status(adj["low"], adj["high"], videos, base)})
+                adjusted_so_far.append(adj["adjusted"])
+            done.append(row)
+            week += timedelta(days=7)
+        judged = [w for w in done if "status" in w]
+        out.append({"id": c.id, "name": c.name, "tier": c.tier, "captured": captured, "weeks": done,
+                    "total": sum(w["views"] for w in done), "latest": judged[-1] if judged else None})
+    out.sort(key=lambda r: (-r["total"], r["id"]))
+    lo, hi = p.maturity_ref_ages
+    summary = {"method": model["method"], "settled_age": model["settled_age"],
+               "factors": [{**f, "m": _r(f["m"], 4), "low": _r(f["low"], 4), "high": _r(f["high"], 4)}
+                           for _, f in sorted(model["factors"].items())],
+               "reference_ages": [lo, hi], "horizon": p.maturity_horizon,
+               "baseline_weeks": p.baseline_weeks, "baseline_min_weeks": p.baseline_min_weeks,
+               "baseline_range": list(p.baseline_range),
+               "captures": len({day for caps in history.values() for day in caps})}
+    return out, summary
 
 
 def rumble_view_gains(idx: ObsIndex, registry, as_of: date) -> list[dict]:
@@ -252,16 +296,8 @@ def rumble_view_gains(idx: ObsIndex, registry, as_of: date) -> list[dict]:
     """
     out = []
     for c in registry.constituents:
-        if "rumble" not in c.accounts:
-            continue
-        by_capture: dict[date, dict[date, float]] = defaultdict(dict)
-        for key in idx.keys_for("rumble", "upload_week_views"):
-            if key[1] != c.id or "@" not in key[2]:
-                continue
-            week = date.fromisoformat(key[2].rsplit("@", 1)[1])
-            for day, views in idx.series(key).items():
-                if day <= as_of:
-                    by_capture[day][week] = views
+        by_capture = {day: {w: v for w, (v, _) in weeks.items()}
+                      for day, weeks in rumble_captures(idx, registry, as_of).get(c.id, {}).items()}
         days = sorted(by_capture)
         for earlier, later in zip(days, days[1:]):
             a, b = by_capture[earlier], by_capture[later]
@@ -271,6 +307,59 @@ def rumble_view_gains(idx: ObsIndex, registry, as_of: date) -> list[dict]:
             out.append({"id": c.id, "name": c.name, "from": earlier, "to": later, "days": span,
                         "gained": gained, "per_week": gained * 7.0 / span})
     return sorted(out, key=lambda r: (r["to"], r["id"]))
+
+
+OFFLINE_SERIES = (
+    ("antisemitic_incident", "Antisemitic incidents", "Assault, harassment and vandalism, whoever committed them"),
+    ("white_supremacist_propaganda", "White supremacist propaganda", "Flyers, banners, stickers and similar distributions"),
+    ("white_supremacist_event", "White supremacist events", "Rallies, marches and other organised gatherings"),
+    ("extremist_violence_right_wing", "Right-wing extremist violence",
+     "Murders, terrorist plots and attacks, and shootouts with police, by perpetrators the ADL classed as right-wing"),
+    ("extremist_violence", "Extremist violence, all ideologies", "The same three kinds of violence, whatever the ideology"),
+)
+
+
+OFFLINE_FIRST_YEAR = 2016   # the ADL's incident records are sparse before this
+
+
+def offline_incidents(idx: ObsIndex) -> dict | None:
+    """Incidents recorded by the ADL, by year. Shown beside the index; never part of it.
+
+    A year is complete for a series if the series has a record in that December
+    or in any later year. The year still being filled in is reported separately
+    as `partial`, so an unfinished year is never drawn as a fall.
+    """
+    out, lasts = [], []
+    for name, label, note in OFFLINE_SERIES:
+        series = idx.series(("adl_heat", "_us", name, "incidents"))
+        active = sorted(d for d, v in series.items() if v > 0 and d.year >= OFFLINE_FIRST_YEAR)
+        if not active:
+            continue
+        last = active[-1]
+        final_year = last.year if last.month == 12 else last.year - 1
+        years: dict[int, int] = defaultdict(int)
+        for d, v in series.items():
+            if active[0].year <= d.year <= last.year:
+                years[d.year] += int(v)
+        complete = [{"year": y, "count": c} for y, c in sorted(years.items()) if y <= final_year]
+        partial = {"year": last.year, "count": years[last.year], "through": last} if last.year > final_year else None
+        lasts.append(last)
+        out.append({"id": name, "label": label, "note": note, "years": complete, "partial": partial, "last": last,
+                    "total": sum(y["count"] for y in complete)})
+    if not out:
+        return None
+    return {"source": "ADL H.E.A.T. Map", "url": "https://www.adl.org/resources/tools-to-track-hate/heat-map",
+            "first_year": OFFLINE_FIRST_YEAR, "last": max(lasts), "series": out}
+
+
+def latest_report(root: Path, source: str) -> dict | None:
+    """The newest run report for a source that is not read every day."""
+    runs = sorted((root / "runs").glob("*.json"), reverse=True) if (root / "runs").exists() else []
+    for path in runs:
+        for rep in json.loads(path.read_text(encoding="utf-8")).get("reports", []):
+            if rep["source"] == source:
+                return {**rep, "read": path.stem}
+    return None
 
 
 def latest_run(root: Path) -> dict | None:

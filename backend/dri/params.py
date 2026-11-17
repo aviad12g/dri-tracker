@@ -9,7 +9,7 @@ from __future__ import annotations
 import math
 from dataclasses import dataclass, field, replace
 
-MODEL_VERSION = "2.2.0"
+MODEL_VERSION = "2.3.0"
 
 PLATFORMS = ("youtube", "x", "rumble", "bitchute", "telegram")
 
@@ -57,6 +57,21 @@ class Params:
 
     # A composite is published only if pillars carrying this much weight are available.
     min_weight_coverage: float = 0.50
+
+    # View accumulation (display only, never part of the index). Ages are whole weeks since an upload week ended.
+    maturity_ref_ages: tuple = (3, 8)       # cross-section: ages treated as settled, used as each channel's reference
+    maturity_ref_min_videos: int = 8        # a channel's reference weeks must hold this many uploads to contribute
+    maturity_min_videos: int = 2            # a young week needs this many uploads to contribute a ratio
+    maturity_min_channels: int = 3          # an age gets a cross-section factor only with this many channels
+    maturity_young: int = 3                 # longitudinal: ages below this get their own growth factor; older share one
+    maturity_horizon: int = 12              # longitudinal: views at this age count as mature
+    maturity_min_pairs: int = 3             # longitudinal: measured ratios needed per age
+    maturity_pair_days: tuple = (6, 8)      # two captures this many days apart count as a week apart
+
+    # A channel's own normal: the weeks before the one being judged.
+    baseline_weeks: int = 12
+    baseline_min_weeks: int = 4
+    baseline_range: tuple = (0.10, 0.90)    # a week outside these quantiles of its baseline weeks is unusual
 
     def with_(self, **changes) -> "Params":
         return replace(self, **changes)

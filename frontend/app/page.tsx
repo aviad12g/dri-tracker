@@ -2,8 +2,10 @@ import Link from 'next/link'
 import { LineChart } from '@/components/LineChart'
 import { PillarRow } from '@/components/PillarRow'
 import { Ruler } from '@/components/Ruler'
+import { YearBars } from '@/components/YearBars'
 import { loadData } from '@/lib/data'
-import { COHORT_NAME, PLATFORM_NAME, compact, longDate, pct, signed } from '@/lib/format'
+import type { RumbleWeek } from '@/lib/data'
+import { COHORT_NAME, PLATFORM_NAME, compact, longDate, pct, shortDate, signed, signedPct, whole } from '@/lib/format'
 
 const GROUPS = [
   { id: 'scale', name: 'Scale', note: 'how large it is beside mainstream media', color: 'var(--g-scale)' },
@@ -14,6 +16,15 @@ const GROUPS = [
 function list(names: string[]): string {
   if (names.length <= 1) return names.join('')
   return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`
+}
+
+/** The headline call for a channel's newest judged week. */
+function verdict(w: RumbleWeek): string {
+  if (w.status === 'no uploads') return 'No uploads that week'
+  const size = signedPct(w.vs_baseline)
+  if (w.status === 'above') return `${size} against its average: above its usual range`
+  if (w.status === 'below') return `${size} against its average: below its usual range`
+  return `${size} against its average: inside its usual range`
 }
 
 export default function Page() {
@@ -37,6 +48,10 @@ export default function Page() {
   const maxFollow = Math.max(...data.platforms.map((p) => Math.max(p.extremism_followers, p.reference_followers)), 1)
   const scenarios = data.sensitivity.filter((s) => s.group !== 'baseline' && s.score !== null)
   const wiki = data.heat_series.wikipedia
+  const mat = data.rumble_maturity
+  const youngText = mat.factors.some((f) => f.m < 1)
+    ? 'the newest weeks are scaled up to what they are heading for before they are compared.'
+    : 'the newest weeks are understated until they settle.'
   const news = data.heat_series.news.map((p) => ({ ...p, value: p.value * 1e4, baseline: p.baseline * 1e4 }))
   const charts = (pillars.find((p) => p.id === 'mainstreaming')?.detail.charts ?? {}) as Record<string, any>
   const names = Object.fromEntries(data.constituents.map((c) => [c.id, c]))
@@ -147,16 +162,14 @@ export default function Page() {
         <section className="section">
           <h2>Rumble, week by week</h2>
           <p className="lede">
-            Each point is the total views to date on that week’s uploads, counted on{' '}
-            {longDate(data.rumble_upload_weeks[0].captured)} in a browser, because Rumble refuses automated readers. Views keep accumulating:
-            older weeks have had longer to grow and the latest weeks are understated, so the slope of these lines is not a measure of
-            decline. {data.rumble_view_gains.length > 0
-              ? 'Views actually gained between captures are shown under each channel.'
-              : 'A second capture will show how many views each channel actually gained in between.'}
+            Views on each week’s uploads, read in a browser on {longDate(data.rumble_upload_weeks[0].captured)} because Rumble refuses automated
+            readers. The dashed line is the channel’s own average over the {mat.baseline_weeks} weeks before each point, so a week can be read
+            as above or below its normal. A video keeps collecting views after it goes up, so {youngText}
           </p>
           <div className="grid3">
             {data.rumble_upload_weeks.map((ch) => {
               const acct = names[ch.id]?.accounts.find((a) => a.platform === 'rumble')
+              const w = ch.latest
               return (
                 <div className="panel" key={ch.id}>
                   <h3>{ch.name}</h3>
@@ -164,9 +177,28 @@ export default function Page() {
                     {compact(acct?.followers ?? null)} followers, {ch.weeks.length} weeks, {compact(ch.total)} views
                   </p>
                   {ch.weeks.length > 1 ? (
-                    <LineChart points={ch.weeks.map((w) => ({ date: w.date, value: w.views }))} unit="views" label="Views on that week’s uploads" maxTicks={4} small />
+                    <LineChart points={ch.weeks.map((x) => ({ date: x.date, value: x.adjusted ?? x.views, baseline: x.baseline }))} unit="views"
+                      label="Views on that week’s uploads" baselineLabel={`average of the ${mat.baseline_weeks} weeks before`} maxTicks={4} small />
                   ) : (
                     <p className="empty">One completed week so far.</p>
+                  )}
+                  {w && w.baseline !== undefined && w.adjusted !== undefined ? (
+                    <p className="verdict">
+                      <b className={`call ${w.status === 'above' ? 'up' : w.status === 'below' ? 'down' : ''}`}>{verdict(w)}</b>
+                      Week of {shortDate(w.date)}: {w.videos} {w.videos === 1 ? 'upload' : 'uploads'}, {compact(w.views)} views so far
+                      {w.maturity !== undefined && w.maturity < 1 ? `, about ${compact(w.adjusted)} once settled` : ''}. Its average week before
+                      that drew {compact(w.baseline)}
+                      {w.vs_baseline_low !== w.vs_baseline_high
+                        ? `, so the week lands between ${signedPct(w.vs_baseline_low)} and ${signedPct(w.vs_baseline_high)}.`
+                        : '.'}
+                    </p>
+                  ) : (
+                    <p className="verdict">
+                      <b className="call">No average yet</b>
+                      {ch.weeks.length <= mat.baseline_min_weeks
+                        ? `The capture reached back ${ch.weeks.length} weeks; an average needs ${mat.baseline_min_weeks} earlier weeks.`
+                        : 'The weeks before the latest one had no uploads to average.'}
+                    </p>
                   )}
                   {data.rumble_view_gains.filter((g) => g.id === ch.id).slice(-1).map((g) => (
                     <p className="foot" key={g.to}>
@@ -177,6 +209,48 @@ export default function Page() {
               )
             })}
           </div>
+          <p className="note">
+            {mat.method === 'longitudinal'
+              ? `Young weeks are scaled up by growth measured between ${mat.captures} captures of the same uploads.`
+              : `Young weeks are scaled up by a provisional factor read from this one capture (${mat.factors.map((f) => `${f.age === 0 ? 'newest week' : `${f.age} ${f.age === 1 ? 'week' : 'weeks'} old`}: ${pct(f.m)} complete, from ${f.n} channels`).join('; ')}). It assumes each channel’s typical video drew a steady audience over the last two months, and it is replaced by measured growth once a second capture exists.`}{' '}
+            A week is called above or below only when its whole range falls outside the range that eight in ten of the channel’s recent weeks fell in.{' '}
+            <Link href="/method/#accumulation">How this is computed</Link>. These figures are not part of the index.
+          </p>
+        </section>
+      )}
+
+      {data.offline && (
+        <section className="section">
+          <h2>Recorded offline</h2>
+          <p className="lede">
+            Incidents the ADL recorded in the United States each year since {data.offline.first_year}. These are counts of what was reported
+            and logged, by the ADL’s definitions, and each year is published months after it ends. They sit beside the index and are not part
+            of it, so the two can be compared.
+          </p>
+          <div className="grid2">
+            {data.offline.series.filter((x) => x.id !== 'extremist_violence').map((x) => {
+              const all = x.id === 'extremist_violence_right_wing' ? data.offline!.series.find((y) => y.id === 'extremist_violence') : null
+              const ended = x.last.slice(0, 4) < data.offline!.last.slice(0, 4)
+              return (
+                <div className="panel" key={x.id}>
+                  <h3>{x.label}</h3>
+                  <p className="sub">{x.note}</p>
+                  <YearBars years={x.years} label={x.label} />
+                  <p className="foot">
+                    {x.partial ? `${whole(x.partial.count)} recorded so far for ${x.partial.year}, which is incomplete and not drawn. ` : ''}
+                    {ended ? `The ADL’s published records of this type stop in ${x.last.slice(0, 4)}. ` : ''}
+                    {all ? `Across all ideologies the ADL recorded ${whole(all.total)} such incidents in these years; ${whole(x.total)} were right-wing. ` : ''}
+                    {x.id === 'antisemitic_incident' ? 'Counted whoever was responsible, so this is not a measure of the far right alone.' : ''}
+                  </p>
+                </div>
+              )
+            })}
+          </div>
+          <p className="note">
+            Source: <a href={data.offline.url}>{data.offline.source}</a>, the ADL’s published incident records, tallied here by type. A record
+            can carry more than one type, so the panels should not be added together.{' '}
+            <Link href="/method/#offline">Why these counts are kept out of the index</Link>.
+          </p>
         </section>
       )}
 

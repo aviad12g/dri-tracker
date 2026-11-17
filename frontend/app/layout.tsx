@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="wrap">{children}</main>
         <footer className="wrap footer">
           <span>
-            Every figure on this site is a recorded public observation or computed from one. Nothing is simulated or estimated.
+            Every figure in the index is a recorded public observation or computed from one. The one estimate on this site, Rumble views scaled for young uploads, is marked where it appears.
           </span>
           {data && (
             <span>

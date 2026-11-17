@@ -44,4 +44,9 @@ def rumble_rows(capture: dict, registry) -> list[dict]:
             date.fromisoformat(week)
             rows.append(obs(day, "rumble", c.id, f"{name}@{week}", "upload_week_views", int(views)))
             rows.append(obs(day, "rumble", c.id, f"{name}@{week}", "upload_week_videos", int(videos)))
+        # Newer captures also carry the last five weeks per upload day (UTC), for a finer view of young uploads.
+        for upload_day, videos, views in ch.get("days", []):
+            date.fromisoformat(upload_day)
+            rows.append(obs(day, "rumble", c.id, f"{name}@{upload_day}", "upload_day_views", int(views)))
+            rows.append(obs(day, "rumble", c.id, f"{name}@{upload_day}", "upload_day_videos", int(videos)))
     return rows

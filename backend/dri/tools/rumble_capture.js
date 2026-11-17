@@ -9,10 +9,13 @@
 //
 // Per channel it records the exact follower count, the channel ID, views on
 // the last seven days of uploads, and total views per upload week going back
-// up to a year (bounded by MAX_PAGES). View counts are as of the capture.
+// up to a year (bounded by MAX_PAGES), plus the same per upload day for the
+// last five weeks, where views are still accumulating fastest. View counts are
+// as of the capture. Take captures a week apart, on the same weekday: the
+// build measures how much each upload week grew between two of them.
 (async () => {
   const HANDLES = ['nickjfuentes', 'StewPeters', 'RealCandaceO', 'TuckerCarlson', 'TateSpeech', 'BannonsWarRoom'];
-  const MAX_PAGES = 22, CUTOFF_DAYS = 365, PAUSE_MS = 1200;
+  const MAX_PAGES = 22, CUTOFF_DAYS = 365, PAUSE_MS = 1200, DAILY_DAYS = 35;
   const now = Date.now(), cutoff = now - CUTOFF_DAYS * 864e5;
   const weekStart = (t) => {
     const d = new Date(t), day = (d.getUTCDay() + 6) % 7;
@@ -43,8 +46,13 @@
       else if (page >= MAX_PAGES) stopped = 'page cap';
       else await new Promise((res) => setTimeout(res, PAUSE_MS));
     }
-    const all = Object.values(vids), weeks = {};
-    for (const [t, v] of all) { const w = weekStart(t); weeks[w] = weeks[w] || [0, 0]; weeks[w][0] += 1; weeks[w][1] += v; }
+    const all = Object.values(vids), weeks = {}, days = {};
+    for (const [t, v] of all) {
+      const w = weekStart(t); weeks[w] = weeks[w] || [0, 0]; weeks[w][0] += 1; weeks[w][1] += v;
+      if (t > now - DAILY_DAYS * 864e5 && t <= now) {
+        const d = new Date(t).toISOString().slice(0, 10); days[d] = days[d] || [0, 0]; days[d][0] += 1; days[d][1] += v;
+      }
+    }
     const recent = all.filter((x) => x[0] > now - 7 * 864e5 && x[0] <= now);
     out.channels[handle] = {
       head, pages, stopped, videos: all.length,
@@ -53,6 +61,7 @@
       views_7d: recent.reduce((sum, x) => sum + x[1], 0), items_7d: recent.length,
       // The oldest week is dropped: the listing was cut off part-way through it.
       weeks: Object.keys(weeks).sort().slice(1).map((k) => [k, weeks[k][0], weeks[k][1]]),
+      days: Object.keys(days).sort().map((k) => [k, days[k][0], days[k][1]]),
     };
   }
   console.log(JSON.stringify(out));

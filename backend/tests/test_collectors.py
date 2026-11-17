@@ -103,10 +103,23 @@ def test_x_users_payload():
     assert x.parse_users(payload) == {"someone": {"id": "42", "name": "Some Name", "followers": 1234, "posts": 9}}
 
 
-def test_x_is_skipped_without_a_token(monkeypatch, mini_registry):
+def test_x_is_skipped_when_there_is_no_token_and_the_mirror_is_off(monkeypatch, mini_registry):
     monkeypatch.delenv("X_BEARER_TOKEN", raising=False)
+    monkeypatch.setenv("DRI_X_MIRROR", "off")
     rows, report = x.collect(mini_registry, http=None, today=date(2026, 11, 17))
     assert rows == [] and "X_BEARER_TOKEN" in report.skipped
+
+
+def test_x_mirror_profile_payload():
+    payload = json.loads(fixture("x_mirror_user.json"))
+    assert x.parse_mirror_user(payload) == {"id": "2442888666", "handle": "NickJFuentes", "name": "Nicholas J. Fuentes",
+                                            "followers": 1_319_306, "posts": payload["user"]["tweets"]}
+    with pytest.raises(x.ParseError):
+        x.parse_mirror_user({"code": 404, "message": "User not found"})
+    with pytest.raises(x.ParseError):
+        x.parse_mirror_user({"code": 200, "user": {"id": "12", "screen_name": "a", "followers": 5, "protected": True}})
+    with pytest.raises(x.ParseError):
+        x.parse_mirror_user({"code": 200, "user": {"screen_name": "a", "followers": 5}})
 
 
 def test_rumble_channel_page_reads_the_embedded_listing():

@@ -2,7 +2,7 @@
 
 The Dissident Resonance Index (DRI) is a 0–100 index of how large the US far-right extremist media ecosystem is beside mainstream media, which way it is moving, and where its audience lives.
 
-It is deterministic: every figure is a recorded public observation or computed from one. Nothing is simulated, interpolated or estimated, and rebuilding from the same commit produces the same bytes.
+It is deterministic: every figure in the index is a recorded public observation or computed from one. Nothing in it is simulated, interpolated or estimated, and rebuilding from the same commit produces the same bytes. Beside the index the dashboard shows two things that are not part of it: Rumble weekly views scaled for the views young uploads have yet to collect (a labelled estimate, shown with the recorded count), and counts of incidents the ADL recorded offline.
 
 ## How it works
 
@@ -43,10 +43,15 @@ A daily GitHub Action runs the collectors, commits the new observations, rebuild
 | Apple Podcasts | US chart positions, overall and News | Public Apple feeds |
 | Wikipedia | Daily page views per article | Wikimedia REST API |
 | GDELT | Daily count of US news articles per constituent | GDELT DOC 2.0 API |
-| X | Followers | Official API only; needs paid `X_BEARER_TOKEN` (about $8 a month) |
+| X | Followers | Free: FxTwitter's public profile API, a third-party mirror. Official API used instead when `X_BEARER_TOKEN` is set |
 | Rumble | Followers, weekly views, views per upload week | Browser capture; Rumble refuses automated clients |
+| ADL H.E.A.T. Map | Incidents recorded offline, by month and type (not in the index) | Public JSON behind the ADL's map; read monthly |
 
 **Rumble.** The collector was refused (HTTP 403) from a cloud workspace and from GitHub Actions, so Rumble is read with a browser capture instead: open any rumble.com page, paste `backend/dri/tools/rumble_capture.js` into the DevTools console, save the JSON it prints under `data/captures/rumble/<date>.json`, and run `python -m dri import-capture <file>`. It records exact follower counts, the channel ID, views on the last week of uploads, and total views per upload week for up to a year. A follower reading counts for 10 days, so repeat the capture weekly. One capture shows views to date, which keep accumulating; from the second capture on, the build reports the views each channel actually gained in between.
+
+**X.** X sells API access and has no free tier for reading. Without a token the collector asks FxTwitter's public profile API (`api.fxtwitter.com`), an open-source mirror, which returns the numeric user ID, display name and follower count X shows. It is a third party: it can lag, vanish, or answer "not found" for an account that exists, so each handle gets four tries and an unread account is reported, not guessed. Mirror readings are tagged `origin: fxtwitter mirror`, every account is pinned by numeric ID, and `DRI_X_MIRROR=off` disables the route. Spot-check a few counts against the profile pages now and then; if the mirror goes away, the choices are the paid API or hand readings with `dri record`.
+
+**Take Rumble captures a week apart, on the same weekday.** The build compares the two to measure how fast young uploads are still gaining views, and uses that to judge each new week against the channel's own average.
 
 X's public embed endpoint, Gab and Truth Social were also tested and refuse automated readers, and Odysee's follower count needs a login, so they have no collector. For any registered account on a platform that cannot be read automatically, a figure read by hand can be stored with `python -m dri record x:tucker_carlson=17300000 --note "profile page"`; it is saved with `origin: manual` so it stays distinguishable from collected data.
 
@@ -63,6 +68,7 @@ python -m dri collect                  # read every source, record observations
 python -m dri collect --sources gdelt --entities nick_fuentes   # retry part of a source
 python -m dri record x:tucker_carlson=17300000   # store a follower count read by hand
 python -m dri import-capture ../data/captures/rumble/2026-11-17.json   # import a Rumble browser capture
+python -m dri collect --sources adl_heat   # monthly: re-read the ADL incident records (about 140 slow pages)
 python -m dri build                    # compute the index, write frontend/public/data/index.json
 
 pip install pytest && python -m pytest # tests

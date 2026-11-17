@@ -17,7 +17,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -35,6 +35,12 @@ jobs:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           DRI_USER_AGENT: ${{ vars.DRI_USER_AGENT }}
         run: python -m dri collect
+      - name: Re-read offline incident records (first of the month)
+        working-directory: backend
+        env:
+          DRI_USER_AGENT: ${{ vars.DRI_USER_AGENT }}
+        run: |
+          if [ "$(date -u +%d)" = "01" ]; then python -m dri collect --sources adl_heat; fi
       - name: Build dataset
         working-directory: backend
         run: python -m dri build
