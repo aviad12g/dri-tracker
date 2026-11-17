@@ -77,8 +77,14 @@ def compute(idx: ObsIndex, registry, as_of: date, p: Params) -> dict:
     reason = None
     if share is None:
         short = [n for n, v in cover.items() if v < p.min_basket_coverage]
-        reason = (f"complete weekly view counts cover too few {' and '.join(short)} accounts; "
-                  "set YOUTUBE_API_KEY so channel view totals can be recorded") if short else "no view counts recorded"
+        pending = any(a.views_pending for a in viewable if basket[a.entity] in short)
+        if not short:
+            reason = "no view counts recorded"
+        elif pending:
+            reason = "channel view totals have been read once; weekly views follow from the next reading"
+        else:
+            reason = (f"complete weekly view counts cover too few {' and '.join(short)} accounts; "
+                      "set YOUTUBE_API_KEY so channel view totals can be recorded")
     pillars["engagement"] = _pillar(None if share is None else 100 * share, share, v_seen / len(viewable) if viewable else 0,
                                     {"extremism_views": x_views, "reference_views": m_views, "basket_coverage": cover,
                                      "accounts_observed": v_seen, "accounts_registered": len(viewable)}, reason)

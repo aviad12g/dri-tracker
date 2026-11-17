@@ -6398,7 +6398,7 @@
    "id": "engagement",
    "label": "Engagement",
    "raw": null,
-   "reason": "complete weekly view counts cover too few reference accounts; set YOUTUBE_API_KEY so channel view totals can be recorded",
+   "reason": "channel view totals have been read once; weekly views follow from the next reading",
    "score": null,
    "weight": 0.2
   },

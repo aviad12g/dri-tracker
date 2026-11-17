@@ -74,6 +74,7 @@ class Account:
     growth: float | None = None          # annualised log growth, clipped
     growth_days: int | None = None
     prev_followers: float | None = None
+    views_pending: bool = False          # a lifetime view counter has one reading so far; the next one gives a rate
 
 
 def account_states(idx: ObsIndex, registry, as_of: date, p: Params) -> list[Account]:
@@ -105,6 +106,8 @@ def account_states(idx: ObsIndex, registry, as_of: date, p: Params) -> list[Acco
                 tprev = idx.nearest_lag(tkey, tcur[0], 7, 1, 14)
                 if tprev and tcur[1] >= tprev[1]:
                     a.views_7d = (tcur[1] - tprev[1]) * 7.0 / (tcur[0] - tprev[0]).days
+                elif a.views_7d is None:
+                    a.views_pending = True
             out.append(a)
     return out
 
