@@ -143,6 +143,35 @@ export default function Page() {
         </div>
       </section>
 
+      {data.rumble_upload_weeks.length > 0 && (
+        <section className="section">
+          <h2>Rumble, week by week</h2>
+          <p className="lede">
+            Total views on each week’s uploads, for every Rumble channel in the basket, as counted on{' '}
+            {longDate(data.rumble_upload_weeks[0].captured)}. Rumble refuses automated readers, so these come from a capture made in a
+            browser. Recent weeks are still gaining views, and busier channels reach back less far.
+          </p>
+          <div className="grid3">
+            {data.rumble_upload_weeks.map((ch) => {
+              const acct = names[ch.id]?.accounts.find((a) => a.platform === 'rumble')
+              return (
+                <div className="panel" key={ch.id}>
+                  <h3>{ch.name}</h3>
+                  <p className="sub">
+                    {compact(acct?.followers ?? null)} followers, {ch.weeks.length} weeks, {compact(ch.total)} views
+                  </p>
+                  {ch.weeks.length > 1 ? (
+                    <LineChart points={ch.weeks.map((w) => ({ date: w.date, value: w.views }))} unit="views" label="Views on that week’s uploads" maxTicks={4} small />
+                  ) : (
+                    <p className="empty">One completed week so far.</p>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        </section>
+      )}
+
       {data.series.length > 1 && (
         <section className="section">
           <h2>The index since {longDate(data.series[0].date)}</h2>

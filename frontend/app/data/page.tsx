@@ -60,7 +60,7 @@ export default function Page() {
                 const manual = s.rows > 0 && !s.ok && Boolean(s.skipped || s.failed.length)
                 const state: 'ok' | 'part' | 'off' = s.rows === 0 ? 'off' : manual || s.failed.length ? 'part' : 'ok'
                 const text =
-                  state === 'off' ? (s.skipped ? 'Not collected' : s.failed.length ? 'Failed' : 'No data yet') : manual ? 'Hand-entered readings only' : state === 'part' ? `${s.ok} read, ${s.failed.length} failed` : s.ok !== null ? `${s.ok} read` : 'Stored'
+                  state === 'off' ? (s.skipped ? 'Not collected' : s.failed.length ? 'Failed' : 'No data yet') : manual ? 'Read by hand or in a browser, not by the collector' : state === 'part' ? `${s.ok} read, ${s.failed.length} failed` : s.ok !== null ? `${s.ok} read` : 'Stored'
                 return (
                   <tr key={s.source}>
                     <td><span className="who">{PLATFORM_NAME[s.source] ?? s.source}</span></td>

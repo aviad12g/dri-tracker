@@ -12,6 +12,7 @@ from pathlib import Path
 
 from dri import registry as registry_mod
 from dri.collectors import COLLECTORS, INTERVALS
+from dri.captures import CaptureError, rumble_rows
 from dri.export import build, write
 from dri.http import Http
 from dri.legacy import read_cache
@@ -129,6 +130,18 @@ def cmd_record(args) -> int:
     return 0
 
 
+def cmd_import_capture(args) -> int:
+    try:
+        rows = rumble_rows(json.loads(Path(args.file).read_text(encoding="utf-8")), registry_mod.load())
+    except (CaptureError, KeyError, ValueError) as err:
+        print(f"capture rejected: {err}", file=sys.stderr)
+        return 2
+    changed = Store(data_root()).upsert(rows)
+    channels = len({r["entity"] for r in rows})
+    print(f"imported a browser capture of {channels} Rumble channel(s): {len(rows)} observations ({changed} new or changed)")
+    return 0
+
+
 def cmd_import_legacy(args) -> int:
     rows = read_cache(args.cache_dir, registry_mod.load())
     changed = Store(data_root()).upsert(rows)
@@ -155,6 +168,9 @@ def main(argv: list[str] | None = None) -> int:
     m.add_argument("--date", help="observation date (default: today, UTC)")
     m.add_argument("--note", help="where the figure was read, stored with the observation")
     m.set_defaults(func=cmd_record)
+    k = sub.add_parser("import-capture", help="import a Rumble browser capture (see dri/tools/rumble_capture.js)")
+    k.add_argument("file")
+    k.set_defaults(func=cmd_import_capture)
     l = sub.add_parser("import-legacy", help="import Telegram readings from a v1 .scraper_cache directory")
     l.add_argument("cache_dir")
     l.set_defaults(func=cmd_import_legacy)

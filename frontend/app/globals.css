@@ -126,6 +126,7 @@ main.wrap { padding-top: 2.6rem; padding-bottom: 5rem; }
 .section > h2 { font-stretch: 80%; font-weight: 700; font-size: 1.55rem; letter-spacing: -0.005em; }
 .section > .lede { font-family: var(--serif); color: var(--ink-2); max-width: 46rem; margin-top: 0.35rem; font-size: 1rem; line-height: 1.55; }
 .grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-top: 1.3rem; }
+.grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; margin-top: 1.3rem; }
 .panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 1.3rem 1.4rem 1.2rem; min-width: 0; }
 .panel h3 { font-size: 1.02rem; font-weight: 700; }
 .panel .sub { color: var(--ink-2); font-size: 0.86rem; margin-top: 0.15rem; }
@@ -197,7 +198,7 @@ td small, .muted { color: var(--ink-2); font-size: 0.82rem; }
   .hero-scale { padding-bottom: 0.4rem; margin-top: 1rem; }
   .hero-read { padding-bottom: 1rem; }
   .prow { padding: 0.9rem 0; }
-  .grid2, .cols { grid-template-columns: minmax(0, 1fr); }
+  .grid2, .grid3, .cols { grid-template-columns: minmax(0, 1fr); }
   .aside { position: static; }
   .wrap { padding: 0 1.1rem; }
   .ruler-labels span:nth-child(even) { display: none; }

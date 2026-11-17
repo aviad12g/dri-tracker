@@ -159,6 +159,36 @@ def build(store: Store, registry, p: Params = DEFAULT) -> dict:
                           "extremism_followers": by_basket.get("extremism", 0.0),
                           "reference_followers": by_basket.get("reference", 0.0)})
 
+    # Rumble: views per upload week, from the latest browser capture of each channel.
+    upload_weeks = []
+    for c in registry.constituents:
+        account = c.accounts.get("rumble")
+        if not account:
+            continue
+        weeks = {}
+        captured = None
+        for key in idx.keys_for("rumble", "upload_week_views"):
+            if key[1] != c.id or "@" not in key[2]:
+                continue
+            series = {d: v for d, v in idx.series(key).items() if d <= as_of}
+            if not series:
+                continue
+            day = max(series)
+            captured = day if captured is None or day > captured else captured
+            week = date.fromisoformat(key[2].rsplit("@", 1)[1])
+            videos = idx.series((key[0], key[1], key[2], "upload_week_videos")).get(day)
+            weeks[week] = {"date": week, "views": series[day], "videos": videos}
+        if weeks:
+            # The week the capture was taken in is still in progress, so it is left out.
+            # A week with no uploads has no upload views, so gaps are filled with zeros.
+            done, week = [], min(weeks)
+            while week + timedelta(days=7) <= captured:
+                done.append(weeks.get(week, {"date": week, "views": 0, "videos": 0}))
+                week += timedelta(days=7)
+            upload_weeks.append({"id": c.id, "name": c.name, "tier": c.tier, "captured": captured, "weeks": done,
+                                 "total": sum(w["views"] for w in done)})
+    upload_weeks.sort(key=lambda r: (-r["total"], r["id"]))
+
     by_source = defaultdict(lambda: {"rows": 0, "first": None, "last": None})
     for r in rows:
         s = by_source[r["source"]]
@@ -197,6 +227,7 @@ def build(store: Store, registry, p: Params = DEFAULT) -> dict:
         "series": [{"date": d, "score": _r(results[d]["composite"]["score"], 2),
                     "confidence": results[d]["composite"]["confidence"]} for d in scored],
         "heat_series": heat_series,
+        "rumble_upload_weeks": upload_weeks,
         "constituents": constituents,
         "platforms": platforms,
         "sensitivity": [{**s, "score": _r(s["score"], 2)} for s in sens],

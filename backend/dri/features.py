@@ -15,7 +15,7 @@ from datetime import date, timedelta
 
 from dri.params import PLATFORMS, Params
 
-VIEW_PLATFORMS = ("youtube", "telegram", "bitchute")
+VIEW_PLATFORMS = ("youtube", "telegram", "bitchute", "rumble")
 
 
 class ObsIndex:

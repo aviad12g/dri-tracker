@@ -1,6 +1,6 @@
 [project]
 name = "dri-tracker"
-version = "2.1.0"
+version = "2.2.0"
 description = "Dissident Resonance Index: a deterministic index of the online reach of US far-right extremist media"
 requires-python = ">=3.11"
 dependencies = []

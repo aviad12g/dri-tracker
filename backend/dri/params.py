@@ -9,7 +9,7 @@ from __future__ import annotations
 import math
 from dataclasses import dataclass, field, replace
 
-MODEL_VERSION = "2.1.0"
+MODEL_VERSION = "2.2.0"
 
 PLATFORMS = ("youtube", "x", "rumble", "bitchute", "telegram")
 
@@ -37,7 +37,7 @@ class Params:
     })
 
     # How old an observation may be and still count, in days.
-    stale: dict = field(default_factory=lambda: {"followers": 7, "views_7d": 3, "chart": 3, "daily": 6})
+    stale: dict = field(default_factory=lambda: {"followers": 10, "views_7d": 3, "chart": 3, "daily": 6})
 
     # Momentum: compare with the observation nearest `lag` days back, within [min, max].
     growth_lag: int = 28

@@ -109,13 +109,16 @@ def test_x_is_skipped_without_a_token(monkeypatch, mini_registry):
     assert rows == [] and "X_BEARER_TOKEN" in report.skipped
 
 
-def test_rumble_accepts_only_an_unambiguous_count():
-    # Synthetic markup: rumble.com refused automated requests, so no live capture exists.
-    one = '<h1>Channel</h1><span class="channel-header--followers">1.27M Followers</span>'
-    assert rumble.parse_channel(one)["followers"] == 1_270_000
-    two = one + "<div>644K Followers</div><div>2.2M Followers</div>"
-    assert rumble.parse_channel(two)["followers"] == 1_270_000  # header element wins
-    with pytest.raises(rumble.ParseError):
-        rumble.parse_channel("<div>644K Followers</div><div>2.2M Followers</div>")
-    with pytest.raises(rumble.ParseError):
-        rumble.parse_channel("<html></html>")
+def test_rumble_channel_page_reads_the_embedded_listing():
+    later = datetime(2026, 11, 17, 8, 0, tzinfo=timezone.utc)
+    info = rumble.parse_channel(fixture("rumble_channel.html"), "nickjfuentes", later)
+    assert info["channel_id"] == "_c661227" and info["followers"] == 728_783 and info["verified"] is True
+    # Only the upload from 16 November falls inside the preceding week; the page reaches back to October.
+    assert info["views_7d"] == 164_737 and info["items_7d"] == 1 and info["complete"] is True
+
+
+def test_rumble_channel_page_rejects_other_channels_and_missing_data():
+    with pytest.raises(rumble.ParseError, match="no upload by this channel"):
+        rumble.parse_channel(fixture("rumble_channel.html"), "someoneelse", NOW)
+    with pytest.raises(rumble.ParseError, match="not found"):
+        rumble.parse_channel("<html>blocked</html>", "nickjfuentes", NOW)

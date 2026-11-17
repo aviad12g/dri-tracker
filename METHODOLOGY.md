@@ -1,4 +1,4 @@
-# Methodology (model 2.1.0)
+# Methodology (model 2.2.0)
 
 All parameters live in `backend/dri/params.py`. Changing one changes the model version.
 
@@ -9,7 +9,7 @@ All parameters live in `backend/dri/params.py`. Changing one changes the model v
 
 ## Observations and staleness
 
-An observation is `(date, source, entity, account, metric, value)`. A follower reading counts for 7 days, a weekly-views or chart reading for 3, a daily series for 6. After that the input is missing, not carried forward.
+An observation is `(date, source, entity, account, metric, value)`. A follower reading counts for 10 days (long enough for a weekly browser capture), a weekly-views or chart reading for 3, a daily series for 6. After that the input is missing, not carried forward.
 
 ## Pillars
 
@@ -52,5 +52,6 @@ Each build recomputes the latest reading under alternative assumptions: equal pi
 
 ## Changes
 
+- **2.2.0** Rumble enters through browser captures and counts towards Engagement; follower readings stay valid for 10 days instead of 7.
 - **2.1.0** Added BitChute as a platform (depth 0.90, view equivalence 0.6).
 - **2.0.0** Rebuilt model.

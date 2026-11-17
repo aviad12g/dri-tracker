@@ -44,7 +44,9 @@ A daily GitHub Action runs the collectors, commits the new observations, rebuild
 | Wikipedia | Daily page views per article | Wikimedia REST API |
 | GDELT | Daily count of US news articles per constituent | GDELT DOC 2.0 API |
 | X | Followers | Official API only; needs paid `X_BEARER_TOKEN` (about $8 a month) |
-| Rumble | Followers | Public pages; Rumble refuses many automated clients |
+| Rumble | Followers, weekly views, views per upload week | Browser capture; Rumble refuses automated clients |
+
+**Rumble.** The collector was refused (HTTP 403) from a cloud workspace and from GitHub Actions, so Rumble is read with a browser capture instead: open any rumble.com page, paste `backend/dri/tools/rumble_capture.js` into the DevTools console, save the JSON it prints under `data/captures/rumble/<date>.json`, and run `python -m dri import-capture <file>`. It records exact follower counts, the channel ID, views on the last week of uploads, and total views per upload week for up to a year. A follower reading counts for 10 days, so repeat the capture weekly.
 
 X's public embed endpoint, Gab and Truth Social were also tested and refuse automated readers, and Odysee's follower count needs a login, so they have no collector. For any registered account on a platform that cannot be read automatically, a figure read by hand can be stored with `python -m dri record x:tucker_carlson=17300000 --note "profile page"`; it is saved with `origin: manual` so it stays distinguishable from collected data.
 
@@ -60,6 +62,7 @@ python -m dri registry                 # validate and list the registry
 python -m dri collect                  # read every source, record observations
 python -m dri collect --sources gdelt --entities nick_fuentes   # retry part of a source
 python -m dri record x:tucker_carlson=17300000   # store a follower count read by hand
+python -m dri import-capture ../data/captures/rumble/2026-11-17.json   # import a Rumble browser capture
 python -m dri build                    # compute the index, write frontend/public/data/index.json
 
 pip install pytest && python -m pytest # tests

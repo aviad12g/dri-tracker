@@ -4,8 +4,6 @@ import { useMemo, useRef, useState } from 'react'
 
 type Point = { date: string; value: number; baseline?: number }
 
-const W = 640
-const H = 260
 const M = { top: 14, right: 62, bottom: 30, left: 50 }
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
@@ -16,19 +14,24 @@ function niceMax(v: number): number {
 }
 
 function fmt(v: number, unit: string): string {
-  if (unit === 'views') return v >= 1e6 ? `${(v / 1e6).toFixed(2)}M` : v >= 1e3 ? `${(v / 1e3).toFixed(v >= 1e4 ? 0 : 1)}K` : `${Math.round(v)}`
+  if (unit === 'views') return v >= 1e6 ? `${(v / 1e6).toFixed(v >= 1e7 ? 1 : 2).replace(/\.?0+$/, '')}M` : v >= 1e3 ? `${(v / 1e3).toFixed(v >= 1e4 ? 0 : 1)}K` : `${Math.round(v)}`
   if (unit === 'per10k') return v.toFixed(v >= 10 ? 1 : 2)
   return v.toFixed(1)
 }
 
 /** A single series over time with an optional reference line, a crosshair and a tooltip. */
-export function LineChart({ points, unit, label, baselineLabel, fixedMax }: {
+export function LineChart({ points, unit, label, baselineLabel, fixedMax, maxTicks = 7, small = false }: {
   points: Point[]
   unit: 'views' | 'per10k' | 'score'
   label: string
   baselineLabel?: string
   fixedMax?: number
+  maxTicks?: number
+  small?: boolean
 }) {
+  // A chart shown in a narrow column uses a smaller drawing area so its text stays legible.
+  const W = small ? 400 : 640
+  const H = small ? 230 : 260
   const [hover, setHover] = useState<number | null>(null)
   const ref = useRef<SVGSVGElement>(null)
   const geo = useMemo(() => {
@@ -42,11 +45,15 @@ export function LineChart({ points, unit, label, baselineLabel, fixedMax }: {
       : null
     const months: { i: number; text: string }[] = []
     points.forEach((p, i) => {
-      if (p.date.endsWith('-01')) months.push({ i, text: MONTHS[Number(p.date.slice(5, 7)) - 1] + (p.date.slice(5, 7) === '01' ? ` ${p.date.slice(0, 4)}` : '') })
+      // Label the first point of each month (daily series hit the 1st; weekly series do not).
+      if (i > 0 && p.date.slice(0, 7) !== points[i - 1].date.slice(0, 7)) {
+        const m = Number(p.date.slice(5, 7))
+        months.push({ i, text: MONTHS[m - 1] + (m === 1 ? ` ${p.date.slice(0, 4)}` : '') })
+      }
     })
-    const step = Math.max(1, Math.ceil(months.length / 7))
+    const step = Math.max(1, Math.ceil(months.length / maxTicks))
     return { n, max, x, y, line, base, months: months.filter((_, k) => k % step === 0) }
-  }, [points, fixedMax])
+  }, [points, fixedMax, maxTicks, W, H])
 
   if (!points.length) return null
   const last = points[points.length - 1]

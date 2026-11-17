@@ -84,6 +84,7 @@ export type Dataset = {
   pillars: Pillar[]
   series: { date: string; score: number; confidence: number }[]
   heat_series: { wikipedia: HeatPoint[]; news: HeatPoint[] }
+  rumble_upload_weeks: { id: string; name: string; tier: string; captured: string; total: number; weeks: { date: string; views: number; videos: number | null }[] }[]
   constituents: Constituent[]
   platforms: {
     platform: string

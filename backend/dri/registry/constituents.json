@@ -1,11 +1,11 @@
 {
-  "version": "2026.11.17.2",
+  "version": "2026.11.17.3",
   "rules": {
     "inclusion": "A constituent enters the extremism basket only if a monitoring organisation (SPLC, ADL) has published a profile or report documenting it, recorded under `basis`. The labels are those organisations' characterisations, not findings of this project.",
     "core": "Profiled chiefly for white-nationalist, neo-Nazi, antisemitic or militia/accelerationist activity. Weight 1.0.",
     "adjacent": "Profiled as a conspiracy propagandist, a male-supremacist influencer, or a large-audience commentator documented as platforming core figures. Weight 0.5.",
     "exclusions": "Sitting officials and current candidates; figures whose audience is mostly non-political (entertainers, athletes); policy-advocacy organisations.",
-    "accounts": "An account is listed only after the live page was checked against the constituent (name, and platform ID where one exists). YouTube and BitChute accounts are pinned by channel ID. BitChute has no verification badge, so those channels are matched on name and profile only. X and Rumble handles marked `unverified` are pinned on their first successful collection."
+    "accounts": "An account is listed only after the live page was checked against the constituent (name, and platform ID where one exists). YouTube, BitChute and Rumble accounts are pinned by channel ID; the Rumble channels all carry Rumble's verified badge. BitChute has no verification badge, so those channels are matched on name and profile only. X handles marked `unverified` are pinned on their first successful collection."
   },
   "constituents": [
     {
@@ -35,7 +35,7 @@
         },
         "rumble": {
           "handle": "nickjfuentes",
-          "unverified": true
+          "id": "_c661227"
         },
         "bitchute": {
           "handle": "americafirst",
@@ -74,7 +74,7 @@
         },
         "rumble": {
           "handle": "StewPeters",
-          "unverified": true
+          "id": "_c399865"
         },
         "bitchute": {
           "handle": "stewpeters",
@@ -116,7 +116,7 @@
         },
         "rumble": {
           "handle": "RealCandaceO",
-          "unverified": true
+          "id": "_c6401769"
         }
       },
       "podcasts": [
@@ -450,7 +450,7 @@
         },
         "rumble": {
           "handle": "TuckerCarlson",
-          "unverified": true
+          "id": "_c3015526"
         }
       },
       "podcasts": [
@@ -581,7 +581,7 @@
         },
         "rumble": {
           "handle": "TateSpeech",
-          "unverified": true
+          "id": "_c1826927"
         }
       },
       "wikipedia": [
@@ -635,7 +635,7 @@
         },
         "rumble": {
           "handle": "BannonsWarRoom",
-          "unverified": true
+          "id": "_c307427"
         }
       },
       "podcasts": [

@@ -14,13 +14,13 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 728784,
      "growth_days": null,
      "handle": "nickjfuentes",
      "platform": "rumble",
-     "unverified": true,
-     "views_7d": null
+     "unverified": false,
+     "views_7d": 913688
     },
     {
      "annual_growth": null,
@@ -43,7 +43,7 @@
      "views_7d": 165800
     }
    ],
-   "audience": 112500.077089,
+   "audience": 737416.019626,
    "basis": [
     {
      "org": "SPLC",
@@ -55,7 +55,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.011122,
+   "basket_share": 0.057442,
    "charts": [],
    "cohort": "white_nationalist",
    "id": "nick_fuentes",
@@ -83,13 +83,13 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 583619,
      "growth_days": null,
      "handle": "StewPeters",
      "platform": "rumble",
-     "unverified": true,
-     "views_7d": null
+     "unverified": false,
+     "views_7d": 142570
     },
     {
      "annual_growth": null,
@@ -112,7 +112,7 @@
      "views_7d": 60667
     }
    ],
-   "audience": 132670.973694,
+   "audience": 598508.750497,
    "basis": [
     {
      "org": "SPLC",
@@ -124,7 +124,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.013116,
+   "basket_share": 0.046622,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "stew_peters",
@@ -162,16 +162,16 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 528049,
      "growth_days": null,
      "handle": "RealCandaceO",
      "platform": "rumble",
-     "unverified": true,
-     "views_7d": null
+     "unverified": false,
+     "views_7d": 168063
     }
    ],
-   "audience": 6070000.0,
+   "audience": 6092925.056687,
    "basis": [
     {
      "org": "ADL",
@@ -179,7 +179,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.600072,
+   "basket_share": 0.474618,
    "charts": [
     {
      "chart": "news",
@@ -230,7 +230,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.003271,
+   "basket_share": 0.002578,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "jackson_hinkle",
@@ -388,7 +388,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.000401,
+   "basket_share": 0.000316,
    "charts": [],
    "cohort": "white_nationalist",
    "id": "david_duke",
@@ -462,7 +462,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.008064,
+   "basket_share": 0.006354,
    "charts": [],
    "cohort": "white_nationalist",
    "id": "stefan_molyneux",
@@ -545,7 +545,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.002053,
+   "basket_share": 0.001617,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "e_michael_jones",
@@ -631,16 +631,16 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 1301596,
      "growth_days": null,
      "handle": "TuckerCarlson",
      "platform": "rumble",
-     "unverified": true,
-     "views_7d": null
+     "unverified": false,
+     "views_7d": 268219
     }
    ],
-   "audience": 5800000.0,
+   "audience": 5944253.70818,
    "basis": [
     {
      "org": "SPLC",
@@ -652,7 +652,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.28669,
+   "basket_share": 0.231519,
    "charts": [
     {
      "chart": "news",
@@ -712,7 +712,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.008029,
+   "basket_share": 0.006327,
    "charts": [],
    "cohort": "conspiracy",
    "id": "alex_jones",
@@ -758,7 +758,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.000292,
+   "basket_share": 0.00023,
    "charts": [],
    "cohort": "conspiracy",
    "id": "jack_posobiec",
@@ -803,7 +803,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.000126,
+   "basket_share": 9.9e-05,
    "charts": [],
    "cohort": "conspiracy",
    "id": "mike_cernovich",
@@ -831,13 +831,13 @@
     },
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 2235223,
      "growth_days": null,
      "handle": "TateSpeech",
      "platform": "rumble",
-     "unverified": true,
-     "views_7d": null
+     "unverified": false,
+     "views_7d": 51983
     },
     {
      "annual_growth": -0.254983,
@@ -850,7 +850,7 @@
      "views_7d": 285490
     }
    ],
-   "audience": 292325.0,
+   "audience": 2254257.253588,
    "basis": [
     {
      "org": "SPLC",
@@ -858,7 +858,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.014449,
+   "basket_share": 0.087799,
    "charts": [],
    "cohort": "male_supremacy",
    "id": "andrew_tate",
@@ -903,7 +903,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.007146,
+   "basket_share": 0.005631,
    "charts": [],
    "cohort": "conspiracy",
    "id": "michael_flynn",
@@ -921,13 +921,13 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": null,
-     "followers": null,
+     "as_of": "2026-11-17",
+     "followers": 1159859,
      "growth_days": null,
      "handle": "BannonsWarRoom",
      "platform": "rumble",
-     "unverified": true,
-     "views_7d": null
+     "unverified": false,
+     "views_7d": 1174382
     },
     {
      "annual_growth": null,
@@ -940,7 +940,7 @@
      "views_7d": 379532
     }
    ],
-   "audience": 50331.0,
+   "audience": 1160950.519808,
    "basis": [
     {
      "org": "ADL (as reported by The Forward)",
@@ -948,7 +948,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.002488,
+   "basket_share": 0.045217,
    "charts": [
     {
      "chart": "news",
@@ -999,7 +999,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.002644,
+   "basket_share": 0.002084,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "darryl_cooper",
@@ -1044,7 +1044,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.040038,
+   "basket_share": 0.031548,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "ian_carroll",
@@ -1872,15 +1872,15 @@
  ],
  "headline": {
   "band": {
-   "high": 31.81,
-   "low": 19.52
+   "high": 36.79,
+   "low": 24.52
   },
   "change": {
    "d1": null,
    "d28": null,
    "d7": null
   },
-  "confidence": 0.4193,
+  "confidence": 0.4534,
   "grade": "C",
   "pillars_used": [
    "reach",
@@ -1889,7 +1889,7 @@
    "heat",
    "depth"
   ],
-  "score": 25.3,
+  "score": 29.47,
   "weight_coverage": 0.72
  },
  "heat_series": {
@@ -6032,12 +6032,12 @@
   },
   "days_scored": 1,
   "first_scored": "2026-11-17",
-  "input_digest": "9a622d4aad375ed52507b0ef53d7119426d99b32ac8999187871e62f5e02f6c2",
+  "input_digest": "795bbaa36ec8a52d0faebd35a7e690ac8688b5026fcc2f1da6b122890c6afb89",
   "last_run": "2026-11-17",
-  "model_version": "2.1.0",
-  "registry_version": "2026.11.17.2",
+  "model_version": "2.2.0",
+  "registry_version": "2026.11.17.3",
   "rules": {
-   "accounts": "An account is listed only after the live page was checked against the constituent (name, and platform ID where one exists). YouTube and BitChute accounts are pinned by channel ID. BitChute has no verification badge, so those channels are matched on name and profile only. X and Rumble handles marked `unverified` are pinned on their first successful collection.",
+   "accounts": "An account is listed only after the live page was checked against the constituent (name, and platform ID where one exists). YouTube, BitChute and Rumble accounts are pinned by channel ID; the Rumble channels all carry Rumble's verified badge. BitChute has no verification badge, so those channels are matched on name and profile only. X handles marked `unverified` are pinned on their first successful collection.",
    "adjacent": "Profiled as a conspiracy propagandist, a male-supremacist influencer, or a large-audience commentator documented as platforming core figures. Weight 0.5.",
    "core": "Profiled chiefly for white-nationalist, neo-Nazi, antisemitic or militia/accelerationist activity. Weight 1.0.",
    "exclusions": "Sitting officials and current candidates; figures whose audience is mostly non-political (entertainers, athletes); policy-advocacy organisations.",
@@ -6059,7 +6059,7 @@
   "stale": {
    "chart": 3,
    "daily": 6,
-   "followers": 7,
+   "followers": 10,
    "views_7d": 3
   },
   "tier_weight": {
@@ -6087,12 +6087,12 @@
  "pillars": [
   {
    "available": true,
-   "contribution": 2.33,
-   "coverage": 0.4839,
+   "contribution": 2.9,
+   "coverage": 0.5806,
    "detail": {
-    "accounts_observed": 30,
+    "accounts_observed": 36,
     "accounts_registered": 62,
-    "extremism_audience": 10115451.550783,
+    "extremism_audience": 12837533.067598,
     "reference_audience": 110301000.0
    },
    "explain": "Followers of the extremism basket as a share of its own plus the mainstream reference basket's.",
@@ -6101,28 +6101,28 @@
    "history": [
     {
      "date": "2026-11-17",
-     "score": 8.4
+     "score": 10.43
     }
    ],
    "id": "reach",
    "label": "Reach",
-   "raw": 0.084004,
+   "raw": 0.104253,
    "reason": null,
-   "score": 8.4,
+   "score": 10.43,
    "weight": 0.2
   },
   {
    "available": false,
    "contribution": null,
-   "coverage": 0.4,
+   "coverage": 0.5,
    "detail": {
-    "accounts_observed": 12,
-    "accounts_registered": 30,
+    "accounts_observed": 18,
+    "accounts_registered": 36,
     "basket_coverage": {
-     "extremism": 0.611111,
+     "extremism": 0.708333,
      "reference": 0.083333
     },
-    "extremism_views": 3482464.5,
+    "extremism_views": 4665432.3,
     "reference_views": 2064345.0
    },
    "explain": "Views on the last seven days of posts and uploads, against the same for the reference basket.",
@@ -6315,7 +6315,7 @@
   {
    "available": true,
    "contribution": 8.87,
-   "coverage": 0.2222,
+   "coverage": 0.1667,
    "detail": {
     "accounts": 4,
     "annual_change": -0.186809,
@@ -6341,7 +6341,7 @@
   {
    "available": false,
    "contribution": null,
-   "coverage": 0.2222,
+   "coverage": 0.1667,
    "detail": {
     "accounts": 4
    },
@@ -6404,11 +6404,12 @@
   },
   {
    "available": true,
-   "contribution": 4.36,
-   "coverage": 0.4615,
+   "contribution": 7.96,
+   "coverage": 0.6154,
    "detail": {
     "audience_by_platform": {
      "bitchute": 209160.0,
+     "rumble": 4188791.0,
      "telegram": 522100.5,
      "youtube": 9404700.0
     }
@@ -6419,14 +6420,14 @@
    "history": [
     {
      "date": "2026-11-17",
-     "score": 20.93
+     "score": 38.2
     }
    ],
    "id": "depth",
    "label": "Depth",
-   "raw": 0.20926,
+   "raw": 0.382002,
    "reason": null,
-   "score": 20.93,
+   "score": 38.2,
    "weight": 0.15
   }
  ],
@@ -6451,8 +6452,8 @@
   },
   {
    "depth": 0.8,
-   "extremism_followers": 0.0,
-   "observed": 0,
+   "extremism_followers": 6537130.0,
+   "observed": 6,
    "platform": "rumble",
    "reference_followers": 0.0,
    "registered": 6,
@@ -6477,83 +6478,1294 @@
    "view_equiv": 0.25
   }
  ],
+ "rumble_upload_weeks": [
+  {
+   "captured": "2026-11-17",
+   "id": "nick_fuentes",
+   "name": "Nick Fuentes",
+   "tier": "core",
+   "total": 272260436,
+   "weeks": [
+    {
+     "date": "2025-11-17",
+     "videos": 11,
+     "views": 8641419
+    },
+    {
+     "date": "2025-11-24",
+     "videos": 7,
+     "views": 5008659
+    },
+    {
+     "date": "2025-12-01",
+     "videos": 14,
+     "views": 8740490
+    },
+    {
+     "date": "2025-12-08",
+     "videos": 12,
+     "views": 11255639
+    },
+    {
+     "date": "2025-12-15",
+     "videos": 8,
+     "views": 8530102
+    },
+    {
+     "date": "2025-12-22",
+     "videos": 4,
+     "views": 5528245
+    },
+    {
+     "date": "2025-12-29",
+     "videos": 2,
+     "views": 2804639
+    },
+    {
+     "date": "2026-01-05",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-01-12",
+     "videos": 12,
+     "views": 9304112
+    },
+    {
+     "date": "2026-01-19",
+     "videos": 12,
+     "views": 7491541
+    },
+    {
+     "date": "2026-01-26",
+     "videos": 11,
+     "views": 7512029
+    },
+    {
+     "date": "2026-02-02",
+     "videos": 9,
+     "views": 6707494
+    },
+    {
+     "date": "2026-02-09",
+     "videos": 9,
+     "views": 5226019
+    },
+    {
+     "date": "2026-02-16",
+     "videos": 10,
+     "views": 5324415
+    },
+    {
+     "date": "2026-02-23",
+     "videos": 11,
+     "views": 7361407
+    },
+    {
+     "date": "2026-03-02",
+     "videos": 11,
+     "views": 6658557
+    },
+    {
+     "date": "2026-03-09",
+     "videos": 11,
+     "views": 6130798
+    },
+    {
+     "date": "2026-03-16",
+     "videos": 10,
+     "views": 5809236
+    },
+    {
+     "date": "2026-03-23",
+     "videos": 7,
+     "views": 5021221
+    },
+    {
+     "date": "2026-03-30",
+     "videos": 7,
+     "views": 4910385
+    },
+    {
+     "date": "2026-04-06",
+     "videos": 9,
+     "views": 9607212
+    },
+    {
+     "date": "2026-04-13",
+     "videos": 1,
+     "views": 1406546
+    },
+    {
+     "date": "2026-04-20",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-04-27",
+     "videos": 10,
+     "views": 7957436
+    },
+    {
+     "date": "2026-05-04",
+     "videos": 9,
+     "views": 6030424
+    },
+    {
+     "date": "2026-05-11",
+     "videos": 10,
+     "views": 7028495
+    },
+    {
+     "date": "2026-05-18",
+     "videos": 11,
+     "views": 7004342
+    },
+    {
+     "date": "2026-05-25",
+     "videos": 7,
+     "views": 4766491
+    },
+    {
+     "date": "2026-06-01",
+     "videos": 9,
+     "views": 5535608
+    },
+    {
+     "date": "2026-06-08",
+     "videos": 9,
+     "views": 5326810
+    },
+    {
+     "date": "2026-06-15",
+     "videos": 9,
+     "views": 5071133
+    },
+    {
+     "date": "2026-06-22",
+     "videos": 9,
+     "views": 4527591
+    },
+    {
+     "date": "2026-06-29",
+     "videos": 9,
+     "views": 4118957
+    },
+    {
+     "date": "2026-07-06",
+     "videos": 12,
+     "views": 5380901
+    },
+    {
+     "date": "2026-07-13",
+     "videos": 9,
+     "views": 4521473
+    },
+    {
+     "date": "2026-07-20",
+     "videos": 10,
+     "views": 5386655
+    },
+    {
+     "date": "2026-07-27",
+     "videos": 9,
+     "views": 5051576
+    },
+    {
+     "date": "2026-08-03",
+     "videos": 11,
+     "views": 5703162
+    },
+    {
+     "date": "2026-08-10",
+     "videos": 5,
+     "views": 3258382
+    },
+    {
+     "date": "2026-08-17",
+     "videos": 9,
+     "views": 4912184
+    },
+    {
+     "date": "2026-08-24",
+     "videos": 7,
+     "views": 3844304
+    },
+    {
+     "date": "2026-08-31",
+     "videos": 7,
+     "views": 4026330
+    },
+    {
+     "date": "2026-09-07",
+     "videos": 6,
+     "views": 3390304
+    },
+    {
+     "date": "2026-09-14",
+     "videos": 9,
+     "views": 4247551
+    },
+    {
+     "date": "2026-09-21",
+     "videos": 11,
+     "views": 5010105
+    },
+    {
+     "date": "2026-09-28",
+     "videos": 9,
+     "views": 4677295
+    },
+    {
+     "date": "2026-10-05",
+     "videos": 10,
+     "views": 5271835
+    },
+    {
+     "date": "2026-10-12",
+     "videos": 8,
+     "views": 4156422
+    },
+    {
+     "date": "2026-10-19",
+     "videos": 9,
+     "views": 4638269
+    },
+    {
+     "date": "2026-10-26",
+     "videos": 4,
+     "views": 2011197
+    },
+    {
+     "date": "2026-11-02",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-11-09",
+     "videos": 1,
+     "views": 425039
+    }
+   ]
+  },
+  {
+   "captured": "2026-11-17",
+   "id": "candace_owens",
+   "name": "Candace Owens",
+   "tier": "core",
+   "total": 38201306,
+   "weeks": [
+    {
+     "date": "2025-11-10",
+     "videos": 4,
+     "views": 883224
+    },
+    {
+     "date": "2025-11-17",
+     "videos": 5,
+     "views": 1111999
+    },
+    {
+     "date": "2025-11-24",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2025-12-01",
+     "videos": 5,
+     "views": 1001799
+    },
+    {
+     "date": "2025-12-08",
+     "videos": 4,
+     "views": 924976
+    },
+    {
+     "date": "2025-12-15",
+     "videos": 4,
+     "views": 1652003
+    },
+    {
+     "date": "2025-12-22",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2025-12-29",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-01-05",
+     "videos": 4,
+     "views": 1030391
+    },
+    {
+     "date": "2026-01-12",
+     "videos": 5,
+     "views": 976444
+    },
+    {
+     "date": "2026-01-19",
+     "videos": 4,
+     "views": 864619
+    },
+    {
+     "date": "2026-01-26",
+     "videos": 4,
+     "views": 850915
+    },
+    {
+     "date": "2026-02-02",
+     "videos": 4,
+     "views": 1056765
+    },
+    {
+     "date": "2026-02-09",
+     "videos": 4,
+     "views": 1087849
+    },
+    {
+     "date": "2026-02-16",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-02-23",
+     "videos": 3,
+     "views": 911767
+    },
+    {
+     "date": "2026-03-02",
+     "videos": 4,
+     "views": 923372
+    },
+    {
+     "date": "2026-03-09",
+     "videos": 4,
+     "views": 929729
+    },
+    {
+     "date": "2026-03-16",
+     "videos": 3,
+     "views": 697916
+    },
+    {
+     "date": "2026-03-23",
+     "videos": 4,
+     "views": 713208
+    },
+    {
+     "date": "2026-03-30",
+     "videos": 4,
+     "views": 1098838
+    },
+    {
+     "date": "2026-04-06",
+     "videos": 1,
+     "views": 486492
+    },
+    {
+     "date": "2026-04-13",
+     "videos": 4,
+     "views": 2807415
+    },
+    {
+     "date": "2026-04-20",
+     "videos": 3,
+     "views": 988367
+    },
+    {
+     "date": "2026-04-27",
+     "videos": 2,
+     "views": 520333
+    },
+    {
+     "date": "2026-05-04",
+     "videos": 4,
+     "views": 913227
+    },
+    {
+     "date": "2026-05-11",
+     "videos": 4,
+     "views": 835824
+    },
+    {
+     "date": "2026-05-18",
+     "videos": 4,
+     "views": 876704
+    },
+    {
+     "date": "2026-05-25",
+     "videos": 3,
+     "views": 654259
+    },
+    {
+     "date": "2026-06-01",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-06-08",
+     "videos": 4,
+     "views": 805835
+    },
+    {
+     "date": "2026-06-15",
+     "videos": 4,
+     "views": 805537
+    },
+    {
+     "date": "2026-06-22",
+     "videos": 5,
+     "views": 945266
+    },
+    {
+     "date": "2026-06-29",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-07-06",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-07-13",
+     "videos": 4,
+     "views": 759945
+    },
+    {
+     "date": "2026-07-20",
+     "videos": 4,
+     "views": 785631
+    },
+    {
+     "date": "2026-07-27",
+     "videos": 4,
+     "views": 846220
+    },
+    {
+     "date": "2026-08-03",
+     "videos": 4,
+     "views": 850479
+    },
+    {
+     "date": "2026-08-10",
+     "videos": 3,
+     "views": 955910
+    },
+    {
+     "date": "2026-08-17",
+     "videos": 4,
+     "views": 881699
+    },
+    {
+     "date": "2026-08-24",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-08-31",
+     "videos": 4,
+     "views": 816155
+    },
+    {
+     "date": "2026-09-07",
+     "videos": 3,
+     "views": 531003
+    },
+    {
+     "date": "2026-09-14",
+     "videos": 4,
+     "views": 719693
+    },
+    {
+     "date": "2026-09-21",
+     "videos": 5,
+     "views": 935572
+    },
+    {
+     "date": "2026-09-28",
+     "videos": 2,
+     "views": 365428
+    },
+    {
+     "date": "2026-10-05",
+     "videos": 4,
+     "views": 691551
+    },
+    {
+     "date": "2026-10-12",
+     "videos": 3,
+     "views": 457193
+    },
+    {
+     "date": "2026-10-19",
+     "videos": 4,
+     "views": 644546
+    },
+    {
+     "date": "2026-10-26",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-11-02",
+     "videos": 3,
+     "views": 350650
+    },
+    {
+     "date": "2026-11-09",
+     "videos": 3,
+     "views": 254558
+    }
+   ]
+  },
+  {
+   "captured": "2026-11-17",
+   "id": "tucker_carlson",
+   "name": "Tucker Carlson",
+   "tier": "adjacent",
+   "total": 33942562,
+   "weeks": [
+    {
+     "date": "2025-11-17",
+     "videos": 3,
+     "views": 1093099
+    },
+    {
+     "date": "2025-11-24",
+     "videos": 3,
+     "views": 630782
+    },
+    {
+     "date": "2025-12-01",
+     "videos": 4,
+     "views": 893254
+    },
+    {
+     "date": "2025-12-08",
+     "videos": 3,
+     "views": 846766
+    },
+    {
+     "date": "2025-12-15",
+     "videos": 3,
+     "views": 1250819
+    },
+    {
+     "date": "2025-12-22",
+     "videos": 2,
+     "views": 597786
+    },
+    {
+     "date": "2025-12-29",
+     "videos": 2,
+     "views": 559858
+    },
+    {
+     "date": "2026-01-05",
+     "videos": 3,
+     "views": 750071
+    },
+    {
+     "date": "2026-01-12",
+     "videos": 3,
+     "views": 696738
+    },
+    {
+     "date": "2026-01-19",
+     "videos": 3,
+     "views": 678107
+    },
+    {
+     "date": "2026-01-26",
+     "videos": 3,
+     "views": 779341
+    },
+    {
+     "date": "2026-02-02",
+     "videos": 3,
+     "views": 781624
+    },
+    {
+     "date": "2026-02-09",
+     "videos": 3,
+     "views": 767882
+    },
+    {
+     "date": "2026-02-16",
+     "videos": 3,
+     "views": 1228254
+    },
+    {
+     "date": "2026-02-23",
+     "videos": 5,
+     "views": 917988
+    },
+    {
+     "date": "2026-03-02",
+     "videos": 3,
+     "views": 710385
+    },
+    {
+     "date": "2026-03-09",
+     "videos": 4,
+     "views": 761024
+    },
+    {
+     "date": "2026-03-16",
+     "videos": 3,
+     "views": 730345
+    },
+    {
+     "date": "2026-03-23",
+     "videos": 4,
+     "views": 811670
+    },
+    {
+     "date": "2026-03-30",
+     "videos": 4,
+     "views": 970943
+    },
+    {
+     "date": "2026-04-06",
+     "videos": 3,
+     "views": 1857769
+    },
+    {
+     "date": "2026-04-13",
+     "videos": 4,
+     "views": 995360
+    },
+    {
+     "date": "2026-04-20",
+     "videos": 3,
+     "views": 674687
+    },
+    {
+     "date": "2026-04-27",
+     "videos": 3,
+     "views": 718346
+    },
+    {
+     "date": "2026-05-04",
+     "videos": 3,
+     "views": 721966
+    },
+    {
+     "date": "2026-05-11",
+     "videos": 3,
+     "views": 747406
+    },
+    {
+     "date": "2026-05-18",
+     "videos": 3,
+     "views": 786713
+    },
+    {
+     "date": "2026-05-25",
+     "videos": 3,
+     "views": 824097
+    },
+    {
+     "date": "2026-06-01",
+     "videos": 3,
+     "views": 786999
+    },
+    {
+     "date": "2026-06-08",
+     "videos": 3,
+     "views": 559826
+    },
+    {
+     "date": "2026-06-15",
+     "videos": 3,
+     "views": 535365
+    },
+    {
+     "date": "2026-06-22",
+     "videos": 3,
+     "views": 598334
+    },
+    {
+     "date": "2026-06-29",
+     "videos": 3,
+     "views": 588195
+    },
+    {
+     "date": "2026-07-06",
+     "videos": 3,
+     "views": 538266
+    },
+    {
+     "date": "2026-07-13",
+     "videos": 3,
+     "views": 549655
+    },
+    {
+     "date": "2026-07-20",
+     "videos": 3,
+     "views": 595686
+    },
+    {
+     "date": "2026-07-27",
+     "videos": 3,
+     "views": 643160
+    },
+    {
+     "date": "2026-08-03",
+     "videos": 3,
+     "views": 736642
+    },
+    {
+     "date": "2026-08-10",
+     "videos": 3,
+     "views": 533461
+    },
+    {
+     "date": "2026-08-17",
+     "videos": 3,
+     "views": 472852
+    },
+    {
+     "date": "2026-08-24",
+     "videos": 3,
+     "views": 487954
+    },
+    {
+     "date": "2026-08-31",
+     "videos": 4,
+     "views": 739196
+    },
+    {
+     "date": "2026-09-07",
+     "videos": 2,
+     "views": 335667
+    },
+    {
+     "date": "2026-09-14",
+     "videos": 3,
+     "views": 479225
+    },
+    {
+     "date": "2026-09-21",
+     "videos": 3,
+     "views": 483676
+    },
+    {
+     "date": "2026-09-28",
+     "videos": 1,
+     "views": 170155
+    },
+    {
+     "date": "2026-10-05",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-10-12",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-10-19",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-10-26",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-11-02",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-11-09",
+     "videos": 3,
+     "views": 325168
+    }
+   ]
+  },
+  {
+   "captured": "2026-11-17",
+   "id": "andrew_tate",
+   "name": "Andrew Tate",
+   "tier": "adjacent",
+   "total": 17038277,
+   "weeks": [
+    {
+     "date": "2025-10-27",
+     "videos": 2,
+     "views": 320124
+    },
+    {
+     "date": "2025-11-03",
+     "videos": 1,
+     "views": 127926
+    },
+    {
+     "date": "2025-11-10",
+     "videos": 2,
+     "views": 286482
+    },
+    {
+     "date": "2025-11-17",
+     "videos": 1,
+     "views": 136386
+    },
+    {
+     "date": "2025-11-24",
+     "videos": 2,
+     "views": 255792
+    },
+    {
+     "date": "2025-12-01",
+     "videos": 2,
+     "views": 226140
+    },
+    {
+     "date": "2025-12-08",
+     "videos": 1,
+     "views": 117938
+    },
+    {
+     "date": "2025-12-15",
+     "videos": 7,
+     "views": 1168022
+    },
+    {
+     "date": "2025-12-22",
+     "videos": 4,
+     "views": 546688
+    },
+    {
+     "date": "2025-12-29",
+     "videos": 5,
+     "views": 696765
+    },
+    {
+     "date": "2026-01-05",
+     "videos": 4,
+     "views": 1013802
+    },
+    {
+     "date": "2026-01-12",
+     "videos": 2,
+     "views": 239593
+    },
+    {
+     "date": "2026-01-19",
+     "videos": 1,
+     "views": 143024
+    },
+    {
+     "date": "2026-01-26",
+     "videos": 2,
+     "views": 206398
+    },
+    {
+     "date": "2026-02-02",
+     "videos": 3,
+     "views": 275147
+    },
+    {
+     "date": "2026-02-09",
+     "videos": 3,
+     "views": 283098
+    },
+    {
+     "date": "2026-02-16",
+     "videos": 2,
+     "views": 370709
+    },
+    {
+     "date": "2026-02-23",
+     "videos": 4,
+     "views": 740269
+    },
+    {
+     "date": "2026-03-02",
+     "videos": 4,
+     "views": 841046
+    },
+    {
+     "date": "2026-03-09",
+     "videos": 2,
+     "views": 227080
+    },
+    {
+     "date": "2026-03-16",
+     "videos": 1,
+     "views": 130770
+    },
+    {
+     "date": "2026-03-23",
+     "videos": 5,
+     "views": 719952
+    },
+    {
+     "date": "2026-03-30",
+     "videos": 5,
+     "views": 1358325
+    },
+    {
+     "date": "2026-04-06",
+     "videos": 3,
+     "views": 583929
+    },
+    {
+     "date": "2026-04-13",
+     "videos": 2,
+     "views": 394767
+    },
+    {
+     "date": "2026-04-20",
+     "videos": 3,
+     "views": 629776
+    },
+    {
+     "date": "2026-04-27",
+     "videos": 1,
+     "views": 215979
+    },
+    {
+     "date": "2026-05-04",
+     "videos": 3,
+     "views": 615288
+    },
+    {
+     "date": "2026-05-11",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-05-18",
+     "videos": 6,
+     "views": 1275296
+    },
+    {
+     "date": "2026-05-25",
+     "videos": 4,
+     "views": 1030894
+    },
+    {
+     "date": "2026-06-01",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-06-08",
+     "videos": 2,
+     "views": 379014
+    },
+    {
+     "date": "2026-06-15",
+     "videos": 5,
+     "views": 1145201
+    },
+    {
+     "date": "2026-06-22",
+     "videos": 1,
+     "views": 187237
+    },
+    {
+     "date": "2026-06-29",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-07-06",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-07-13",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-07-20",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-07-27",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-08-03",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-08-10",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-08-17",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-08-24",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-08-31",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-09-07",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-09-14",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-09-21",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-09-28",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-10-05",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-10-12",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-10-19",
+     "videos": 0,
+     "views": 0
+    },
+    {
+     "date": "2026-10-26",
+     "videos": 1,
+     "views": 50442
+    },
+    {
+     "date": "2026-11-02",
+     "videos": 1,
+     "views": 46995
+    },
+    {
+     "date": "2026-11-09",
+     "videos": 2,
+     "views": 51983
+    }
+   ]
+  },
+  {
+   "captured": "2026-11-17",
+   "id": "stew_peters",
+   "name": "Stew Peters",
+   "tier": "core",
+   "total": 8467056,
+   "weeks": [
+    {
+     "date": "2026-08-03",
+     "videos": 21,
+     "views": 570521
+    },
+    {
+     "date": "2026-08-10",
+     "videos": 35,
+     "views": 661892
+    },
+    {
+     "date": "2026-08-17",
+     "videos": 37,
+     "views": 623527
+    },
+    {
+     "date": "2026-08-24",
+     "videos": 36,
+     "views": 645098
+    },
+    {
+     "date": "2026-08-31",
+     "videos": 38,
+     "views": 590894
+    },
+    {
+     "date": "2026-09-07",
+     "videos": 33,
+     "views": 537176
+    },
+    {
+     "date": "2026-09-14",
+     "videos": 36,
+     "views": 497172
+    },
+    {
+     "date": "2026-09-21",
+     "videos": 31,
+     "views": 597876
+    },
+    {
+     "date": "2026-09-28",
+     "videos": 41,
+     "views": 636260
+    },
+    {
+     "date": "2026-10-05",
+     "videos": 34,
+     "views": 590235
+    },
+    {
+     "date": "2026-10-12",
+     "videos": 31,
+     "views": 551276
+    },
+    {
+     "date": "2026-10-19",
+     "videos": 36,
+     "views": 633157
+    },
+    {
+     "date": "2026-10-26",
+     "videos": 36,
+     "views": 624199
+    },
+    {
+     "date": "2026-11-02",
+     "videos": 27,
+     "views": 486953
+    },
+    {
+     "date": "2026-11-09",
+     "videos": 16,
+     "views": 220820
+    }
+   ]
+  },
+  {
+   "captured": "2026-11-17",
+   "id": "steve_bannon",
+   "name": "Steve Bannon / War Room",
+   "tier": "adjacent",
+   "total": 6570053,
+   "weeks": [
+    {
+     "date": "2026-10-19",
+     "videos": 110,
+     "views": 1497141
+    },
+    {
+     "date": "2026-10-26",
+     "videos": 120,
+     "views": 1610555
+    },
+    {
+     "date": "2026-11-02",
+     "videos": 134,
+     "views": 2026730
+    },
+    {
+     "date": "2026-11-09",
+     "videos": 118,
+     "views": 1435627
+    }
+   ]
+  }
+ ],
  "sensitivity": [
   {
    "group": "baseline",
    "scenario": "Published model",
-   "score": 25.3
+   "score": 29.47
   },
   {
    "group": "weights",
    "scenario": "Equal pillar weights",
-   "score": 26.24
+   "score": 30.1
   },
   {
    "group": "weights",
    "scenario": "Without reach",
-   "score": 31.81
+   "score": 36.79
   },
   {
    "group": "weights",
    "scenario": "Without mainstreaming",
-   "score": 28.57
+   "score": 33.4
   },
   {
    "group": "weights",
    "scenario": "Without momentum",
-   "score": 20.75
+   "score": 26.01
   },
   {
    "group": "weights",
    "scenario": "Without heat",
-   "score": 19.52
+   "score": 24.52
   },
   {
    "group": "weights",
    "scenario": "Without depth",
-   "score": 26.46
+   "score": 27.17
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 0.25",
-   "score": 25.14
+   "score": 28.84
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 0.75",
-   "score": 25.47
+   "score": 29.96
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 1",
-   "score": 25.78
+   "score": 30.54
   },
   {
    "group": "overlap",
    "scenario": "Audiences do not overlap (q=1)",
-   "score": 25.31
+   "score": 29.76
   },
   {
    "group": "overlap",
    "scenario": "Audiences fully overlap (q=inf)",
-   "score": 25.3
+   "score": 29.44
   },
   {
    "group": "views",
    "scenario": "Telegram view worth 0.1 YouTube views",
-   "score": 25.3
+   "score": 29.47
   },
   {
    "group": "views",
    "scenario": "Telegram view worth 0.5 YouTube views",
-   "score": 25.3
+   "score": 29.47
   }
  ],
  "series": [
   {
-   "confidence": 0.4193,
+   "confidence": 0.4534,
    "date": "2026-11-17",
-   "score": 25.3
+   "score": 29.47
   }
  ],
  "sources": [
@@ -6600,11 +7812,11 @@
      "reason": "blocked (HTTP 403)"
     }
    ],
-   "first": null,
-   "last": null,
+   "first": "2026-11-17",
+   "last": "2026-11-17",
    "note": "public channel pages; Rumble refuses many automated clients",
    "ok": 0,
-   "rows": 0,
+   "rows": 410,
    "skipped": "Rumble refused this client (HTTP 403); remaining channels not requested",
    "source": "rumble"
   },
