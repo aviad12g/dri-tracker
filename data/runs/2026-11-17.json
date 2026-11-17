@@ -1,8 +1,8 @@
 {
  "date": "2026-11-17",
- "started_at": "2026-11-17T12:06:31+00:00",
- "finished_at": "2026-11-17T12:29:08+00:00",
- "requests": 223,
+ "started_at": "2026-11-17T12:59:56+00:00",
+ "finished_at": "2026-11-17T13:29:53+00:00",
+ "requests": 214,
  "reports": [
   {
    "source": "adl_heat",
@@ -13,8 +13,14 @@
   },
   {
    "source": "apple_podcasts",
-   "ok": 2,
-   "failed": [],
+   "ok": 1,
+   "failed": [
+    {
+     "entity": "_chart",
+     "account": "top",
+     "reason": "network error"
+    }
+   ],
    "skipped": null,
    "note": "Apple Podcasts US charts: overall top 100 and News top 200"
   },
@@ -27,21 +33,21 @@
   },
   {
    "source": "gdelt",
-   "ok": 12,
+   "ok": 19,
    "failed": [
-    {
-     "entity": "stew_peters",
-     "account": "stew_peters",
-     "reason": "rate limited (HTTP 429)"
-    },
     {
      "entity": "candace_owens",
      "account": "candace_owens",
      "reason": "rate limited (HTTP 429)"
     },
     {
-     "entity": "jared_taylor",
-     "account": "jared_taylor",
+     "entity": "jackson_hinkle",
+     "account": "jackson_hinkle",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "entity": "lucas_gage",
+     "account": "lucas_gage",
      "reason": "rate limited (HTTP 429)"
     },
     {
@@ -55,8 +61,8 @@
      "reason": "rate limited (HTTP 429)"
     },
     {
-     "entity": "enrique_tarrio",
-     "account": "enrique_tarrio",
+     "entity": "e_michael_jones",
+     "account": "e_michael_jones",
      "reason": "rate limited (HTTP 429)"
     },
     {
@@ -65,13 +71,13 @@
      "reason": "rate limited (HTTP 429)"
     },
     {
-     "entity": "mike_cernovich",
-     "account": "mike_cernovich",
+     "entity": "alex_jones",
+     "account": "alex_jones",
      "reason": "rate limited (HTTP 429)"
     },
     {
-     "entity": "steve_bannon",
-     "account": "steve_bannon",
+     "entity": "mike_cernovich",
+     "account": "mike_cernovich",
      "reason": "rate limited (HTTP 429)"
     },
     {
@@ -80,12 +86,22 @@
      "reason": "rate limited (HTTP 429)"
     },
     {
-     "entity": "ian_carroll",
-     "account": "ian_carroll",
+     "entity": "groypers",
+     "account": "groypers",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "entity": "great_replacement",
+     "account": "great_replacement",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "entity": "white_nationalism",
+     "account": "white_nationalism",
      "reason": "rate limited (HTTP 429)"
     }
    ],
-   "skipped": "GDELT kept rate-limiting this client; remaining queries left for the next run",
+   "skipped": null,
    "note": "GDELT DOC 2.0 API, US-sourced articles"
   },
   {
@@ -122,13 +138,8 @@
   },
   {
    "source": "x",
-   "ok": 24,
+   "ok": 25,
    "failed": [
-    {
-     "entity": "nick_fuentes",
-     "account": "NickJFuentes",
-     "reason": "mirror did not return the profile (not found (HTTP 404), 4 tries)"
-    },
     {
      "entity": "jackson_hinkle",
      "account": "jacksonhinklle",
@@ -143,7 +154,7 @@
    "ok": 17,
    "failed": [],
    "skipped": null,
-   "note": "subscribers from public channel pages (no YOUTUBE_API_KEY set)"
+   "note": "subscribers from YouTube Data API v3"
   }
  ]
 }
