@@ -147,9 +147,12 @@ export default function Page() {
         <section className="section">
           <h2>Rumble, week by week</h2>
           <p className="lede">
-            Total views on each week’s uploads, for every Rumble channel in the basket, as counted on{' '}
-            {longDate(data.rumble_upload_weeks[0].captured)}. Rumble refuses automated readers, so these come from a capture made in a
-            browser. Recent weeks are still gaining views, and busier channels reach back less far.
+            Each point is the total views to date on that week’s uploads, counted on{' '}
+            {longDate(data.rumble_upload_weeks[0].captured)} in a browser, because Rumble refuses automated readers. Views keep accumulating:
+            older weeks have had longer to grow and the latest weeks are understated, so the slope of these lines is not a measure of
+            decline. {data.rumble_view_gains.length > 0
+              ? 'Views actually gained between captures are shown under each channel.'
+              : 'A second capture will show how many views each channel actually gained in between.'}
           </p>
           <div className="grid3">
             {data.rumble_upload_weeks.map((ch) => {
@@ -165,6 +168,11 @@ export default function Page() {
                   ) : (
                     <p className="empty">One completed week so far.</p>
                   )}
+                  {data.rumble_view_gains.filter((g) => g.id === ch.id).slice(-1).map((g) => (
+                    <p className="foot" key={g.to}>
+                      Gained {compact(g.gained)} views in the {g.days} days to {longDate(g.to)}, or {compact(g.per_week)} a week.
+                    </p>
+                  ))}
                 </div>
               )
             })}

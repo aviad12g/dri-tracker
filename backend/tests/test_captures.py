@@ -71,3 +71,44 @@ def test_export_lists_completed_upload_weeks_only(tmp_path):
     assert [w["date"] for w in nick["weeks"]] == ["2026-10-26", "2026-11-02", "2026-11-09"]
     assert nick["weeks"][1] == {"date": "2026-11-02", "views": 0, "videos": 0}
     assert nick["weeks"][2] == {"date": "2026-11-09", "views": 425_039, "videos": 1}
+
+
+def test_views_gained_come_from_the_difference_between_two_captures(tmp_path):
+    reg = registry_mod.load()
+    first = small_capture()
+    second = small_capture()
+    second["captured_at"] = "2026-11-24T08:00:00.000Z"
+    second["channels"]["nickjfuentes"]["weeks"] = [
+        ["2026-10-19", 9, 5_000_000],   # only the later capture reaches this far back: ignored
+        ["2026-10-26", 2, 350],         # +50 on old uploads
+        ["2026-11-09", 1, 500_039],     # +75,000
+        ["2026-11-16", 5, 900_649],     # same week, more uploads: +412,000
+        ["2026-11-23", 2, 100_000],     # new week: all gain
+    ]
+    store = Store(tmp_path)
+    store.upsert(rumble_rows(first, reg) + rumble_rows(second, reg))
+    gains = build(store, reg)["rumble_view_gains"]
+    assert gains == [{"id": "nick_fuentes", "name": "Nick Fuentes", "from": "2026-11-17", "to": "2026-11-24", "days": 7,
+                      "gained": 50 + 75_000 + 412_000 + 100_000, "per_week": 50 + 75_000 + 412_000 + 100_000}]
+
+
+def test_one_capture_gives_no_gains(tmp_path):
+    store = Store(tmp_path)
+    store.upsert(rumble_rows(small_capture(), registry_mod.load()))
+    assert build(store, registry_mod.load())["rumble_view_gains"] == []
+
+
+def test_legacy_cache_imports_trusted_platforms_only(tmp_path):
+    from dri.legacy import read_cache
+    entries = [
+        {"_platform": "rumble", "_handle": "nickjfuentes", "_cached_at": "2026-01-24T19:00:00", "data": {"followers": 644000}},
+        {"_platform": "telegram", "_handle": "NickJFuentes", "_cached_at": "2026-01-24T19:00:00", "data": {"followers": 116860}},
+        {"_platform": "youtube", "_handle": "TuckerCarlson", "_cached_at": "2026-01-24T19:00:00", "data": {"followers": 5150000}},
+        {"_platform": "rumble", "_handle": "SomeoneUnregistered", "_cached_at": "2026-01-24T19:00:00", "data": {"followers": 5}},
+        {"_platform": "rumble", "_handle": "TateSpeech", "_cached_at": "2026-01-24T19:00:00", "data": {"followers": 0}},
+    ]
+    for i, e in enumerate(entries):
+        (tmp_path / f"{i}.json").write_text(json.dumps(e))
+    rows = read_cache(tmp_path, registry_mod.load())
+    assert [(r["source"], r["entity"], r["value"]) for r in rows] == [("rumble", "nick_fuentes", 644000), ("telegram", "nick_fuentes", 116860)]
+    assert rows[0]["meta"]["precision"].startswith("rounded")

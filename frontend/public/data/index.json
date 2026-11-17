@@ -13,10 +13,10 @@
      "views_7d": null
     },
     {
-     "annual_growth": null,
+     "annual_growth": 0.164155,
      "as_of": "2026-11-17",
      "followers": 728784,
-     "growth_days": null,
+     "growth_days": 297,
      "handle": "nickjfuentes",
      "platform": "rumble",
      "unverified": false,
@@ -82,10 +82,10 @@
      "views_7d": null
     },
     {
-     "annual_growth": null,
+     "annual_growth": 0.011961,
      "as_of": "2026-11-17",
      "followers": 583619,
-     "growth_days": null,
+     "growth_days": 297,
      "handle": "StewPeters",
      "platform": "rumble",
      "unverified": false,
@@ -161,10 +161,10 @@
      "views_7d": null
     },
     {
-     "annual_growth": null,
+     "annual_growth": 0.077317,
      "as_of": "2026-11-17",
      "followers": 528049,
-     "growth_days": null,
+     "growth_days": 297,
      "handle": "RealCandaceO",
      "platform": "rumble",
      "unverified": false,
@@ -630,10 +630,10 @@
      "views_7d": null
     },
     {
-     "annual_growth": null,
+     "annual_growth": 0.030661,
      "as_of": "2026-11-17",
      "followers": 1301596,
-     "growth_days": null,
+     "growth_days": 297,
      "handle": "TuckerCarlson",
      "platform": "rumble",
      "unverified": false,
@@ -830,10 +830,10 @@
      "views_7d": null
     },
     {
-     "annual_growth": null,
+     "annual_growth": 0.008434,
      "as_of": "2026-11-17",
      "followers": 2235223,
-     "growth_days": null,
+     "growth_days": 297,
      "handle": "TateSpeech",
      "platform": "rumble",
      "unverified": false,
@@ -1872,25 +1872,26 @@
  ],
  "headline": {
   "band": {
-   "high": 36.79,
-   "low": 24.52
+   "high": 41.16,
+   "low": 29.52
   },
   "change": {
    "d1": null,
    "d28": null,
    "d7": null
   },
-  "confidence": 0.4534,
+  "confidence": 0.5147,
   "grade": "C",
   "pillars_used": [
    "reach",
    "mainstreaming",
    "momentum",
+   "breadth",
    "heat",
    "depth"
   ],
-  "score": 29.47,
-  "weight_coverage": 0.72
+  "score": 33.48,
+  "weight_coverage": 0.8
  },
  "heat_series": {
   "news": [
@@ -6032,7 +6033,7 @@
   },
   "days_scored": 1,
   "first_scored": "2026-11-17",
-  "input_digest": "795bbaa36ec8a52d0faebd35a7e690ac8688b5026fcc2f1da6b122890c6afb89",
+  "input_digest": "e2b033dd6d07790d41631d91a0f1b044c885fb073c915e9dfeca836f86b251a8",
   "last_run": "2026-11-17",
   "model_version": "2.2.0",
   "registry_version": "2026.11.17.3",
@@ -6087,7 +6088,7 @@
  "pillars": [
   {
    "available": true,
-   "contribution": 2.9,
+   "contribution": 2.61,
    "coverage": 0.5806,
    "detail": {
     "accounts_observed": 36,
@@ -6138,7 +6139,7 @@
   },
   {
    "available": true,
-   "contribution": 0.7,
+   "contribution": 0.63,
    "coverage": 1.0,
    "detail": {
     "charts": {
@@ -6314,11 +6315,11 @@
   },
   {
    "available": true,
-   "contribution": 8.87,
-   "coverage": 0.1667,
+   "contribution": 9.49,
+   "coverage": 0.375,
    "detail": {
-    "accounts": 4,
-    "annual_change": -0.186809,
+    "accounts": 9,
+    "annual_change": 0.017053,
     "mean_span_days": 297.0,
     "reference_growth": null
    },
@@ -6328,37 +6329,43 @@
    "history": [
     {
      "date": "2026-11-17",
-     "score": 42.6
+     "score": 50.61
     }
    ],
    "id": "momentum",
    "label": "Momentum",
-   "raw": -0.206789,
+   "raw": 0.016909,
    "reason": null,
-   "score": 42.6,
+   "score": 50.61,
    "weight": 0.15
   },
   {
-   "available": false,
-   "contribution": null,
-   "coverage": 0.1667,
+   "available": true,
+   "contribution": 5.45,
+   "coverage": 0.375,
    "detail": {
-    "accounts": 4
+    "accounts": 9,
+    "growing": 5
    },
    "explain": "The share of basket accounts whose audience grew over the comparison window.",
    "group": "dynamics",
    "headline": "Accounts that are growing",
-   "history": [],
+   "history": [
+    {
+     "date": "2026-11-17",
+     "score": 54.55
+    }
+   ],
    "id": "breadth",
    "label": "Breadth",
-   "raw": null,
-   "reason": "needs growth readings for at least 5 accounts (have 4)",
-   "score": null,
+   "raw": 0.555556,
+   "reason": null,
+   "score": 54.55,
    "weight": 0.08
   },
   {
    "available": true,
-   "contribution": 9.04,
+   "contribution": 8.13,
    "coverage": 1.0,
    "detail": {
     "indicators": {
@@ -6404,7 +6411,7 @@
   },
   {
    "available": true,
-   "contribution": 7.96,
+   "contribution": 7.16,
    "coverage": 0.6154,
    "detail": {
     "audience_by_platform": {
@@ -6418,6 +6425,10 @@
    "group": "structure",
    "headline": "Weight on low-moderation platforms",
    "history": [
+    {
+     "date": "2026-01-24",
+     "score": 82.52
+    },
     {
      "date": "2026-11-17",
      "score": 38.2
@@ -7689,83 +7700,89 @@
    ]
   }
  ],
+ "rumble_view_gains": [],
  "sensitivity": [
   {
    "group": "baseline",
    "scenario": "Published model",
-   "score": 29.47
+   "score": 33.48
   },
   {
    "group": "weights",
    "scenario": "Equal pillar weights",
-   "score": 30.1
+   "score": 35.51
   },
   {
    "group": "weights",
    "scenario": "Without reach",
-   "score": 36.79
+   "score": 41.16
   },
   {
    "group": "weights",
    "scenario": "Without mainstreaming",
-   "score": 33.4
+   "score": 37.54
   },
   {
    "group": "weights",
    "scenario": "Without momentum",
-   "score": 26.01
+   "score": 29.52
+  },
+  {
+   "group": "weights",
+   "scenario": "Without breadth",
+   "score": 31.14
   },
   {
    "group": "weights",
    "scenario": "Without heat",
-   "score": 24.52
+   "score": 29.82
   },
   {
    "group": "weights",
    "scenario": "Without depth",
-   "score": 27.17
+   "score": 32.39
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 0.25",
-   "score": 28.84
+   "score": 32.85
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 0.75",
-   "score": 29.96
+   "score": 33.98
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 1",
-   "score": 30.54
+   "score": 34.54
   },
   {
    "group": "overlap",
    "scenario": "Audiences do not overlap (q=1)",
-   "score": 29.76
+   "score": 33.74
   },
   {
    "group": "overlap",
    "scenario": "Audiences fully overlap (q=inf)",
-   "score": 29.44
+   "score": 33.45
   },
   {
    "group": "views",
    "scenario": "Telegram view worth 0.1 YouTube views",
-   "score": 29.47
+   "score": 33.48
   },
   {
    "group": "views",
    "scenario": "Telegram view worth 0.5 YouTube views",
-   "score": 29.47
+   "score": 33.48
   }
  ],
  "series": [
   {
-   "confidence": 0.4534,
+   "confidence": 0.5147,
    "date": "2026-11-17",
-   "score": 29.47
+   "score": 33.48
   }
  ],
  "sources": [
@@ -7812,11 +7829,11 @@
      "reason": "blocked (HTTP 403)"
     }
    ],
-   "first": "2026-11-17",
+   "first": "2026-01-24",
    "last": "2026-11-17",
    "note": "public channel pages; Rumble refuses many automated clients",
    "ok": 0,
-   "rows": 410,
+   "rows": 415,
    "skipped": "Rumble refused this client (HTTP 403); remaining channels not requested",
    "source": "rumble"
   },

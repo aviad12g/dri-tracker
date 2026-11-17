@@ -188,6 +188,7 @@ def build(store: Store, registry, p: Params = DEFAULT) -> dict:
             upload_weeks.append({"id": c.id, "name": c.name, "tier": c.tier, "captured": captured, "weeks": done,
                                  "total": sum(w["views"] for w in done)})
     upload_weeks.sort(key=lambda r: (-r["total"], r["id"]))
+    view_gains = rumble_view_gains(idx, registry, as_of)
 
     by_source = defaultdict(lambda: {"rows": 0, "first": None, "last": None})
     for r in rows:
@@ -228,6 +229,7 @@ def build(store: Store, registry, p: Params = DEFAULT) -> dict:
                     "confidence": results[d]["composite"]["confidence"]} for d in scored],
         "heat_series": heat_series,
         "rumble_upload_weeks": upload_weeks,
+        "rumble_view_gains": view_gains,
         "constituents": constituents,
         "platforms": platforms,
         "sensitivity": [{**s, "score": _r(s["score"], 2)} for s in sens],
@@ -237,6 +239,38 @@ def build(store: Store, registry, p: Params = DEFAULT) -> dict:
                    "min_weight_coverage": p.min_weight_coverage},
     }
     return _clean(data)
+
+
+def rumble_view_gains(idx: ObsIndex, registry, as_of: date) -> list[dict]:
+    """Views actually gained between consecutive captures of each Rumble channel.
+
+    A single capture shows views to date, which keep accumulating, so it cannot
+    say how many views a channel drew in a given week. Two captures can: for
+    every upload week seen in both, the difference is what those uploads gained
+    in between, and upload weeks newer than the earlier capture are all gain.
+    Weeks that only the later capture reaches back to are ignored.
+    """
+    out = []
+    for c in registry.constituents:
+        if "rumble" not in c.accounts:
+            continue
+        by_capture: dict[date, dict[date, float]] = defaultdict(dict)
+        for key in idx.keys_for("rumble", "upload_week_views"):
+            if key[1] != c.id or "@" not in key[2]:
+                continue
+            week = date.fromisoformat(key[2].rsplit("@", 1)[1])
+            for day, views in idx.series(key).items():
+                if day <= as_of:
+                    by_capture[day][week] = views
+        days = sorted(by_capture)
+        for earlier, later in zip(days, days[1:]):
+            a, b = by_capture[earlier], by_capture[later]
+            newest_before = max(a)
+            gained = sum(b[w] - a[w] for w in b if w in a) + sum(v for w, v in b.items() if w > newest_before)
+            span = (later - earlier).days
+            out.append({"id": c.id, "name": c.name, "from": earlier, "to": later, "days": span,
+                        "gained": gained, "per_week": gained * 7.0 / span})
+    return sorted(out, key=lambda r: (r["to"], r["id"]))
 
 
 def latest_run(root: Path) -> dict | None:

@@ -145,7 +145,7 @@ def cmd_import_capture(args) -> int:
 def cmd_import_legacy(args) -> int:
     rows = read_cache(args.cache_dir, registry_mod.load())
     changed = Store(data_root()).upsert(rows)
-    print(f"imported {len(rows)} Telegram follower readings from the v1 cache ({changed} new)")
+    print(f"imported {len(rows)} Telegram and Rumble follower readings from the v1 cache ({changed} new)")
     return 0
 
 
@@ -171,7 +171,7 @@ def main(argv: list[str] | None = None) -> int:
     k = sub.add_parser("import-capture", help="import a Rumble browser capture (see dri/tools/rumble_capture.js)")
     k.add_argument("file")
     k.set_defaults(func=cmd_import_capture)
-    l = sub.add_parser("import-legacy", help="import Telegram readings from a v1 .scraper_cache directory")
+    l = sub.add_parser("import-legacy", help="import Telegram and Rumble follower readings from a v1 .scraper_cache directory")
     l.add_argument("cache_dir")
     l.set_defaults(func=cmd_import_legacy)
     args = parser.parse_args(argv)
