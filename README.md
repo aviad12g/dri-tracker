@@ -84,13 +84,18 @@ Environment variables, all optional:
 | Variable | Effect |
 |---|---|
 | `YOUTUBE_API_KEY` | Records each channel's lifetime view counter, which is what makes the Engagement pillar publishable |
-| `X_BEARER_TOKEN` | Enables the X collector |
+| `X_BEARER_TOKEN` | Reads X through the official paid API instead of the free mirror |
+| `DRI_X_MIRROR` | Set to `off` to stop using the free X mirror |
 | `DRI_USER_AGENT` | Overrides the User-Agent; include a contact address |
 | `DRI_DATA` | Overrides the data directory |
 
+## How it runs
+
+`.github/workflows/daily.yml` runs at 06:17 UTC on `main`: it tests, collects, rebuilds the dataset and commits the new observations. The site is hosted on Vercel (https://dri-tracker.vercel.app), which redeploys on every push to `main`, so each day's commit publishes itself. Add `YOUTUBE_API_KEY` as a repository secret under Settings → Secrets and variables → Actions.
+
 ## Limits
 
-Audience is not agreement, and followers are neither all in the US nor all human. The index does not read content and says nothing about offline activity. The depth and view-equivalence coefficients are stated judgements; the dashboard shows how far the reading moves when they change.
+Audience is not agreement, and followers are neither all in the US nor all human. The index does not read content. Offline incidents are shown beside it, not inside it. The depth and view-equivalence coefficients are stated judgements; the dashboard shows how far the reading moves when they change.
 
 ## Licence
 

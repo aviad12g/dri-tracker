@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: daily-reading
@@ -56,23 +54,10 @@ jobs:
           node-version: '22'
           cache: npm
           cache-dependency-path: frontend/package-lock.json
-      - name: Build site
+      # The site itself is deployed by Vercel, which rebuilds on every push to main.
+      # Building it here only proves that the committed dataset still compiles into a site.
+      - name: Check that the site builds
         working-directory: frontend
-        env:
-          DRI_BASE_PATH: /${{ github.event.repository.name }}
         run: |
           npm ci
           npm run build
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: frontend/out
-
-  deploy:
-    needs: collect
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
