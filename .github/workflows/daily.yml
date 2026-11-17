@@ -1,0 +1,72 @@
+name: Daily reading
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-reading
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test
+        working-directory: backend
+        run: |
+          pip install pytest
+          python -m pytest -q
+      - name: Collect observations
+        working-directory: backend
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          DRI_USER_AGENT: ${{ vars.DRI_USER_AGENT }}
+        run: python -m dri collect
+      - name: Build dataset
+        working-directory: backend
+        run: python -m dri build
+      - name: Commit observations
+        run: |
+          git config user.name "dri-bot"
+          git config user.email "dri-bot@users.noreply.github.com"
+          git add data frontend/public/data
+          git diff --staged --quiet || git commit -m "Reading for $(date -u +%F)"
+          git push
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Build site
+        working-directory: frontend
+        env:
+          DRI_BASE_PATH: /${{ github.event.repository.name }}
+        run: |
+          npm ci
+          npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/out
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

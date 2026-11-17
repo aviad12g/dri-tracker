@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCGttrUON87gWfU6dMWm1fcA"/>
+ <id>yt:channel:GttrUON87gWfU6dMWm1fcA</id>
+ <yt:channelId>GttrUON87gWfU6dMWm1fcA</yt:channelId>
+ <title>Upload</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCGttrUON87gWfU6dMWm1fcA"/>
+ <author>
+  <name>Tucker Carlson</name>
+  <uri>https://www.youtube.com/channel/UCGttrUON87gWfU6dMWm1fcA</uri>
+ </author>
+ <published>2023-07-18T19:49:33+00:00</published>
+ <entry>
+  <id>yt:video:ltJ08AGtxuI</id>
+  <yt:videoId>ltJ08AGtxuI</yt:videoId>
+  <yt:channelId>UCGttrUON87gWfU6dMWm1fcA</yt:channelId>
+  <title>Upload</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/ltJ08AGtxuI"/>
+  <author>
+   <name>Tucker Carlson</name>
+   <uri>https://www.youtube.com/channel/UCGttrUON87gWfU6dMWm1fcA</uri>
+  </author>
+  <published>2026-11-17T00:30:16+00:00</published>
+  <updated>2026-11-17T00:36:30+00:00</updated>
+  <media:group>
+   <media:title>Upload</media:title>
+   <media:content url="https://www.youtube.com/v/ltJ08AGtxuI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/ltJ08AGtxuI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>[removed]</media:description>
+   <media:community>
+    <media:starRating count="107" average="5.00" min="1" max="5"/>
+    <media:statistics views="836"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:lN_X_xTJK1g</id>
+  <yt:videoId>lN_X_xTJK1g</yt:videoId>
+  <yt:channelId>UCGttrUON87gWfU6dMWm1fcA</yt:channelId>
+  <title>Upload</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/lN_X_xTJK1g"/>
+  <author>
+   <name>Tucker Carlson</name>
+   <uri>https://www.youtube.com/channel/UCGttrUON87gWfU6dMWm1fcA</uri>
+  </author>
+  <published>2026-11-16T23:02:46+00:00</published>
+  <updated>2026-11-17T00:28:09+00:00</updated>
+  <media:group>
+   <media:title>Upload</media:title>
+   <media:content url="https://www.youtube.com/v/lN_X_xTJK1g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/lN_X_xTJK1g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>[removed]</media:description>
+   <media:community>
+    <media:starRating count="1203" average="5.00" min="1" max="5"/>
+    <media:statistics views="13400"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4SuHpUWqypg</id>
+  <yt:videoId>4SuHpUWqypg</yt:videoId>
+  <yt:channelId>UCGttrUON87gWfU6dMWm1fcA</yt:channelId>
+  <title>Upload</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/4SuHpUWqypg"/>
+  <author>
+   <name>Tucker Carlson</name>
+   <uri>https://www.youtube.com/channel/UCGttrUON87gWfU6dMWm1fcA</uri>
+  </author>
+  <published>2026-11-16T21:24:40+00:00</published>
+  <updated>2026-11-16T21:49:39+00:00</updated>
+  <media:group>
+   <media:title>Upload</media:title>
+   <media:content url="https://www.youtube.com/v/4SuHpUWqypg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4SuHpUWqypg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>[removed]</media:description>
+   <media:community>
+    <media:starRating count="2635" average="5.00" min="1" max="5"/>
+    <media:statistics views="57858"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:b3t5IDkOA6c</id>
+  <yt:videoId>b3t5IDkOA6c</yt:videoId>
+  <yt:channelId>UCGttrUON87gWfU6dMWm1fcA</yt:channelId>
+  <title>Upload</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=b3t5IDkOA6c"/>
+  <author>
+   <name>Tucker Carlson</name>
+   <uri>https://www.youtube.com/channel/UCGttrUON87gWfU6dMWm1fcA</uri>
+  </author>
+  <published>2026-11-16T18:00:33+00:00</published>
+  <updated>2026-11-16T23:13:00+00:00</updated>
+  <media:group>
+   <media:title>Upload</media:title>
+   <media:content url="https://www.youtube.com/v/b3t5IDkOA6c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/b3t5IDkOA6c/hqdefault.jpg" width="480" height="360"/>
+   <media:description>[removed]</media:description>
+   <media:community>
+    <media:starRating count="6394" average="5.00" min="1" max="5"/>
+    <media:statistics views="230388"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:w7IvH_S_ics</id>
+  <yt:videoId>w7IvH_S_ics</yt:videoId>
+  <yt:channelId>UCGttrUON87gWfU6dMWm1fcA</yt:channelId>
+  <title>Upload</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/w7IvH_S_ics"/>
+  <author>
+   <name>Tucker Carlson</name>
+   <uri>https://www.youtube.com/channel/UCGttrUON87gWfU6dMWm1fcA</uri>
+  </author>
+  <published>2026-11-16T00:00:17+00:00</published>
+  <updated>2026-11-16T00:00:20+00:00</updated>
+  <media:group>
+   <media:title>Upload</media:title>
+   <media:content url="https://www.youtube.com/v/w7IvH_S_ics?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/w7IvH_S_ics/hqdefault.jpg" width="480" height="360"/>
+   <media:description>[removed]</media:description>
+   <media:community>
+    <media:starRating count="4579" average="5.00" min="1" max="5"/>
+    <media:statistics views="121845"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
