@@ -74,6 +74,15 @@ def test_engagement_needs_both_baskets_covered(mini_registry):
     assert eng["score"] is None and "reference" in eng["reason"]
 
 
+def test_engagement_says_when_it_is_waiting_for_a_second_view_reading(mini_registry):
+    rows = [r for r in world() if not (r["entity"] == "ref" and r["metric"] == "views_7d")]
+    first = rows + [obs(D, "youtube", "ref", "ref", "total_views", 12_000)]
+    eng = compute(ObsIndex(first), mini_registry, T, DEFAULT)["pillars"]["engagement"]
+    assert eng["score"] is None and "read once" in eng["reason"] and "YOUTUBE_API_KEY" not in eng["reason"]
+    second = first + [obs((T - timedelta(days=1)).isoformat(), "youtube", "ref", "ref", "total_views", 11_000)]
+    assert compute(ObsIndex(second), mini_registry, T, DEFAULT)["pillars"]["engagement"]["score"] is not None
+
+
 def test_partial_view_windows_are_ignored(mini_registry):
     rows = [dict(r, metric="views_7d_partial") if r["metric"] == "views_7d" and r["entity"] == "ref" else r for r in world()]
     assert compute(ObsIndex(rows), mini_registry, T, DEFAULT)["pillars"]["engagement"]["score"] is None
