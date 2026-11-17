@@ -1,5 +1,6 @@
 {"date":"2026-04-01","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":183327}
 {"date":"2026-04-01","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-01","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":4}
 {"date":"2026-04-01","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-01","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":1}
 {"date":"2026-04-01","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":9}
@@ -12,9 +13,11 @@
 {"date":"2026-04-01","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-01","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":2}
 {"date":"2026-04-01","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-01","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":1}
 {"date":"2026-04-01","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":1}
 {"date":"2026-04-01","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-01","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":3}
+{"date":"2026-04-01","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":9}
 {"date":"2026-04-01","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":19}
 {"date":"2026-04-01","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-01","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -27,6 +30,7 @@
 {"date":"2026-04-01","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":14}
 {"date":"2026-04-02","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":151046}
 {"date":"2026-04-02","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-02","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":4}
 {"date":"2026-04-02","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-02","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":0}
 {"date":"2026-04-02","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":11}
@@ -39,9 +43,11 @@
 {"date":"2026-04-02","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-02","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":0}
 {"date":"2026-04-02","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-02","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-02","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-02","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-02","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":3}
+{"date":"2026-04-02","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":3}
 {"date":"2026-04-02","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":3}
 {"date":"2026-04-02","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-02","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -54,6 +60,7 @@
 {"date":"2026-04-02","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":19}
 {"date":"2026-04-03","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":134715}
 {"date":"2026-04-03","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-03","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":7}
 {"date":"2026-04-03","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-03","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":0}
 {"date":"2026-04-03","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":2}
@@ -66,9 +73,11 @@
 {"date":"2026-04-03","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-03","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":1}
 {"date":"2026-04-03","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-03","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-03","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":2}
 {"date":"2026-04-03","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-03","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":2}
+{"date":"2026-04-03","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":8}
 {"date":"2026-04-03","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":2}
 {"date":"2026-04-03","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-03","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -81,6 +90,7 @@
 {"date":"2026-04-03","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":42}
 {"date":"2026-04-04","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":113161}
 {"date":"2026-04-04","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-04","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":3}
 {"date":"2026-04-04","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-04","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":0}
 {"date":"2026-04-04","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":1}
@@ -93,9 +103,11 @@
 {"date":"2026-04-04","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-04","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":0}
 {"date":"2026-04-04","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-04","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-04","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":3}
 {"date":"2026-04-04","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-04","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":8}
+{"date":"2026-04-04","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":0}
 {"date":"2026-04-04","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":3}
 {"date":"2026-04-04","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-04","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -108,6 +120,7 @@
 {"date":"2026-04-04","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":25}
 {"date":"2026-04-05","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":95970}
 {"date":"2026-04-05","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-05","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":1}
 {"date":"2026-04-05","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-05","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":0}
 {"date":"2026-04-05","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":1}
@@ -120,9 +133,11 @@
 {"date":"2026-04-05","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-05","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":0}
 {"date":"2026-04-05","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-05","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-05","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-05","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-05","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":0}
+{"date":"2026-04-05","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":0}
 {"date":"2026-04-05","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":3}
 {"date":"2026-04-05","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-05","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -135,6 +150,7 @@
 {"date":"2026-04-05","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":4}
 {"date":"2026-04-06","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":123095}
 {"date":"2026-04-06","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-06","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":10}
 {"date":"2026-04-06","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-06","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":5}
 {"date":"2026-04-06","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":6}
@@ -147,9 +163,11 @@
 {"date":"2026-04-06","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-06","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":2}
 {"date":"2026-04-06","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":1}
+{"date":"2026-04-06","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-06","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-06","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-06","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":4}
+{"date":"2026-04-06","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":4}
 {"date":"2026-04-06","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":0}
 {"date":"2026-04-06","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-06","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -162,6 +180,7 @@
 {"date":"2026-04-06","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":10}
 {"date":"2026-04-07","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":153024}
 {"date":"2026-04-07","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-07","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":35}
 {"date":"2026-04-07","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-07","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":4}
 {"date":"2026-04-07","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":18}
@@ -174,9 +193,11 @@
 {"date":"2026-04-07","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-07","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":1}
 {"date":"2026-04-07","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":2}
+{"date":"2026-04-07","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-07","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-07","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-07","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":1}
+{"date":"2026-04-07","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":26}
 {"date":"2026-04-07","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":0}
 {"date":"2026-04-07","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-07","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -189,6 +210,7 @@
 {"date":"2026-04-07","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":26}
 {"date":"2026-04-08","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":145631}
 {"date":"2026-04-08","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-08","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":40}
 {"date":"2026-04-08","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-08","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":0}
 {"date":"2026-04-08","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":16}
@@ -201,9 +223,11 @@
 {"date":"2026-04-08","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-08","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":0}
 {"date":"2026-04-08","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-08","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-08","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-08","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-08","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":0}
+{"date":"2026-04-08","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":10}
 {"date":"2026-04-08","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":0}
 {"date":"2026-04-08","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-08","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -216,6 +240,7 @@
 {"date":"2026-04-08","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":10}
 {"date":"2026-04-09","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":159118}
 {"date":"2026-04-09","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-09","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":26}
 {"date":"2026-04-09","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-09","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":1}
 {"date":"2026-04-09","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":17}
@@ -228,9 +253,11 @@
 {"date":"2026-04-09","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-09","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":2}
 {"date":"2026-04-09","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-09","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-09","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-09","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-09","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":1}
+{"date":"2026-04-09","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":7}
 {"date":"2026-04-09","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":1}
 {"date":"2026-04-09","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-09","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -243,6 +270,7 @@
 {"date":"2026-04-09","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":13}
 {"date":"2026-04-10","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":141522}
 {"date":"2026-04-10","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-10","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":109}
 {"date":"2026-04-10","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-10","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":0}
 {"date":"2026-04-10","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":107}
@@ -255,9 +283,11 @@
 {"date":"2026-04-10","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-10","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":1}
 {"date":"2026-04-10","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-10","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":1}
 {"date":"2026-04-10","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":1}
 {"date":"2026-04-10","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-10","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":0}
+{"date":"2026-04-10","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":5}
 {"date":"2026-04-10","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":0}
 {"date":"2026-04-10","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-10","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -270,6 +300,7 @@
 {"date":"2026-04-10","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":8}
 {"date":"2026-04-11","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":118284}
 {"date":"2026-04-11","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-11","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":22}
 {"date":"2026-04-11","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-11","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":1}
 {"date":"2026-04-11","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":21}
@@ -282,9 +313,11 @@
 {"date":"2026-04-11","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-11","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":1}
 {"date":"2026-04-11","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-11","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-11","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-11","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-11","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":0}
+{"date":"2026-04-11","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":3}
 {"date":"2026-04-11","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":0}
 {"date":"2026-04-11","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-11","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -297,6 +330,7 @@
 {"date":"2026-04-11","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":5}
 {"date":"2026-04-12","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":96377}
 {"date":"2026-04-12","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-12","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":3}
 {"date":"2026-04-12","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-12","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":3}
 {"date":"2026-04-12","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":3}
@@ -309,9 +343,11 @@
 {"date":"2026-04-12","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-12","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":0}
 {"date":"2026-04-12","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-12","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-12","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-12","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-12","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":1}
+{"date":"2026-04-12","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":2}
 {"date":"2026-04-12","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":0}
 {"date":"2026-04-12","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":1}
 {"date":"2026-04-12","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -324,6 +360,7 @@
 {"date":"2026-04-12","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":3}
 {"date":"2026-04-13","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":112099}
 {"date":"2026-04-13","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-13","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":9}
 {"date":"2026-04-13","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-13","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":2}
 {"date":"2026-04-13","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":7}
@@ -336,9 +373,11 @@
 {"date":"2026-04-13","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-13","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":4}
 {"date":"2026-04-13","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-13","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-13","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-13","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-13","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":1}
+{"date":"2026-04-13","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":1}
 {"date":"2026-04-13","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":1}
 {"date":"2026-04-13","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-13","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -351,6 +390,7 @@
 {"date":"2026-04-13","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":21}
 {"date":"2026-04-14","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":178675}
 {"date":"2026-04-14","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-14","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":14}
 {"date":"2026-04-14","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-14","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":5}
 {"date":"2026-04-14","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":14}
@@ -363,9 +403,11 @@
 {"date":"2026-04-14","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-14","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":3}
 {"date":"2026-04-14","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-14","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-14","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":1}
 {"date":"2026-04-14","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-14","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":2}
+{"date":"2026-04-14","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":4}
 {"date":"2026-04-14","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":38}
 {"date":"2026-04-14","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-14","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -378,6 +420,7 @@
 {"date":"2026-04-14","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":46}
 {"date":"2026-04-15","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":170162}
 {"date":"2026-04-15","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-15","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":12}
 {"date":"2026-04-15","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-15","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":45}
 {"date":"2026-04-15","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":17}
@@ -390,9 +433,11 @@
 {"date":"2026-04-15","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-15","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":6}
 {"date":"2026-04-15","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-15","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-15","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-15","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-15","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":3}
+{"date":"2026-04-15","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":6}
 {"date":"2026-04-15","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":157}
 {"date":"2026-04-15","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-15","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -405,6 +450,7 @@
 {"date":"2026-04-15","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":15}
 {"date":"2026-04-16","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":182814}
 {"date":"2026-04-16","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-16","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":3}
 {"date":"2026-04-16","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-16","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":30}
 {"date":"2026-04-16","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":9}
@@ -417,9 +463,11 @@
 {"date":"2026-04-16","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-16","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":1}
 {"date":"2026-04-16","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-16","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-16","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-16","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-16","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":2}
+{"date":"2026-04-16","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":4}
 {"date":"2026-04-16","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":23}
 {"date":"2026-04-16","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":1}
 {"date":"2026-04-16","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -432,6 +480,7 @@
 {"date":"2026-04-16","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":24}
 {"date":"2026-04-17","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":173900}
 {"date":"2026-04-17","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-17","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":20}
 {"date":"2026-04-17","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-17","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":5}
 {"date":"2026-04-17","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":30}
@@ -444,9 +493,11 @@
 {"date":"2026-04-17","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-17","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":3}
 {"date":"2026-04-17","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-17","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-17","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":1}
 {"date":"2026-04-17","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-17","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":1}
+{"date":"2026-04-17","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":7}
 {"date":"2026-04-17","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":20}
 {"date":"2026-04-17","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":3}
 {"date":"2026-04-17","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -459,6 +510,7 @@
 {"date":"2026-04-17","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":24}
 {"date":"2026-04-18","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":105372}
 {"date":"2026-04-18","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-18","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":4}
 {"date":"2026-04-18","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-18","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":0}
 {"date":"2026-04-18","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":3}
@@ -471,9 +523,11 @@
 {"date":"2026-04-18","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-18","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":0}
 {"date":"2026-04-18","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-18","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-18","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-18","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-18","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":3}
+{"date":"2026-04-18","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":0}
 {"date":"2026-04-18","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":1}
 {"date":"2026-04-18","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-18","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -486,6 +540,7 @@
 {"date":"2026-04-18","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":1}
 {"date":"2026-04-19","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":119636}
 {"date":"2026-04-19","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-19","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":3}
 {"date":"2026-04-19","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-19","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":4}
 {"date":"2026-04-19","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":11}
@@ -498,9 +553,11 @@
 {"date":"2026-04-19","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-19","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":0}
 {"date":"2026-04-19","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-19","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-19","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-19","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-19","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":2}
+{"date":"2026-04-19","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":2}
 {"date":"2026-04-19","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":2}
 {"date":"2026-04-19","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-19","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -513,6 +570,7 @@
 {"date":"2026-04-19","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":9}
 {"date":"2026-04-20","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":155119}
 {"date":"2026-04-20","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-20","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":67}
 {"date":"2026-04-20","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-20","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":1}
 {"date":"2026-04-20","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":9}
@@ -525,9 +583,11 @@
 {"date":"2026-04-20","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-20","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":0}
 {"date":"2026-04-20","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-20","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-20","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-20","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-20","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":0}
+{"date":"2026-04-20","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":4}
 {"date":"2026-04-20","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":0}
 {"date":"2026-04-20","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-20","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -540,6 +600,7 @@
 {"date":"2026-04-20","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":6}
 {"date":"2026-04-21","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":171556}
 {"date":"2026-04-21","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-21","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":170}
 {"date":"2026-04-21","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-21","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":2}
 {"date":"2026-04-21","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":27}
@@ -552,9 +613,11 @@
 {"date":"2026-04-21","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-21","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":2}
 {"date":"2026-04-21","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-21","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-21","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-21","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-21","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":2}
+{"date":"2026-04-21","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":10}
 {"date":"2026-04-21","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":1}
 {"date":"2026-04-21","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-21","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -567,6 +630,7 @@
 {"date":"2026-04-21","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":59}
 {"date":"2026-04-22","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":191394}
 {"date":"2026-04-22","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-22","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":15}
 {"date":"2026-04-22","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-22","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":3}
 {"date":"2026-04-22","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":11}
@@ -579,9 +643,11 @@
 {"date":"2026-04-22","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-22","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":2}
 {"date":"2026-04-22","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-22","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-22","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-22","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-22","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":4}
+{"date":"2026-04-22","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":6}
 {"date":"2026-04-22","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":1}
 {"date":"2026-04-22","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":1}
 {"date":"2026-04-22","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -594,6 +660,7 @@
 {"date":"2026-04-22","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":181}
 {"date":"2026-04-23","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":214966}
 {"date":"2026-04-23","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-23","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":17}
 {"date":"2026-04-23","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-23","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":5}
 {"date":"2026-04-23","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":14}
@@ -606,9 +673,11 @@
 {"date":"2026-04-23","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-23","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":3}
 {"date":"2026-04-23","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-23","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-23","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-23","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-23","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":41}
+{"date":"2026-04-23","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":12}
 {"date":"2026-04-23","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":8}
 {"date":"2026-04-23","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-23","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -621,6 +690,7 @@
 {"date":"2026-04-23","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":87}
 {"date":"2026-04-24","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":186067}
 {"date":"2026-04-24","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-24","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":9}
 {"date":"2026-04-24","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-24","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":4}
 {"date":"2026-04-24","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":4}
@@ -633,9 +703,11 @@
 {"date":"2026-04-24","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-24","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":3}
 {"date":"2026-04-24","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-24","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-24","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":1}
 {"date":"2026-04-24","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-24","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":2}
+{"date":"2026-04-24","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":7}
 {"date":"2026-04-24","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":2}
 {"date":"2026-04-24","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":1}
 {"date":"2026-04-24","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -648,6 +720,7 @@
 {"date":"2026-04-24","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":53}
 {"date":"2026-04-25","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":148214}
 {"date":"2026-04-25","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-25","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":10}
 {"date":"2026-04-25","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-25","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":6}
 {"date":"2026-04-25","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":16}
@@ -660,9 +733,11 @@
 {"date":"2026-04-25","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-25","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":2}
 {"date":"2026-04-25","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-25","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-25","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-25","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-25","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":5}
+{"date":"2026-04-25","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":4}
 {"date":"2026-04-25","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":2}
 {"date":"2026-04-25","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-25","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -675,6 +750,7 @@
 {"date":"2026-04-25","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":26}
 {"date":"2026-04-26","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":107812}
 {"date":"2026-04-26","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":1}
+{"date":"2026-04-26","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":3}
 {"date":"2026-04-26","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-26","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":1}
 {"date":"2026-04-26","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":0}
@@ -687,9 +763,11 @@
 {"date":"2026-04-26","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-26","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":1}
 {"date":"2026-04-26","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-26","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-26","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-26","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-26","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":2}
+{"date":"2026-04-26","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":2}
 {"date":"2026-04-26","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":2}
 {"date":"2026-04-26","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":1}
 {"date":"2026-04-26","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -702,6 +780,7 @@
 {"date":"2026-04-26","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":34}
 {"date":"2026-04-27","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":152094}
 {"date":"2026-04-27","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-27","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":7}
 {"date":"2026-04-27","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-27","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":1}
 {"date":"2026-04-27","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":6}
@@ -714,9 +793,11 @@
 {"date":"2026-04-27","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-27","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":3}
 {"date":"2026-04-27","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":1}
+{"date":"2026-04-27","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-27","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-27","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-27","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":2}
+{"date":"2026-04-27","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":3}
 {"date":"2026-04-27","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":0}
 {"date":"2026-04-27","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-27","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -729,6 +810,7 @@
 {"date":"2026-04-27","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":44}
 {"date":"2026-04-28","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":137957}
 {"date":"2026-04-28","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-28","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":3}
 {"date":"2026-04-28","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-28","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":2}
 {"date":"2026-04-28","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":4}
@@ -741,9 +823,11 @@
 {"date":"2026-04-28","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-28","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":3}
 {"date":"2026-04-28","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-28","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-28","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":1}
 {"date":"2026-04-28","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-28","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":7}
+{"date":"2026-04-28","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":8}
 {"date":"2026-04-28","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":1}
 {"date":"2026-04-28","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-28","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -756,6 +840,7 @@
 {"date":"2026-04-28","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":37}
 {"date":"2026-04-29","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":167483}
 {"date":"2026-04-29","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-29","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":17}
 {"date":"2026-04-29","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-29","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":8}
 {"date":"2026-04-29","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":40}
@@ -768,9 +853,11 @@
 {"date":"2026-04-29","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-29","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":47}
 {"date":"2026-04-29","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-29","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-29","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":0}
 {"date":"2026-04-29","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-29","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":3}
+{"date":"2026-04-29","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":39}
 {"date":"2026-04-29","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":9}
 {"date":"2026-04-29","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":1}
 {"date":"2026-04-29","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}
@@ -783,6 +870,7 @@
 {"date":"2026-04-29","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":32}
 {"date":"2026-04-30","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":176732}
 {"date":"2026-04-30","source":"gdelt","entity":"active_clubs","account":"active_clubs","metric":"news_articles","value":0}
+{"date":"2026-04-30","source":"gdelt","entity":"alex_jones","account":"alex_jones","metric":"news_articles","value":76}
 {"date":"2026-04-30","source":"gdelt","entity":"andrew_anglin","account":"andrew_anglin","metric":"news_articles","value":0}
 {"date":"2026-04-30","source":"gdelt","entity":"andrew_tate","account":"andrew_tate","metric":"news_articles","value":0}
 {"date":"2026-04-30","source":"gdelt","entity":"candace_owens","account":"candace_owens","metric":"news_articles","value":18}
@@ -795,9 +883,11 @@
 {"date":"2026-04-30","source":"gdelt","entity":"ian_carroll","account":"ian_carroll","metric":"news_articles","value":0}
 {"date":"2026-04-30","source":"gdelt","entity":"jack_posobiec","account":"jack_posobiec","metric":"news_articles","value":4}
 {"date":"2026-04-30","source":"gdelt","entity":"jackson_hinkle","account":"jackson_hinkle","metric":"news_articles","value":0}
+{"date":"2026-04-30","source":"gdelt","entity":"jake_shields","account":"jake_shields","metric":"news_articles","value":0}
 {"date":"2026-04-30","source":"gdelt","entity":"jared_taylor","account":"jared_taylor","metric":"news_articles","value":1}
 {"date":"2026-04-30","source":"gdelt","entity":"lucas_gage","account":"lucas_gage","metric":"news_articles","value":0}
 {"date":"2026-04-30","source":"gdelt","entity":"michael_flynn","account":"michael_flynn","metric":"news_articles","value":1}
+{"date":"2026-04-30","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":4}
 {"date":"2026-04-30","source":"gdelt","entity":"oath_keepers","account":"oath_keepers","metric":"news_articles","value":11}
 {"date":"2026-04-30","source":"gdelt","entity":"patriot_front","account":"patriot_front","metric":"news_articles","value":0}
 {"date":"2026-04-30","source":"gdelt","entity":"peter_brimelow","account":"peter_brimelow","metric":"news_articles","value":0}

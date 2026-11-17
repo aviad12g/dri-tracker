@@ -33,17 +33,17 @@
      "views_7d": null
     },
     {
-     "annual_growth": -0.047572,
+     "annual_growth": -0.047655,
      "as_of": "2026-11-17",
-     "followers": 112316,
+     "followers": 112308,
      "growth_days": 297,
      "handle": "nickjfuentes",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 165800
+     "views_7d": 160700
     }
    ],
-   "audience": 1511409.482398,
+   "audience": 1511408.887922,
    "basis": [
     {
      "org": "SPLC",
@@ -61,10 +61,10 @@
    "id": "nick_fuentes",
    "kind": "person",
    "name": "Nick Fuentes",
-   "news_7d": null,
+   "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 7390.428571,
+   "wiki_daily": 7254.857143,
    "wikipedia": [
     "Nick_Fuentes"
    ]
@@ -74,7 +74,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 940386,
+     "followers": 940374,
      "growth_days": null,
      "handle": "realstewpeters",
      "platform": "x",
@@ -102,17 +102,17 @@
      "views_7d": null
     },
     {
-     "annual_growth": -0.214178,
+     "annual_growth": -0.214676,
      "as_of": "2026-11-17",
-     "followers": 131806,
+     "followers": 131738,
      "growth_days": 297,
      "handle": "StewPeters",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 60667
+     "views_7d": 66210
     }
    ],
-   "audience": 1114692.133918,
+   "audience": 1114673.971754,
    "basis": [
     {
      "org": "SPLC",
@@ -133,7 +133,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 164.142857,
+   "wiki_daily": 159.285714,
    "wikipedia": [
     "Stew_Peters"
    ]
@@ -148,12 +148,12 @@
      "handle": "RealCandaceO",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 2355387
+     "views_7d": 2417286
     },
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 7755633,
+     "followers": 7755478,
      "growth_days": null,
      "handle": "RealCandaceO",
      "platform": "x",
@@ -171,7 +171,7 @@
      "views_7d": 168063
     }
    ],
-   "audience": 9862736.890797,
+   "audience": 9862615.005914,
    "basis": [
     {
      "org": "ADL",
@@ -179,11 +179,11 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.272137,
+   "basket_share": 0.272135,
    "charts": [
     {
      "chart": "news",
-     "rank": 46,
+     "rank": 53,
      "show": "Candace"
     }
    ],
@@ -194,7 +194,7 @@
    "news_7d": 11.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 4383.0,
+   "wiki_daily": 4216.285714,
    "wikipedia": [
     "Candace_Owens"
    ]
@@ -212,17 +212,17 @@
      "views_7d": null
     },
     {
-     "annual_growth": -0.110046,
+     "annual_growth": -0.110343,
      "as_of": "2026-11-17",
-     "followers": 33092,
+     "followers": 33083,
      "growth_days": 297,
      "handle": "jacksonhinkle",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 4340
+     "views_7d": 4470
     }
    ],
-   "audience": 33092.0,
+   "audience": 33083.0,
    "basis": [
     {
      "org": "ADL",
@@ -239,7 +239,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 935.0,
+   "wiki_daily": 948.142857,
    "wikipedia": [
     "Jackson_Hinkle"
    ]
@@ -249,7 +249,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 912893,
+     "followers": 912888,
      "growth_days": null,
      "handle": "jakeshieldsajj",
      "platform": "x",
@@ -257,7 +257,7 @@
      "views_7d": null
     }
    ],
-   "audience": 912893.0,
+   "audience": 912888.0,
    "basis": [
     {
      "org": "ADL",
@@ -271,10 +271,10 @@
    "id": "jake_shields",
    "kind": "person",
    "name": "Jake Shields",
-   "news_7d": null,
+   "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 321.714286,
+   "wiki_daily": 341.0,
    "wikipedia": [
     "Jake_Shields"
    ]
@@ -298,7 +298,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 55.285714,
+   "wiki_daily": 57.142857,
    "wikipedia": [
     "Lucas_Gage"
    ]
@@ -308,7 +308,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 113849,
+     "followers": 113845,
      "growth_days": null,
      "handle": "RichardBSpencer",
      "platform": "x",
@@ -316,7 +316,7 @@
      "views_7d": null
     }
    ],
-   "audience": 113849.0,
+   "audience": 113845.0,
    "basis": [
     {
      "org": "SPLC",
@@ -333,7 +333,7 @@
    "news_7d": null,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 994.857143,
+   "wiki_daily": 882.857143,
    "wikipedia": [
     "Richard_B._Spencer"
    ]
@@ -361,7 +361,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 456.714286,
+   "wiki_daily": 473.285714,
    "wikipedia": [
     "Jared_Taylor",
     "American_Renaissance_(magazine)"
@@ -397,7 +397,7 @@
    "news_7d": 2.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 1721.285714,
+   "wiki_daily": 1625.714286,
    "wikipedia": [
     "David_Duke"
    ]
@@ -425,7 +425,7 @@
    "news_7d": 1.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 231.714286,
+   "wiki_daily": 206.428571,
    "wikipedia": [
     "Peter_Brimelow",
     "VDARE"
@@ -436,7 +436,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 431365,
+     "followers": 431363,
      "growth_days": null,
      "handle": "StefanMolyneux",
      "platform": "x",
@@ -454,7 +454,7 @@
      "views_7d": null
     }
    ],
-   "audience": 439008.855925,
+   "audience": 439006.890749,
    "basis": [
     {
      "org": "SPLC",
@@ -471,7 +471,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 162.0,
+   "wiki_daily": 164.428571,
    "wikipedia": [
     "Stefan_Molyneux"
    ]
@@ -495,7 +495,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 246.714286,
+   "wiki_daily": 233.571429,
    "wikipedia": [
     "Andrew_Anglin"
    ]
@@ -519,7 +519,7 @@
    "news_7d": null,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 60.857143,
+   "wiki_daily": 61.571429,
    "wikipedia": [
     "Mike_Enoch"
    ]
@@ -554,7 +554,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 74.714286,
+   "wiki_daily": 71.714286,
    "wikipedia": [
     "E._Michael_Jones"
    ]
@@ -578,7 +578,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 226.428571,
+   "wiki_daily": 215.285714,
    "wikipedia": [
     "Stewart_Rhodes"
    ]
@@ -602,7 +602,7 @@
    "news_7d": null,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 561.428571,
+   "wiki_daily": 541.428571,
    "wikipedia": [
     "Enrique_Tarrio"
    ]
@@ -622,7 +622,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 17978587,
+     "followers": 17978580,
      "growth_days": null,
      "handle": "TuckerCarlson",
      "platform": "x",
@@ -640,7 +640,7 @@
      "views_7d": 268219
     }
    ],
-   "audience": 18935779.431114,
+   "audience": 18935772.78496,
    "basis": [
     {
      "org": "SPLC",
@@ -652,16 +652,16 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.261243,
+   "basket_share": 0.261244,
    "charts": [
     {
      "chart": "news",
-     "rank": 15,
+     "rank": 10,
      "show": "The Tucker Carlson Show"
     },
     {
      "chart": "top",
-     "rank": 56,
+     "rank": 35,
      "show": "The Tucker Carlson Show"
     }
    ],
@@ -672,7 +672,7 @@
    "news_7d": null,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 2864.0,
+   "wiki_daily": 2712.0,
    "wikipedia": [
     "Tucker_Carlson"
    ]
@@ -682,7 +682,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 4444637,
+     "followers": 4444951,
      "growth_days": null,
      "handle": "RealAlexJones",
      "platform": "x",
@@ -700,7 +700,7 @@
      "views_7d": null
     }
    ],
-   "audience": 4447604.317564,
+   "audience": 4447918.108087,
    "basis": [
     {
      "org": "SPLC",
@@ -712,16 +712,16 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.06136,
+   "basket_share": 0.061365,
    "charts": [],
    "cohort": "conspiracy",
    "id": "alex_jones",
    "kind": "person",
    "name": "Alex Jones / Infowars",
-   "news_7d": null,
+   "news_7d": 2.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 2816.285714,
+   "wiki_daily": 2830.285714,
    "wikipedia": [
     "Alex_Jones",
     "Infowars"
@@ -742,7 +742,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 3271026,
+     "followers": 3270917,
      "growth_days": null,
      "handle": "JackPosobiec",
      "platform": "x",
@@ -750,7 +750,7 @@
      "views_7d": null
     }
    ],
-   "audience": 3271031.320956,
+   "audience": 3270922.321133,
    "basis": [
     {
      "org": "SPLC",
@@ -758,7 +758,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.045128,
+   "basket_share": 0.045127,
    "charts": [],
    "cohort": "conspiracy",
    "id": "jack_posobiec",
@@ -767,7 +767,7 @@
    "news_7d": 1.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 402.0,
+   "wiki_daily": 383.428571,
    "wikipedia": [
     "Jack_Posobiec"
    ]
@@ -777,7 +777,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 1453205,
+     "followers": 1453149,
      "growth_days": null,
      "handle": "Cernovich",
      "platform": "x",
@@ -795,7 +795,7 @@
      "views_7d": 0
     }
    ],
-   "audience": 1453207.232033,
+   "audience": 1453151.232119,
    "basis": [
     {
      "org": "SPLC",
@@ -803,7 +803,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.020049,
+   "basket_share": 0.020048,
    "charts": [],
    "cohort": "conspiracy",
    "id": "mike_cernovich",
@@ -812,7 +812,7 @@
    "news_7d": null,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 221.285714,
+   "wiki_daily": 192.0,
    "wikipedia": [
     "Mike_Cernovich"
    ]
@@ -822,7 +822,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 10685955,
+     "followers": 10685830,
      "growth_days": null,
      "handle": "Cobratate",
      "platform": "x",
@@ -840,17 +840,17 @@
      "views_7d": 51983
     },
     {
-     "annual_growth": -0.254983,
+     "annual_growth": -0.25523,
      "as_of": "2026-11-17",
-     "followers": 292325,
+     "followers": 292246,
      "growth_days": 297,
      "handle": "TateSpeech",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 285490
+     "views_7d": 290900
     }
    ],
-   "audience": 10921140.50946,
+   "audience": 10921016.087029,
    "basis": [
     {
      "org": "SPLC",
@@ -858,7 +858,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.150671,
+   "basket_share": 0.15067,
    "charts": [],
    "cohort": "male_supremacy",
    "id": "andrew_tate",
@@ -867,7 +867,7 @@
    "news_7d": 1.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 6067.571429,
+   "wiki_daily": 5961.857143,
    "wikipedia": [
     "Andrew_Tate"
    ]
@@ -877,7 +877,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 2281869,
+     "followers": 2281827,
      "growth_days": null,
      "handle": "GenFlynn",
      "platform": "x",
@@ -887,15 +887,15 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 144570,
+     "followers": 144513,
      "growth_days": null,
      "handle": "RealGenFlynn",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 555200
+     "views_7d": 604300
     }
    ],
-   "audience": 2286444.099046,
+   "audience": 2286398.579666,
    "basis": [
     {
      "org": "SPLC",
@@ -912,7 +912,7 @@
    "news_7d": 0.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 856.857143,
+   "wiki_daily": 848.714286,
    "wikipedia": [
     "Michael_Flynn"
    ]
@@ -932,15 +932,15 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 50331,
+     "followers": 50308,
      "growth_days": null,
      "handle": "bannonwarroom",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 379532
+     "views_7d": 362851
     }
    ],
-   "audience": 1160950.519808,
+   "audience": 1160949.52291,
    "basis": [
     {
      "org": "ADL (as reported by The Forward)",
@@ -952,7 +952,7 @@
    "charts": [
     {
      "chart": "news",
-     "rank": 70,
+     "rank": 51,
      "show": "Bannon's War Room"
     }
    ],
@@ -963,7 +963,7 @@
    "news_7d": 4.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 1909.714286,
+   "wiki_daily": 1748.0,
    "wikipedia": [
     "Steve_Bannon"
    ]
@@ -983,7 +983,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 360966,
+     "followers": 360969,
      "growth_days": null,
      "handle": "martyrmade",
      "platform": "x",
@@ -991,7 +991,7 @@
      "views_7d": null
     }
    ],
-   "audience": 364909.171104,
+   "audience": 364912.138687,
    "basis": [
     {
      "org": "ADL",
@@ -1008,7 +1008,7 @@
    "news_7d": 0.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 101.714286,
+   "wiki_daily": 100.714286,
    "wikipedia": [
     "Darryl_Cooper"
    ]
@@ -1023,12 +1023,12 @@
      "handle": "IanCarrollShow",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 1833696
+     "views_7d": 2131093
     },
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 1399985,
+     "followers": 1399969,
      "growth_days": null,
      "handle": "IanCarrollShow",
      "platform": "x",
@@ -1036,7 +1036,7 @@
      "views_7d": null
     }
    ],
-   "audience": 1617423.259455,
+   "audience": 1617409.410434,
    "basis": [
     {
      "org": "ADL",
@@ -1075,7 +1075,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 2693.571429,
+   "wiki_daily": 2551.142857,
    "wikipedia": [
     "Groypers"
    ]
@@ -1103,7 +1103,7 @@
    "news_7d": 1.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 1163.714286,
+   "wiki_daily": 1153.714286,
    "wikipedia": [
     "Proud_Boys"
    ]
@@ -1131,7 +1131,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 589.142857,
+   "wiki_daily": 587.857143,
    "wikipedia": [
     "Patriot_Front"
    ]
@@ -1159,7 +1159,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 406.571429,
+   "wiki_daily": 393.428571,
    "wikipedia": [
     "Oath_Keepers"
    ]
@@ -1183,7 +1183,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 527.428571,
+   "wiki_daily": 517.428571,
    "wikipedia": [
     "Three_Percenters"
    ]
@@ -1211,7 +1211,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 272.714286,
+   "wiki_daily": 265.142857,
    "wikipedia": [
     "Goyim_Defense_League"
    ]
@@ -1235,7 +1235,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 50.857143,
+   "wiki_daily": 46.857143,
    "wikipedia": [
     "Active_Club_Network"
    ]
@@ -1259,7 +1259,7 @@
    "news_7d": 3.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 1780.571429,
+   "wiki_daily": 1721.857143,
    "wikipedia": [
     "Great_Replacement_conspiracy_theory",
     "White_genocide_conspiracy_theory"
@@ -1288,7 +1288,7 @@
    "news_7d": 53.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 1176.857143,
+   "wiki_daily": 1076.714286,
    "wikipedia": [
     "White_nationalism",
     "Alt-right"
@@ -1309,7 +1309,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 29464703,
+     "followers": 29465055,
      "growth_days": null,
      "handle": "FoxNews",
      "platform": "x",
@@ -1317,14 +1317,14 @@
      "views_7d": null
     }
    ],
-   "audience": 33339596.921352,
+   "audience": 33339908.010566,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.13343,
+   "basket_share": 0.133432,
    "charts": [
     {
      "chart": "news",
-     "rank": 42,
+     "rank": 45,
      "show": "Fox News Hourly Update"
     }
    ],
@@ -1335,7 +1335,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 1471.142857,
+   "wiki_daily": 1413.285714,
    "wikipedia": [
     "Fox_News"
    ]
@@ -1355,7 +1355,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 61730178,
+     "followers": 61729443,
      "growth_days": null,
      "handle": "CNN",
      "platform": "x",
@@ -1363,14 +1363,14 @@
      "views_7d": null
     }
    ],
-   "audience": 64920142.297377,
+   "audience": 64919443.413281,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.259821,
+   "basket_share": 0.259819,
    "charts": [
     {
      "chart": "news",
-     "rank": 43,
+     "rank": 67,
      "show": "Fareed Zakaria GPS"
     }
    ],
@@ -1381,7 +1381,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 1982.571429,
+   "wiki_daily": 1943.142857,
    "wikipedia": [
     "CNN"
    ]
@@ -1406,12 +1406,17 @@
    "charts": [
     {
      "chart": "news",
-     "rank": 22,
-     "show": "Morning Joe"
+     "rank": 12,
+     "show": "The Rachel Maddow Show"
     },
     {
      "chart": "news",
-     "rank": 29,
+     "rank": 32,
+     "show": "Morning Joe"
+    },
+    {
+     "chart": "top",
+     "rank": 46,
      "show": "The Rachel Maddow Show"
     }
    ],
@@ -1422,7 +1427,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 1785.571429,
+   "wiki_daily": 1721.142857,
    "wikipedia": [
     "MS_NOW"
    ]
@@ -1442,7 +1447,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 18598921,
+     "followers": 18598862,
      "growth_days": null,
      "handle": "ABC",
      "platform": "x",
@@ -1450,14 +1455,14 @@
      "views_7d": null
     }
    ],
-   "audience": 27238389.496522,
+   "audience": 27238349.210168,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.109012,
+   "basket_share": 0.109013,
    "charts": [
     {
      "chart": "news",
-     "rank": 33,
+     "rank": 48,
      "show": "Start Here"
     }
    ],
@@ -1468,7 +1473,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 399.142857,
+   "wiki_daily": 401.857143,
    "wikipedia": [
     "ABC_News_(United_States)"
    ]
@@ -1488,7 +1493,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 9282943,
+     "followers": 9282966,
      "growth_days": null,
      "handle": "NBCNews",
      "platform": "x",
@@ -1496,7 +1501,7 @@
      "views_7d": null
     }
    ],
-   "audience": 15330134.726781,
+   "audience": 15330148.654111,
    "basis": [],
    "basket": "reference",
    "basket_share": 0.061354,
@@ -1508,7 +1513,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 442.285714,
+   "wiki_daily": 444.857143,
    "wikipedia": [
     "NBC_News"
    ]
@@ -1528,7 +1533,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 9863108,
+     "followers": 9863097,
      "growth_days": null,
      "handle": "CBSNews",
      "platform": "x",
@@ -1536,7 +1541,7 @@
      "views_7d": null
     }
    ],
-   "audience": 12170365.623911,
+   "audience": 12170356.709292,
    "basis": [],
    "basket": "reference",
    "basket_share": 0.048708,
@@ -1548,7 +1553,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 497.714286,
+   "wiki_daily": 470.714286,
    "wikipedia": [
     "CBS_News"
    ]
@@ -1558,7 +1563,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 931000,
+     "followers": 932000,
      "growth_days": null,
      "handle": "NPR",
      "platform": "youtube",
@@ -1568,7 +1573,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 7703683,
+     "followers": 7703672,
      "growth_days": null,
      "handle": "NPR",
      "platform": "x",
@@ -1576,7 +1581,7 @@
      "views_7d": null
     }
    ],
-   "audience": 7759735.354024,
+   "audience": 7759844.475477,
    "basis": [],
    "basket": "reference",
    "basket_share": 0.031056,
@@ -1588,7 +1593,7 @@
     },
     {
      "chart": "top",
-     "rank": 3,
+     "rank": 5,
      "show": "Up First from NPR"
     }
    ],
@@ -1599,7 +1604,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 1154.285714,
+   "wiki_daily": 1209.857143,
    "wikipedia": [
     "NPR"
    ]
@@ -1619,7 +1624,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 53860965,
+     "followers": 53859959,
      "growth_days": null,
      "handle": "nytimes",
      "platform": "x",
@@ -1627,10 +1632,10 @@
      "views_7d": null
     }
    ],
-   "audience": 54126020.089521,
+   "audience": 54125019.015994,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.216621,
+   "basket_share": 0.216618,
    "charts": [
     {
      "chart": "news",
@@ -1650,7 +1655,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 4619.142857,
+   "wiki_daily": 4434.0,
    "wikipedia": [
     "The_New_York_Times"
    ]
@@ -1670,7 +1675,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 8853240,
+     "followers": 8853150,
      "growth_days": null,
      "handle": "benshapiro",
      "platform": "x",
@@ -1678,30 +1683,30 @@
      "views_7d": null
     }
    ],
-   "audience": 11261503.385321,
+   "audience": 11261432.631886,
    "basis": [],
    "basket": "reference",
    "basket_share": 0.04507,
    "charts": [
     {
      "chart": "news",
-     "rank": 7,
-     "show": "Morning Wire"
+     "rank": 9,
+     "show": "The Ben Shapiro Show"
     },
     {
      "chart": "news",
-     "rank": 12,
-     "show": "The Ben Shapiro Show"
-    },
-    {
-     "chart": "top",
-     "rank": 36,
+     "rank": 14,
      "show": "Morning Wire"
     },
     {
      "chart": "top",
-     "rank": 49,
+     "rank": 34,
      "show": "The Ben Shapiro Show"
+    },
+    {
+     "chart": "top",
+     "rank": 51,
+     "show": "Morning Wire"
     }
    ],
    "cohort": "reference",
@@ -1711,7 +1716,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 4646.142857,
+   "wiki_daily": 4846.714286,
    "wikipedia": [
     "Ben_Shapiro"
    ]
@@ -1731,7 +1736,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 3610390,
+     "followers": 3610311,
      "growth_days": null,
      "handle": "megynkelly",
      "platform": "x",
@@ -1739,19 +1744,19 @@
      "views_7d": null
     }
    ],
-   "audience": 5530914.56742,
+   "audience": 5530862.999272,
    "basis": [],
    "basket": "reference",
    "basket_share": 0.022136,
    "charts": [
     {
      "chart": "news",
-     "rank": 5,
+     "rank": 4,
      "show": "The Megyn Kelly Show"
     },
     {
      "chart": "top",
-     "rank": 21,
+     "rank": 16,
      "show": "The Megyn Kelly Show"
     }
    ],
@@ -1762,7 +1767,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 5689.857143,
+   "wiki_daily": 5155.428571,
    "wikipedia": [
     "Megyn_Kelly"
    ]
@@ -1782,7 +1787,7 @@
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 1355860,
+     "followers": 1355843,
      "growth_days": null,
      "handle": "MeidasTouch",
      "platform": "x",
@@ -1790,19 +1795,19 @@
      "views_7d": null
     }
    ],
-   "audience": 6649695.958433,
+   "audience": 6649692.492187,
    "basis": [],
    "basket": "reference",
    "basket_share": 0.026613,
    "charts": [
     {
      "chart": "news",
-     "rank": 6,
+     "rank": 7,
      "show": "The MeidasTouch Podcast"
     },
     {
      "chart": "top",
-     "rank": 23,
+     "rank": 22,
      "show": "The MeidasTouch Podcast"
     }
    ],
@@ -1813,7 +1818,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 816.142857,
+   "wiki_daily": 797.857143,
    "wikipedia": [
     "MeidasTouch"
    ]
@@ -1828,12 +1833,12 @@
      "handle": "PodSaveAmerica",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 2064345
+     "views_7d": 2136801
     },
     {
      "annual_growth": null,
      "as_of": "2026-11-17",
-     "followers": 548537,
+     "followers": 548538,
      "growth_days": null,
      "handle": "PodSaveAmerica",
      "platform": "x",
@@ -1841,7 +1846,7 @@
      "views_7d": null
     }
    ],
-   "audience": 1438677.462244,
+   "audience": 1438677.843523,
    "basis": [],
    "basket": "reference",
    "basket_share": 0.005758,
@@ -1853,7 +1858,7 @@
     },
     {
      "chart": "top",
-     "rank": 6,
+     "rank": 9,
      "show": "Pod Save America"
     }
    ],
@@ -1864,7 +1869,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 351.142857,
+   "wiki_daily": 291.857143,
    "wikipedia": [
     "Pod_Save_America"
    ]
@@ -1872,8 +1877,8 @@
  ],
  "headline": {
   "band": {
-   "high": 43.21,
-   "low": 32.1
+   "high": 42.78,
+   "low": 31.7
   },
   "change": {
    "d1": null,
@@ -1890,7 +1895,7 @@
    "heat",
    "depth"
   ],
-  "score": 35.57,
+  "score": 35.25,
   "weight_coverage": 0.8
  },
  "heat_series": {
@@ -2094,1741 +2099,1735 @@
     "value": 0.000532
    },
    {
-    "baseline": 0.000391,
+    "baseline": 0.000426,
     "date": "2025-12-18",
-    "ratio": 1.572504,
-    "value": 0.000615
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2025-12-19",
-    "ratio": 1.654721,
-    "value": 0.000647
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2025-12-20",
-    "ratio": 1.902094,
-    "value": 0.000749
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2025-12-21",
-    "ratio": 2.052121,
-    "value": 0.000802
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2025-12-22",
-    "ratio": 2.511338,
-    "value": 0.000989
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2025-12-23",
-    "ratio": 2.59938,
-    "value": 0.001031
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2025-12-24",
-    "ratio": 2.589192,
-    "value": 0.00102
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2025-12-25",
-    "ratio": 2.324096,
-    "value": 0.000922
-   },
-   {
-    "baseline": 0.000402,
-    "date": "2025-12-26",
-    "ratio": 2.108683,
-    "value": 0.000848
-   },
-   {
-    "baseline": 0.000408,
-    "date": "2025-12-27",
-    "ratio": 1.742913,
+    "ratio": 1.668637,
     "value": 0.000711
    },
    {
-    "baseline": 0.000411,
+    "baseline": 0.000427,
+    "date": "2025-12-19",
+    "ratio": 1.826457,
+    "value": 0.00078
+   },
+   {
+    "baseline": 0.00043,
+    "date": "2025-12-20",
+    "ratio": 2.104237,
+    "value": 0.000905
+   },
+   {
+    "baseline": 0.000427,
+    "date": "2025-12-21",
+    "ratio": 2.312374,
+    "value": 0.000987
+   },
+   {
+    "baseline": 0.00043,
+    "date": "2025-12-22",
+    "ratio": 3.207595,
+    "value": 0.00138
+   },
+   {
+    "baseline": 0.000433,
+    "date": "2025-12-23",
+    "ratio": 3.38818,
+    "value": 0.001469
+   },
+   {
+    "baseline": 0.000436,
+    "date": "2025-12-24",
+    "ratio": 3.339392,
+    "value": 0.001456
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2025-12-25",
+    "ratio": 3.035792,
+    "value": 0.001331
+   },
+   {
+    "baseline": 0.000441,
+    "date": "2025-12-26",
+    "ratio": 2.784199,
+    "value": 0.001229
+   },
+   {
+    "baseline": 0.000444,
+    "date": "2025-12-27",
+    "ratio": 2.431256,
+    "value": 0.001081
+   },
+   {
+    "baseline": 0.000445,
     "date": "2025-12-28",
-    "ratio": 1.579933,
-    "value": 0.000649
+    "ratio": 2.234501,
+    "value": 0.000994
    },
    {
-    "baseline": 0.000414,
+    "baseline": 0.000445,
     "date": "2025-12-29",
-    "ratio": 0.96588,
-    "value": 0.000399
+    "ratio": 1.219446,
+    "value": 0.000543
    },
    {
-    "baseline": 0.000416,
+    "baseline": 0.00045,
     "date": "2025-12-30",
-    "ratio": 0.748498,
-    "value": 0.000311
+    "ratio": 0.905666,
+    "value": 0.000407
    },
    {
-    "baseline": 0.000414,
+    "baseline": 0.000445,
     "date": "2025-12-31",
-    "ratio": 0.799189,
-    "value": 0.000331
-   },
-   {
-    "baseline": 0.000411,
-    "date": "2026-01-01",
-    "ratio": 1.115982,
-    "value": 0.000458
-   },
-   {
-    "baseline": 0.000408,
-    "date": "2026-01-02",
-    "ratio": 1.125236,
-    "value": 0.000459
-   },
-   {
-    "baseline": 0.000402,
-    "date": "2026-01-03",
-    "ratio": 1.129244,
-    "value": 0.000454
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2026-01-04",
-    "ratio": 1.102103,
-    "value": 0.000437
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-01-05",
-    "ratio": 1.262311,
-    "value": 0.000497
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-01-06",
-    "ratio": 1.49447,
-    "value": 0.000584
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-01-07",
-    "ratio": 1.572697,
-    "value": 0.000619
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2026-01-08",
-    "ratio": 1.277612,
-    "value": 0.000507
-   },
-   {
-    "baseline": 0.000396,
-    "date": "2026-01-09",
-    "ratio": 1.246895,
-    "value": 0.000493
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-01-10",
-    "ratio": 1.2437,
-    "value": 0.000491
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-01-11",
-    "ratio": 1.257503,
-    "value": 0.000494
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-01-12",
-    "ratio": 1.077425,
-    "value": 0.000425
-   },
-   {
-    "baseline": 0.000396,
-    "date": "2026-01-13",
-    "ratio": 0.890459,
-    "value": 0.000352
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2026-01-14",
-    "ratio": 0.843896,
-    "value": 0.000335
-   },
-   {
-    "baseline": 0.000396,
-    "date": "2026-01-15",
-    "ratio": 0.892385,
-    "value": 0.000353
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-01-16",
-    "ratio": 1.075489,
-    "value": 0.000425
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-01-17",
-    "ratio": 1.282639,
-    "value": 0.000504
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-01-18",
-    "ratio": 1.332767,
-    "value": 0.000521
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-01-19",
-    "ratio": 1.362642,
-    "value": 0.000533
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-01-20",
-    "ratio": 1.321869,
-    "value": 0.000517
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-01-21",
-    "ratio": 1.383034,
-    "value": 0.000543
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-01-22",
-    "ratio": 1.404861,
-    "value": 0.000555
-   },
-   {
-    "baseline": 0.000396,
-    "date": "2026-01-23",
-    "ratio": 1.459533,
-    "value": 0.000578
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2026-01-24",
-    "ratio": 1.295735,
-    "value": 0.000514
-   },
-   {
-    "baseline": 0.000396,
-    "date": "2026-01-25",
-    "ratio": 1.23387,
-    "value": 0.000488
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-01-26",
-    "ratio": 1.209344,
-    "value": 0.000478
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-01-27",
-    "ratio": 1.274054,
-    "value": 0.000501
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-01-28",
-    "ratio": 1.135801,
-    "value": 0.000448
-   },
-   {
-    "baseline": 0.000396,
-    "date": "2026-01-29",
-    "ratio": 1.102204,
-    "value": 0.000436
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2026-01-30",
-    "ratio": 0.857662,
-    "value": 0.00034
-   },
-   {
-    "baseline": 0.000396,
-    "date": "2026-01-31",
-    "ratio": 1.018176,
-    "value": 0.000403
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-02-01",
-    "ratio": 1.204221,
-    "value": 0.000476
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-02-02",
-    "ratio": 1.308872,
-    "value": 0.000514
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-02-03",
-    "ratio": 1.288081,
-    "value": 0.000509
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-02-04",
-    "ratio": 1.285104,
-    "value": 0.000505
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-02-05",
-    "ratio": 1.276257,
-    "value": 0.000504
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-02-06",
-    "ratio": 1.316086,
-    "value": 0.000517
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-02-07",
-    "ratio": 1.302847,
-    "value": 0.000514
-   },
-   {
-    "baseline": 0.000396,
-    "date": "2026-02-08",
-    "ratio": 1.145885,
-    "value": 0.000454
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2026-02-09",
-    "ratio": 1.231292,
-    "value": 0.000488
-   },
-   {
-    "baseline": 0.000402,
-    "date": "2026-02-10",
-    "ratio": 1.207662,
-    "value": 0.000486
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2026-02-11",
-    "ratio": 1.230032,
-    "value": 0.000488
-   },
-   {
-    "baseline": 0.000402,
-    "date": "2026-02-12",
-    "ratio": 1.428607,
-    "value": 0.000574
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2026-02-13",
-    "ratio": 1.556667,
-    "value": 0.000617
-   },
-   {
-    "baseline": 0.000402,
-    "date": "2026-02-14",
-    "ratio": 1.370943,
-    "value": 0.000551
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2026-02-15",
-    "ratio": 1.346116,
-    "value": 0.000534
-   },
-   {
-    "baseline": 0.000402,
-    "date": "2026-02-16",
-    "ratio": 1.212077,
-    "value": 0.000487
-   },
-   {
-    "baseline": 0.000407,
-    "date": "2026-02-17",
-    "ratio": 1.169801,
-    "value": 0.000477
-   },
-   {
-    "baseline": 0.000402,
-    "date": "2026-02-18",
-    "ratio": 1.167628,
-    "value": 0.000469
-   },
-   {
-    "baseline": 0.000407,
-    "date": "2026-02-19",
-    "ratio": 0.92944,
-    "value": 0.000379
-   },
-   {
-    "baseline": 0.000408,
-    "date": "2026-02-20",
-    "ratio": 0.786477,
-    "value": 0.000321
-   },
-   {
-    "baseline": 0.000407,
-    "date": "2026-02-21",
-    "ratio": 0.714393,
-    "value": 0.000291
-   },
-   {
-    "baseline": 0.000402,
-    "date": "2026-02-22",
-    "ratio": 0.767915,
-    "value": 0.000309
-   },
-   {
-    "baseline": 0.000397,
-    "date": "2026-02-23",
-    "ratio": 0.736365,
-    "value": 0.000292
-   },
-   {
-    "baseline": 0.000396,
-    "date": "2026-02-24",
-    "ratio": 0.76913,
-    "value": 0.000304
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-02-25",
-    "ratio": 0.800616,
-    "value": 0.000316
-   },
-   {
-    "baseline": 0.000396,
-    "date": "2026-02-26",
-    "ratio": 0.815805,
-    "value": 0.000323
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-02-27",
-    "ratio": 0.84892,
-    "value": 0.000335
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-02-28",
-    "ratio": 0.801371,
-    "value": 0.000316
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-03-01",
-    "ratio": 0.807181,
-    "value": 0.000318
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-03-02",
-    "ratio": 0.795732,
-    "value": 0.000313
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-03-03",
-    "ratio": 0.803219,
-    "value": 0.000317
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-03-04",
-    "ratio": 0.758613,
-    "value": 0.000298
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-03-05",
-    "ratio": 0.78665,
-    "value": 0.00031
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-03-06",
-    "ratio": 0.751951,
-    "value": 0.000296
-   },
-   {
-    "baseline": 0.000392,
-    "date": "2026-03-07",
-    "ratio": 0.880009,
-    "value": 0.000345
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-08",
-    "ratio": 0.949281,
-    "value": 0.000372
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-09",
-    "ratio": 1.096675,
-    "value": 0.000429
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-10",
-    "ratio": 1.035376,
-    "value": 0.000405
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-11",
-    "ratio": 1.081244,
-    "value": 0.000423
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-12",
-    "ratio": 0.983701,
-    "value": 0.000385
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-13",
-    "ratio": 1.033501,
-    "value": 0.000404
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-14",
-    "ratio": 1.112499,
-    "value": 0.000435
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-15",
-    "ratio": 1.080399,
-    "value": 0.000422
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-16",
-    "ratio": 0.942558,
-    "value": 0.000369
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-17",
-    "ratio": 1.192008,
-    "value": 0.000466
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-18",
-    "ratio": 1.215983,
-    "value": 0.000475
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-19",
-    "ratio": 1.518729,
-    "value": 0.000594
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-20",
-    "ratio": 1.474819,
-    "value": 0.000576
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-21",
-    "ratio": 1.590673,
-    "value": 0.000622
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-22",
-    "ratio": 1.58088,
-    "value": 0.000618
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-23",
-    "ratio": 1.561804,
-    "value": 0.00061
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-24",
-    "ratio": 1.304144,
-    "value": 0.00051
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-25",
-    "ratio": 1.329494,
-    "value": 0.00052
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-26",
-    "ratio": 1.126502,
-    "value": 0.000441
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-27",
-    "ratio": 1.167043,
-    "value": 0.000456
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-28",
-    "ratio": 1.072174,
-    "value": 0.00042
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-29",
-    "ratio": 1.131782,
-    "value": 0.000442
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-30",
-    "ratio": 1.193454,
-    "value": 0.000466
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-03-31",
-    "ratio": 1.282848,
-    "value": 0.000501
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-01",
-    "ratio": 1.276571,
-    "value": 0.000499
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-02",
-    "ratio": 1.156349,
-    "value": 0.000452
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-03",
-    "ratio": 1.201169,
-    "value": 0.00047
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-04",
-    "ratio": 1.099318,
-    "value": 0.00043
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-05",
-    "ratio": 0.971185,
-    "value": 0.00038
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-06",
-    "ratio": 1.147494,
-    "value": 0.000449
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-07",
-    "ratio": 1.131282,
-    "value": 0.000443
-   },
-   {
-    "baseline": 0.000392,
-    "date": "2026-04-08",
-    "ratio": 1.032909,
-    "value": 0.000405
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-09",
-    "ratio": 1.062468,
-    "value": 0.000416
-   },
-   {
-    "baseline": 0.000392,
-    "date": "2026-04-10",
-    "ratio": 1.215732,
-    "value": 0.000477
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-11",
-    "ratio": 1.198032,
-    "value": 0.000469
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-12",
-    "ratio": 1.201371,
-    "value": 0.00047
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-13",
-    "ratio": 1.009195,
-    "value": 0.000395
-   },
-   {
-    "baseline": 0.000392,
-    "date": "2026-04-14",
-    "ratio": 1.197904,
-    "value": 0.00047
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-15",
-    "ratio": 2.234622,
-    "value": 0.000875
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-16",
-    "ratio": 2.353894,
-    "value": 0.00092
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-17",
-    "ratio": 2.259259,
-    "value": 0.000884
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-18",
-    "ratio": 2.19559,
-    "value": 0.000858
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-19",
-    "ratio": 2.260935,
-    "value": 0.000884
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-20",
-    "ratio": 2.193725,
-    "value": 0.000857
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-21",
-    "ratio": 2.034686,
-    "value": 0.000795
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-22",
-    "ratio": 1.319695,
-    "value": 0.000516
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-23",
-    "ratio": 1.362838,
-    "value": 0.000533
-   },
-   {
-    "baseline": 0.000392,
-    "date": "2026-04-24",
-    "ratio": 1.271381,
-    "value": 0.000498
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-25",
-    "ratio": 1.372385,
-    "value": 0.000537
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-26",
-    "ratio": 1.438498,
-    "value": 0.000562
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-27",
-    "ratio": 1.537032,
-    "value": 0.000601
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-28",
-    "ratio": 1.490229,
-    "value": 0.000583
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-04-29",
-    "ratio": 1.43113,
-    "value": 0.00056
-   },
-   {
-    "baseline": 0.000392,
-    "date": "2026-04-30",
-    "ratio": 1.38451,
-    "value": 0.000543
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-05-01",
-    "ratio": 1.426311,
-    "value": 0.000561
-   },
-   {
-    "baseline": 0.000392,
-    "date": "2026-05-02",
-    "ratio": 1.381058,
-    "value": 0.000541
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-05-03",
-    "ratio": 1.275822,
-    "value": 0.000501
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-05-04",
-    "ratio": 1.228468,
-    "value": 0.000484
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-05-05",
-    "ratio": 1.136823,
-    "value": 0.000448
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-05-06",
-    "ratio": 0.919718,
-    "value": 0.000363
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-05-07",
-    "ratio": 0.857393,
-    "value": 0.000339
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-05-08",
-    "ratio": 0.738096,
-    "value": 0.000292
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-05-09",
-    "ratio": 0.858483,
-    "value": 0.000339
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-05-10",
-    "ratio": 0.861755,
-    "value": 0.00034
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-05-11",
-    "ratio": 0.849282,
-    "value": 0.000335
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-05-12",
-    "ratio": 1.149369,
-    "value": 0.000453
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-05-13",
-    "ratio": 1.288943,
-    "value": 0.000507
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-05-14",
-    "ratio": 1.222569,
-    "value": 0.000482
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-05-15",
-    "ratio": 1.35904,
-    "value": 0.000534
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-05-16",
-    "ratio": 1.246212,
-    "value": 0.000491
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-05-17",
-    "ratio": 1.315253,
-    "value": 0.000517
-   },
-   {
-    "baseline": 0.000392,
-    "date": "2026-05-18",
-    "ratio": 1.343922,
-    "value": 0.000527
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-05-19",
-    "ratio": 1.22375,
-    "value": 0.000481
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-05-20",
-    "ratio": 1.397402,
-    "value": 0.000551
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-05-21",
-    "ratio": 1.6874,
-    "value": 0.000663
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-05-22",
-    "ratio": 1.74636,
-    "value": 0.000688
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-05-23",
-    "ratio": 2.18122,
-    "value": 0.000857
-   },
-   {
-    "baseline": 0.000392,
-    "date": "2026-05-24",
-    "ratio": 2.265086,
-    "value": 0.000888
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-05-25",
-    "ratio": 2.193148,
-    "value": 0.000858
-   },
-   {
-    "baseline": 0.000392,
-    "date": "2026-05-26",
-    "ratio": 2.052995,
-    "value": 0.000805
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-05-27",
-    "ratio": 1.815213,
-    "value": 0.000713
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-05-28",
-    "ratio": 1.481908,
-    "value": 0.000584
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-05-29",
-    "ratio": 1.295792,
-    "value": 0.000511
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-05-30",
-    "ratio": 0.846427,
-    "value": 0.000334
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-05-31",
-    "ratio": 0.76305,
-    "value": 0.000302
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-06-01",
-    "ratio": 0.841279,
-    "value": 0.000332
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-06-02",
-    "ratio": 0.853126,
-    "value": 0.000337
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-06-03",
-    "ratio": 0.943587,
-    "value": 0.000373
-   },
-   {
-    "baseline": 0.000395,
-    "date": "2026-06-04",
-    "ratio": 1.006748,
-    "value": 0.000397
-   },
-   {
-    "baseline": 0.000394,
-    "date": "2026-06-05",
-    "ratio": 1.049032,
-    "value": 0.000413
-   },
-   {
-    "baseline": 0.000393,
-    "date": "2026-06-06",
-    "ratio": 1.125289,
-    "value": 0.000442
-   },
-   {
-    "baseline": 0.000392,
-    "date": "2026-06-07",
-    "ratio": 1.077281,
-    "value": 0.000422
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-06-08",
-    "ratio": 1.035696,
-    "value": 0.000405
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-06-09",
-    "ratio": 1.004093,
-    "value": 0.000393
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-06-10",
-    "ratio": 0.782787,
-    "value": 0.000306
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-06-11",
-    "ratio": 0.778104,
-    "value": 0.000304
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-06-12",
-    "ratio": 0.696834,
-    "value": 0.000272
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-06-13",
-    "ratio": 0.609567,
-    "value": 0.000238
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-06-14",
-    "ratio": 0.578288,
-    "value": 0.000226
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-06-15",
-    "ratio": 0.625727,
-    "value": 0.000245
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-06-16",
-    "ratio": 0.611542,
-    "value": 0.000239
-   },
-   {
-    "baseline": 0.000391,
-    "date": "2026-06-17",
-    "ratio": 0.69374,
-    "value": 0.000271
-   },
-   {
-    "baseline": 0.000389,
-    "date": "2026-06-18",
-    "ratio": 0.641499,
-    "value": 0.00025
-   },
-   {
-    "baseline": 0.000388,
-    "date": "2026-06-19",
-    "ratio": 0.649306,
-    "value": 0.000252
-   },
-   {
-    "baseline": 0.000388,
-    "date": "2026-06-20",
-    "ratio": 0.609431,
-    "value": 0.000236
-   },
-   {
-    "baseline": 0.000388,
-    "date": "2026-06-21",
-    "ratio": 0.589244,
-    "value": 0.000228
-   },
-   {
-    "baseline": 0.000386,
-    "date": "2026-06-22",
-    "ratio": 0.518181,
-    "value": 0.0002
-   },
-   {
-    "baseline": 0.000385,
-    "date": "2026-06-23",
-    "ratio": 0.512318,
-    "value": 0.000197
-   },
-   {
-    "baseline": 0.000386,
-    "date": "2026-06-24",
-    "ratio": 0.448201,
-    "value": 0.000173
-   },
-   {
-    "baseline": 0.000385,
-    "date": "2026-06-25",
-    "ratio": 0.440417,
-    "value": 0.00017
-   },
-   {
-    "baseline": 0.000384,
-    "date": "2026-06-26",
-    "ratio": 0.469193,
-    "value": 0.00018
-   },
-   {
-    "baseline": 0.000384,
-    "date": "2026-06-27",
-    "ratio": 0.524868,
-    "value": 0.000201
-   },
-   {
-    "baseline": 0.000383,
-    "date": "2026-06-28",
-    "ratio": 0.669298,
-    "value": 0.000256
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-06-29",
-    "ratio": 0.842111,
-    "value": 0.000322
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-06-30",
-    "ratio": 0.971954,
-    "value": 0.000372
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-07-09",
-    "ratio": 3.361448,
-    "value": 0.001285
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-07-10",
-    "ratio": 3.138157,
-    "value": 0.0012
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-07-11",
-    "ratio": 3.650081,
-    "value": 0.001395
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-07-12",
-    "ratio": 2.451891,
-    "value": 0.000937
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-07-13",
-    "ratio": 2.083394,
-    "value": 0.000797
-   },
-   {
-    "baseline": 0.000383,
-    "date": "2026-07-14",
-    "ratio": 1.934422,
-    "value": 0.000741
-   },
-   {
-    "baseline": 0.000384,
-    "date": "2026-07-15",
-    "ratio": 1.903938,
-    "value": 0.00073
-   },
-   {
-    "baseline": 0.000383,
-    "date": "2026-07-16",
-    "ratio": 1.904843,
-    "value": 0.000729
-   },
-   {
-    "baseline": 0.000384,
-    "date": "2026-07-17",
-    "ratio": 1.717026,
-    "value": 0.000659
-   },
-   {
-    "baseline": 0.000384,
-    "date": "2026-07-18",
-    "ratio": 0.841094,
-    "value": 0.000323
-   },
-   {
-    "baseline": 0.000384,
-    "date": "2026-07-19",
-    "ratio": 1.270632,
-    "value": 0.000487
-   },
-   {
-    "baseline": 0.000384,
-    "date": "2026-07-20",
-    "ratio": 1.254852,
-    "value": 0.000482
-   },
-   {
-    "baseline": 0.000385,
-    "date": "2026-07-21",
-    "ratio": 1.219076,
-    "value": 0.000469
-   },
-   {
-    "baseline": 0.000384,
-    "date": "2026-07-22",
-    "ratio": 1.222647,
-    "value": 0.00047
-   },
-   {
-    "baseline": 0.000384,
-    "date": "2026-07-23",
-    "ratio": 1.252258,
-    "value": 0.00048
-   },
-   {
-    "baseline": 0.000383,
-    "date": "2026-07-24",
-    "ratio": 1.235295,
-    "value": 0.000473
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-07-25",
-    "ratio": 1.22138,
-    "value": 0.000467
-   },
-   {
-    "baseline": 0.000383,
-    "date": "2026-07-26",
-    "ratio": 0.723319,
-    "value": 0.000277
-   },
-   {
-    "baseline": 0.000384,
-    "date": "2026-07-27",
-    "ratio": 0.700968,
-    "value": 0.000269
-   },
-   {
-    "baseline": 0.000383,
-    "date": "2026-07-28",
-    "ratio": 0.65184,
-    "value": 0.00025
-   },
-   {
-    "baseline": 0.000384,
-    "date": "2026-07-29",
-    "ratio": 0.604536,
-    "value": 0.000232
-   },
-   {
-    "baseline": 0.000383,
-    "date": "2026-07-30",
-    "ratio": 0.632097,
-    "value": 0.000242
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-07-31",
-    "ratio": 0.653253,
-    "value": 0.00025
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-01",
-    "ratio": 0.678054,
-    "value": 0.000259
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-02",
-    "ratio": 0.683534,
-    "value": 0.000261
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-03",
-    "ratio": 0.822913,
-    "value": 0.000315
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-04",
-    "ratio": 0.820593,
-    "value": 0.000314
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-05",
-    "ratio": 1.217363,
-    "value": 0.000465
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-06",
-    "ratio": 1.356339,
-    "value": 0.000518
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-07",
-    "ratio": 1.459121,
-    "value": 0.000558
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-08",
-    "ratio": 1.489121,
-    "value": 0.000568
-   },
-   {
-    "baseline": 0.000381,
-    "date": "2026-08-09",
-    "ratio": 1.487214,
-    "value": 0.000567
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-10",
-    "ratio": 1.32329,
-    "value": 0.000505
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-11",
-    "ratio": 1.331278,
-    "value": 0.000508
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-12",
-    "ratio": 1.144239,
-    "value": 0.000437
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-13",
-    "ratio": 1.027611,
-    "value": 0.000393
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-14",
-    "ratio": 0.886306,
-    "value": 0.000339
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-15",
-    "ratio": 0.812261,
-    "value": 0.00031
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-16",
-    "ratio": 0.802945,
-    "value": 0.000307
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-17",
-    "ratio": 0.724777,
-    "value": 0.000277
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-18",
-    "ratio": 0.692444,
-    "value": 0.000265
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-19",
-    "ratio": 0.450054,
-    "value": 0.000172
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-20",
-    "ratio": 0.378564,
-    "value": 0.000145
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-21",
-    "ratio": 0.366932,
-    "value": 0.00014
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-22",
-    "ratio": 0.375312,
-    "value": 0.000143
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-23",
-    "ratio": 0.385512,
-    "value": 0.000147
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-24",
-    "ratio": 0.424815,
-    "value": 0.000162
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-25",
-    "ratio": 0.50874,
-    "value": 0.000194
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-26",
-    "ratio": 0.523066,
-    "value": 0.0002
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-27",
-    "ratio": 0.681814,
-    "value": 0.00026
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-28",
-    "ratio": 0.818861,
-    "value": 0.000313
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-29",
-    "ratio": 0.903989,
-    "value": 0.000345
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-30",
-    "ratio": 0.923127,
-    "value": 0.000352
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-08-31",
-    "ratio": 0.976879,
-    "value": 0.000373
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-09-01",
-    "ratio": 0.963833,
-    "value": 0.000368
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-09-02",
-    "ratio": 1.042597,
-    "value": 0.000398
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-09-03",
-    "ratio": 0.90078,
-    "value": 0.000344
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-09-04",
-    "ratio": 0.833221,
-    "value": 0.000319
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-09-05",
-    "ratio": 0.741643,
-    "value": 0.000283
-   },
-   {
-    "baseline": 0.000381,
-    "date": "2026-09-06",
-    "ratio": 0.711114,
-    "value": 0.000271
-   },
-   {
-    "baseline": 0.000381,
-    "date": "2026-09-07",
-    "ratio": 0.620549,
-    "value": 0.000237
-   },
-   {
-    "baseline": 0.000381,
-    "date": "2026-09-08",
-    "ratio": 0.559714,
-    "value": 0.000213
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-09-09",
-    "ratio": 0.642894,
-    "value": 0.000245
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-09-10",
-    "ratio": 1.033794,
-    "value": 0.000395
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-09-11",
-    "ratio": 1.21761,
-    "value": 0.000465
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-09-12",
-    "ratio": 1.340874,
-    "value": 0.000512
-   },
-   {
-    "baseline": 0.000382,
-    "date": "2026-09-13",
-    "ratio": 1.69316,
-    "value": 0.000646
-   },
-   {
-    "baseline": 0.00038,
-    "date": "2026-09-24",
-    "ratio": 0.785092,
-    "value": 0.000299
-   },
-   {
-    "baseline": 0.00038,
-    "date": "2026-09-25",
-    "ratio": 0.695468,
-    "value": 0.000264
-   },
-   {
-    "baseline": 0.000378,
-    "date": "2026-09-27",
-    "ratio": 0.708867,
-    "value": 0.000268
-   },
-   {
-    "baseline": 0.000378,
-    "date": "2026-09-28",
-    "ratio": 0.604392,
-    "value": 0.000229
-   },
-   {
-    "baseline": 0.000378,
-    "date": "2026-09-29",
-    "ratio": 0.554046,
-    "value": 0.00021
-   },
-   {
-    "baseline": 0.000378,
-    "date": "2026-09-30",
-    "ratio": 0.479044,
-    "value": 0.000181
-   },
-   {
-    "baseline": 0.000377,
-    "date": "2026-10-01",
-    "ratio": 0.540652,
-    "value": 0.000204
-   },
-   {
-    "baseline": 0.000375,
-    "date": "2026-10-02",
-    "ratio": 0.674345,
-    "value": 0.000253
-   },
-   {
-    "baseline": 0.00037,
-    "date": "2026-10-19",
-    "ratio": 1.315734,
-    "value": 0.000487
-   },
-   {
-    "baseline": 0.000371,
-    "date": "2026-10-20",
-    "ratio": 1.203161,
-    "value": 0.000447
-   },
-   {
-    "baseline": 0.000372,
-    "date": "2026-10-21",
-    "ratio": 1.14602,
+    "ratio": 0.958031,
     "value": 0.000427
    },
    {
-    "baseline": 0.000372,
-    "date": "2026-10-22",
-    "ratio": 0.681714,
-    "value": 0.000254
+    "baseline": 0.000445,
+    "date": "2026-01-01",
+    "ratio": 1.339732,
+    "value": 0.000596
    },
    {
-    "baseline": 0.000374,
-    "date": "2026-10-23",
-    "ratio": 0.576191,
-    "value": 0.000215
+    "baseline": 0.000445,
+    "date": "2026-01-02",
+    "ratio": 1.32492,
+    "value": 0.00059
    },
    {
-    "baseline": 0.000374,
-    "date": "2026-10-24",
-    "ratio": 0.571659,
+    "baseline": 0.000445,
+    "date": "2026-01-03",
+    "ratio": 1.301047,
+    "value": 0.000579
+   },
+   {
+    "baseline": 0.000444,
+    "date": "2026-01-04",
+    "ratio": 1.256948,
+    "value": 0.000559
+   },
+   {
+    "baseline": 0.000441,
+    "date": "2026-01-05",
+    "ratio": 1.373822,
+    "value": 0.000606
+   },
+   {
+    "baseline": 0.000444,
+    "date": "2026-01-06",
+    "ratio": 1.627634,
+    "value": 0.000723
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-01-07",
+    "ratio": 1.679701,
+    "value": 0.000747
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-01-08",
+    "ratio": 1.308607,
+    "value": 0.000583
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-01-09",
+    "ratio": 1.265434,
+    "value": 0.000569
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-01-10",
+    "ratio": 1.336081,
+    "value": 0.000595
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-01-11",
+    "ratio": 1.352108,
+    "value": 0.000602
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-01-12",
+    "ratio": 1.210742,
+    "value": 0.000539
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-01-13",
+    "ratio": 0.970799,
+    "value": 0.000436
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-01-14",
+    "ratio": 0.927702,
+    "value": 0.000421
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-01-15",
+    "ratio": 0.978925,
+    "value": 0.00044
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-01-16",
+    "ratio": 1.135148,
+    "value": 0.000506
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-01-17",
+    "ratio": 1.277402,
+    "value": 0.000574
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-01-18",
+    "ratio": 1.325235,
+    "value": 0.00059
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-01-19",
+    "ratio": 1.357357,
+    "value": 0.000604
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-01-20",
+    "ratio": 1.313281,
+    "value": 0.000585
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-01-21",
+    "ratio": 1.37147,
+    "value": 0.000617
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-01-22",
+    "ratio": 1.395822,
+    "value": 0.000633
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-01-23",
+    "ratio": 1.442912,
+    "value": 0.000656
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-01-24",
+    "ratio": 1.255996,
+    "value": 0.000573
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-01-25",
+    "ratio": 1.193186,
+    "value": 0.000543
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-01-26",
+    "ratio": 1.16563,
+    "value": 0.000529
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-01-27",
+    "ratio": 1.234696,
+    "value": 0.000555
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-01-28",
+    "ratio": 1.086745,
+    "value": 0.000493
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-01-29",
+    "ratio": 1.06362,
+    "value": 0.000484
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-01-30",
+    "ratio": 0.854378,
+    "value": 0.00039
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-01-31",
+    "ratio": 0.983559,
+    "value": 0.000447
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-02-01",
+    "ratio": 1.148197,
+    "value": 0.000521
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-02-02",
+    "ratio": 1.234636,
+    "value": 0.000555
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-02-03",
+    "ratio": 1.195056,
+    "value": 0.000542
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-02-04",
+    "ratio": 1.19928,
+    "value": 0.000539
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-02-05",
+    "ratio": 1.167327,
+    "value": 0.00053
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-02-06",
+    "ratio": 1.206128,
+    "value": 0.000542
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-02-07",
+    "ratio": 1.192359,
+    "value": 0.000541
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-02-08",
+    "ratio": 1.056546,
+    "value": 0.000481
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-02-09",
+    "ratio": 1.135976,
+    "value": 0.000518
+   },
+   {
+    "baseline": 0.00046,
+    "date": "2026-02-10",
+    "ratio": 1.119242,
+    "value": 0.000515
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-02-11",
+    "ratio": 1.132997,
+    "value": 0.000517
+   },
+   {
+    "baseline": 0.00046,
+    "date": "2026-02-12",
+    "ratio": 1.320466,
+    "value": 0.000607
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-02-13",
+    "ratio": 1.426525,
+    "value": 0.00065
+   },
+   {
+    "baseline": 0.00046,
+    "date": "2026-02-14",
+    "ratio": 1.272055,
+    "value": 0.000585
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-02-15",
+    "ratio": 1.238241,
+    "value": 0.000565
+   },
+   {
+    "baseline": 0.00046,
+    "date": "2026-02-16",
+    "ratio": 1.124672,
+    "value": 0.000517
+   },
+   {
+    "baseline": 0.000464,
+    "date": "2026-02-17",
+    "ratio": 1.10836,
+    "value": 0.000514
+   },
+   {
+    "baseline": 0.00046,
+    "date": "2026-02-18",
+    "ratio": 1.133202,
+    "value": 0.000521
+   },
+   {
+    "baseline": 0.000464,
+    "date": "2026-02-19",
+    "ratio": 0.940832,
+    "value": 0.000436
+   },
+   {
+    "baseline": 0.000464,
+    "date": "2026-02-20",
+    "ratio": 0.815359,
+    "value": 0.000378
+   },
+   {
+    "baseline": 0.000464,
+    "date": "2026-02-21",
+    "ratio": 0.749011,
+    "value": 0.000347
+   },
+   {
+    "baseline": 0.00046,
+    "date": "2026-02-22",
+    "ratio": 0.798174,
+    "value": 0.000367
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-02-23",
+    "ratio": 0.821705,
+    "value": 0.000375
+   },
+   {
+    "baseline": 0.00046,
+    "date": "2026-02-24",
+    "ratio": 0.831862,
+    "value": 0.000382
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-02-25",
+    "ratio": 0.830058,
+    "value": 0.000378
+   },
+   {
+    "baseline": 0.00046,
+    "date": "2026-02-26",
+    "ratio": 0.813469,
+    "value": 0.000374
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-02-27",
+    "ratio": 0.840114,
+    "value": 0.000383
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-02-28",
+    "ratio": 0.794944,
+    "value": 0.000362
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-03-01",
+    "ratio": 0.797835,
+    "value": 0.000362
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-03-02",
+    "ratio": 0.72884,
+    "value": 0.000332
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-03-03",
+    "ratio": 0.732873,
+    "value": 0.000334
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-03-04",
+    "ratio": 0.735202,
+    "value": 0.000334
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-03-05",
+    "ratio": 0.797699,
+    "value": 0.000364
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-03-06",
+    "ratio": 0.777218,
+    "value": 0.000354
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-03-07",
+    "ratio": 0.895486,
+    "value": 0.000406
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-03-08",
+    "ratio": 0.971673,
+    "value": 0.000437
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-09",
+    "ratio": 1.110657,
+    "value": 0.000495
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-03-10",
+    "ratio": 1.052232,
+    "value": 0.000473
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-11",
+    "ratio": 1.080224,
+    "value": 0.000481
+   },
+   {
+    "baseline": 0.00045,
+    "date": "2026-03-12",
+    "ratio": 0.957444,
+    "value": 0.00043
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-13",
+    "ratio": 1.008863,
+    "value": 0.000449
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-14",
+    "ratio": 1.095218,
+    "value": 0.000487
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-15",
+    "ratio": 1.062835,
+    "value": 0.000473
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-03-16",
+    "ratio": 0.94152,
+    "value": 0.000422
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-17",
+    "ratio": 1.303221,
+    "value": 0.00058
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-18",
+    "ratio": 1.353922,
+    "value": 0.000602
+   },
+   {
+    "baseline": 0.000444,
+    "date": "2026-03-19",
+    "ratio": 1.709185,
+    "value": 0.00076
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-20",
+    "ratio": 1.665779,
+    "value": 0.000741
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-21",
+    "ratio": 1.745253,
+    "value": 0.000777
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-22",
+    "ratio": 1.733755,
+    "value": 0.000771
+   },
+   {
+    "baseline": 0.000444,
+    "date": "2026-03-23",
+    "ratio": 1.717611,
+    "value": 0.000763
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-24",
+    "ratio": 1.347698,
+    "value": 0.0006
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-25",
+    "ratio": 1.328815,
+    "value": 0.000592
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-03-26",
+    "ratio": 1.068969,
+    "value": 0.000477
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-27",
+    "ratio": 1.110603,
+    "value": 0.000495
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-03-28",
+    "ratio": 1.048526,
+    "value": 0.000468
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-29",
+    "ratio": 1.116924,
+    "value": 0.000497
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-03-30",
+    "ratio": 1.177001,
+    "value": 0.000524
+   },
+   {
+    "baseline": 0.000444,
+    "date": "2026-03-31",
+    "ratio": 1.293567,
+    "value": 0.000575
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-04-01",
+    "ratio": 1.295974,
+    "value": 0.000577
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-04-02",
+    "ratio": 1.175331,
+    "value": 0.000523
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-04-03",
+    "ratio": 1.225138,
+    "value": 0.000545
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-04-04",
+    "ratio": 1.112986,
+    "value": 0.000496
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-04-05",
+    "ratio": 0.981481,
+    "value": 0.000438
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-04-06",
+    "ratio": 1.14506,
+    "value": 0.00051
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-04-07",
+    "ratio": 1.170764,
+    "value": 0.000523
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-04-08",
+    "ratio": 1.127702,
+    "value": 0.000505
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-04-09",
+    "ratio": 1.185028,
+    "value": 0.000529
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-04-10",
+    "ratio": 1.42646,
+    "value": 0.000639
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-04-11",
+    "ratio": 1.446946,
+    "value": 0.000646
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-04-12",
+    "ratio": 1.462312,
+    "value": 0.000651
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-04-13",
+    "ratio": 1.283669,
+    "value": 0.000573
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-04-14",
+    "ratio": 1.375581,
+    "value": 0.000616
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-04-15",
+    "ratio": 2.243281,
+    "value": 0.001002
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-04-16",
+    "ratio": 2.308314,
+    "value": 0.001033
+   },
+   {
+    "baseline": 0.000449,
+    "date": "2026-04-17",
+    "ratio": 2.116279,
+    "value": 0.000951
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-04-18",
+    "ratio": 2.03318,
+    "value": 0.00091
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-04-19",
+    "ratio": 2.093429,
+    "value": 0.000935
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-04-20",
+    "ratio": 2.101732,
+    "value": 0.000936
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-04-21",
+    "ratio": 2.11449,
+    "value": 0.000944
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-04-22",
+    "ratio": 1.484726,
+    "value": 0.000665
+   },
+   {
+    "baseline": 0.000449,
+    "date": "2026-04-23",
+    "ratio": 1.539837,
+    "value": 0.000692
+   },
+   {
+    "baseline": 0.000451,
+    "date": "2026-04-24",
+    "ratio": 1.445526,
+    "value": 0.000651
+   },
+   {
+    "baseline": 0.000449,
+    "date": "2026-04-25",
+    "ratio": 1.549998,
+    "value": 0.000696
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-04-26",
+    "ratio": 1.612151,
+    "value": 0.000722
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-04-27",
+    "ratio": 1.63896,
+    "value": 0.000732
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-04-28",
+    "ratio": 1.4391,
+    "value": 0.000644
+   },
+   {
+    "baseline": 0.000449,
+    "date": "2026-04-29",
+    "ratio": 1.452466,
+    "value": 0.000652
+   },
+   {
+    "baseline": 0.000451,
+    "date": "2026-04-30",
+    "ratio": 1.45402,
+    "value": 0.000655
+   },
+   {
+    "baseline": 0.000452,
+    "date": "2026-05-01",
+    "ratio": 1.54263,
+    "value": 0.000698
+   },
+   {
+    "baseline": 0.000451,
+    "date": "2026-05-02",
+    "ratio": 1.520841,
+    "value": 0.000685
+   },
+   {
+    "baseline": 0.000452,
+    "date": "2026-05-03",
+    "ratio": 1.429602,
+    "value": 0.000647
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-05-04",
+    "ratio": 1.393336,
+    "value": 0.000632
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-05-05",
+    "ratio": 1.295204,
+    "value": 0.000589
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-05-06",
+    "ratio": 1.040488,
+    "value": 0.000474
+   },
+   {
+    "baseline": 0.00046,
+    "date": "2026-05-07",
+    "ratio": 0.920522,
+    "value": 0.000423
+   },
+   {
+    "baseline": 0.000464,
+    "date": "2026-05-08",
+    "ratio": 0.756504,
+    "value": 0.000351
+   },
+   {
+    "baseline": 0.00046,
+    "date": "2026-05-09",
+    "ratio": 0.833974,
+    "value": 0.000383
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-05-10",
+    "ratio": 0.843391,
+    "value": 0.000385
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-05-11",
+    "ratio": 0.820786,
+    "value": 0.000373
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-05-12",
+    "ratio": 1.087172,
+    "value": 0.000493
+   },
+   {
+    "baseline": 0.000452,
+    "date": "2026-05-13",
+    "ratio": 1.208631,
+    "value": 0.000547
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-05-14",
+    "ratio": 1.159142,
+    "value": 0.000526
+   },
+   {
+    "baseline": 0.000452,
+    "date": "2026-05-15",
+    "ratio": 1.274208,
+    "value": 0.000576
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-05-16",
+    "ratio": 1.17909,
+    "value": 0.000535
+   },
+   {
+    "baseline": 0.000452,
+    "date": "2026-05-17",
+    "ratio": 1.239305,
+    "value": 0.00056
+   },
+   {
+    "baseline": 0.000451,
+    "date": "2026-05-18",
+    "ratio": 1.259821,
+    "value": 0.000568
+   },
+   {
+    "baseline": 0.000452,
+    "date": "2026-05-19",
+    "ratio": 1.157589,
+    "value": 0.000523
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-05-20",
+    "ratio": 1.298593,
+    "value": 0.000589
+   },
+   {
+    "baseline": 0.000452,
+    "date": "2026-05-21",
+    "ratio": 1.560573,
+    "value": 0.000706
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-05-22",
+    "ratio": 1.605999,
+    "value": 0.000729
+   },
+   {
+    "baseline": 0.000452,
+    "date": "2026-05-23",
+    "ratio": 1.983886,
+    "value": 0.000897
+   },
+   {
+    "baseline": 0.000451,
+    "date": "2026-05-24",
+    "ratio": 2.059361,
+    "value": 0.000928
+   },
+   {
+    "baseline": 0.000449,
+    "date": "2026-05-25",
+    "ratio": 2.009684,
+    "value": 0.000903
+   },
+   {
+    "baseline": 0.000451,
+    "date": "2026-05-26",
+    "ratio": 1.888093,
+    "value": 0.000851
+   },
+   {
+    "baseline": 0.000452,
+    "date": "2026-05-27",
+    "ratio": 1.66835,
+    "value": 0.000754
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-05-28",
+    "ratio": 1.349605,
+    "value": 0.000613
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-05-29",
+    "ratio": 1.18817,
+    "value": 0.000541
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-05-30",
+    "ratio": 0.799106,
+    "value": 0.000364
+   },
+   {
+    "baseline": 0.00046,
+    "date": "2026-05-31",
+    "ratio": 0.714079,
+    "value": 0.000328
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-06-01",
+    "ratio": 0.782717,
+    "value": 0.000357
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-06-02",
+    "ratio": 0.789691,
+    "value": 0.000359
+   },
+   {
+    "baseline": 0.000456,
+    "date": "2026-06-03",
+    "ratio": 0.882948,
+    "value": 0.000403
+   },
+   {
+    "baseline": 0.000455,
+    "date": "2026-06-04",
+    "ratio": 0.938315,
+    "value": 0.000427
+   },
+   {
+    "baseline": 0.000454,
+    "date": "2026-06-05",
+    "ratio": 0.972801,
+    "value": 0.000441
+   },
+   {
+    "baseline": 0.000452,
+    "date": "2026-06-06",
+    "ratio": 1.063868,
+    "value": 0.000481
+   },
+   {
+    "baseline": 0.000451,
+    "date": "2026-06-07",
+    "ratio": 1.02725,
+    "value": 0.000463
+   },
+   {
+    "baseline": 0.000449,
+    "date": "2026-06-08",
+    "ratio": 0.997948,
+    "value": 0.000448
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-06-09",
+    "ratio": 0.964398,
+    "value": 0.000432
+   },
+   {
+    "baseline": 0.000449,
+    "date": "2026-06-10",
+    "ratio": 0.756472,
+    "value": 0.00034
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-06-11",
+    "ratio": 0.755217,
+    "value": 0.000338
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-06-12",
+    "ratio": 0.686718,
+    "value": 0.000307
+   },
+   {
+    "baseline": 0.000448,
+    "date": "2026-06-13",
+    "ratio": 0.585927,
+    "value": 0.000262
+   },
+   {
+    "baseline": 0.000447,
+    "date": "2026-06-14",
+    "ratio": 0.556959,
+    "value": 0.000249
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-06-15",
+    "ratio": 0.592189,
+    "value": 0.000264
+   },
+   {
+    "baseline": 0.000445,
+    "date": "2026-06-16",
+    "ratio": 0.576239,
+    "value": 0.000256
+   },
+   {
+    "baseline": 0.000444,
+    "date": "2026-06-17",
+    "ratio": 0.64558,
+    "value": 0.000287
+   },
+   {
+    "baseline": 0.000443,
+    "date": "2026-06-18",
+    "ratio": 0.593784,
+    "value": 0.000263
+   },
+   {
+    "baseline": 0.000442,
+    "date": "2026-06-19",
+    "ratio": 0.597522,
+    "value": 0.000264
+   },
+   {
+    "baseline": 0.000441,
+    "date": "2026-06-20",
+    "ratio": 0.556589,
+    "value": 0.000246
+   },
+   {
+    "baseline": 0.00044,
+    "date": "2026-06-21",
+    "ratio": 0.542169,
+    "value": 0.000239
+   },
+   {
+    "baseline": 0.000439,
+    "date": "2026-06-22",
+    "ratio": 0.48687,
     "value": 0.000214
    },
    {
-    "baseline": 0.000372,
-    "date": "2026-10-25",
-    "ratio": 0.565168,
-    "value": 0.000211
+    "baseline": 0.000439,
+    "date": "2026-06-23",
+    "ratio": 0.4873,
+    "value": 0.000214
    },
    {
-    "baseline": 0.000372,
-    "date": "2026-10-26",
-    "ratio": 0.456196,
-    "value": 0.00017
+    "baseline": 0.000439,
+    "date": "2026-06-24",
+    "ratio": 0.437758,
+    "value": 0.000192
    },
    {
-    "baseline": 0.000372,
-    "date": "2026-10-27",
-    "ratio": 0.361802,
-    "value": 0.000135
+    "baseline": 0.000439,
+    "date": "2026-06-25",
+    "ratio": 0.441007,
+    "value": 0.000193
    },
    {
-    "baseline": 0.000362,
-    "date": "2026-11-07",
-    "ratio": 5.060885,
-    "value": 0.00183
+    "baseline": 0.000438,
+    "date": "2026-06-26",
+    "ratio": 0.46868,
+    "value": 0.000205
    },
    {
-    "baseline": 0.000361,
-    "date": "2026-11-08",
-    "ratio": 4.293378,
-    "value": 0.001548
+    "baseline": 0.000438,
+    "date": "2026-06-27",
+    "ratio": 0.524922,
+    "value": 0.00023
    },
    {
-    "baseline": 0.00036,
-    "date": "2026-11-09",
-    "ratio": 3.778142,
-    "value": 0.001359
+    "baseline": 0.000436,
+    "date": "2026-06-28",
+    "ratio": 0.654778,
+    "value": 0.000285
    },
    {
-    "baseline": 0.00036,
-    "date": "2026-11-10",
-    "ratio": 2.874178,
-    "value": 0.001034
+    "baseline": 0.000433,
+    "date": "2026-06-29",
+    "ratio": 0.805712,
+    "value": 0.000349
    },
    {
-    "baseline": 0.00036,
-    "date": "2026-11-11",
-    "ratio": 1.263902,
-    "value": 0.000455
+    "baseline": 0.000433,
+    "date": "2026-06-30",
+    "ratio": 0.918162,
+    "value": 0.000398
    },
    {
-    "baseline": 0.00036,
-    "date": "2026-11-12",
-    "ratio": 1.73668,
-    "value": 0.000625
+    "baseline": 0.000432,
+    "date": "2026-07-09",
+    "ratio": 3.024789,
+    "value": 0.001308
    },
    {
-    "baseline": 0.00036,
-    "date": "2026-11-13",
-    "ratio": 1.530095,
-    "value": 0.00055
+    "baseline": 0.000432,
+    "date": "2026-07-10",
+    "ratio": 2.837328,
+    "value": 0.001227
    },
    {
-    "baseline": 0.000359,
-    "date": "2026-11-14",
-    "ratio": 1.398974,
+    "baseline": 0.000432,
+    "date": "2026-07-11",
+    "ratio": 3.286434,
+    "value": 0.001421
+   },
+   {
+    "baseline": 0.000433,
+    "date": "2026-07-12",
+    "ratio": 2.220398,
+    "value": 0.000961
+   },
+   {
+    "baseline": 0.000433,
+    "date": "2026-07-13",
+    "ratio": 1.944616,
+    "value": 0.000843
+   },
+   {
+    "baseline": 0.000436,
+    "date": "2026-07-14",
+    "ratio": 1.869138,
+    "value": 0.000815
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-07-15",
+    "ratio": 1.848831,
+    "value": 0.00081
+   },
+   {
+    "baseline": 0.000436,
+    "date": "2026-07-16",
+    "ratio": 1.855303,
+    "value": 0.000809
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-07-17",
+    "ratio": 1.676009,
+    "value": 0.000735
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-07-18",
+    "ratio": 0.924531,
+    "value": 0.000405
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-07-19",
+    "ratio": 1.305577,
+    "value": 0.000572
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-07-20",
+    "ratio": 1.240315,
+    "value": 0.000544
+   },
+   {
+    "baseline": 0.000439,
+    "date": "2026-07-21",
+    "ratio": 1.165444,
+    "value": 0.000511
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-07-22",
+    "ratio": 1.16176,
+    "value": 0.000509
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-07-23",
+    "ratio": 1.188189,
+    "value": 0.000521
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-07-24",
+    "ratio": 1.169344,
+    "value": 0.000512
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-07-25",
+    "ratio": 1.13647,
+    "value": 0.000498
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-07-26",
+    "ratio": 0.690609,
+    "value": 0.000303
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-07-27",
+    "ratio": 0.680466,
+    "value": 0.000298
+   },
+   {
+    "baseline": 0.000436,
+    "date": "2026-07-28",
+    "ratio": 0.626083,
+    "value": 0.000273
+   },
+   {
+    "baseline": 0.000433,
+    "date": "2026-07-29",
+    "ratio": 0.585527,
+    "value": 0.000254
+   },
+   {
+    "baseline": 0.000433,
+    "date": "2026-07-30",
+    "ratio": 0.626055,
+    "value": 0.000271
+   },
+   {
+    "baseline": 0.000432,
+    "date": "2026-07-31",
+    "ratio": 0.648862,
+    "value": 0.000281
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-01",
+    "ratio": 0.692258,
+    "value": 0.000297
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-02",
+    "ratio": 0.701762,
+    "value": 0.000301
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-03",
+    "ratio": 0.81607,
+    "value": 0.00035
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-04",
+    "ratio": 0.809424,
+    "value": 0.000347
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-05",
+    "ratio": 1.160078,
+    "value": 0.000498
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-06",
+    "ratio": 1.261152,
+    "value": 0.000541
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-07",
+    "ratio": 1.348745,
+    "value": 0.000579
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-08",
+    "ratio": 1.361127,
+    "value": 0.000584
+   },
+   {
+    "baseline": 0.000427,
+    "date": "2026-08-09",
+    "ratio": 1.357109,
+    "value": 0.000579
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-10",
+    "ratio": 1.217785,
+    "value": 0.000523
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-11",
+    "ratio": 1.228067,
+    "value": 0.000527
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-12",
+    "ratio": 1.099617,
+    "value": 0.000472
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-13",
+    "ratio": 1.005117,
+    "value": 0.000432
+   },
+   {
+    "baseline": 0.000432,
+    "date": "2026-08-14",
+    "ratio": 0.876705,
+    "value": 0.000379
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-15",
+    "ratio": 0.814318,
+    "value": 0.00035
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-16",
+    "ratio": 0.817225,
+    "value": 0.000351
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-17",
+    "ratio": 0.743198,
+    "value": 0.000319
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-18",
+    "ratio": 0.710031,
+    "value": 0.000305
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-19",
+    "ratio": 0.463039,
+    "value": 0.000199
+   },
+   {
+    "baseline": 0.000432,
+    "date": "2026-08-20",
+    "ratio": 0.390413,
+    "value": 0.000169
+   },
+   {
+    "baseline": 0.000432,
+    "date": "2026-08-21",
+    "ratio": 0.449852,
+    "value": 0.000195
+   },
+   {
+    "baseline": 0.000432,
+    "date": "2026-08-22",
+    "ratio": 0.533066,
+    "value": 0.000231
+   },
+   {
+    "baseline": 0.000432,
+    "date": "2026-08-23",
+    "ratio": 0.562984,
+    "value": 0.000243
+   },
+   {
+    "baseline": 0.000432,
+    "date": "2026-08-24",
+    "ratio": 0.5976,
+    "value": 0.000258
+   },
+   {
+    "baseline": 0.000432,
+    "date": "2026-08-25",
+    "ratio": 0.676072,
+    "value": 0.000292
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-26",
+    "ratio": 0.684112,
+    "value": 0.000294
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-27",
+    "ratio": 0.823268,
+    "value": 0.000353
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-28",
+    "ratio": 0.890498,
+    "value": 0.000382
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-29",
+    "ratio": 0.915421,
+    "value": 0.000393
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-30",
+    "ratio": 0.90903,
+    "value": 0.00039
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-08-31",
+    "ratio": 1.022741,
+    "value": 0.000439
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-09-01",
+    "ratio": 1.026276,
+    "value": 0.000441
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-09-02",
+    "ratio": 1.138409,
+    "value": 0.000489
+   },
+   {
+    "baseline": 0.000432,
+    "date": "2026-09-03",
+    "ratio": 1.01011,
+    "value": 0.000437
+   },
+   {
+    "baseline": 0.000433,
+    "date": "2026-09-04",
+    "ratio": 0.93307,
+    "value": 0.000404
+   },
+   {
+    "baseline": 0.000436,
+    "date": "2026-09-05",
+    "ratio": 0.82215,
+    "value": 0.000359
+   },
+   {
+    "baseline": 0.000436,
+    "date": "2026-09-06",
+    "ratio": 0.787759,
+    "value": 0.000344
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-09-07",
+    "ratio": 0.633206,
+    "value": 0.000277
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-09-08",
+    "ratio": 0.574005,
+    "value": 0.000251
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-09-09",
+    "ratio": 0.613772,
+    "value": 0.000269
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-09-10",
+    "ratio": 0.952749,
+    "value": 0.000418
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-09-11",
+    "ratio": 1.111849,
+    "value": 0.000487
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-09-12",
+    "ratio": 1.222737,
+    "value": 0.000536
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-09-13",
+    "ratio": 1.526143,
+    "value": 0.000669
+   },
+   {
+    "baseline": 0.000438,
+    "date": "2026-09-24",
+    "ratio": 0.726048,
+    "value": 0.000318
+   },
+   {
+    "baseline": 0.000437,
+    "date": "2026-09-25",
+    "ratio": 0.648239,
+    "value": 0.000283
+   },
+   {
+    "baseline": 0.000433,
+    "date": "2026-09-27",
+    "ratio": 0.657599,
+    "value": 0.000285
+   },
+   {
+    "baseline": 0.000436,
+    "date": "2026-09-28",
+    "ratio": 0.564947,
+    "value": 0.000247
+   },
+   {
+    "baseline": 0.000433,
+    "date": "2026-09-29",
+    "ratio": 0.533772,
+    "value": 0.000231
+   },
+   {
+    "baseline": 0.000432,
+    "date": "2026-09-30",
+    "ratio": 0.468562,
+    "value": 0.000203
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-10-01",
+    "ratio": 0.517851,
+    "value": 0.000222
+   },
+   {
+    "baseline": 0.000429,
+    "date": "2026-10-02",
+    "ratio": 0.632414,
+    "value": 0.000271
+   },
+   {
+    "baseline": 0.000426,
+    "date": "2026-10-19",
+    "ratio": 1.176509,
+    "value": 0.000501
+   },
+   {
+    "baseline": 0.000426,
+    "date": "2026-10-20",
+    "ratio": 1.180613,
     "value": 0.000503
    },
    {
-    "baseline": 0.000358,
+    "baseline": 0.000426,
+    "date": "2026-10-21",
+    "ratio": 1.118506,
+    "value": 0.000476
+   },
+   {
+    "baseline": 0.000426,
+    "date": "2026-10-22",
+    "ratio": 0.711568,
+    "value": 0.000303
+   },
+   {
+    "baseline": 0.000426,
+    "date": "2026-10-23",
+    "ratio": 0.630656,
+    "value": 0.000268
+   },
+   {
+    "baseline": 0.000426,
+    "date": "2026-10-24",
+    "ratio": 0.651209,
+    "value": 0.000277
+   },
+   {
+    "baseline": 0.000426,
+    "date": "2026-10-25",
+    "ratio": 0.652308,
+    "value": 0.000278
+   },
+   {
+    "baseline": 0.000426,
+    "date": "2026-10-26",
+    "ratio": 0.550066,
+    "value": 0.000234
+   },
+   {
+    "baseline": 0.000426,
+    "date": "2026-10-27",
+    "ratio": 0.378418,
+    "value": 0.000161
+   },
+   {
+    "baseline": 0.000424,
+    "date": "2026-11-07",
+    "ratio": 4.615617,
+    "value": 0.001955
+   },
+   {
+    "baseline": 0.000423,
+    "date": "2026-11-08",
+    "ratio": 3.905824,
+    "value": 0.001653
+   },
+   {
+    "baseline": 0.000423,
+    "date": "2026-11-09",
+    "ratio": 3.439323,
+    "value": 0.001454
+   },
+   {
+    "baseline": 0.000423,
+    "date": "2026-11-10",
+    "ratio": 2.670289,
+    "value": 0.001129
+   },
+   {
+    "baseline": 0.000423,
+    "date": "2026-11-11",
+    "ratio": 1.156104,
+    "value": 0.000489
+   },
+   {
+    "baseline": 0.000423,
+    "date": "2026-11-12",
+    "ratio": 1.513139,
+    "value": 0.00064
+   },
+   {
+    "baseline": 0.000423,
+    "date": "2026-11-13",
+    "ratio": 1.322239,
+    "value": 0.000559
+   },
+   {
+    "baseline": 0.000423,
+    "date": "2026-11-14",
+    "ratio": 1.20938,
+    "value": 0.000511
+   },
+   {
+    "baseline": 0.00042,
     "date": "2026-11-15",
-    "ratio": 1.567976,
-    "value": 0.000561
+    "ratio": 1.354631,
+    "value": 0.00057
    }
   ],
   "wikipedia": [
-   {
-    "baseline": 62113.5,
-    "date": "2025-11-15",
-    "ratio": 1.584175,
-    "value": 98398.642857
-   },
    {
     "baseline": 62411.25,
     "date": "2025-11-16",
@@ -6018,6 +6017,12 @@
     "date": "2026-11-15",
     "ratio": 0.81662,
     "value": 34267.428571
+   },
+   {
+    "baseline": 41888.5,
+    "date": "2026-11-16",
+    "ratio": 0.791521,
+    "value": 33155.642857
    }
   ]
  },
@@ -6033,7 +6038,7 @@
   },
   "days_scored": 1,
   "first_scored": "2026-11-17",
-  "input_digest": "aa03d7f68ebeed472bd1b093c5a6b964a52649908738c90d1f756fb97c644630",
+  "input_digest": "9cc4e281537b9ed1f39bd6ae85545a979fb9cadd1c649727bef117c851f47c98",
   "last_run": "2026-11-17",
   "model_version": "2.3.0",
   "registry_version": "2026.11.17.4",
@@ -6353,8 +6358,8 @@
    "detail": {
     "accounts_observed": 61,
     "accounts_registered": 62,
-    "extremism_audience": 36241743.293308,
-    "reference_audience": 249865175.882905
+    "extremism_audience": 36241562.848852,
+    "reference_audience": 249863735.455757
    },
    "explain": "Followers of the extremism basket as a share of its own plus the mainstream reference basket's.",
    "group": "scale",
@@ -6383,8 +6388,8 @@
      "extremism": 0.708333,
      "reference": 0.083333
     },
-    "extremism_views": 4665432.3,
-    "reference_views": 2064345.0
+    "extremism_views": 4880901.675,
+    "reference_views": 2136801.0
    },
    "explain": "Views on the last seven days of posts and uploads, against the same for the reference basket.",
    "group": "scale",
@@ -6399,13 +6404,13 @@
   },
   {
    "available": true,
-   "contribution": 0.63,
+   "contribution": 0.76,
    "coverage": 1.0,
    "detail": {
     "charts": {
      "news": {
       "date": "2026-11-17",
-      "share": 0.082778,
+      "share": 0.089396,
       "shows": [
        {
         "entity": "ref_nyt",
@@ -6427,82 +6432,82 @@
        },
        {
         "entity": "ref_megyn_kelly",
-        "points": 0.6965,
-        "rank": 5,
+        "points": 0.7386,
+        "rank": 4,
         "show": "The Megyn Kelly Show"
        },
        {
         "entity": "ref_meidastouch",
-        "points": 0.6621,
-        "rank": 6,
+        "points": 0.6331,
+        "rank": 7,
         "show": "The MeidasTouch Podcast"
        },
        {
         "entity": "ref_ben_shapiro",
-        "points": 0.6331,
-        "rank": 7,
-        "show": "Morning Wire"
-       },
-       {
-        "entity": "ref_ben_shapiro",
-        "points": 0.5314,
-        "rank": 12,
+        "points": 0.5857,
+        "rank": 9,
         "show": "The Ben Shapiro Show"
        },
        {
         "entity": "tucker_carlson",
-        "points": 0.4894,
-        "rank": 15,
+        "points": 0.5658,
+        "rank": 10,
         "show": "The Tucker Carlson Show"
        },
        {
         "entity": "ref_ms_now",
-        "points": 0.4171,
-        "rank": 22,
-        "show": "Morning Joe"
-       },
-       {
-        "entity": "ref_ms_now",
-        "points": 0.3651,
-        "rank": 29,
+        "points": 0.5314,
+        "rank": 12,
         "show": "The Rachel Maddow Show"
        },
        {
-        "entity": "ref_abc_news",
-        "points": 0.3407,
-        "rank": 33,
-        "show": "Start Here"
+        "entity": "ref_ben_shapiro",
+        "points": 0.5024,
+        "rank": 14,
+        "show": "Morning Wire"
+       },
+       {
+        "entity": "ref_ms_now",
+        "points": 0.3465,
+        "rank": 32,
+        "show": "Morning Joe"
        },
        {
         "entity": "ref_fox_news",
-        "points": 0.2952,
-        "rank": 42,
+        "points": 0.2822,
+        "rank": 45,
         "show": "Fox News Hourly Update"
        },
        {
-        "entity": "ref_cnn",
-        "points": 0.2908,
-        "rank": 43,
-        "show": "Fareed Zakaria GPS"
-       },
-       {
-        "entity": "candace_owens",
-        "points": 0.2781,
-        "rank": 46,
-        "show": "Candace"
+        "entity": "ref_abc_news",
+        "points": 0.27,
+        "rank": 48,
+        "show": "Start Here"
        },
        {
         "entity": "steve_bannon",
-        "points": 0.1989,
-        "rank": 70,
+        "points": 0.2586,
+        "rank": 51,
         "show": "Bannon's War Room"
+       },
+       {
+        "entity": "candace_owens",
+        "points": 0.2514,
+        "rank": 53,
+        "show": "Candace"
+       },
+       {
+        "entity": "ref_cnn",
+        "points": 0.2072,
+        "rank": 67,
+        "show": "Fareed Zakaria GPS"
        }
       ],
       "size": 200
      },
      "top": {
       "date": "2026-11-17",
-      "share": 0.018367,
+      "share": 0.032127,
       "shows": [
        {
         "entity": "ref_nyt",
@@ -6512,45 +6517,51 @@
        },
        {
         "entity": "ref_npr",
-        "points": 0.762,
-        "rank": 3,
+        "points": 0.6513,
+        "rank": 5,
         "show": "Up First from NPR"
        },
        {
         "entity": "ref_pod_save_america",
-        "points": 0.6118,
-        "rank": 6,
+        "points": 0.5239,
+        "rank": 9,
         "show": "Pod Save America"
        },
        {
         "entity": "ref_megyn_kelly",
-        "points": 0.3403,
-        "rank": 21,
+        "points": 0.3992,
+        "rank": 16,
         "show": "The Megyn Kelly Show"
        },
        {
         "entity": "ref_meidastouch",
-        "points": 0.3206,
-        "rank": 23,
+        "points": 0.3302,
+        "rank": 22,
         "show": "The MeidasTouch Podcast"
        },
        {
         "entity": "ref_ben_shapiro",
-        "points": 0.2235,
-        "rank": 36,
-        "show": "Morning Wire"
-       },
-       {
-        "entity": "ref_ben_shapiro",
-        "points": 0.1567,
-        "rank": 49,
+        "points": 0.2359,
+        "rank": 34,
         "show": "The Ben Shapiro Show"
        },
        {
         "entity": "tucker_carlson",
-        "points": 0.1278,
-        "rank": 56,
+        "points": 0.2296,
+        "rank": 35,
         "show": "The Tucker Carlson Show"
+       },
+       {
+        "entity": "ref_ms_now",
+        "points": 0.1704,
+        "rank": 46,
+        "show": "The Rachel Maddow Show"
+       },
+       {
+        "entity": "ref_ben_shapiro",
+        "points": 0.1481,
+        "rank": 51,
+        "show": "Morning Wire"
        }
       ],
       "size": 100
@@ -6563,14 +6574,14 @@
    "history": [
     {
      "date": "2026-11-17",
-     "score": 5.06
+     "score": 6.08
     }
    ],
    "id": "mainstreaming",
    "label": "Mainstreaming",
-   "raw": 0.050573,
+   "raw": 0.060761,
    "reason": null,
-   "score": 5.06,
+   "score": 6.08,
    "weight": 0.1
   },
   {
@@ -6579,7 +6590,7 @@
    "coverage": 0.2368,
    "detail": {
     "accounts": 9,
-    "annual_change": 0.017053,
+    "annual_change": 0.017005,
     "mean_span_days": 297.0,
     "reference_growth": null
    },
@@ -6594,7 +6605,7 @@
    ],
    "id": "momentum",
    "label": "Momentum",
-   "raw": 0.016909,
+   "raw": 0.016862,
    "reason": null,
    "score": 50.61,
    "weight": 0.15
@@ -6625,26 +6636,26 @@
   },
   {
    "available": true,
-   "contribution": 8.13,
+   "contribution": 7.68,
    "coverage": 1.0,
    "detail": {
     "indicators": {
      "news": {
-      "baseline": 0.000358,
+      "baseline": 0.00042,
       "baseline_days": 339,
-      "current": 0.000561,
+      "current": 0.00057,
       "last_day": "2026-11-15",
-      "ratio": 1.567976,
-      "score": 65.676339,
-      "series": 26
+      "ratio": 1.354631,
+      "score": 60.775859,
+      "series": 29
      },
      "wikipedia": {
-      "baseline": 41962.5,
+      "baseline": 41888.5,
       "baseline_days": 365,
-      "current": 34267.428571,
-      "last_day": "2026-11-15",
-      "ratio": 0.81662,
-      "score": 42.745001,
+      "current": 33155.642857,
+      "last_day": "2026-11-16",
+      "ratio": 0.791521,
+      "score": 41.646554,
       "series": 38
      }
     }
@@ -6655,18 +6666,18 @@
    "history": [
     {
      "date": "2026-01-24",
-     "score": 53.16
+     "score": 52.61
     },
     {
      "date": "2026-11-17",
-     "score": 54.21
+     "score": 51.21
     }
    ],
    "id": "heat",
    "label": "Heat",
-   "raw": 1.131566,
+   "raw": 1.03548,
    "reason": null,
-   "score": 54.21,
+   "score": 51.21,
    "weight": 0.12
   },
   {
@@ -6677,8 +6688,8 @@
     "audience_by_platform": {
      "bitchute": 209160.0,
      "rumble": 4188791.0,
-     "telegram": 522100.5,
-     "x": 32411550.0,
+     "telegram": 521936.0,
+     "x": 32411353.0,
      "youtube": 9404700.0
     }
    },
@@ -6697,7 +6708,7 @@
    ],
    "id": "depth",
    "label": "Depth",
-   "raw": 0.463833,
+   "raw": 0.463831,
    "reason": null,
    "score": 46.38,
    "weight": 0.15
@@ -6709,16 +6720,16 @@
    "extremism_followers": 12739400.0,
    "observed": 17,
    "platform": "youtube",
-   "reference_followers": 110301000.0,
+   "reference_followers": 110302000.0,
    "registered": 17,
    "view_equiv": 1.0
   },
   {
    "depth": 0.5,
-   "extremism_followers": 53349665.0,
+   "extremism_followers": 53349449.0,
    "observed": 25,
    "platform": "x",
-   "reference_followers": 204872528.0,
+   "reference_followers": 204870896.0,
    "registered": 26,
    "view_equiv": 0.05
   },
@@ -6742,7 +6753,7 @@
   },
   {
    "depth": 1.0,
-   "extremism_followers": 766987.0,
+   "extremism_followers": 766743.0,
    "observed": 7,
    "platform": "telegram",
    "reference_followers": 0.0,
@@ -10859,84 +10870,84 @@
   {
    "group": "baseline",
    "scenario": "Published model",
-   "score": 35.57
+   "score": 35.25
   },
   {
    "group": "weights",
    "scenario": "Equal pillar weights",
-   "score": 37.25
+   "score": 36.92
   },
   {
    "group": "weights",
    "scenario": "Without reach",
-   "score": 43.21
+   "score": 42.78
   },
   {
    "group": "weights",
    "scenario": "Without mainstreaming",
-   "score": 39.93
+   "score": 39.42
   },
   {
    "group": "weights",
    "scenario": "Without momentum",
-   "score": 32.1
+   "score": 31.7
   },
   {
    "group": "weights",
    "scenario": "Without breadth",
-   "score": 33.46
+   "score": 33.1
   },
   {
    "group": "weights",
    "scenario": "Without heat",
-   "score": 32.28
+   "score": 32.43
   },
   {
    "group": "weights",
    "scenario": "Without depth",
-   "score": 33.08
+   "score": 32.68
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 0.25",
-   "score": 34.7
+   "score": 34.38
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 0.75",
-   "score": 36.3
+   "score": 36.11
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 1",
-   "score": 37.08
+   "score": 36.92
   },
   {
    "group": "overlap",
    "scenario": "Audiences do not overlap (q=1)",
-   "score": 35.63
+   "score": 35.31
   },
   {
    "group": "overlap",
    "scenario": "Audiences fully overlap (q=inf)",
-   "score": 35.6
+   "score": 35.27
   },
   {
    "group": "views",
    "scenario": "Telegram view worth 0.1 YouTube views",
-   "score": 35.57
+   "score": 35.25
   },
   {
    "group": "views",
    "scenario": "Telegram view worth 0.5 YouTube views",
-   "score": 35.57
+   "score": 35.25
   }
  ],
  "series": [
   {
    "confidence": 0.6174,
    "date": "2026-11-17",
-   "score": 35.57
+   "score": 35.25
   }
  ],
  "sources": [
@@ -10985,7 +10996,7 @@
    ],
    "first": "2026-01-24",
    "last": "2026-11-17",
-   "note": "public channel pages; Rumble refuses many automated clients",
+   "note": "public channel pages; Rumble refuses automated clients, so readings usually come from a browser capture",
    "ok": 0,
    "rows": 415,
    "skipped": "Rumble refused this client (HTTP 403); remaining channels not requested",
@@ -10993,6 +11004,11 @@
   },
   {
    "failed": [
+    {
+     "account": "NickJFuentes",
+     "entity": "nick_fuentes",
+     "reason": "mirror did not return the profile (not found (HTTP 404), 4 tries)"
+    },
     {
      "account": "jacksonhinklle",
      "entity": "jackson_hinkle",
@@ -11002,7 +11018,7 @@
    "first": "2026-11-17",
    "last": "2026-11-17",
    "note": "FxTwitter public profile API (free third-party mirror of X profiles)",
-   "ok": 25,
+   "ok": 24,
    "rows": 25,
    "skipped": null,
    "source": "x"
@@ -11013,30 +11029,45 @@
    "last": "2026-11-17",
    "note": "Apple Podcasts US charts: overall top 100 and News top 200",
    "ok": 2,
-   "rows": 25,
+   "rows": 26,
    "skipped": null,
    "source": "apple_podcasts"
   },
   {
    "failed": [],
    "first": "2025-07-25",
-   "last": "2026-11-15",
+   "last": "2026-11-16",
    "note": "Wikimedia pageviews API, human traffic only",
    "ok": 50,
-   "rows": 23665,
+   "rows": 23715,
    "skipped": null,
    "source": "wikipedia"
   },
   {
    "failed": [
     {
-     "account": "nick_fuentes",
-     "entity": "nick_fuentes",
+     "account": "stew_peters",
+     "entity": "stew_peters",
      "reason": "rate limited (HTTP 429)"
     },
     {
-     "account": "jake_shields",
-     "entity": "jake_shields",
+     "account": "candace_owens",
+     "entity": "candace_owens",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "account": "jared_taylor",
+     "entity": "jared_taylor",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "account": "david_duke",
+     "entity": "david_duke",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "account": "andrew_anglin",
+     "entity": "andrew_anglin",
      "reason": "rate limited (HTTP 429)"
     },
     {
@@ -11050,22 +11081,32 @@
      "reason": "rate limited (HTTP 429)"
     },
     {
-     "account": "alex_jones",
-     "entity": "alex_jones",
-     "reason": "network error"
-    },
-    {
      "account": "mike_cernovich",
      "entity": "mike_cernovich",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "account": "steve_bannon",
+     "entity": "steve_bannon",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "account": "darryl_cooper",
+     "entity": "darryl_cooper",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "account": "ian_carroll",
+     "entity": "ian_carroll",
      "reason": "rate limited (HTTP 429)"
     }
    ],
    "first": "2025-07-25",
    "last": "2026-11-15",
    "note": "GDELT DOC 2.0 API, US-sourced articles",
-   "ok": 26,
-   "rows": 12231,
-   "skipped": null,
+   "ok": 12,
+   "rows": 13350,
+   "skipped": "GDELT kept rate-limiting this client; remaining queries left for the next run",
    "source": "gdelt"
   },
   {
