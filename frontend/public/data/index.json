@@ -4,8 +4,8 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 1320095,
+     "as_of": "2026-11-19",
+     "followers": 1320547,
      "growth_days": null,
      "handle": "NickJFuentes",
      "platform": "x",
@@ -24,7 +24,7 @@
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 6433,
      "growth_days": null,
      "handle": "americafirst",
@@ -33,17 +33,17 @@
      "views_7d": 469.0
     },
     {
-     "annual_growth": -0.047728,
-     "as_of": "2026-11-18",
-     "followers": 112286,
-     "growth_days": 298,
+     "annual_growth": -0.047624,
+     "as_of": "2026-11-19",
+     "followers": 112281,
+     "growth_days": 299,
      "handle": "nickjfuentes",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 192100
+     "views_7d": 154060
     }
    ],
-   "audience": 1512093.402196,
+   "audience": 1512487.654269,
    "basis": [
     {
      "org": "SPLC",
@@ -55,7 +55,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.041719,
+   "basket_share": 0.041737,
    "charts": [],
    "cohort": "white_nationalist",
    "id": "nick_fuentes",
@@ -64,7 +64,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 7173.857143,
+   "wiki_daily": 7140.714286,
    "wikipedia": [
     "Nick_Fuentes"
    ]
@@ -73,8 +73,8 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 940538,
+     "as_of": "2026-11-19",
+     "followers": 940574,
      "growth_days": null,
      "handle": "realstewpeters",
      "platform": "x",
@@ -93,26 +93,26 @@
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 15128,
+     "as_of": "2026-11-19",
+     "followers": 15126,
      "growth_days": null,
      "handle": "stewpeters",
      "platform": "bitchute",
      "unverified": false,
-     "views_7d": 5719.0
+     "views_7d": 5946.5
     },
     {
-     "annual_growth": -0.214762,
-     "as_of": "2026-11-18",
-     "followers": 131639,
-     "growth_days": 298,
+     "annual_growth": -0.21455,
+     "as_of": "2026-11-19",
+     "followers": 131581,
+     "growth_days": 299,
      "handle": "StewPeters",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 62680
+     "views_7d": 43890
     }
    ],
-   "audience": 1114800.676942,
+   "audience": 1114824.175408,
    "basis": [
     {
      "org": "SPLC",
@@ -124,7 +124,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.030758,
+   "basket_share": 0.030764,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "stew_peters",
@@ -133,7 +133,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 148.714286,
+   "wiki_daily": 141.285714,
    "wikipedia": [
     "Stew_Peters"
    ]
@@ -142,18 +142,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 6070000,
      "growth_days": null,
      "handle": "RealCandaceO",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 2110934.0
+     "views_7d": 5985682.5
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 7754616,
+     "as_of": "2026-11-19",
+     "followers": 7751748,
      "growth_days": null,
      "handle": "RealCandaceO",
      "platform": "x",
@@ -171,7 +171,7 @@
      "views_7d": 168063
     }
    ],
-   "audience": 9861937.185658,
+   "audience": 9859682.185644,
    "basis": [
     {
      "org": "ADL",
@@ -179,11 +179,16 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.272095,
+   "basket_share": 0.272078,
    "charts": [
     {
      "chart": "news",
-     "rank": 29,
+     "rank": 18,
+     "show": "Candace"
+    },
+    {
+     "chart": "top",
+     "rank": 60,
      "show": "Candace"
     }
    ],
@@ -194,7 +199,7 @@
    "news_7d": 11.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 3463.571429,
+   "wiki_daily": 2770.857143,
    "wikipedia": [
     "Candace_Owens"
    ]
@@ -212,17 +217,17 @@
      "views_7d": null
     },
     {
-     "annual_growth": -0.110488,
-     "as_of": "2026-11-18",
-     "followers": 33068,
-     "growth_days": 298,
+     "annual_growth": -0.11083,
+     "as_of": "2026-11-19",
+     "followers": 33047,
+     "growth_days": 299,
      "handle": "jacksonhinkle",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 9560
+     "views_7d": 10610
     }
    ],
-   "audience": 33068.0,
+   "audience": 33047.0,
    "basis": [
     {
      "org": "ADL",
@@ -239,7 +244,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 878.142857,
+   "wiki_daily": 832.571429,
    "wikipedia": [
     "Jackson_Hinkle"
    ]
@@ -248,8 +253,8 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 913007,
+     "as_of": "2026-11-19",
+     "followers": 913078,
      "growth_days": null,
      "handle": "jakeshieldsajj",
      "platform": "x",
@@ -257,7 +262,7 @@
      "views_7d": null
     }
    ],
-   "audience": 913007.0,
+   "audience": 913078.0,
    "basis": [
     {
      "org": "ADL",
@@ -265,7 +270,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.02519,
+   "basket_share": 0.025196,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "jake_shields",
@@ -274,7 +279,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 360.428571,
+   "wiki_daily": 366.571429,
    "wikipedia": [
     "Jake_Shields"
    ]
@@ -298,7 +303,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 58.857143,
+   "wiki_daily": 58.571429,
    "wikipedia": [
     "Lucas_Gage"
    ]
@@ -307,8 +312,8 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 113857,
+     "as_of": "2026-11-19",
+     "followers": 113829,
      "growth_days": null,
      "handle": "RichardBSpencer",
      "platform": "x",
@@ -316,7 +321,7 @@
      "views_7d": null
     }
    ],
-   "audience": 113857.0,
+   "audience": 113829.0,
    "basis": [
     {
      "org": "SPLC",
@@ -333,7 +338,7 @@
    "news_7d": null,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 808.714286,
+   "wiki_daily": 738.0,
    "wikipedia": [
     "Richard_B._Spencer"
    ]
@@ -361,7 +366,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 489.285714,
+   "wiki_daily": 506.285714,
    "wikipedia": [
     "Jared_Taylor",
     "American_Renaissance_(magazine)"
@@ -371,13 +376,13 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 4055,
      "growth_days": null,
      "handle": "davidduke",
      "platform": "bitchute",
      "unverified": false,
-     "views_7d": 56.0
+     "views_7d": 45.5
     }
    ],
    "audience": 4055.0,
@@ -397,7 +402,7 @@
    "news_7d": 2.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 1601.285714,
+   "wiki_daily": 1559.428571,
    "wikipedia": [
     "David_Duke"
    ]
@@ -425,7 +430,7 @@
    "news_7d": 1.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 186.571429,
+   "wiki_daily": 171.0,
    "wikipedia": [
     "Peter_Brimelow",
     "VDARE"
@@ -435,8 +440,8 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 431361,
+     "as_of": "2026-11-19",
+     "followers": 431295,
      "growth_days": null,
      "handle": "StefanMolyneux",
      "platform": "x",
@@ -445,16 +450,16 @@
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 81568,
      "growth_days": null,
      "handle": "freedomainradio",
      "platform": "bitchute",
      "unverified": false,
-     "views_7d": 7581.0
+     "views_7d": 8256.5
     }
    ],
-   "audience": 439005.297172,
+   "audience": 438940.446586,
    "basis": [
     {
      "org": "SPLC",
@@ -462,7 +467,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.012112,
+   "basket_share": 0.012113,
    "charts": [],
    "cohort": "white_nationalist",
    "id": "stefan_molyneux",
@@ -471,7 +476,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 167.571429,
+   "wiki_daily": 169.571429,
    "wikipedia": [
     "Stefan_Molyneux"
    ]
@@ -495,7 +500,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 228.142857,
+   "wiki_daily": 231.142857,
    "wikipedia": [
     "Andrew_Anglin"
    ]
@@ -519,7 +524,7 @@
    "news_7d": null,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 58.571429,
+   "wiki_daily": 57.571429,
    "wikipedia": [
     "Mike_Enoch"
    ]
@@ -528,13 +533,13 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 20763,
      "growth_days": null,
      "handle": "emichaeljones",
      "platform": "bitchute",
      "unverified": false,
-     "views_7d": 14546.0
+     "views_7d": 11945.5
     }
    ],
    "audience": 20763.0,
@@ -554,7 +559,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 72.714286,
+   "wiki_daily": 72.285714,
    "wikipedia": [
     "E._Michael_Jones"
    ]
@@ -578,7 +583,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 205.714286,
+   "wiki_daily": 187.0,
    "wikipedia": [
     "Stewart_Rhodes"
    ]
@@ -602,7 +607,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 508.0,
+   "wiki_daily": 490.571429,
    "wikipedia": [
     "Enrique_Tarrio"
    ]
@@ -611,18 +616,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 5800000,
      "growth_days": null,
      "handle": "TuckerCarlson",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 12857264.0
+     "views_7d": 10598234.5
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 17977853,
+     "as_of": "2026-11-19",
+     "followers": 17972192,
      "growth_days": null,
      "handle": "TuckerCarlson",
      "platform": "x",
@@ -640,7 +645,7 @@
      "views_7d": 268219
     }
    ],
-   "audience": 18935082.535781,
+   "audience": 18929707.801022,
    "basis": [
     {
      "org": "SPLC",
@@ -652,16 +657,16 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.261214,
+   "basket_share": 0.261183,
    "charts": [
     {
      "chart": "news",
-     "rank": 14,
+     "rank": 15,
      "show": "The Tucker Carlson Show"
     },
     {
      "chart": "top",
-     "rank": 45,
+     "rank": 48,
      "show": "The Tucker Carlson Show"
     }
    ],
@@ -672,7 +677,7 @@
    "news_7d": null,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 2517.571429,
+   "wiki_daily": 2415.714286,
    "wikipedia": [
     "Tucker_Carlson"
    ]
@@ -681,8 +686,8 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 4449659,
+     "as_of": "2026-11-19",
+     "followers": 4449578,
      "growth_days": null,
      "handle": "RealAlexJones",
      "platform": "x",
@@ -691,16 +696,16 @@
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 162438,
      "growth_days": null,
      "handle": "banned-dot-video",
      "platform": "bitchute",
      "unverified": false,
-     "views_7d": 80458.0
+     "views_7d": 71687.0
     }
    ],
-   "audience": 4452622.970803,
+   "audience": 4452542.024723,
    "basis": [
     {
      "org": "SPLC",
@@ -712,7 +717,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.061425,
+   "basket_share": 0.061434,
    "charts": [],
    "cohort": "conspiracy",
    "id": "alex_jones",
@@ -721,7 +726,7 @@
    "news_7d": 2.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 2862.142857,
+   "wiki_daily": 2868.571429,
    "wikipedia": [
     "Alex_Jones",
     "Infowars"
@@ -731,7 +736,7 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 5890,
      "growth_days": null,
      "handle": "JackPosobiec",
@@ -741,8 +746,8 @@
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 3273222,
+     "as_of": "2026-11-19",
+     "followers": 3273946,
      "growth_days": null,
      "handle": "JackPosobiec",
      "platform": "x",
@@ -750,7 +755,7 @@
      "views_7d": null
     }
    ],
-   "audience": 3273227.299377,
+   "audience": 3273951.298205,
    "basis": [
     {
      "org": "SPLC",
@@ -758,7 +763,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.045155,
+   "basket_share": 0.045172,
    "charts": [],
    "cohort": "conspiracy",
    "id": "jack_posobiec",
@@ -767,7 +772,7 @@
    "news_7d": 1.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 380.857143,
+   "wiki_daily": 442.285714,
    "wikipedia": [
     "Jack_Posobiec"
    ]
@@ -776,8 +781,8 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 1453078,
+     "as_of": "2026-11-19",
+     "followers": 1452723,
      "growth_days": null,
      "handle": "Cernovich",
      "platform": "x",
@@ -786,8 +791,8 @@
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 2547,
+     "as_of": "2026-11-19",
+     "followers": 2545,
      "growth_days": null,
      "handle": "Cernovich",
      "platform": "telegram",
@@ -795,7 +800,7 @@
      "views_7d": 0
     }
    ],
-   "audience": 1453080.232228,
+   "audience": 1452725.229269,
    "basis": [
     {
      "org": "SPLC",
@@ -803,7 +808,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.020046,
+   "basket_share": 0.020044,
    "charts": [],
    "cohort": "conspiracy",
    "id": "mike_cernovich",
@@ -812,7 +817,7 @@
    "news_7d": null,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 171.0,
+   "wiki_daily": 155.0,
    "wikipedia": [
     "Mike_Cernovich"
    ]
@@ -821,8 +826,8 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 10684013,
+     "as_of": "2026-11-19",
+     "followers": 10681722,
      "growth_days": null,
      "handle": "Cobratate",
      "platform": "x",
@@ -840,17 +845,17 @@
      "views_7d": 51983
     },
     {
-     "annual_growth": -0.25543,
-     "as_of": "2026-11-18",
-     "followers": 291946,
-     "growth_days": 298,
+     "annual_growth": -0.2554,
+     "as_of": "2026-11-19",
+     "followers": 291720,
+     "growth_days": 299,
      "handle": "TateSpeech",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 223600
+     "views_7d": 162920
     }
    ],
-   "audience": 10919230.197721,
+   "audience": 10916982.518233,
    "basis": [
     {
      "org": "SPLC",
@@ -858,7 +863,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.150633,
+   "basket_share": 0.150627,
    "charts": [],
    "cohort": "male_supremacy",
    "id": "andrew_tate",
@@ -867,7 +872,7 @@
    "news_7d": 1.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 5768.285714,
+   "wiki_daily": 5687.0,
    "wikipedia": [
     "Andrew_Tate"
    ]
@@ -876,8 +881,8 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 2281887,
+     "as_of": "2026-11-19",
+     "followers": 2280983,
      "growth_days": null,
      "handle": "GenFlynn",
      "platform": "x",
@@ -886,16 +891,16 @@
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 144452,
+     "as_of": "2026-11-19",
+     "followers": 144364,
      "growth_days": null,
      "handle": "RealGenFlynn",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 712500
+     "views_7d": 772840
     }
    ],
-   "audience": 2286454.605076,
+   "audience": 2285546.851584,
    "basis": [
     {
      "org": "SPLC",
@@ -903,7 +908,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.031542,
+   "basket_share": 0.031535,
    "charts": [],
    "cohort": "conspiracy",
    "id": "michael_flynn",
@@ -912,7 +917,7 @@
    "news_7d": 0.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 843.0,
+   "wiki_daily": 833.0,
    "wikipedia": [
     "Michael_Flynn"
    ]
@@ -931,16 +936,16 @@
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 50267,
+     "as_of": "2026-11-19",
+     "followers": 50239,
      "growth_days": null,
      "handle": "bannonwarroom",
      "platform": "telegram",
      "unverified": false,
-     "views_7d": 339392
+     "views_7d": 320769
     }
    ],
-   "audience": 1160947.746959,
+   "audience": 1160946.534946,
    "basis": [
     {
      "org": "ADL (as reported by The Forward)",
@@ -948,11 +953,11 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.016016,
+   "basket_share": 0.016018,
    "charts": [
     {
      "chart": "news",
-     "rank": 58,
+     "rank": 59,
      "show": "Bannon's War Room"
     }
    ],
@@ -963,7 +968,7 @@
    "news_7d": 4.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 1622.285714,
+   "wiki_daily": 1513.142857,
    "wikipedia": [
     "Steve_Bannon"
    ]
@@ -972,18 +977,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 53500,
      "growth_days": null,
      "handle": "MartyrMade",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 7924.0
+     "views_7d": 7567.0
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 360912,
+     "as_of": "2026-11-19",
+     "followers": 360844,
      "growth_days": null,
      "handle": "martyrmade",
      "platform": "x",
@@ -991,7 +996,7 @@
      "views_7d": null
     }
    ],
-   "audience": 364855.754709,
+   "audience": 364788.489862,
    "basis": [
     {
      "org": "ADL",
@@ -1008,7 +1013,7 @@
    "news_7d": 0.0,
    "tier": "adjacent",
    "weight": 0.5,
-   "wiki_daily": 104.285714,
+   "wiki_daily": 101.714286,
    "wikipedia": [
     "Darryl_Cooper"
    ]
@@ -1017,18 +1022,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 811000,
      "growth_days": null,
      "handle": "IanCarrollShow",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 5183171.0
+     "views_7d": 3392543.0
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 1400263,
+     "as_of": "2026-11-19",
+     "followers": 1400305,
      "growth_days": null,
      "handle": "IanCarrollShow",
      "platform": "x",
@@ -1036,7 +1041,7 @@
      "views_7d": null
     }
    ],
-   "audience": 1618164.846105,
+   "audience": 1618201.190528,
    "basis": [
     {
      "org": "ADL",
@@ -1044,7 +1049,7 @@
     }
    ],
    "basket": "extremism",
-   "basket_share": 0.022323,
+   "basket_share": 0.022327,
    "charts": [],
    "cohort": "antisemitic_conspiracy",
    "id": "ian_carroll",
@@ -1075,7 +1080,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 2477.857143,
+   "wiki_daily": 2387.714286,
    "wikipedia": [
     "Groypers"
    ]
@@ -1103,7 +1108,7 @@
    "news_7d": 1.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 1111.428571,
+   "wiki_daily": 1078.0,
    "wikipedia": [
     "Proud_Boys"
    ]
@@ -1131,7 +1136,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 572.0,
+   "wiki_daily": 559.142857,
    "wikipedia": [
     "Patriot_Front"
    ]
@@ -1159,7 +1164,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 374.714286,
+   "wiki_daily": 370.857143,
    "wikipedia": [
     "Oath_Keepers"
    ]
@@ -1183,7 +1188,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 491.714286,
+   "wiki_daily": 484.142857,
    "wikipedia": [
     "Three_Percenters"
    ]
@@ -1211,7 +1216,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 237.428571,
+   "wiki_daily": 225.714286,
    "wikipedia": [
     "Goyim_Defense_League"
    ]
@@ -1235,7 +1240,7 @@
    "news_7d": 0.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 44.714286,
+   "wiki_daily": 47.714286,
    "wikipedia": [
     "Active_Club_Network"
    ]
@@ -1259,7 +1264,7 @@
    "news_7d": 3.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 1676.857143,
+   "wiki_daily": 1648.857143,
    "wikipedia": [
     "Great_Replacement_conspiracy_theory",
     "White_genocide_conspiracy_theory"
@@ -1288,7 +1293,7 @@
    "news_7d": 53.0,
    "tier": "core",
    "weight": 1.0,
-   "wiki_daily": 998.571429,
+   "wiki_daily": 955.857143,
    "wikipedia": [
     "White_nationalism",
     "Alt-right"
@@ -1298,18 +1303,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 15600000,
      "growth_days": null,
      "handle": "FoxNews",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 78924944.0
+     "views_7d": 83352895.5
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 29466249,
+     "as_of": "2026-11-19",
+     "followers": 29462086,
      "growth_days": null,
      "handle": "FoxNews",
      "platform": "x",
@@ -1317,14 +1322,14 @@
      "views_7d": null
     }
    ],
-   "audience": 33340963.245383,
+   "audience": 33337284.104609,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.133433,
+   "basket_share": 0.133427,
    "charts": [
     {
      "chart": "news",
-     "rank": 55,
+     "rank": 58,
      "show": "Fox News Hourly Update"
     }
    ],
@@ -1335,7 +1340,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 1364.285714,
+   "wiki_daily": 1327.714286,
    "wikipedia": [
     "Fox_News"
    ]
@@ -1344,13 +1349,13 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 20100000,
      "growth_days": null,
      "handle": "CNN",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 113543381.0
+     "views_7d": 126130791.5
     },
     {
      "annual_growth": null,
@@ -1366,14 +1371,8 @@
    "audience": 64919474.791734,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.259813,
-   "charts": [
-    {
-     "chart": "news",
-     "rank": 141,
-     "show": "Fareed Zakaria GPS"
-    }
-   ],
+   "basket_share": 0.259829,
+   "charts": [],
    "cohort": "reference",
    "id": "ref_cnn",
    "kind": "outlet",
@@ -1381,7 +1380,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 1925.428571,
+   "wiki_daily": 1885.857143,
    "wikipedia": [
     "CNN"
    ]
@@ -1390,34 +1389,29 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 10100000,
      "growth_days": null,
      "handle": "MSNOW",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 94384563.0
+     "views_7d": 91360454.5
     }
    ],
    "audience": 10100000.0,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.040421,
+   "basket_share": 0.040424,
    "charts": [
     {
      "chart": "news",
-     "rank": 17,
+     "rank": 32,
      "show": "The Rachel Maddow Show"
     },
     {
      "chart": "news",
      "rank": 35,
      "show": "Morning Joe"
-    },
-    {
-     "chart": "top",
-     "rank": 50,
-     "show": "The Rachel Maddow Show"
     }
    ],
    "cohort": "reference",
@@ -1427,7 +1421,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 1634.0,
+   "wiki_daily": 1546.428571,
    "wikipedia": [
     "MS_NOW"
    ]
@@ -1436,18 +1430,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 19900000,
      "growth_days": null,
      "handle": "ABCNews",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 59191671.0
+     "views_7d": 58801739.5
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 18598729,
+     "as_of": "2026-11-19",
+     "followers": 18596445,
      "growth_days": null,
      "handle": "ABC",
      "platform": "x",
@@ -1455,14 +1449,14 @@
      "views_7d": null
     }
    ],
-   "audience": 27238258.395416,
+   "audience": 27236698.893919,
    "basis": [],
    "basket": "reference",
    "basket_share": 0.10901,
    "charts": [
     {
      "chart": "news",
-     "rank": 51,
+     "rank": 52,
      "show": "Start Here"
     }
    ],
@@ -1473,7 +1467,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 400.142857,
+   "wiki_daily": 394.285714,
    "wikipedia": [
     "ABC_News_(United_States)"
    ]
@@ -1482,18 +1476,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 12200000,
      "growth_days": null,
      "handle": "NBCNews",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 33689894.0
+     "views_7d": 37930014.5
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 9283004,
+     "as_of": "2026-11-19",
+     "followers": 9281721,
      "growth_days": null,
      "handle": "NBCNews",
      "platform": "x",
@@ -1501,10 +1495,10 @@
      "views_7d": null
     }
    ],
-   "audience": 15330171.664532,
+   "audience": 15329394.793071,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.061352,
+   "basket_share": 0.061353,
    "charts": [],
    "cohort": "reference",
    "id": "ref_nbc_news",
@@ -1513,7 +1507,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 436.571429,
+   "wiki_daily": 428.714286,
    "wikipedia": [
     "NBC_News"
    ]
@@ -1522,18 +1516,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 7130000,
      "growth_days": null,
      "handle": "CBSNews",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 19449521.0
+     "views_7d": 18921451.5
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 9863694,
+     "as_of": "2026-11-19",
+     "followers": 9863079,
      "growth_days": null,
      "handle": "CBSNews",
      "platform": "x",
@@ -1541,10 +1535,10 @@
      "views_7d": null
     }
    ],
-   "audience": 12170840.534886,
+   "audience": 12170342.121742,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.048709,
+   "basket_share": 0.04871,
    "charts": [],
    "cohort": "reference",
    "id": "ref_cbs_news",
@@ -1553,7 +1547,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 439.857143,
+   "wiki_daily": 419.0,
    "wikipedia": [
     "CBS_News"
    ]
@@ -1562,13 +1556,13 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 935000,
+     "as_of": "2026-11-19",
+     "followers": 937000,
      "growth_days": null,
      "handle": "NPR",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 11467519.0
+     "views_7d": 9980603.5
     },
     {
      "annual_growth": null,
@@ -1581,10 +1575,10 @@
      "views_7d": null
     }
    ],
-   "audience": 7759739.78038,
+   "audience": 7759981.021833,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.031055,
+   "basket_share": 0.031058,
    "charts": [
     {
      "chart": "news",
@@ -1593,7 +1587,7 @@
     },
     {
      "chart": "top",
-     "rank": 6,
+     "rank": 7,
      "show": "Up First from NPR"
     }
    ],
@@ -1604,7 +1598,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 1241.571429,
+   "wiki_daily": 1266.285714,
    "wikipedia": [
     "NPR"
    ]
@@ -1613,18 +1607,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 5350000,
      "growth_days": null,
      "handle": "nytimes",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 6355608.0
+     "views_7d": 7012733.0
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 53857883,
+     "as_of": "2026-11-19",
+     "followers": 53850743,
      "growth_days": null,
      "handle": "nytimes",
      "platform": "x",
@@ -1632,10 +1626,10 @@
      "views_7d": null
     }
    ],
-   "audience": 54122953.182931,
+   "audience": 54115848.156081,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.216604,
+   "basket_share": 0.21659,
    "charts": [
     {
      "chart": "news",
@@ -1655,7 +1649,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 4357.857143,
+   "wiki_daily": 4224.571429,
    "wikipedia": [
     "The_New_York_Times"
    ]
@@ -1664,18 +1658,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 6960000,
      "growth_days": null,
      "handle": "BenShapiro",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 6701219.0
+     "views_7d": 5776239.0
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 8852908,
+     "as_of": "2026-11-19",
+     "followers": 8849885,
      "growth_days": null,
      "handle": "benshapiro",
      "platform": "x",
@@ -1683,29 +1677,29 @@
      "views_7d": null
     }
    ],
-   "audience": 11261242.385122,
+   "audience": 11258866.040291,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.045068,
+   "basket_share": 0.045062,
    "charts": [
     {
      "chart": "news",
-     "rank": 8,
+     "rank": 7,
      "show": "The Ben Shapiro Show"
     },
     {
      "chart": "news",
-     "rank": 15,
+     "rank": 12,
      "show": "Morning Wire"
     },
     {
      "chart": "top",
-     "rank": 34,
+     "rank": 29,
      "show": "The Ben Shapiro Show"
     },
     {
      "chart": "top",
-     "rank": 46,
+     "rank": 43,
      "show": "Morning Wire"
     }
    ],
@@ -1716,7 +1710,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 5059.714286,
+   "wiki_daily": 5263.428571,
    "wikipedia": [
     "Ben_Shapiro"
    ]
@@ -1725,18 +1719,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 4200000,
      "growth_days": null,
      "handle": "MegynKelly",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 20452166.0
+     "views_7d": 20884556.0
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 3610199,
+     "as_of": "2026-11-19",
+     "followers": 3609347,
      "growth_days": null,
      "handle": "megynkelly",
      "platform": "x",
@@ -1744,10 +1738,10 @@
      "views_7d": null
     }
    ],
-   "audience": 5538369.509125,
+   "audience": 5537814.168642,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.022165,
+   "basket_share": 0.022164,
    "charts": [
     {
      "chart": "news",
@@ -1756,7 +1750,7 @@
     },
     {
      "chart": "top",
-     "rank": 12,
+     "rank": 11,
      "show": "The Megyn Kelly Show"
     }
    ],
@@ -1767,7 +1761,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 4199.714286,
+   "wiki_daily": 3566.285714,
    "wikipedia": [
     "Megyn_Kelly"
    ]
@@ -1776,18 +1770,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 6510000,
      "growth_days": null,
      "handle": "MeidasTouch",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 54846456.0
+     "views_7d": 58541465.5
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 1356207,
+     "as_of": "2026-11-19",
+     "followers": 1356298,
      "growth_days": null,
      "handle": "MeidasTouch",
      "platform": "x",
@@ -1795,19 +1789,19 @@
      "views_7d": null
     }
    ],
-   "audience": 6649766.719732,
+   "audience": 6649785.279601,
    "basis": [],
    "basket": "reference",
-   "basket_share": 0.026613,
+   "basket_share": 0.026615,
    "charts": [
     {
      "chart": "news",
-     "rank": 10,
+     "rank": 9,
      "show": "The MeidasTouch Podcast"
     },
     {
      "chart": "top",
-     "rank": 36,
+     "rank": 34,
      "show": "The MeidasTouch Podcast"
     }
    ],
@@ -1818,7 +1812,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 833.571429,
+   "wiki_daily": 851.714286,
    "wikipedia": [
     "MeidasTouch"
    ]
@@ -1827,18 +1821,18 @@
    "accounts": [
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
+     "as_of": "2026-11-19",
      "followers": 1330000,
      "growth_days": null,
      "handle": "PodSaveAmerica",
      "platform": "youtube",
      "unverified": false,
-     "views_7d": 1251537.0
+     "views_7d": 2426557.0
     },
     {
      "annual_growth": null,
-     "as_of": "2026-11-18",
-     "followers": 548569,
+     "as_of": "2026-11-19",
+     "followers": 548531,
      "growth_days": null,
      "handle": "PodSaveAmerica",
      "platform": "x",
@@ -1846,7 +1840,7 @@
      "views_7d": null
     }
    ],
-   "audience": 1438689.663465,
+   "audience": 1438675.174583,
    "basis": [],
    "basket": "reference",
    "basket_share": 0.005758,
@@ -1858,7 +1852,7 @@
     },
     {
      "chart": "top",
-     "rank": 4,
+     "rank": 5,
      "show": "Pod Save America"
     }
    ],
@@ -1869,7 +1863,7 @@
    "news_7d": null,
    "tier": "reference",
    "weight": 1.0,
-   "wiki_daily": 260.714286,
+   "wiki_daily": 251.142857,
    "wikipedia": [
     "Pod_Save_America"
    ]
@@ -1877,11 +1871,11 @@
  ],
  "headline": {
   "band": {
-   "high": 35.21,
-   "low": 24.79
+   "high": 35.38,
+   "low": 25.0
   },
   "change": {
-   "d1": -6.52,
+   "d1": 0.26,
    "d28": null,
    "d7": null
   },
@@ -1896,7 +1890,7 @@
    "heat",
    "depth"
   ],
-  "score": 28.66,
+  "score": 28.84,
   "weight_coverage": 1.0
  },
  "heat_series": {
@@ -3830,12 +3824,6 @@
   ],
   "wikipedia": [
    {
-    "baseline": 62709.0,
-    "date": "2025-11-17",
-    "ratio": 1.551918,
-    "value": 97319.214286
-   },
-   {
     "baseline": 62755.5,
     "date": "2025-11-18",
     "ratio": 1.594536,
@@ -5728,116 +5716,116 @@
    {
     "baseline": 49175.5,
     "date": "2026-09-29",
-    "ratio": 0.625088,
-    "value": 30739.0
+    "ratio": 0.626328,
+    "value": 30800.0
    },
    {
     "baseline": 49118.0,
     "date": "2026-09-30",
-    "ratio": 0.651075,
-    "value": 31979.5
+    "ratio": 0.653021,
+    "value": 32075.071429
    },
    {
     "baseline": 48968.0,
     "date": "2026-10-01",
-    "ratio": 0.688752,
-    "value": 33726.785714
+    "ratio": 0.69199,
+    "value": 33885.357143
    },
    {
     "baseline": 48860.0,
     "date": "2026-10-02",
-    "ratio": 0.691193,
-    "value": 33771.714286
+    "ratio": 0.695657,
+    "value": 33989.785714
    },
    {
     "baseline": 48607.0,
     "date": "2026-10-03",
-    "ratio": 0.685217,
-    "value": 33306.357143
+    "ratio": 0.691223,
+    "value": 33598.285714
    },
    {
     "baseline": 48527.5,
     "date": "2026-10-04",
-    "ratio": 0.671905,
-    "value": 32605.857143
+    "ratio": 0.679111,
+    "value": 32955.571429
    },
    {
     "baseline": 48485.5,
     "date": "2026-10-05",
-    "ratio": 0.664065,
-    "value": 32197.5
+    "ratio": 0.672705,
+    "value": 32616.428571
    },
    {
     "baseline": 48481.0,
     "date": "2026-10-06",
-    "ratio": 0.646975,
-    "value": 31366.0
+    "ratio": 0.656213,
+    "value": 31813.857143
    },
    {
     "baseline": 48107.5,
     "date": "2026-10-07",
-    "ratio": 0.64302,
-    "value": 30934.071429
+    "ratio": 0.652279,
+    "value": 31379.5
    },
    {
     "baseline": 48044.5,
     "date": "2026-10-08",
-    "ratio": 0.62589,
-    "value": 30070.571429
+    "ratio": 0.634685,
+    "value": 30493.142857
    },
    {
     "baseline": 47676.0,
     "date": "2026-10-09",
-    "ratio": 0.628695,
-    "value": 29973.642857
+    "ratio": 0.63714,
+    "value": 30376.285714
    },
    {
     "baseline": 47418.0,
     "date": "2026-10-10",
-    "ratio": 0.632974,
-    "value": 30014.357143
+    "ratio": 0.640584,
+    "value": 30375.214286
    },
    {
     "baseline": 47340.0,
     "date": "2026-10-11",
-    "ratio": 0.636096,
-    "value": 30112.785714
+    "ratio": 0.64297,
+    "value": 30438.214286
    },
    {
     "baseline": 47337.5,
     "date": "2026-10-12",
-    "ratio": 0.627496,
-    "value": 29704.071429
+    "ratio": 0.632908,
+    "value": 29960.285714
    },
    {
     "baseline": 47255.5,
     "date": "2026-10-13",
-    "ratio": 0.597622,
-    "value": 28240.928571
+    "ratio": 0.601141,
+    "value": 28407.214286
    },
    {
     "baseline": 46854.0,
     "date": "2026-10-14",
-    "ratio": 0.579449,
-    "value": 27149.5
+    "ratio": 0.582312,
+    "value": 27283.642857
    },
    {
     "baseline": 46791.5,
     "date": "2026-10-15",
-    "ratio": 0.572526,
-    "value": 26789.357143
+    "ratio": 0.574535,
+    "value": 26883.357143
    },
    {
     "baseline": 46772.0,
     "date": "2026-10-16",
-    "ratio": 0.571389,
-    "value": 26725.0
+    "ratio": 0.572553,
+    "value": 26779.428571
    },
    {
     "baseline": 46659.5,
     "date": "2026-10-17",
-    "ratio": 0.565539,
-    "value": 26387.785714
+    "ratio": 0.566019,
+    "value": 26410.142857
    },
    {
     "baseline": 46563.0,
@@ -5942,15 +5930,15 @@
     "value": 26739.5
    },
    {
-    "baseline": 43191.0,
+    "baseline": 43421.5,
     "date": "2026-11-04",
-    "ratio": 0.679606,
+    "ratio": 0.675998,
     "value": 29352.857143
    },
    {
-    "baseline": 42994.5,
+    "baseline": 43191.0,
     "date": "2026-11-05",
-    "ratio": 0.737325,
+    "ratio": 0.733971,
     "value": 31700.928571
    },
    {
@@ -6024,11 +6012,17 @@
     "date": "2026-11-17",
     "ratio": 0.753453,
     "value": 31530.142857
+   },
+   {
+    "baseline": 41710.5,
+    "date": "2026-11-18",
+    "ratio": 0.725468,
+    "value": 30259.642857
    }
   ]
  },
  "meta": {
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "counts": {
    "accounts": 62,
    "adjacent": 9,
@@ -6037,10 +6031,10 @@
    "people": 25,
    "reference": 12
   },
-  "days_scored": 2,
+  "days_scored": 3,
   "first_scored": "2026-11-17",
-  "input_digest": "de092471bd58a3b316dfd85a79f9c1a76dfd126824f61117903cfad6bded3aac",
-  "last_run": "2026-11-18",
+  "input_digest": "de226e767f94adb2000b1e93f50d6c7f13770d6de1f3908f8801a703f6b2e638",
+  "last_run": "2026-11-19",
   "model_version": "2.3.0",
   "registry_version": "2026.11.17.4",
   "rules": {
@@ -6359,8 +6353,8 @@
    "detail": {
     "accounts_observed": 61,
     "accounts_registered": 62,
-    "extremism_audience": 36244419.656347,
-    "reference_audience": 249870469.872705
+    "extremism_audience": 36238402.431092,
+    "reference_audience": 249854164.546107
    },
    "explain": "Followers of the extremism basket as a share of its own plus the mainstream reference basket's.",
    "group": "scale",
@@ -6373,18 +6367,22 @@
     {
      "date": "2026-11-18",
      "score": 12.67
+    },
+    {
+     "date": "2026-11-19",
+     "score": 12.67
     }
    ],
    "id": "reach",
    "label": "Reach",
-   "raw": 0.126678,
+   "raw": 0.126667,
    "reason": null,
    "score": 12.67,
    "weight": 0.2
   },
   {
    "available": true,
-   "contribution": 0.49,
+   "contribution": 0.54,
    "coverage": 1.0,
    "detail": {
     "accounts_observed": 36,
@@ -6393,8 +6391,8 @@
      "extremism": 1.0,
      "reference": 1.0
     },
-    "extremism_views": 12584762.8,
-    "reference_views": 500258479.0
+    "extremism_views": 14414532.575,
+    "reference_views": 521119501.0
    },
    "explain": "Views on the last seven days of posts and uploads, against the same for the reference basket.",
    "group": "scale",
@@ -6403,24 +6401,28 @@
     {
      "date": "2026-11-18",
      "score": 2.45
+    },
+    {
+     "date": "2026-11-19",
+     "score": 2.69
     }
    ],
    "id": "engagement",
    "label": "Engagement",
-   "raw": 0.024539,
+   "raw": 0.026916,
    "reason": null,
-   "score": 2.45,
+   "score": 2.69,
    "weight": 0.2
   },
   {
    "available": true,
-   "contribution": 0.63,
+   "contribution": 0.84,
    "coverage": 1.0,
    "detail": {
     "charts": {
      "news": {
-      "date": "2026-11-18",
-      "share": 0.102398,
+      "date": "2026-11-19",
+      "share": 0.114314,
       "shows": [
        {
         "entity": "ref_nyt",
@@ -6448,39 +6450,39 @@
        },
        {
         "entity": "ref_ben_shapiro",
-        "points": 0.6079,
-        "rank": 8,
+        "points": 0.6331,
+        "rank": 7,
         "show": "The Ben Shapiro Show"
        },
        {
         "entity": "ref_meidastouch",
-        "points": 0.5658,
-        "rank": 10,
+        "points": 0.5857,
+        "rank": 9,
         "show": "The MeidasTouch Podcast"
        },
        {
-        "entity": "tucker_carlson",
-        "points": 0.5024,
-        "rank": 14,
-        "show": "The Tucker Carlson Show"
-       },
-       {
         "entity": "ref_ben_shapiro",
-        "points": 0.4894,
-        "rank": 15,
+        "points": 0.5314,
+        "rank": 12,
         "show": "Morning Wire"
        },
        {
-        "entity": "ref_ms_now",
-        "points": 0.4658,
-        "rank": 17,
-        "show": "The Rachel Maddow Show"
+        "entity": "tucker_carlson",
+        "points": 0.4894,
+        "rank": 15,
+        "show": "The Tucker Carlson Show"
        },
        {
         "entity": "candace_owens",
-        "points": 0.3651,
-        "rank": 29,
+        "points": 0.455,
+        "rank": 18,
         "show": "Candace"
+       },
+       {
+        "entity": "ref_ms_now",
+        "points": 0.3465,
+        "rank": 32,
+        "show": "The Rachel Maddow Show"
        },
        {
         "entity": "ref_ms_now",
@@ -6490,34 +6492,28 @@
        },
        {
         "entity": "ref_abc_news",
-        "points": 0.2586,
-        "rank": 51,
+        "points": 0.2549,
+        "rank": 52,
         "show": "Start Here"
        },
        {
         "entity": "ref_fox_news",
-        "points": 0.2444,
-        "rank": 55,
+        "points": 0.2344,
+        "rank": 58,
         "show": "Fox News Hourly Update"
        },
        {
         "entity": "steve_bannon",
-        "points": 0.2344,
-        "rank": 58,
+        "points": 0.2311,
+        "rank": 59,
         "show": "Bannon's War Room"
-       },
-       {
-        "entity": "ref_cnn",
-        "points": 0.0669,
-        "rank": 141,
-        "show": "Fareed Zakaria GPS"
        }
       ],
       "size": 200
      },
      "top": {
-      "date": "2026-11-18",
-      "share": 0.024045,
+      "date": "2026-11-19",
+      "share": 0.05381,
       "shows": [
        {
         "entity": "ref_nyt",
@@ -6527,51 +6523,51 @@
        },
        {
         "entity": "ref_pod_save_america",
-        "points": 0.6996,
-        "rank": 4,
+        "points": 0.6513,
+        "rank": 5,
         "show": "Pod Save America"
        },
        {
         "entity": "ref_npr",
-        "points": 0.6118,
-        "rank": 6,
+        "points": 0.5784,
+        "rank": 7,
         "show": "Up First from NPR"
        },
        {
         "entity": "ref_megyn_kelly",
-        "points": 0.4616,
-        "rank": 12,
+        "points": 0.4804,
+        "rank": 11,
         "show": "The Megyn Kelly Show"
        },
        {
         "entity": "ref_ben_shapiro",
-        "points": 0.2359,
-        "rank": 34,
+        "points": 0.2704,
+        "rank": 29,
         "show": "The Ben Shapiro Show"
        },
        {
         "entity": "ref_meidastouch",
-        "points": 0.2235,
-        "rank": 36,
+        "points": 0.2359,
+        "rank": 34,
         "show": "The MeidasTouch Podcast"
        },
        {
-        "entity": "tucker_carlson",
-        "points": 0.1752,
-        "rank": 45,
-        "show": "The Tucker Carlson Show"
-       },
-       {
         "entity": "ref_ben_shapiro",
-        "points": 0.1704,
-        "rank": 46,
+        "points": 0.185,
+        "rank": 43,
         "show": "Morning Wire"
        },
        {
-        "entity": "ref_ms_now",
-        "points": 0.1523,
-        "rank": 50,
-        "show": "The Rachel Maddow Show"
+        "entity": "tucker_carlson",
+        "points": 0.1612,
+        "rank": 48,
+        "show": "The Tucker Carlson Show"
+       },
+       {
+        "entity": "candace_owens",
+        "points": 0.1128,
+        "rank": 60,
+        "show": "Candace"
        }
       ],
       "size": 100
@@ -6589,13 +6585,17 @@
     {
      "date": "2026-11-18",
      "score": 6.32
+    },
+    {
+     "date": "2026-11-19",
+     "score": 8.41
     }
    ],
    "id": "mainstreaming",
    "label": "Mainstreaming",
-   "raw": 0.063221,
+   "raw": 0.084062,
    "reason": null,
-   "score": 6.32,
+   "score": 8.41,
    "weight": 0.1
   },
   {
@@ -6604,8 +6604,8 @@
    "coverage": 0.2368,
    "detail": {
     "accounts": 9,
-    "annual_change": 0.016984,
-    "mean_span_days": 297.444444,
+    "annual_change": 0.016997,
+    "mean_span_days": 297.888889,
     "reference_growth": null
    },
    "explain": "Follower growth of basket accounts, annualised and weighted by audience size.",
@@ -6619,11 +6619,15 @@
     {
      "date": "2026-11-18",
      "score": 50.61
+    },
+    {
+     "date": "2026-11-19",
+     "score": 50.61
     }
    ],
    "id": "momentum",
    "label": "Momentum",
-   "raw": 0.016841,
+   "raw": 0.016854,
    "reason": null,
    "score": 50.61,
    "weight": 0.15
@@ -6647,6 +6651,10 @@
     {
      "date": "2026-11-18",
      "score": 54.55
+    },
+    {
+     "date": "2026-11-19",
+     "score": 54.55
     }
    ],
    "id": "breadth",
@@ -6658,7 +6666,7 @@
   },
   {
    "available": true,
-   "contribution": 6.09,
+   "contribution": 6.02,
    "coverage": 1.0,
    "detail": {
     "indicators": {
@@ -6672,12 +6680,12 @@
       "series": 30
      },
      "wikipedia": {
-      "baseline": 41847.5,
+      "baseline": 41710.5,
       "baseline_days": 365,
-      "current": 31530.142857,
-      "last_day": "2026-11-17",
-      "ratio": 0.753453,
-      "score": 39.92935,
+      "current": 30259.642857,
+      "last_day": "2026-11-18",
+      "ratio": 0.725468,
+      "score": 38.627067,
       "series": 38
      }
     }
@@ -6696,14 +6704,18 @@
     },
     {
      "date": "2026-11-18",
-     "score": 50.78
+     "score": 50.13
+    },
+    {
+     "date": "2026-11-19",
+     "score": 50.13
     }
    ],
    "id": "heat",
    "label": "Heat",
-   "raw": 1.023013,
+   "raw": 1.003834,
    "reason": null,
-   "score": 50.78,
+   "score": 50.13,
    "weight": 0.12
   },
   {
@@ -6712,10 +6724,10 @@
    "coverage": 0.9744,
    "detail": {
     "audience_by_platform": {
-     "bitchute": 209166.0,
+     "bitchute": 209164.0,
      "rumble": 4188791.0,
-     "telegram": 521599.0,
-     "x": 32413917.5,
+     "telegram": 521343.0,
+     "x": 32407217.5,
      "youtube": 9405195.0
     }
    },
@@ -6734,11 +6746,15 @@
     {
      "date": "2026-11-18",
      "score": 46.38
+    },
+    {
+     "date": "2026-11-19",
+     "score": 46.38
     }
    ],
    "id": "depth",
    "label": "Depth",
-   "raw": 0.463826,
+   "raw": 0.463818,
    "reason": null,
    "score": 46.38,
    "weight": 0.15
@@ -6750,16 +6766,16 @@
    "extremism_followers": 12740390.0,
    "observed": 17,
    "platform": "youtube",
-   "reference_followers": 110315000.0,
+   "reference_followers": 110317000.0,
    "registered": 17,
    "view_equiv": 1.0
   },
   {
    "depth": 0.5,
-   "extremism_followers": 53354361.0,
+   "extremism_followers": 53343364.0,
    "observed": 25,
    "platform": "x",
-   "reference_followers": 204870121.0,
+   "reference_followers": 204850814.0,
    "registered": 26,
    "view_equiv": 0.05
   },
@@ -6774,7 +6790,7 @@
   },
   {
    "depth": 0.9,
-   "extremism_followers": 290385.0,
+   "extremism_followers": 290383.0,
    "observed": 6,
    "platform": "bitchute",
    "reference_followers": 0.0,
@@ -6783,7 +6799,7 @@
   },
   {
    "depth": 1.0,
-   "extremism_followers": 766205.0,
+   "extremism_followers": 765777.0,
    "observed": 7,
    "platform": "telegram",
    "reference_followers": 0.0,
@@ -10900,82 +10916,82 @@
   {
    "group": "baseline",
    "scenario": "Published model",
-   "score": 28.66
+   "score": 28.84
   },
   {
    "group": "weights",
    "scenario": "Equal pillar weights",
-   "score": 31.97
+   "score": 32.2
   },
   {
    "group": "weights",
    "scenario": "Without reach",
-   "score": 32.66
+   "score": 32.88
   },
   {
    "group": "weights",
    "scenario": "Without engagement",
-   "score": 35.21
+   "score": 35.38
   },
   {
    "group": "weights",
    "scenario": "Without mainstreaming",
-   "score": 31.14
+   "score": 31.11
   },
   {
    "group": "weights",
    "scenario": "Without momentum",
-   "score": 24.79
+   "score": 25.0
   },
   {
    "group": "weights",
    "scenario": "Without breadth",
-   "score": 26.41
+   "score": 26.6
   },
   {
    "group": "weights",
    "scenario": "Without heat",
-   "score": 25.65
+   "score": 25.94
   },
   {
    "group": "weights",
    "scenario": "Without depth",
-   "score": 25.54
+   "score": 25.74
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 0.25",
-   "score": 27.73
+   "score": 27.95
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 0.75",
-   "score": 29.51
+   "score": 29.63
   },
   {
    "group": "basket",
    "scenario": "Adjacent tier weighted 1",
-   "score": 30.31
+   "score": 30.4
   },
   {
    "group": "overlap",
    "scenario": "Audiences do not overlap (q=1)",
-   "score": 28.71
+   "score": 28.89
   },
   {
    "group": "overlap",
    "scenario": "Audiences fully overlap (q=inf)",
-   "score": 28.68
+   "score": 28.86
   },
   {
    "group": "views",
    "scenario": "Telegram view worth 0.1 YouTube views",
-   "score": 28.66
+   "score": 28.84
   },
   {
    "group": "views",
    "scenario": "Telegram view worth 0.5 YouTube views",
-   "score": 28.67
+   "score": 28.85
   }
  ],
  "series": [
@@ -10987,37 +11003,42 @@
   {
    "confidence": 0.8174,
    "date": "2026-11-18",
-   "score": 28.66
+   "score": 28.58
+  },
+  {
+   "confidence": 0.8174,
+   "date": "2026-11-19",
+   "score": 28.84
   }
  ],
  "sources": [
   {
    "failed": [],
    "first": "2026-11-17",
-   "last": "2026-11-18",
+   "last": "2026-11-19",
    "note": "subscribers from YouTube Data API v3",
    "ok": 17,
-   "rows": 102,
+   "rows": 153,
    "skipped": null,
    "source": "youtube"
   },
   {
    "failed": [],
    "first": "2026-01-24",
-   "last": "2026-11-18",
+   "last": "2026-11-19",
    "note": "t.me public channel pages",
    "ok": 7,
-   "rows": 32,
+   "rows": 46,
    "skipped": null,
    "source": "telegram"
   },
   {
    "failed": [],
    "first": "2026-11-17",
-   "last": "2026-11-18",
+   "last": "2026-11-19",
    "note": "BitChute public channel API; exact subscriber and lifetime view counts",
    "ok": 6,
-   "rows": 24,
+   "rows": 36,
    "skipped": null,
    "source": "bitchute"
   },
@@ -11053,63 +11074,63 @@
      "account": "CNN",
      "entity": "ref_cnn",
      "reason": "mirror did not return the profile (not found (HTTP 404), 4 tries)"
+    },
+    {
+     "account": "NPR",
+     "entity": "ref_npr",
+     "reason": "mirror did not return the profile (not found (HTTP 404), 4 tries)"
     }
    ],
    "first": "2026-11-17",
-   "last": "2026-11-18",
+   "last": "2026-11-19",
    "note": "FxTwitter public profile API (free third-party mirror of X profiles)",
-   "ok": 24,
-   "rows": 49,
+   "ok": 23,
+   "rows": 72,
    "skipped": null,
    "source": "x"
   },
   {
    "failed": [],
    "first": "2026-11-17",
-   "last": "2026-11-18",
+   "last": "2026-11-19",
    "note": "Apple Podcasts US charts: overall top 100 and News top 200",
    "ok": 2,
-   "rows": 52,
+   "rows": 77,
    "skipped": null,
    "source": "apple_podcasts"
   },
   {
    "failed": [],
    "first": "2025-07-25",
-   "last": "2026-11-17",
+   "last": "2026-11-18",
    "note": "Wikimedia pageviews API, human traffic only",
    "ok": 50,
-   "rows": 23765,
+   "rows": 23815,
    "skipped": null,
    "source": "wikipedia"
   },
   {
    "failed": [
     {
-     "account": "nick_fuentes",
-     "entity": "nick_fuentes",
+     "account": "stew_peters",
+     "entity": "stew_peters",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "account": "candace_owens",
+     "entity": "candace_owens",
      "reason": "rate limited (HTTP 429)"
     },
     {
      "account": "jackson_hinkle",
      "entity": "jackson_hinkle",
      "reason": "rate limited (HTTP 429)"
-    },
-    {
-     "account": "jake_shields",
-     "entity": "jake_shields",
-     "reason": "rate limited (HTTP 429)"
-    },
-    {
-     "account": "lucas_gage",
-     "entity": "lucas_gage",
-     "reason": "rate limited (HTTP 429)"
     }
    ],
    "first": "2025-07-25",
    "last": "2026-11-15",
    "note": "GDELT DOC 2.0 API, US-sourced articles",
-   "ok": 2,
+   "ok": 1,
    "rows": 13723,
    "skipped": "GDELT kept rate-limiting this client; remaining queries left for the next run",
    "source": "gdelt"

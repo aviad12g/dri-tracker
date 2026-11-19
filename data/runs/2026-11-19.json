@@ -1,0 +1,107 @@
+{
+ "date": "2026-11-19",
+ "started_at": "2026-11-19T15:51:52+00:00",
+ "finished_at": "2026-11-19T16:03:17+00:00",
+ "requests": 156,
+ "reports": [
+  {
+   "source": "apple_podcasts",
+   "ok": 2,
+   "failed": [],
+   "skipped": null,
+   "note": "Apple Podcasts US charts: overall top 100 and News top 200"
+  },
+  {
+   "source": "bitchute",
+   "ok": 6,
+   "failed": [],
+   "skipped": null,
+   "note": "BitChute public channel API; exact subscriber and lifetime view counts"
+  },
+  {
+   "source": "gdelt",
+   "ok": 1,
+   "failed": [
+    {
+     "entity": "stew_peters",
+     "account": "stew_peters",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "entity": "candace_owens",
+     "account": "candace_owens",
+     "reason": "rate limited (HTTP 429)"
+    },
+    {
+     "entity": "jackson_hinkle",
+     "account": "jackson_hinkle",
+     "reason": "rate limited (HTTP 429)"
+    }
+   ],
+   "skipped": "GDELT kept rate-limiting this client; remaining queries left for the next run",
+   "note": "GDELT DOC 2.0 API, US-sourced articles"
+  },
+  {
+   "source": "rumble",
+   "ok": 0,
+   "failed": [
+    {
+     "entity": "nick_fuentes",
+     "account": "nickjfuentes",
+     "reason": "blocked (HTTP 403)"
+    },
+    {
+     "entity": "stew_peters",
+     "account": "StewPeters",
+     "reason": "blocked (HTTP 403)"
+    }
+   ],
+   "skipped": "Rumble refused this client (HTTP 403); remaining channels not requested",
+   "note": "public channel pages; Rumble refuses automated clients, so readings usually come from a browser capture"
+  },
+  {
+   "source": "telegram",
+   "ok": 7,
+   "failed": [],
+   "skipped": null,
+   "note": "t.me public channel pages"
+  },
+  {
+   "source": "wikipedia",
+   "ok": 50,
+   "failed": [],
+   "skipped": null,
+   "note": "Wikimedia pageviews API, human traffic only"
+  },
+  {
+   "source": "x",
+   "ok": 23,
+   "failed": [
+    {
+     "entity": "jackson_hinkle",
+     "account": "jacksonhinklle",
+     "reason": "mirror did not return the profile (not found (HTTP 404), 4 tries)"
+    },
+    {
+     "entity": "ref_cnn",
+     "account": "CNN",
+     "reason": "mirror did not return the profile (not found (HTTP 404), 4 tries)"
+    },
+    {
+     "entity": "ref_npr",
+     "account": "NPR",
+     "reason": "mirror did not return the profile (not found (HTTP 404), 4 tries)"
+    }
+   ],
+   "skipped": null,
+   "note": "FxTwitter public profile API (free third-party mirror of X profiles)"
+  },
+  {
+   "source": "youtube",
+   "ok": 17,
+   "failed": [],
+   "skipped": null,
+   "note": "subscribers from YouTube Data API v3"
+  }
+ ]
+}
