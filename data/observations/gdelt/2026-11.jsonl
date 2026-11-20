@@ -401,3 +401,12 @@
 {"date":"2026-11-15","source":"gdelt","entity":"stewart_rhodes","account":"stewart_rhodes","metric":"news_articles","value":0}
 {"date":"2026-11-15","source":"gdelt","entity":"three_percenters","account":"three_percenters","metric":"news_articles","value":0}
 {"date":"2026-11-15","source":"gdelt","entity":"white_nationalism","account":"white_nationalism","metric":"news_articles","value":1}
+{"date":"2026-11-16","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":2280}
+{"date":"2026-11-16","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":0}
+{"date":"2026-11-16","source":"gdelt","entity":"stew_peters","account":"stew_peters","metric":"news_articles","value":0}
+{"date":"2026-11-18","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":3083}
+{"date":"2026-11-18","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":0}
+{"date":"2026-11-18","source":"gdelt","entity":"stew_peters","account":"stew_peters","metric":"news_articles","value":0}
+{"date":"2026-11-19","source":"gdelt","entity":"_total","account":"us","metric":"news_total","value":7959}
+{"date":"2026-11-19","source":"gdelt","entity":"nick_fuentes","account":"nick_fuentes","metric":"news_articles","value":0}
+{"date":"2026-11-19","source":"gdelt","entity":"stew_peters","account":"stew_peters","metric":"news_articles","value":0}
