@@ -304,3 +304,54 @@
 {"date":"2026-11-22","source":"youtube","entity":"tucker_carlson","account":"TuckerCarlson","metric":"followers","value":5800000,"meta":{"channel_id":"UCGttrUON87gWfU6dMWm1fcA","title":"Tucker Carlson"}}
 {"date":"2026-11-22","source":"youtube","entity":"tucker_carlson","account":"TuckerCarlson","metric":"total_views","value":1854051378}
 {"date":"2026-11-22","source":"youtube","entity":"tucker_carlson","account":"TuckerCarlson","metric":"views_7d_partial","value":4933630,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"candace_owens","account":"RealCandaceO","metric":"followers","value":6070000,"meta":{"channel_id":"UCL0u5uz7KZ9q-pe-VC8TY-w","title":"Candace Owens"}}
+{"date":"2026-11-23","source":"youtube","entity":"candace_owens","account":"RealCandaceO","metric":"total_views","value":1636968011}
+{"date":"2026-11-23","source":"youtube","entity":"candace_owens","account":"RealCandaceO","metric":"views_7d","value":4113620,"meta":{"items":5}}
+{"date":"2026-11-23","source":"youtube","entity":"darryl_cooper","account":"MartyrMade","metric":"followers","value":53500,"meta":{"channel_id":"UCeDF9E2rwf_iQhcVGoFiqKQ","title":"Martyr Made"}}
+{"date":"2026-11-23","source":"youtube","entity":"darryl_cooper","account":"MartyrMade","metric":"total_views","value":1522077}
+{"date":"2026-11-23","source":"youtube","entity":"darryl_cooper","account":"MartyrMade","metric":"views_7d","value":0,"meta":{"items":0}}
+{"date":"2026-11-23","source":"youtube","entity":"ian_carroll","account":"IanCarrollShow","metric":"followers","value":812000,"meta":{"channel_id":"UCCgpGpylCfrJIV-RwA_L7tg","title":"Ian Carroll"}}
+{"date":"2026-11-23","source":"youtube","entity":"ian_carroll","account":"IanCarrollShow","metric":"total_views","value":64029257}
+{"date":"2026-11-23","source":"youtube","entity":"ian_carroll","account":"IanCarrollShow","metric":"views_7d","value":1615110,"meta":{"items":8}}
+{"date":"2026-11-23","source":"youtube","entity":"jack_posobiec","account":"JackPosobiec","metric":"followers","value":5890,"meta":{"channel_id":"UCCn76FWHperqtmfMe8EZJCg","title":"Jack Posobiec"}}
+{"date":"2026-11-23","source":"youtube","entity":"jack_posobiec","account":"JackPosobiec","metric":"total_views","value":5151}
+{"date":"2026-11-23","source":"youtube","entity":"jack_posobiec","account":"JackPosobiec","metric":"views_7d","value":0,"meta":{"items":0}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_abc_news","account":"ABCNews","metric":"followers","value":20000000,"meta":{"channel_id":"UCBi2mrWuNuyYy4gbM6fU18Q","title":"ABC News"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_abc_news","account":"ABCNews","metric":"total_views","value":19467391590}
+{"date":"2026-11-23","source":"youtube","entity":"ref_abc_news","account":"ABCNews","metric":"views_7d_partial","value":55967,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_ben_shapiro","account":"BenShapiro","metric":"followers","value":6950000,"meta":{"channel_id":"UCnQC_G5Xsjhp9fEJKuIcrSw","title":"Ben Shapiro"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_ben_shapiro","account":"BenShapiro","metric":"total_views","value":4864591432}
+{"date":"2026-11-23","source":"youtube","entity":"ref_ben_shapiro","account":"BenShapiro","metric":"views_7d_partial","value":1746379,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_cbs_news","account":"CBSNews","metric":"followers","value":7130000,"meta":{"channel_id":"UC8p1vwvWtl6T73JiExfWs1g","title":"CBS News"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_cbs_news","account":"CBSNews","metric":"total_views","value":6889171065}
+{"date":"2026-11-23","source":"youtube","entity":"ref_cbs_news","account":"CBSNews","metric":"views_7d_partial","value":204481,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_cnn","account":"CNN","metric":"followers","value":20100000,"meta":{"channel_id":"UCupvZG-5ko_eiXAupbDfxWw","title":"CNN"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_cnn","account":"CNN","metric":"total_views","value":22776576283}
+{"date":"2026-11-23","source":"youtube","entity":"ref_cnn","account":"CNN","metric":"views_7d_partial","value":1244231,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_fox_news","account":"FoxNews","metric":"followers","value":15600000,"meta":{"channel_id":"UCXIJgqnII2ZOINSWNOGFThA","title":"Fox News"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_fox_news","account":"FoxNews","metric":"total_views","value":27598419883}
+{"date":"2026-11-23","source":"youtube","entity":"ref_fox_news","account":"FoxNews","metric":"views_7d_partial","value":811917,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_megyn_kelly","account":"MegynKelly","metric":"followers","value":4200000,"meta":{"channel_id":"UCzJXNzqz6VMHSNInQt_7q6w","title":"Megyn Kelly"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_megyn_kelly","account":"MegynKelly","metric":"total_views","value":3600335364}
+{"date":"2026-11-23","source":"youtube","entity":"ref_megyn_kelly","account":"MegynKelly","metric":"views_7d_partial","value":1526798,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_meidastouch","account":"MeidasTouch","metric":"followers","value":6510000,"meta":{"channel_id":"UC9r9HYFxEQOBXSopFS61ZWg","title":"MeidasTouch"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_meidastouch","account":"MeidasTouch","metric":"total_views","value":11336528142}
+{"date":"2026-11-23","source":"youtube","entity":"ref_meidastouch","account":"MeidasTouch","metric":"views_7d_partial","value":3958574,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_ms_now","account":"MSNOW","metric":"followers","value":10100000,"meta":{"channel_id":"UCaXkIU1QidjPwiAYu6GcHjg","title":"MS NOW"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_ms_now","account":"MSNOW","metric":"total_views","value":22163049109}
+{"date":"2026-11-23","source":"youtube","entity":"ref_ms_now","account":"MSNOW","metric":"views_7d_partial","value":353799,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_nbc_news","account":"NBCNews","metric":"followers","value":12200000,"meta":{"channel_id":"UCeY0bbntWzzVIaj2z3QigXg","title":"NBC News"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_nbc_news","account":"NBCNews","metric":"total_views","value":10831866460}
+{"date":"2026-11-23","source":"youtube","entity":"ref_nbc_news","account":"NBCNews","metric":"views_7d_partial","value":132748,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_npr","account":"NPR","metric":"followers","value":941000,"meta":{"channel_id":"UCJnS2EsPfv46u1JR8cnD0NA","title":"NPR"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_npr","account":"NPR","metric":"total_views","value":218991929}
+{"date":"2026-11-23","source":"youtube","entity":"ref_npr","account":"NPR","metric":"views_7d_partial","value":524738,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_nyt","account":"nytimes","metric":"followers","value":5360000,"meta":{"channel_id":"UCqnbDFdCpuN8CMEg0VuEBqA","title":"The New York Times"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_nyt","account":"nytimes","metric":"total_views","value":1520051803}
+{"date":"2026-11-23","source":"youtube","entity":"ref_nyt","account":"nytimes","metric":"views_7d_partial","value":2594550,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_pod_save_america","account":"PodSaveAmerica","metric":"followers","value":1330000,"meta":{"channel_id":"UCKRoXz3hHAu2XL_k3Ef4vJQ","title":"Pod Save America"}}
+{"date":"2026-11-23","source":"youtube","entity":"ref_pod_save_america","account":"PodSaveAmerica","metric":"total_views","value":409264446}
+{"date":"2026-11-23","source":"youtube","entity":"ref_pod_save_america","account":"PodSaveAmerica","metric":"views_7d_partial","value":2128888,"meta":{"items":15}}
+{"date":"2026-11-23","source":"youtube","entity":"tucker_carlson","account":"TuckerCarlson","metric":"followers","value":5800000,"meta":{"channel_id":"UCGttrUON87gWfU6dMWm1fcA","title":"Tucker Carlson"}}
+{"date":"2026-11-23","source":"youtube","entity":"tucker_carlson","account":"TuckerCarlson","metric":"total_views","value":1856641907}
+{"date":"2026-11-23","source":"youtube","entity":"tucker_carlson","account":"TuckerCarlson","metric":"views_7d_partial","value":4449067,"meta":{"items":15}}
