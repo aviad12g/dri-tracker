@@ -174,3 +174,30 @@
 {"date":"2026-11-23","source":"apple_podcasts","entity":"steve_bannon","account":"news:Bannon's War Room","metric":"chart_rank","value":67,"meta":{"apple_id":"1485351658"}}
 {"date":"2026-11-23","source":"apple_podcasts","entity":"tucker_carlson","account":"news:The Tucker Carlson Show","metric":"chart_rank","value":7,"meta":{"apple_id":"1719657632"}}
 {"date":"2026-11-23","source":"apple_podcasts","entity":"tucker_carlson","account":"top:The Tucker Carlson Show","metric":"chart_rank","value":30,"meta":{"apple_id":"1719657632"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"_chart","account":"news","metric":"chart_size","value":200}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"_chart","account":"top","metric":"chart_size","value":100}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"candace_owens","account":"news:Candace","metric":"chart_rank","value":24,"meta":{"apple_id":"1750591415"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"candace_owens","account":"top:Candace","metric":"chart_rank","value":95,"meta":{"apple_id":"1750591415"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_abc_news","account":"news:Start Here","metric":"chart_rank","value":33,"meta":{"apple_id":"1355180130"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_ben_shapiro","account":"news:Morning Wire","metric":"chart_rank","value":11,"meta":{"apple_id":"1576594336"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_ben_shapiro","account":"news:The Ben Shapiro Show","metric":"chart_rank","value":10,"meta":{"apple_id":"1047335260"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_ben_shapiro","account":"top:Morning Wire","metric":"chart_rank","value":39,"meta":{"apple_id":"1576594336"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_ben_shapiro","account":"top:The Ben Shapiro Show","metric":"chart_rank","value":34,"meta":{"apple_id":"1047335260"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_cnn","account":"news:Fareed Zakaria GPS","metric":"chart_rank","value":91,"meta":{"apple_id":"377785090"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_fox_news","account":"news:Fox News Hourly Update","metric":"chart_rank","value":44,"meta":{"apple_id":"209991975"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_megyn_kelly","account":"news:The Megyn Kelly Show","metric":"chart_rank","value":4,"meta":{"apple_id":"1532976305"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_megyn_kelly","account":"top:The Megyn Kelly Show","metric":"chart_rank","value":15,"meta":{"apple_id":"1532976305"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_meidastouch","account":"news:The MeidasTouch Podcast","metric":"chart_rank","value":7,"meta":{"apple_id":"1510240831"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_meidastouch","account":"top:The MeidasTouch Podcast","metric":"chart_rank","value":25,"meta":{"apple_id":"1510240831"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_ms_now","account":"news:Morning Joe","metric":"chart_rank","value":31,"meta":{"apple_id":"974299441"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_ms_now","account":"news:The Rachel Maddow Show","metric":"chart_rank","value":14,"meta":{"apple_id":"294055449"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_ms_now","account":"top:The Rachel Maddow Show","metric":"chart_rank","value":46,"meta":{"apple_id":"294055449"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_npr","account":"news:Up First from NPR","metric":"chart_rank","value":2,"meta":{"apple_id":"1222114325"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_npr","account":"top:Up First from NPR","metric":"chart_rank","value":3,"meta":{"apple_id":"1222114325"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_nyt","account":"news:The Daily","metric":"chart_rank","value":1,"meta":{"apple_id":"1200361736"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_nyt","account":"top:The Daily","metric":"chart_rank","value":1,"meta":{"apple_id":"1200361736"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_pod_save_america","account":"news:Pod Save America","metric":"chart_rank","value":3,"meta":{"apple_id":"1192761536"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"ref_pod_save_america","account":"top:Pod Save America","metric":"chart_rank","value":5,"meta":{"apple_id":"1192761536"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"steve_bannon","account":"news:Bannon's War Room","metric":"chart_rank","value":56,"meta":{"apple_id":"1485351658"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"tucker_carlson","account":"news:The Tucker Carlson Show","metric":"chart_rank","value":8,"meta":{"apple_id":"1719657632"}}
+{"date":"2026-11-24","source":"apple_podcasts","entity":"tucker_carlson","account":"top:The Tucker Carlson Show","metric":"chart_rank","value":28,"meta":{"apple_id":"1719657632"}}
