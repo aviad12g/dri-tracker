@@ -202,7 +202,8 @@ export default function Page() {
                   )}
                   {data.rumble_view_gains.filter((g) => g.id === ch.id).slice(-1).map((g) => (
                     <p className="foot" key={g.to}>
-                      Gained {compact(g.gained)} views in the {g.days} days to {longDate(g.to)}, or {compact(g.per_week)} a week.
+                      Gained {compact(g.gained)} views in the {g.days} days to {longDate(g.to)}, or {compact(g.per_week)} a week
+                      {g.weeks_skipped ? `, leaving out ${g.weeks_skipped} ${g.weeks_skipped === 1 ? 'week' : 'weeks'} the earlier capture read only in part` : ''}.
                     </p>
                   ))}
                 </div>

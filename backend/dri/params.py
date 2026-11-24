@@ -9,7 +9,7 @@ from __future__ import annotations
 import math
 from dataclasses import dataclass, field, replace
 
-MODEL_VERSION = "2.3.0"
+MODEL_VERSION = "2.3.1"
 
 PLATFORMS = ("youtube", "x", "rumble", "bitchute", "telegram")
 

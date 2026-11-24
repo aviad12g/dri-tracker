@@ -102,7 +102,24 @@ def test_views_gained_come_from_the_difference_between_two_captures(tmp_path):
     store.upsert(rumble_rows(first, reg) + rumble_rows(second, reg))
     gains = build(store, reg)["rumble_view_gains"]
     assert gains == [{"id": "nick_fuentes", "name": "Nick Fuentes", "from": "2026-11-17", "to": "2026-11-24", "days": 7,
-                      "gained": 50 + 75_000 + 412_000 + 100_000, "per_week": 50 + 75_000 + 412_000 + 100_000}]
+                      "gained": 50 + 75_000 + 412_000 + 100_000, "per_week": 50 + 75_000 + 412_000 + 100_000,
+                      "weeks_skipped": 0}]
+
+
+def test_views_gained_skip_ended_weeks_whose_uploads_differ(tmp_path):
+    reg = registry_mod.load()
+    first = small_capture()
+    second = small_capture()
+    second["captured_at"] = "2026-11-24T08:00:00.000Z"
+    second["channels"]["nickjfuentes"]["weeks"] = [
+        ["2026-10-26", 2, 350],          # +50
+        ["2026-11-09", 4, 2_000_000],    # ended before the first capture, which held 1 upload: skipped
+        ["2026-11-16", 5, 900_649],      # the first capture's own, still-open week: +412,000
+    ]
+    store = Store(tmp_path)
+    store.upsert(rumble_rows(first, reg) + rumble_rows(second, reg))
+    gain = build(store, reg)["rumble_view_gains"][0]
+    assert gain["gained"] == 50 + 412_000 and gain["weeks_skipped"] == 1
 
 
 def test_one_capture_gives_no_gains(tmp_path):

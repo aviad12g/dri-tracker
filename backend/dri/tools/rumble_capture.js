@@ -13,6 +13,15 @@
 // last five weeks, where views are still accumulating fastest. View counts are
 // as of the capture. Take captures a week apart, on the same weekday: the
 // build measures how much each upload week grew between two of them.
+//
+// A channel page can embed more than one video list (in November 2026 the
+// first page carried a short list of the newest uploads followed by the main
+// list). Every list on every page is read and videos are de-duplicated by ID.
+// Paging stops when a whole page is older than the cutoff, so a pinned old
+// video cannot end a channel early; videos older than the cutoff are ignored.
+// The week where reading stopped is incomplete, so it and anything older is
+// dropped: at the cutoff, or, when the page cap is hit, at the oldest video on
+// the last page read (older entries above it can only be pinned videos).
 (async () => {
   const HANDLES = ['nickjfuentes', 'StewPeters', 'RealCandaceO', 'TuckerCarlson', 'TateSpeech', 'BannonsWarRoom'];
   const MAX_PAGES = 22, CUTOFF_DAYS = 365, PAUSE_MS = 1200, DAILY_DAYS = 35;
@@ -24,28 +33,38 @@
   const out = { captured_at: new Date(now).toISOString(), channels: {} };
   for (const handle of HANDLES) {
     const vids = {};
-    let head = null, pages = 0, stopped = null;
+    let head = null, pages = 0, stopped = null, lastOldest = null;
     for (let page = 1; !stopped; page++) {
       const r = await fetch(`/c/${handle}` + (page > 1 ? `?page=${page}` : ''), { credentials: 'same-origin' });
       if (r.status !== 200) { stopped = `HTTP ${r.status} on page ${page}`; break; }
+      let pageOldest = Infinity;
       const doc = new DOMParser().parseFromString(await r.text(), 'text/html');
-      const s = [...doc.querySelectorAll('script[type="application/json"]')].find((x) => x.textContent.includes('permalink_id'));
-      const items = s ? (JSON.parse(s.textContent).items || []).filter((x) => x.object_type === 'video') : [];
-      let oldest = Infinity;
+      const items = [...doc.querySelectorAll('script[type="application/json"]')]
+        .filter((x) => x.textContent.includes('permalink_id'))
+        .flatMap((x) => { try { return JSON.parse(x.textContent).items || []; } catch (e) { return []; } })
+        .filter((x) => x.object_type === 'video');
+      let newest = -Infinity;
       for (const it of items) {
         const t = Date.parse(it.upload_date);
         if (!isFinite(t) || typeof it.views !== 'number') continue;
         if (!head && it.by && String(it.by.relative_url).toLowerCase() === `/c/${handle}`.toLowerCase())
           head = { id: it.by.id, name: it.by.name, followers: it.by.followers, verified: !!it.by.verified_badge };
-        vids[it.id] = [t, it.views];
-        oldest = Math.min(oldest, t);
+        newest = Math.max(newest, t);
+        pageOldest = Math.min(pageOldest, t);
+        if (t >= cutoff) vids[it.id] = [t, it.views];
       }
+      if (isFinite(pageOldest)) lastOldest = pageOldest;
       pages = page;
       if (!items.length) stopped = `no videos on page ${page}`;
-      else if (oldest < cutoff) stopped = 'reached cutoff';
+      else if (newest < cutoff) stopped = 'reached cutoff';
       else if (page >= MAX_PAGES) stopped = 'page cap';
       else await new Promise((res) => setTimeout(res, PAUSE_MS));
     }
+    // Where reading stopped part-way through a week: none if the channel's whole history was read.
+    const cutWeek = stopped === 'reached cutoff' ? weekStart(cutoff)
+      : stopped && stopped.startsWith('no videos') ? null
+      : lastOldest !== null ? weekStart(lastOldest) : null;
+    const keep = (week) => cutWeek === null || week > cutWeek;
     const all = Object.values(vids), weeks = {}, days = {};
     for (const [t, v] of all) {
       const w = weekStart(t); weeks[w] = weeks[w] || [0, 0]; weeks[w][0] += 1; weeks[w][1] += v;
@@ -55,13 +74,12 @@
     }
     const recent = all.filter((x) => x[0] > now - 7 * 864e5 && x[0] <= now);
     out.channels[handle] = {
-      head, pages, stopped, videos: all.length,
+      head, pages, stopped, cut_week: cutWeek, videos: all.length,
       oldest: all.length ? new Date(Math.min(...all.map((x) => x[0]))).toISOString().slice(0, 10) : null,
       newest: all.length ? new Date(Math.max(...all.map((x) => x[0]))).toISOString().slice(0, 10) : null,
       views_7d: recent.reduce((sum, x) => sum + x[1], 0), items_7d: recent.length,
-      // The oldest week is dropped: the listing was cut off part-way through it.
-      weeks: Object.keys(weeks).sort().slice(1).map((k) => [k, weeks[k][0], weeks[k][1]]),
-      days: Object.keys(days).sort().map((k) => [k, days[k][0], days[k][1]]),
+      weeks: Object.keys(weeks).sort().filter(keep).map((k) => [k, weeks[k][0], weeks[k][1]]),
+      days: Object.keys(days).sort().filter((k) => keep(weekStart(Date.parse(k)))).map((k) => [k, days[k][0], days[k][1]]),
     };
   }
   console.log(JSON.stringify(out));

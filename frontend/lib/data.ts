@@ -115,7 +115,7 @@ export type Dataset = {
   pillars: Pillar[]
   series: { date: string; score: number; confidence: number }[]
   heat_series: { wikipedia: HeatPoint[]; news: HeatPoint[] }
-  rumble_view_gains: { id: string; name: string; from: string; to: string; days: number; gained: number; per_week: number }[]
+  rumble_view_gains: { id: string; name: string; from: string; to: string; days: number; gained: number; per_week: number; weeks_skipped?: number }[]
   rumble_upload_weeks: { id: string; name: string; tier: string; captured: string; total: number; weeks: RumbleWeek[]; latest: RumbleWeek | null }[]
   rumble_maturity: {
     method: 'cross-section' | 'longitudinal'

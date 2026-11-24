@@ -1,4 +1,4 @@
-# Methodology (model 2.3.0)
+# Methodology (model 2.3.1)
 
 All parameters live in `backend/dri/params.py`. Changing one changes the model version.
 
@@ -66,7 +66,7 @@ Where an age has no factor, weeks of that age are left as recorded and are not j
 
 ### Views gained between captures
 
-`gained = Σ_{upload weeks in both captures} (V_later − V_earlier) + views on weeks uploaded since the earlier capture`. This is a count, not an estimate, and needs two captures.
+`gained = Σ_{upload weeks in both captures} (V_later − V_earlier) + views on weeks uploaded since the earlier capture`. This is a count, not an estimate, and needs two captures. A week that had already ended at the earlier capture counts only if it holds the same number of uploads in both; otherwise one capture missed or lost uploads, the difference would include their lifetime views, and the week is left out. The earlier capture's own week was still open, so it may gain uploads.
 
 ### Recorded incidents offline
 
@@ -83,6 +83,7 @@ They are kept out of the index for three reasons. They lag by months and the lat
 
 ## Changes
 
+- **2.3.1** The Rumble capture script reads every video list on a channel page and drops the week where reading stopped. The 2026-11-17 capture read only the first list on page 1 and missed about 20 recent videos per channel, so its newest weeks were too low. Views gained between captures now skip ended weeks whose upload counts differ. No index formula changed.
 - **2.3.0** X is read through a free public mirror when no API token is set, pinned by numeric user ID. Added the view-accumulation model, per-channel weekly baselines and the offline incident tallies, all outside the index. No pillar formula changed; the reading moved because X audiences are now counted.
 
 - **2.2.0** Rumble enters through browser captures and counts towards Engagement; follower readings stay valid for 10 days instead of 7.

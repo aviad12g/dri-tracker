@@ -293,19 +293,34 @@ def rumble_view_gains(idx: ObsIndex, registry, as_of: date) -> list[dict]:
     every upload week seen in both, the difference is what those uploads gained
     in between, and upload weeks newer than the earlier capture are all gain.
     Weeks that only the later capture reaches back to are ignored.
+
+    A week that had already ended at the earlier capture must hold the same
+    number of uploads in both; otherwise one capture missed or lost uploads and
+    the difference would count their lifetime views as gain, so the week is
+    skipped and counted in `weeks_skipped`. The earlier capture's own week was
+    still open, so it may gain uploads but not lose them.
     """
     out = []
     for c in registry.constituents:
-        by_capture = {day: {w: v for w, (v, _) in weeks.items()}
-                      for day, weeks in rumble_captures(idx, registry, as_of).get(c.id, {}).items()}
+        by_capture = rumble_captures(idx, registry, as_of).get(c.id, {})
         days = sorted(by_capture)
         for earlier, later in zip(days, days[1:]):
             a, b = by_capture[earlier], by_capture[later]
             newest_before = max(a)
-            gained = sum(b[w] - a[w] for w in b if w in a) + sum(v for w, v in b.items() if w > newest_before)
+            gained, skipped = 0.0, 0
+            for week, (v2, n2) in sorted(b.items()):
+                if week in a:
+                    v1, n1 = a[week]
+                    closed = week + timedelta(days=7) <= earlier
+                    if n2 < n1 or (closed and n2 != n1):
+                        skipped += 1
+                        continue
+                    gained += v2 - v1
+                elif week > newest_before:
+                    gained += v2
             span = (later - earlier).days
             out.append({"id": c.id, "name": c.name, "from": earlier, "to": later, "days": span,
-                        "gained": gained, "per_week": gained * 7.0 / span})
+                        "gained": gained, "per_week": gained * 7.0 / span, "weeks_skipped": skipped})
     return sorted(out, key=lambda r: (r["to"], r["id"]))
 
 
